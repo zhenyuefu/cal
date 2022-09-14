@@ -12,16 +12,16 @@ from ics import Calendar
 # url_STL = "https://cal.ufr-info-p6.jussieu.fr/caldav.php/STL/M1_STL/"
 # url_IMA = "https://cal.ufr-info-p6.jussieu.fr/caldav.php/IMA/M1_IMA/"
 user = ("student.master", "guest")
-with open(join("data", "M1_ANDROIDE.ics"), "r") as f:
+with open(join("data", "AND.ics"), "r") as f:
     AND = Calendar(f.read())
 
-with open(join("data", "M1_DAC.ics"), "r") as f:
+with open(join("data", "DAC.ics"), "r") as f:
     DAC = Calendar(f.read())
 
-with open(join("data", "M1_STL.ics"), "r") as f:
+with open(join("data", "STL.ics"), "r") as f:
     STL = Calendar(f.read())
 
-with open(join("data", "M1_IMA.ics"), "r") as f:
+with open(join("data", "IMA.ics"), "r") as f:
     IMA = Calendar(f.read())
 
 
