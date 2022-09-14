@@ -1,5 +1,6 @@
 from http.server import BaseHTTPRequestHandler
 
+from os.path import join
 import re
 from datetime import datetime
 from urllib.parse import parse_qs, urlparse
@@ -11,16 +12,16 @@ from ics import Calendar
 # url_STL = "https://cal.ufr-info-p6.jussieu.fr/caldav.php/STL/M1_STL/"
 # url_IMA = "https://cal.ufr-info-p6.jussieu.fr/caldav.php/IMA/M1_IMA/"
 user = ("student.master", "guest")
-with open("M1_ANDROIDE.ics", "r") as f:
+with open(join("data", "M1_ANDROIDE.ics"), "r") as f:
     AND = Calendar(f.read())
 
-with open("M1_DAC.ics", "r") as f:
+with open(join("data", "M1_DAC.ics"), "r") as f:
     DAC = Calendar(f.read())
 
-with open("M1_STL.ics", "r") as f:
+with open(join("data", "M1_STL.ics"), "r") as f:
     STL = Calendar(f.read())
 
-with open("M1_IMA.ics", "r") as f:
+with open(join("data", "M1_IMA.ics"), "r") as f:
     IMA = Calendar(f.read())
 
 
