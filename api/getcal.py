@@ -1,32 +1,40 @@
-from urllib import request
-from http.server import BaseHTTPRequestHandler
+from datetime import date
 from os.path import join
+from ics import Calendar
+import requests
 
-
-url_AND = "https://cal.ufr-info-p6.jussieu.fr/caldav.php/ANDROIDE/M1_ANDROIDE/"
-url_DAC = "https://cal.ufr-info-p6.jussieu.fr/caldav.php/DAC/M1_DAC/"
-url_STL = "https://cal.ufr-info-p6.jussieu.fr/caldav.php/STL/M1_STL/"
-url_IMA = "https://cal.ufr-info-p6.jussieu.fr/caldav.php/IMA/M1_IMA/"
 user = ("student.master", "guest")
 
+url = {
+    "AND": "https://cal.ufr-info-p6.jussieu.fr/caldav.php/ANDROIDE/M1_ANDROIDE/",
+    "DAC": "https://cal.ufr-info-p6.jussieu.fr/caldav.php/DAC/M1_DAC/",
+    "STL": "https://cal.ufr-info-p6.jussieu.fr/caldav.php/STL/M1_STL/",
+    "IMA": "https://cal.ufr-info-p6.jussieu.fr/caldav.php/IMA/M1_IMA/",
+}
 
-def get_ics(url, name):
-    with open(join("data", name), "w") as f:
-        f.write(request.get(url, auth=user).text)
-
-
-def get():
-    get_ics(url_AND, "AND.ics")
-    get_ics(url_DAC, "DAC.ics")
-    get_ics(url_STL, "STL.ics")
-    get_ics(url_IMA, "IMA.ics")
+cal = dict()
 
 
-class handler(BaseHTTPRequestHandler):
-    def do_GET(self):
-        self.send_response(200)
-        self.send_header("Content-type", "text/plain")
-        get()
-        self.end_headers()
-        self.wfile.write("Hello World !".encode("utf-8"))
-        return
+def get_remote(ue):
+    cal[ue] = Calendar(requests.get(url[ue], auth=user).text)
+
+
+def remove_events_before(c: Calendar, date: date):
+    for event in c.timeline.__iter__():
+        if event.begin is not None and event.begin.date() < date:
+            c.events.remove(event)
+
+
+def save():
+    for ue in cal.keys():
+        with open(join("data", ue + ".ics"), "w") as f:
+            f.write(cal[ue].serialize())
+
+
+start_date = date.fromisoformat("2022-09-04")
+
+
+for name in url.keys():
+    get_remote(name)
+    remove_events_before(cal[name], start_date)
+    save()
