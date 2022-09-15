@@ -7,23 +7,17 @@ from urllib.parse import parse_qs, urlparse
 
 from ics import Calendar
 
-with open(join("data", "AND.ics"), "r") as f:
-    AND = Calendar(f.read())
-
-with open(join("data", "DAC.ics"), "r") as f:
-    DAC = Calendar(f.read())
-
-with open(join("data", "STL.ics"), "r") as f:
-    STL = Calendar(f.read())
-
-with open(join("data", "IMA.ics"), "r") as f:
-    IMA = Calendar(f.read())
-
-
+cal = dict()
 start_date = datetime.fromisoformat("2022-09-04T12:05:23+02:00")
+parcours = {"MOGPL": "AND", "IL": "STL", "LRC": "DAC", "MLBDA": "DAC", "MAPSI": "IMA"}
 
 
-def filter_cours(MOGPL=0, IL=0, MAPSI=0, LRC=0, MLBDA=0):
+def load_calendar(name: str):
+    with open(join("data", name + ".ics"), "r") as f:
+        cal[name] = Calendar(f.read())
+
+
+def filter_cours(ue: dict, majour: str):
     cal = Calendar()
     iter_and = AND.timeline.start_after(start_date)
     for event in iter_and:
