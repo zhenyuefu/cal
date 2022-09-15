@@ -55,7 +55,7 @@ class handler(BaseHTTPRequestHandler):
     def do_GET(self):
         self.send_response(200)
         self.send_header("Content-type", 'text/xml; charset="utf-8"')
-        self.send_header("Cache-Control", "s-maxage=259200")
+        self.send_header("Cache-Control", "s-maxage=1, stale-while-revalidate")
         self.end_headers()
         url = urlparse(self.path)
         query = parse_qsl(url.query)
