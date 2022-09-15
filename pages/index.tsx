@@ -5,10 +5,10 @@ import {
     Box,
     Text,
     Button,
-    Code, Select,
+    Code, Select, CopyButton, Tooltip,
 } from "@mantine/core";
 import {randomId} from "@mantine/hooks";
-import {IconTrash} from "@tabler/icons";
+import {IconCheck, IconCopy, IconTrash} from "@tabler/icons";
 
 
 export default function IndexPage() {
@@ -67,10 +67,13 @@ export default function IndexPage() {
         {value: "SFPN", label: "SFPN"},
     ]
 
-    params.set("MAJ", form.values.MAJ);
+    form.values.MAJ? params.set("MAJ", form.values.MAJ): null;
     form.values.UE.forEach((ue, index) => {
-        return params.set(ue.name, ue.group.toString());
+        if (ue.name !== "" && ue.group !== 0) {
+            params.set(ue.name, ue.group.toString());
+        }
     });
+    const cal_url = `https://cal.fuzy.tech/api/gen?` + params.toString();
     const fields = form.values.UE.map((item, index) => (
         <Group key={item.key} mt="xs">
             <Select
@@ -134,7 +137,19 @@ export default function IndexPage() {
                 Your Calender URL:
             </Text>
 
-            <Code block>{`https://cal.fuzy.tech/api/gen?`+params.toString()}</Code>
+            <div style={{float:"right",position:"relative",alignSelf:"right",right:35,top:5}}>
+
+            <CopyButton value={cal_url} timeout={2000} >
+                {({copied, copy}) => (
+                    <Tooltip label={copied ? 'Copied' : 'Copy'} withArrow position="right">
+                        <ActionIcon color={copied ? 'teal' : 'gray'} onClick={copy}>
+                            {copied ? <IconCheck size={16}/> : <IconCopy size={16}/>}
+                        </ActionIcon>
+                    </Tooltip>
+                )}
+            </CopyButton>
+                </div>
+             <Code block>{cal_url}</Code>
 
         </Box>
     )
