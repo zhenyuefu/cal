@@ -1,84 +1,142 @@
-import { useForm } from "@mantine/form";
+import {useForm} from "@mantine/form";
 import {
-  TextInput,
-  Switch,
-  Group,
-  ActionIcon,
-  Box,
-  Text,
-  Button,
-  Code,
+    Group,
+    ActionIcon,
+    Box,
+    Text,
+    Button,
+    Code, Select,
 } from "@mantine/core";
-import { randomId } from "@mantine/hooks";
-import { IconTrash } from "@tabler/icons";
+import {randomId} from "@mantine/hooks";
+import {IconTrash} from "@tabler/icons";
+
 
 export default function IndexPage() {
-  const form = useForm({
-    initialValues: {
-      employees: [{ name: "", active: false, key: randomId() }],
-    },
-  });
+    const params = new URLSearchParams();
 
-  const fields = form.values.employees.map((item, index) => (
-    <Group key={item.key} mt="xs">
-      <TextInput
-        placeholder="John Doe"
-        withAsterisk
-        sx={{ flex: 1 }}
-        {...form.getInputProps(`employees.${index}.name`)}
-      />
-      <Switch
-        label="Active"
-        {...form.getInputProps(`employees.${index}.active`, {
-          type: "checkbox",
-        })}
-      />
-      <ActionIcon
-        color="red"
-        onClick={() => form.removeListItem("employees", index)}
-      >
-        <IconTrash size={16} />
-      </ActionIcon>
-    </Group>
-  ));
 
-  return (
-    <Box sx={{ maxWidth: 500 }} mx="auto">
-      {fields.length > 0 ? (
-        <Group mb="xs">
-          <Text weight={500} size="sm" sx={{ flex: 1 }}>
-            Name
-          </Text>
-          <Text weight={500} size="sm" pr={90}>
-            Status
-          </Text>
+    const form = useForm({
+        initialValues: {
+            UE: [{name: "", group: 0, key: randomId()}],
+            MAJ: ""
+        },
+    });
+
+    const groups = [
+        {value: '1', label: 'GR1'},
+        {value: '2', label: 'GR2'},
+        {value: '3', label: 'GR3'},
+        {value: '4', label: 'GR4'},
+        {value: '5', label: 'GR5'},
+    ];
+
+    const all_ue = [
+        {value: "MOGPL", label: "MOGPL"},
+        {value: "IL", label: "IL"},
+        {value: "LRC", label: "LRC"},
+        {value: "MLBDA", label: "MLBDA"},
+        {value: "MAPSI", label: "MAPSI"},
+        {value: "AAGB", label: "AAGB"},
+        {value: "Maths", label: "Maths"},
+        {value: "BIMA", label: "BIMA"},
+        {value: "PSCR", label: "PSCR"},
+        {value: "NOYAU", label: "NOYAU"},
+        {value: "MOBJ", label: "MOBJ"},
+        {value: "ESA", label: "ESA"},
+        {value: "ARCHI", label: "ARCHI"},
+        {value: "SIGNAL", label: "SIGNAL"},
+        {value: "VLSI", label: "VLSI"},
+        {value: "SC", label: "SC"},
+        {value: "PPAR", label: "PPAR"},
+        {value: "COMPLEX", label: "COMPLEX"},
+        {value: "MODEL", label: "MODEL"},
+        {value: "ALGAV", label: "ALGAV"},
+        {value: "DLP", label: "DLP"},
+        {value: "OUV", label: "OUV"},
+    ]
+
+    const parcours = [
+        {value: "AND", label: "AND"},
+        {value: "SAR", label: "SAR"},
+        {value: "STL", label: "STL"},
+        {value: "DAC", label: "DAC"},
+        {value: "DAS", label: "DAS"},
+        {value: "BIM", label: "BIM"},
+        {value: "IMA", label: "IMA"},
+        {value: "SESI", label: "SESI"},
+        {value: "SFPN", label: "SFPN"},
+    ]
+
+    params.set("MAJ", form.values.MAJ);
+    form.values.UE.forEach((ue, index) => {
+        return params.set(ue.name, ue.group.toString());
+    });
+    const fields = form.values.UE.map((item, index) => (
+        <Group key={item.key} mt="xs">
+            <Select
+                placeholder="UE"
+                data={all_ue}
+                sx={{flex: 1}}
+                {...form.getInputProps(`UE.${index}.name`)}
+            />
+            <Select
+                placeholder="Group"
+                data={groups}
+                sx={{flex: 1}}
+                {...form.getInputProps(`UE.${index}.group`)}
+            />
+            <ActionIcon
+                color="red"
+                onClick={() => form.removeListItem("UE", index)}
+            >
+                <IconTrash size={16}/>
+            </ActionIcon>
         </Group>
-      ) : (
-        <Text color="dimmed" align="center">
-          No one here...
-        </Text>
-      )}
+    ));
 
-      {fields}
+    return (
+        <Box sx={{maxWidth: 500}} mx="auto">
+            <Select data={parcours} placeholder="你的专业" {...form.getInputProps("MAJ")}
+                    sx={{margin: 45, marginLeft: 0}}/>
+            {fields.length > 0 ? (
+                <Group mb="xs">
+                    <Text size="sm" weight={500} sx={{flex: 1}}>
+                        UE
+                    </Text>
+                    <Text size="sm" weight={500} sx={{flex: 1}}>
+                        Group
+                    </Text>
 
-      <Group position="center" mt="md">
-        <Button
-          onClick={() =>
-            form.insertListItem("employees", {
-              name: "",
-              active: false,
-              key: randomId(),
-            })
-          }
-        >
-          Add employee
-        </Button>
-      </Group>
+                </Group>
+            ) : (
+                <Text color="dimmed" align="center">
+                    No UE here...
+                </Text>
+            )}
 
-      <Text size="sm" weight={500} mt="md">
-        Form values:
-      </Text>
-      <Code block>{JSON.stringify(form.values, null, 2)}</Code>
-    </Box>
-  );
+            {fields}
+
+            <Group position="center" mt="md">
+                <Button
+                    onClick={() =>
+                        form.insertListItem("UE", {
+                            name: "",
+                            group: 0,
+                            key: randomId(),
+                        })
+                    }
+                >
+                    Add UE
+                </Button>
+            </Group>
+
+            <Text size="sm" weight={500} mt="md">
+                Your Calender URL:
+            </Text>
+
+            <Code block>{`https://cal.fuzy.tech/api/gen?`+params.toString()}</Code>
+
+        </Box>
+    )
+        ;
 }
