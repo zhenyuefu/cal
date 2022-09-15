@@ -77,6 +77,7 @@ class handler(BaseHTTPRequestHandler):
     def do_GET(self):
         self.send_response(200)
         self.send_header("Content-type", "text/plain")
+        self.send_header("Cache-Control", "s-maxage=259200")
         self.end_headers()
         url = urlparse(self.path)
         query = parse_qs(url.query)
