@@ -20,8 +20,11 @@ def load_calendar(name: str):
 
 def filter_ue_parcours(ue: dict):
     parcours_ue: dict[str, list[str]] = dict()
-    for key in ue.keys():
-        parcours_ue[key].append(parcours[key])
+    for ue_name in ue.keys():
+        if parcours_ue[ue_name] in parcours_ue.keys():
+            parcours_ue[parcours[ue_name]].append(ue_name)
+        else:
+            parcours_ue[parcours[ue_name]] = [ue_name]
     return parcours_ue
 
 
