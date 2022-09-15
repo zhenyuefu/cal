@@ -10,6 +10,10 @@ url = {
     "DAC": "https://cal.ufr-info-p6.jussieu.fr/caldav.php/DAC/M1_DAC/",
     "STL": "https://cal.ufr-info-p6.jussieu.fr/caldav.php/STL/M1_STL/",
     "IMA": "https://cal.ufr-info-p6.jussieu.fr/caldav.php/IMA/M1_IMA/",
+    "BIM": "https://cal.ufr-info-p6.jussieu.fr/caldav.php/BIM/M1_BIM/",
+    "SAR": "https://cal.ufr-info-p6.jussieu.fr/caldav.php/SAR/M1_SAR/",
+    "SESI": "https://cal.ufr-info-p6.jussieu.fr/caldav.php/SESI/M1_SESI/",
+    "SFPN": "https://cal.ufr-info-p6.jussieu.fr/caldav.php/SFPN/M1_SFPN/",
 }
 
 cal = dict()

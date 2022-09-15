@@ -10,7 +10,30 @@ from ics import Calendar, Container, ContentLine
 
 CALENDARS: dict[str, Calendar] = dict()
 start_date = datetime.fromisoformat("2022-09-04T12:05:23+02:00")
-parcours = {"MOGPL": "AND", "IL": "STL", "LRC": "DAC", "MLBDA": "DAC", "MAPSI": "IMA"}
+parcours = {
+    "MOGPL": "AND",
+    "IL": "STL",
+    "LRC": "DAC",
+    "MLBDA": "DAC",
+    "MAPSI": "IMA",
+    "AAGB": "BIM",
+    "Maths": "BIM",
+    "BIMA": "IMA",
+    "PSCR": "SAR",
+    "NOYAU": "SAR",
+    "MOBJ": "SESI",
+    "ESA": "SESI",
+    "ARCHI": "SESI",
+    "SIGNAL": "SESI",
+    "VLSI": "SESI",
+    "SC": "SFPN",
+    "PPAR": "SFPN",
+    "COMPLEX": "SFPN",
+    "MODEL": "SFPN",
+    "ALGAV": "STL",
+    "DLP": "STL",
+    "OUV": "STL",
+}
 
 
 def load_calendar(name: str):
