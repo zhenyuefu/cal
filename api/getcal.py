@@ -1,4 +1,5 @@
 from urllib import request
+from http.server import BaseHTTPRequestHandler
 from os.path import join
 
 
@@ -14,7 +15,18 @@ def get_ics(url, name):
         f.write(request.get(url, auth=user).text)
 
 
-get_ics(url_AND, "AND.ics")
-get_ics(url_DAC, "DAC.ics")
-get_ics(url_STL, "STL.ics")
-get_ics(url_IMA, "IMA.ics")
+def get():
+    get_ics(url_AND, "AND.ics")
+    get_ics(url_DAC, "DAC.ics")
+    get_ics(url_STL, "STL.ics")
+    get_ics(url_IMA, "IMA.ics")
+
+
+class handler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.send_header("Content-type", "text/plain")
+        get()
+        self.end_headers()
+        self.wfile.write("Hello World !".encode("utf-8"))
+        return
