@@ -160,7 +160,7 @@ export default function IndexPage() {
 
                 <Code block style={{marginBottom: 10}}>{cal_url}</Code>
 
-                <Text variant="link" component="a" href="https://support.apple.com/zh-cn/HT202361"
+                <Text variant="link" component="a" href="https://support.apple.com/zh-cn/guide/iphone/iph3d1110d4/"
                       sx={{display: "flex"}}>ios订阅说明</Text>
                 <Text variant="link" component="a" href="https://support.google.com/calendar/answer/37100?hl=zh-Hans"
                       sx={{display: "flex"}}>Google日历订阅说明</Text>
