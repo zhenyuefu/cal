@@ -80,13 +80,13 @@ export default function IndexPage() {
             <Select
                 placeholder="UE"
                 data={all_ue}
-                sx={{flex: 1}}
+                sx={{display:"flex",flex: 1}}
                 {...form.getInputProps(`UE.${index}.name`)}
             />
             <Select
                 placeholder="Group"
                 data={groups}
-                sx={{flex: 1}}
+                sx={{display:"flex" ,flex: 1}}
                 {...form.getInputProps(`UE.${index}.group`)}
             />
             <ActionIcon
@@ -99,9 +99,9 @@ export default function IndexPage() {
     ));
 
     return (
-        <Box sx={{maxWidth: 500}} mx="auto">
+        <Box sx={{maxWidth: 500}} mx="auto" style={{margin:20}}>
             <Select data={parcours} placeholder="你的专业" {...form.getInputProps("MAJ")}
-                    sx={{margin: 45, marginLeft: 0}}/>
+                    sx={{marginBottom:20}}/>
             {fields.length > 0 ? (
                 <Group mb="xs">
                     <Text size="sm" weight={500} sx={{flex: 1}}>
@@ -138,7 +138,7 @@ export default function IndexPage() {
                 你的订阅链接，请复制后添加到日历中:
             </Text>
 
-            <div style={{display: "flex", float: "right", position: "relative", alignSelf: "right", right: 55, top: 5}}>
+            <div style={{display: "flex", float: "right", position: "relative", alignSelf: "right", top: 5}}>
 
                 <NextLink href={cal_url}>
                     <ActionIcon>
