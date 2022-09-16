@@ -8,7 +8,8 @@ import {
     Code, Select, CopyButton, Tooltip,
 } from "@mantine/core";
 import {randomId} from "@mantine/hooks";
-import {IconCheck, IconCopy, IconTrash} from "@tabler/icons";
+import {IconCheck, IconCopy, IconTrash, IconCalendarEvent} from "@tabler/icons";
+import {NextLink} from "@mantine/next";
 
 
 export default function IndexPage() {
@@ -73,7 +74,7 @@ export default function IndexPage() {
             params.set(ue.name, ue.group.toString());
         }
     });
-    const cal_url = `https://cal.fuzy.tech/api/gen?` + params.toString();
+    const cal_url = `webcal://cal.fuzy.tech/api/gen?` + params.toString();
     const fields = form.values.UE.map((item, index) => (
         <Group key={item.key} mt="xs">
             <Select
@@ -137,7 +138,13 @@ export default function IndexPage() {
                 你的订阅链接，请复制后添加到日历中:
             </Text>
 
-            <div style={{float: "right", position: "relative", alignSelf: "right", right: 35, top: 5}}>
+            <div style={{display: "flex", float: "right", position: "relative", alignSelf: "right", right: 55, top: 5}}>
+
+                <NextLink href={cal_url}>
+                    <ActionIcon>
+                        <IconCalendarEvent size={16}/>
+                    </ActionIcon>
+                </NextLink>
 
                 <CopyButton value={cal_url} timeout={2000}>
                     {({copied, copy}) => (
@@ -149,7 +156,9 @@ export default function IndexPage() {
                     )}
                 </CopyButton>
             </div>
+
             <Code block style={{marginBottom: 10}}>{cal_url}</Code>
+
             <Text variant="link" component="a" href="https://support.apple.com/zh-cn/HT202361"
                   sx={{display: "flex"}}>ios订阅说明</Text>
             <Text variant="link" component="a" href="https://support.google.com/calendar/answer/37100?hl=zh-Hans"
