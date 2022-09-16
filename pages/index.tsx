@@ -67,7 +67,7 @@ export default function IndexPage() {
         {value: "SFPN", label: "SFPN"},
     ]
 
-    form.values.MAJ? params.set("MAJ", form.values.MAJ): null;
+    form.values.MAJ ? params.set("MAJ", form.values.MAJ) : null;
     form.values.UE.forEach((ue, index) => {
         if (ue.name !== "" && ue.group !== 0) {
             params.set(ue.name, ue.group.toString());
@@ -133,24 +133,27 @@ export default function IndexPage() {
                 </Button>
             </Group>
 
-            <Text size="sm" weight={500} mt="md">
-                Your Calender URL:
+            <Text size="sm" weight={500} mt="md" sx={{marginBottom: 10}}>
+                你的订阅链接，请复制后添加到日历中:
             </Text>
 
-            <div style={{float:"right",position:"relative",alignSelf:"right",right:35,top:5}}>
+            <div style={{float: "right", position: "relative", alignSelf: "right", right: 35, top: 5}}>
 
-            <CopyButton value={cal_url} timeout={2000} >
-                {({copied, copy}) => (
-                    <Tooltip label={copied ? 'Copied' : 'Copy'} withArrow position="right">
-                        <ActionIcon color={copied ? 'teal' : 'gray'} onClick={copy}>
-                            {copied ? <IconCheck size={16}/> : <IconCopy size={16}/>}
-                        </ActionIcon>
-                    </Tooltip>
-                )}
-            </CopyButton>
-                </div>
-             <Code block>{cal_url}</Code>
-
+                <CopyButton value={cal_url} timeout={2000}>
+                    {({copied, copy}) => (
+                        <Tooltip label={copied ? 'Copied' : 'Copy'} withArrow position="right">
+                            <ActionIcon color={copied ? 'teal' : 'gray'} onClick={copy}>
+                                {copied ? <IconCheck size={16}/> : <IconCopy size={16}/>}
+                            </ActionIcon>
+                        </Tooltip>
+                    )}
+                </CopyButton>
+            </div>
+            <Code block style={{marginBottom: 10}}>{cal_url}</Code>
+            <Text variant="link" component="a" href="https://support.apple.com/zh-cn/HT202361"
+                  sx={{display: "flex"}}>ios订阅说明</Text>
+            <Text variant="link" component="a" href="https://support.google.com/calendar/answer/37100?hl=zh-Hans"
+                  sx={{display: "flex"}}>Google日历订阅说明</Text>
         </Box>
     )
         ;
