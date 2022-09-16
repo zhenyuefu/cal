@@ -5,7 +5,7 @@ import {
     Box,
     Text,
     Button,
-    Code, Select, CopyButton, Tooltip,
+    Code, Select, CopyButton, Tooltip, Center
 } from "@mantine/core";
 import {randomId} from "@mantine/hooks";
 import {IconCheck, IconCopy, IconTrash, IconCalendarEvent} from "@tabler/icons";
@@ -80,13 +80,13 @@ export default function IndexPage() {
             <Select
                 placeholder="UE"
                 data={all_ue}
-                sx={{display:"flex",flex: 1}}
+                sx={{flex: 1}}
                 {...form.getInputProps(`UE.${index}.name`)}
             />
             <Select
                 placeholder="Group"
                 data={groups}
-                sx={{display:"flex" ,flex: 1}}
+                sx={{flex: 1}}
                 {...form.getInputProps(`UE.${index}.group`)}
             />
             <ActionIcon
@@ -99,71 +99,73 @@ export default function IndexPage() {
     ));
 
     return (
-        <Box sx={{maxWidth: 500}} mx="auto" style={{margin:20}}>
-            <Select data={parcours} placeholder="你的专业" {...form.getInputProps("MAJ")}
-                    sx={{marginBottom:20}}/>
-            {fields.length > 0 ? (
-                <Group mb="xs">
-                    <Text size="sm" weight={500} sx={{flex: 1}}>
-                        UE
-                    </Text>
-                    <Text size="sm" weight={500} sx={{flex: 1}}>
-                        Group
-                    </Text>
+        <Center>
+            <Box sx={{maxWidth: 500}} mx="auto" style={{margin: 20}}>
+                <Select data={parcours} placeholder="你的专业" {...form.getInputProps("MAJ")}
+                        sx={{marginBottom: 20}}/>
+                {fields.length > 0 ? (
+                    <Group mb="xs">
+                        <Text size="sm" weight={500} sx={{flex: 1}}>
+                            UE
+                        </Text>
+                        <Text size="sm" weight={500} sx={{flex: 1}}>
+                            Group
+                        </Text>
 
+                    </Group>
+                ) : (
+                    <Text color="dimmed" align="center">
+                        No UE here...
+                    </Text>
+                )}
+
+                {fields}
+
+                <Group position="center" mt="md">
+                    <Button
+                        onClick={() =>
+                            form.insertListItem("UE", {
+                                name: "",
+                                group: 0,
+                                key: randomId(),
+                            })
+                        }
+                    >
+                        Add UE
+                    </Button>
                 </Group>
-            ) : (
-                <Text color="dimmed" align="center">
-                    No UE here...
+
+                <Text size="sm" weight={500} mt="md" sx={{marginBottom: 10}}>
+                    你的订阅链接，请复制后添加到日历中:
                 </Text>
-            )}
 
-            {fields}
+                <div style={{display: "flex", float: "right", position: "relative", alignSelf: "right", top: 5}}>
 
-            <Group position="center" mt="md">
-                <Button
-                    onClick={() =>
-                        form.insertListItem("UE", {
-                            name: "",
-                            group: 0,
-                            key: randomId(),
-                        })
-                    }
-                >
-                    Add UE
-                </Button>
-            </Group>
+                    <NextLink href={cal_url}>
+                        <ActionIcon>
+                            <IconCalendarEvent size={16}/>
+                        </ActionIcon>
+                    </NextLink>
 
-            <Text size="sm" weight={500} mt="md" sx={{marginBottom: 10}}>
-                你的订阅链接，请复制后添加到日历中:
-            </Text>
+                    <CopyButton value={cal_url} timeout={2000}>
+                        {({copied, copy}) => (
+                            <Tooltip label={copied ? 'Copied' : 'Copy'} withArrow position="right">
+                                <ActionIcon color={copied ? 'teal' : 'gray'} onClick={copy}>
+                                    {copied ? <IconCheck size={16}/> : <IconCopy size={16}/>}
+                                </ActionIcon>
+                            </Tooltip>
+                        )}
+                    </CopyButton>
+                </div>
 
-            <div style={{display: "flex", float: "right", position: "relative", alignSelf: "right", top: 5}}>
+                <Code block style={{marginBottom: 10}}>{cal_url}</Code>
 
-                <NextLink href={cal_url}>
-                    <ActionIcon>
-                        <IconCalendarEvent size={16}/>
-                    </ActionIcon>
-                </NextLink>
-
-                <CopyButton value={cal_url} timeout={2000}>
-                    {({copied, copy}) => (
-                        <Tooltip label={copied ? 'Copied' : 'Copy'} withArrow position="right">
-                            <ActionIcon color={copied ? 'teal' : 'gray'} onClick={copy}>
-                                {copied ? <IconCheck size={16}/> : <IconCopy size={16}/>}
-                            </ActionIcon>
-                        </Tooltip>
-                    )}
-                </CopyButton>
-            </div>
-
-            <Code block style={{marginBottom: 10}}>{cal_url}</Code>
-
-            <Text variant="link" component="a" href="https://support.apple.com/zh-cn/HT202361"
-                  sx={{display: "flex"}}>ios订阅说明</Text>
-            <Text variant="link" component="a" href="https://support.google.com/calendar/answer/37100?hl=zh-Hans"
-                  sx={{display: "flex"}}>Google日历订阅说明</Text>
-        </Box>
+                <Text variant="link" component="a" href="https://support.apple.com/zh-cn/HT202361"
+                      sx={{display: "flex"}}>ios订阅说明</Text>
+                <Text variant="link" component="a" href="https://support.google.com/calendar/answer/37100?hl=zh-Hans"
+                      sx={{display: "flex"}}>Google日历订阅说明</Text>
+            </Box>
+        </Center>
     )
         ;
 }
