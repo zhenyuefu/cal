@@ -61,6 +61,8 @@ def filter_cours(ue_group: dict, majour: str):
         load_calendar(parcour)
         iter_parcour = CALENDARS[parcour].timeline.start_after(start_date)
         for event in iter_parcour:
+            if "anglais" in event.summary or "Anglais" in event.summary:
+                continue 
             if majour == parcour:
                 if parcour in event.summary:
                     cal.events.append(event)
