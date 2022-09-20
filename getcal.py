@@ -39,16 +39,16 @@ start_date = date.fromisoformat("2022-09-04")
 
 def fix_SFPN():
     for event in cal["SFPN"].timeline.__iter__():
-        if "MU4IN900-COMPLEX-TD" in event.summary:
+        if "MU4IN900-COMPLEX-TD" == event.summary:
             event.summary = "MU4IN900-COMPLEX-TD1"
             continue
-        if "MU4IN900-COMPLEX-TME" in event.summary:
+        if "MU4IN900-COMPLEX-TME" == event.summary:
             event.summary = "MU4IN900-COMPLEX-TME1"
             continue
-        if "MU4IN901-MODEL-TD" in event.summary:
+        if "MU4IN901-MODEL-TD" == event.summary:
             event.summary = "MU4IN901-MODEL-TD1"
             continue
-        if "MU4IN901-MODEL-TME" in event.summary:
+        if "MU4IN901-MODEL-TME" == event.summary:
             event.summary = "MU4IN901-MODEL-TME1"
             continue
 
