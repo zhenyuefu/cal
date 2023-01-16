@@ -18,42 +18,57 @@ export default function IndexPage() {
 
     const form = useForm({
         initialValues: {
+            SEMESTER: "s2",
             UE: [{name: "", group: 0, key: randomId()}],
             MAJ: ""
         },
     });
 
-    const groups = [
-        {value: '1', label: 'GR1'},
-        {value: '2', label: 'GR2'},
-        {value: '3', label: 'GR3'},
-        {value: '4', label: 'GR4'},
-        {value: '5', label: 'GR5'},
-    ];
+    const semesters = [ {label: "Semestre 1", value: ""}, {label: "Semestre 2", value: "s2"}];
 
-    const all_ue = [
+
+    // 存储每个UE的组的数量
+    const groupCount = {
+        "RA": 2,
+        "ML": 2,
+        "IAMSI": 2,
+        "MOGPL": 4,
+        "MLBDA": 3,
+        "LRC": 5,
+        "MAPSI": 5,
+        "BIMA": 2,
+        "COMPLEX": 2,
+        "IL": 3,
+        "DLP": 2,
+        "ALGAV": 2,
+    };
+
+    const ue_s1 = [
         {value: "MOGPL", label: "MOGPL"},
         {value: "IL", label: "IL"},
         {value: "LRC", label: "LRC"},
         {value: "MLBDA", label: "MLBDA"},
         {value: "MAPSI", label: "MAPSI"},
-        {value: "AAGB", label: "AAGB"},
-        {value: "Maths", label: "Maths"},
         {value: "BIMA", label: "BIMA"},
-        {value: "PSCR", label: "PSCR"},
-        {value: "NOYAU", label: "NOYAU"},
-        {value: "MOBJ", label: "MOBJ"},
-        {value: "ESA", label: "ESA"},
-        {value: "ARCHI", label: "ARCHI"},
-        {value: "SIGNAL", label: "SIGNAL"},
-        {value: "VLSI", label: "VLSI"},
-        {value: "SC", label: "SC"},
-        {value: "PPAR", label: "PPAR"},
         {value: "COMPLEX", label: "COMPLEX"},
         {value: "MODEL", label: "MODEL"},
+        {value: "PPAR", label: "PPAR"},
         {value: "ALGAV", label: "ALGAV"},
         {value: "DLP", label: "DLP"},
         {value: "OUV", label: "OUV"},
+    ]
+
+    const ue_s2 = [
+        {value: "DJ" ,label   : "DJ"},
+        {value: "FoSyMa", label: "FoSyMa"},
+        {value: "IHM"   , label: "IHM"},
+        {value: "RA"    , label: "RA"},
+        {value: "RP"    , label: "RP"},
+        {value: "RITAL" , label: "RITAL"},
+        {value: "ML"    , label: "ML"},
+        {value: "IAMSI" , label: "IAMSI"},
+        {value: "SAM"   , label: "SAM"},
+        {value: "IG3D"  , label: "IG3D"},
     ]
 
     const parcours = [
@@ -74,18 +89,21 @@ export default function IndexPage() {
             params.set(ue.name, ue.group.toString());
         }
     });
-    const cal_url = `webcal://cal.fuzy.tech/api/gen?` + params.toString();
+    const cal_url = `webcal://cal.fuzy.tech/api/gen` + form.getInputProps("SEMESTER").value + `?` + params.toString();
     const fields = form.values.UE.map((item, index) => (
         <Group key={item.key} mt="xs">
             <Select
                 placeholder="UE"
-                data={all_ue}
+                data={ form.getInputProps("SEMESTER").value === "s2" ? ue_s2 : ue_s1}
                 sx={{flex: 1}}
                 {...form.getInputProps(`UE.${index}.name`)}
             />
             <Select
                 placeholder="Group"
-                data={groups}
+                data={ form.getInputProps(`UE.${index}.name`).value ? createGroups(
+    // @ts-ignore
+                    form.getInputProps(`UE.${index}.name`).value in groupCount ? groupCount[form.getInputProps(`UE.${index}.name`).value] : 1)
+                    : []}
                 sx={{flex: 1}}
                 {...form.getInputProps(`UE.${index}.group`)}
             />
@@ -101,6 +119,7 @@ export default function IndexPage() {
     return (
         <Center>
             <Box sx={{maxWidth: 500}} mx="auto" style={{margin: 20}}>
+                <Select placeholder="Semestre" data={semesters} {...form.getInputProps("SEMESTER")}/>
                 <Select data={parcours} placeholder="你的专业" {...form.getInputProps("MAJ")}
                         sx={{marginBottom: 20}}/>
                 {fields.length > 0 ? (
@@ -168,4 +187,11 @@ export default function IndexPage() {
         </Center>
     )
         ;
+}
+
+function createGroups(n: number) {
+    return Array.from({length: n}, (_, i) => ({
+        value: i + 1,
+        label: `Group ${i + 1}`,
+    }));
 }
