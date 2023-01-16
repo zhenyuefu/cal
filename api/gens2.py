@@ -8,7 +8,7 @@ from urllib.parse import parse_qs, parse_qsl, urlparse
 from ics import Calendar, Container, ContentLine
 
 CALENDARS: dict[str, Calendar] = dict()
-start_date = datetime.fromisoformat("2022-09-04T12:05:23+02:00")
+start_date = datetime.fromisoformat("2023-01-21T12:05:23+02:00")
 parcours = {
     "DJ"    : "AND",
     "FoSyMa": "AND",
@@ -54,12 +54,13 @@ def filter_cours(ue_group: dict, majour: str):
         load_calendar(parcour)
         iter_parcour = CALENDARS[parcour].timeline.start_after(start_date)
         for event in iter_parcour:
-            if "anglais" in event.summary or "Anglais" in event.summary:
-                continue
             if majour == parcour:
                 if parcour in event.summary or "MU4LVAN2" in event.summary or "MU4LV001" in event.summary or "Conférence" in event.summary:
                     cal.events.append(event)
                     continue
+            if majour == "AND" and parcour == "DAC":
+                if "Conférence" in event.summary:
+                    cal.events.add(event)
             for ue in parcours_ue[parcour]:
                 if ue in event.summary:
                     pattern = "T\w{1,2}(?=\d)(?!" + str(ue_group[ue]) + ")"
