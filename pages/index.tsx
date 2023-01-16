@@ -60,12 +60,13 @@ export default function IndexPage() {
 
     const ue_s2 = [
         {value: "DJ" ,label   : "DJ"},
-        {value: "FoSyMa", label: "FoSyMa"},
+        {value: "MU4IN202", label: "FoSyMa"},
         {value: "IHM"   , label: "IHM"},
         {value: "RA"    , label: "RA"},
         {value: "RP"    , label: "RP"},
         {value: "RITAL" , label: "RITAL"},
-        {value: "ML"    , label: "ML"},
+        {value: "MU4IN811"    , label: "ML"},
+        {value: "MU4IN812" , label: "MLL"},
         {value: "IAMSI" , label: "IAMSI"},
         {value: "SAM"   , label: "SAM"},
         {value: "IG3D"  , label: "IG3D"},

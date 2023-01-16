@@ -54,7 +54,7 @@ def filter_cours(ue_group: dict, majour: str):
             if "anglais" in event.summary or "Anglais" in event.summary:
                 continue
             if majour == parcour:
-                if parcour in event.summary:
+                if parcour in event.summary or "MU4LVAN2" in event.summary or "MU4LV001" in event.summary or "Conférence" in event.summary:
                     cal.events.append(event)
                     continue
             for ue in parcours_ue[parcour]:

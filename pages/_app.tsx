@@ -11,7 +11,8 @@ export default function App(props: AppProps) {
     <>
       <Head>
         <title>课程日历链接生成</title>
-        <link rel="shortcut icon" href="/lip6.svg" />
+          <link rel="icon" type="image/x-icon" sizes="32x32" href="/lip6.ico"/>
+        <link rel="shortcut icon" type="image/svg+xml" href="/lip6.svg" />
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
