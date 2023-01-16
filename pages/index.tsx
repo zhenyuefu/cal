@@ -30,7 +30,7 @@ export default function IndexPage() {
     // 存储每个UE的组的数量
     const groupCount = {
         "RA": 2,
-        "ML": 2,
+        "MU4IN811": 2,
         "IAMSI": 2,
         "MOGPL": 4,
         "MLBDA": 3,
