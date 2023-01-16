@@ -19,7 +19,7 @@ export default function IndexPage() {
     const form = useForm({
         initialValues: {
             SEMESTER: "s2",
-            UE: [{name: "", group: 0, key: randomId()}],
+            UE: [{name: "", group: 1, key: randomId()}],
             MAJ: ""
         },
     });
@@ -104,7 +104,7 @@ export default function IndexPage() {
                 data={ form.getInputProps(`UE.${index}.name`).value ? createGroups(
     // @ts-ignore
                     form.getInputProps(`UE.${index}.name`).value in groupCount ? groupCount[form.getInputProps(`UE.${index}.name`).value] : 1)
-                    : []}
+                    : createGroups(1)}
                 sx={{flex: 1}}
                 {...form.getInputProps(`UE.${index}.group`)}
             />
@@ -146,7 +146,7 @@ export default function IndexPage() {
                         onClick={() =>
                             form.insertListItem("UE", {
                                 name: "",
-                                group: 0,
+                                group: 1,
                                 key: randomId(),
                             })
                         }
