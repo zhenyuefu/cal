@@ -60,7 +60,7 @@ def filter_cours(ue_group: dict, majour: str):
                     continue
             if majour == "AND" and parcour == "DAC":
                 if "Conférence" in event.summary:
-                    cal.events.add(event)
+                    cal.events.append(event)
                     continue
             for ue in parcours_ue[parcour]:
                 if ue in event.summary:
