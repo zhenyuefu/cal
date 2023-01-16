@@ -61,6 +61,7 @@ def filter_cours(ue_group: dict, majour: str):
             if majour == "AND" and parcour == "DAC":
                 if "Conférence" in event.summary:
                     cal.events.add(event)
+                    continue
             for ue in parcours_ue[parcour]:
                 if ue in event.summary:
                     pattern = "T\w{1,2}(?=\d)(?!" + str(ue_group[ue]) + ")"
