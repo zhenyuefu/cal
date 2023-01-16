@@ -12,11 +12,14 @@ start_date = datetime.fromisoformat("2022-09-04T12:05:23+02:00")
 parcours = {
     "DJ"    : "AND",
     "FoSyMa": "AND",
+    "MU4IN202": "AND",
     "IHM"   : "AND",
     "RP"    : "AND",
     "RA"    : "AND",
     "RITAL" : "DAC",
     "ML"    : "DAC",
+    "MU4IN812": "DAC",
+    "MU4IN811": "DAC",
     "IAMSI" : "DAC",
     "SAM"   : "DAC",
     "IG3D"  : "IMA"
