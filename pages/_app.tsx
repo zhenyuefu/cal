@@ -10,8 +10,8 @@ export default function App(props: AppProps) {
   return (
     <>
       <Head>
-        <title>Page title</title>
-        <link rel="shortcut icon" href="/favicon.svg" />
+        <title>课程日历链接生成</title>
+        <link rel="shortcut icon" href="/lip6.svg" />
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width"
