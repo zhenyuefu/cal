@@ -70,6 +70,7 @@ export default function IndexPage() {
         {value: "IAMSI" , label: "IAMSI"},
         {value: "SAM"   , label: "SAM"},
         {value: "IG3D"  , label: "IG3D"},
+        {value: "ANUM"  , label: "ANUM"},
     ]
 
     const parcours = [
