@@ -23,7 +23,7 @@ parcours = {
     "IAMSI" : "DAC",
     "SAM"   : "DAC",
     "IG3D"  : "IMA",
-    "ANUM"  : "SFPN"
+    "MU4IN910"  : "SFPN"
 }
 
 
