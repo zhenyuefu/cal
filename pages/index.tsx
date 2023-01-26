@@ -122,7 +122,7 @@ export default function IndexPage() {
         <Center>
             <Box sx={{maxWidth: 500}} mx="auto" style={{margin: 20}}>
                 <Select placeholder="Semestre" data={semesters} {...form.getInputProps("SEMESTER")}/>
-                <Select data={parcours} placeholder="你的专业" {...form.getInputProps("MAJ")}
+                <Select data={parcours} placeholder="Parcours" {...form.getInputProps("MAJ")}
                         sx={{marginBottom: 20}}/>
                 {fields.length > 0 ? (
                     <Group mb="xs">
@@ -157,7 +157,7 @@ export default function IndexPage() {
                 </Group>
 
                 <Text size="sm" weight={500} mt="md" sx={{marginBottom: 10}}>
-                    你的订阅链接，请复制后添加到日历中:
+                    For your subscription link, please copy it and add it to your calendar:
                 </Text>
 
                 <div style={{display: "flex", float: "right", position: "relative", alignSelf: "right", top: 5}}>
@@ -181,10 +181,12 @@ export default function IndexPage() {
 
                 <Code block style={{marginBottom: 10}}>{cal_url}</Code>
 
-                <Text variant="link" component="a" href="https://support.apple.com/zh-cn/guide/iphone/iph3d1110d4/"
-                      sx={{display: "flex"}}>ios订阅说明</Text>
-                <Text variant="link" component="a" href="https://support.google.com/calendar/answer/37100?hl=zh-Hans"
-                      sx={{display: "flex"}}>Google日历订阅说明</Text>
+                <Text variant="link" component="a" href="https://support.apple.com/guide/iphone/iph3d1110d4/ios"
+                      sx={{display: "flex"}}>ios subscription instructions</Text>
+                <Text variant="link" component="a" href="https://support.google.com/calendar/answer/37100"
+                      sx={{display: "flex"}}>google calendar subscription instructions</Text>
+                <Text variant="link" component="a" href="https://github.com/zhenyuefu/cal"
+                        sx={{display: "flex"}}>github source code</Text>
             </Box>
         </Center>
     )
