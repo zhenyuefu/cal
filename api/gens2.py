@@ -59,10 +59,6 @@ def filter_cours(ue_group: dict, majour: str):
                 if parcour in event.summary or "MU4LVAN2" in event.summary or "MU4LV001" in event.summary or "Conférence" in event.summary:
                     cal.events.append(event)
                     continue
-            if majour == "AND" and parcour == "DAC":
-                if "Conférence" in event.summary:
-                    cal.events.append(event)
-                    continue
             for ue in parcours_ue[parcour]:
                 if ue in event.summary:
                     pattern = "T\w{1,2}(?=\d)(?!" + str(ue_group[ue]) + ")"
