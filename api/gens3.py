@@ -21,7 +21,7 @@ def filter_cours(ue_group: dict, majour: str):
     parcours_ue = filter_ue_parcours(ue_group, parcours_s3)
     # 遍历专业，将专业对应的课程加入到日历中
     for parcour in parcours_ue.keys():
-        CALENDARS[parcour] = load_calendar(parcour,"M2")
+        CALENDARS[parcour] = load_calendar(parcour, "M2")
         iter_parcour = CALENDARS[parcour].timeline.start_after(start_date)
         for event in iter_parcour:
             if majour == parcour:
