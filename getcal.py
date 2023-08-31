@@ -27,7 +27,11 @@ def remove_events_before(c: Calendar, date: date):
 
 
 def save(ue, master_year):
-    with open(join("data", f"{master_year}_{ue}.ics"), "w") as f:
+    if ue == "ANDROIDE":
+        ues = "AND"
+    else:
+        ues = ue
+    with open(join("data", f"{master_year}_{ues}.ics"), "w") as f:
         f.write(cal[f"{ue}{master_year}"].serialize())
 
 
