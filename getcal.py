@@ -35,26 +35,26 @@ def save(ue, master_year):
         f.write(cal[f"{ue}{master_year}"].serialize())
 
 
-# def fix_SFPN():
-#     for event in cal["SFPN"].timeline.__iter__():
-#         if "MU4IN900-COMPLEX-TD" == event.summary:
-#             event.summary = "MU4IN900-COMPLEX-TD1"
-#             continue
-#         if "MU4IN900-COMPLEX-TME" == event.summary:
-#             event.summary = "MU4IN900-COMPLEX-TME1"
-#             continue
-#         if "MU4IN901-MODEL-TD" == event.summary:
-#             event.summary = "MU4IN901-MODEL-TD1"
-#             continue
-#         if "MU4IN901-MODEL-TME" == event.summary:
-#             event.summary = "MU4IN901-MODEL-TME1"
-#             continue
+def fix_SFPN():
+    for event in cal["SFPN"].timeline.__iter__():
+        if "MU4IN900-COMPLEX-TD" == event.summary:
+            event.summary = "MU4IN900-COMPLEX-TD1"
+            continue
+        if "MU4IN900-COMPLEX-TME" == event.summary:
+            event.summary = "MU4IN900-COMPLEX-TME1"
+            continue
+        if "MU4IN901-MODEL-TD" == event.summary:
+            event.summary = "MU4IN901-MODEL-TD1"
+            continue
+        if "MU4IN901-MODEL-TME" == event.summary:
+            event.summary = "MU4IN901-MODEL-TME1"
+            continue
 
 
 for name in all_ue:
     for M in ["M1", "M2"]:
         get_remote(name, M)
         remove_events_before(cal[f"{name}{M}"], start_date)
-        # if name == "SFPN" and M == "M1":
-        #     fix_SFPN()
+        if name == "SFPN" and M == "M1":
+            fix_SFPN()
         save(name, M)
