@@ -7,7 +7,7 @@ from ics import Calendar, Container, ContentLine
 from api.data import parcours_s3
 from api.utils import filter_ue_parcours, handle_get, load_calendar
 
-start_date = datetime.fromisoformat("2023-09-04T12:05:23+02:00")
+start_date = datetime.fromisoformat("2023-09-10T12:05:23+02:00")
 CALENDARS: dict[str, Calendar] = dict()
 
 
