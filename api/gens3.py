@@ -17,11 +17,12 @@ def filter_cours(ue_group: dict, majour: str):
     cal.extra = Container(
         "VCALENDAR", [ContentLine("X-WR-CALNAME", value="M2 " + majour)]
     )
+
+    # add oip to major
+    parcours_s3["OIP"] = majour
+
     # 建立字典，存储课程是哪一个专业的
     parcours_ue = filter_ue_parcours(ue_group, parcours_s3)
-
-    # for s3, add OIP to major
-    parcours_ue[majour].append("OIP")
 
     # 遍历专业，将专业对应的课程加入到日历中
     for parcour in parcours_ue.keys():
