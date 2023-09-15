@@ -36,7 +36,7 @@ def save(ue, master_year):
 
 
 def fix_SFPN():
-    for event in cal["SFPN"].timeline.__iter__():
+    for event in cal["SFPNM1"].timeline.__iter__():
         if "MU4IN900-COMPLEX-TD" == event.summary:
             event.summary = "MU4IN900-COMPLEX-TD1"
             continue
