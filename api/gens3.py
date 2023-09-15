@@ -35,7 +35,9 @@ def filter_cours(ue_group: dict, majour: str):
                     continue
             for ue in parcours_ue[parcour]:
                 if ue in event.summary:
-                    pattern = rf"T\w{{1,2}}(?=\d)(?!{ue_group[ue]})"
+                    pattern = (
+                        pattern
+                    ) = rf"T\w{{1,2}}(?:(?=\d)(?!{ue_group[ue]})|\s*[Gg][Rr]{ue_group[ue]})?|CS\s*GR{ue_group[ue]}"
                     if not re.search(pattern, event.summary):
                         cal.events.append(event)
                         break
