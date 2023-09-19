@@ -5,5 +5,5 @@
     <option name="enabledOnSave" value="true" />
     <option name="sdkUUID" value="e580190d-77fb-46ec-984c-82e138d89fe6" />
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10 (cal)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="cal" project-jdk-type="Python SDK" />
 </project>
