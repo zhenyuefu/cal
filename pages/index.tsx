@@ -1,14 +1,7 @@
 import {useForm} from "@mantine/form";
-import {
-    Group,
-    ActionIcon,
-    Box,
-    Text,
-    Button,
-    Code, Select, CopyButton, Tooltip, Center
-} from "@mantine/core";
+import {ActionIcon, Box, Button, Center, Code, CopyButton, Group, Select, Text, Tooltip} from "@mantine/core";
 import {randomId} from "@mantine/hooks";
-import {IconCheck, IconCopy, IconTrash, IconCalendarEvent} from "@tabler/icons";
+import {IconCalendarEvent, IconCheck, IconCopy, IconTrash} from "@tabler/icons";
 import {NextLink} from "@mantine/next";
 
 
@@ -24,7 +17,7 @@ export default function IndexPage() {
         },
     });
 
-    const semesters = [ {label: "Semestre 1", value: ""}, {label: "Semestre 2", value: "s2"}];
+    const semesters = [{label: "Semestre 1", value: ""}, {label: "Semestre 2", value: "s2"}, {label: "Semestre 3", value: "s3"}];
 
 
     // 存储每个UE的组的数量
@@ -41,6 +34,9 @@ export default function IndexPage() {
         "IL": 3,
         "DLP": 2,
         "ALGAV": 2,
+        "MU5IN259": 2,
+        "MU5IN862": 2,
+        "MU5IN861": 3,
     };
 
     const ue_s1 = [
@@ -59,18 +55,36 @@ export default function IndexPage() {
     ]
 
     const ue_s2 = [
-        {value: "DJ" ,label   : "DJ"},
+        {value: "DJ", label: "DJ"},
         {value: "MU4IN202", label: "FoSyMa"},
-        {value: "IHM"   , label: "IHM"},
-        {value: "RA"    , label: "RA"},
-        {value: "RP"    , label: "RP"},
-        {value: "RITAL" , label: "RITAL"},
-        {value: "MU4IN811"    , label: "ML"},
-        {value: "MU4IN812" , label: "MLL"},
-        {value: "IAMSI" , label: "IAMSI"},
-        {value: "SAM"   , label: "SAM"},
-        {value: "IG3D"  , label: "IG3D"},
-        {value: "MU4IN910"  , label: "ANUM"},
+        {value: "IHM", label: "IHM"},
+        {value: "RA", label: "RA"},
+        {value: "RP", label: "RP"},
+        {value: "RITAL", label: "RITAL"},
+        {value: "MU4IN811", label: "ML"},
+        {value: "MU4IN812", label: "MLL"},
+        {value: "IAMSI", label: "IAMSI"},
+        {value: "SAM", label: "SAM"},
+        {value: "IG3D", label: "IG3D"},
+        {value: "MU4IN910", label: "ANUM"},
+    ]
+
+    const ue_s3 = [
+        {value: "MU5IN250", label: "COCOMA"},
+        {value: "MU5IN254", label: "MOSIMA"},
+        {value: "MU5IN258", label: "ISG"},
+        {value: "MU5IN256", label: "MADMC"},
+        {value: "MU5IN257", label: "AOTJ"},
+        {value: "MU5IN251", label: "MAOA"},
+        {value: "MU5IN252", label: "EVHI"},
+        {value: "MU5IN259", label: "IAR"},
+        {value: "MU5IN852", label: "BDLE"},
+        {value: "MU5IN860", label: "LODAS"},
+        {value: "MU5IN861", label: "AMAL"},
+        {value: "MU5IN862", label: "RLD"},
+        {value: "MU5IN863", label: "REDS"},
+        {value: "XAI", label: "XAI"},
+        {value: "OIP", label: "OIP"}
     ]
 
     const parcours = [
@@ -96,15 +110,15 @@ export default function IndexPage() {
         <Group key={item.key} mt="xs">
             <Select
                 placeholder="UE"
-                data={ form.getInputProps("SEMESTER").value === "s2" ? ue_s2 : ue_s1}
+                data={form.getInputProps("SEMESTER").value === "s2" ? ue_s2 : form.getInputProps("SEMESTER").value === "s3" ? ue_s3 : ue_s1}
                 sx={{flex: 1}}
                 {...form.getInputProps(`UE.${index}.name`)}
             />
             <Select
                 placeholder="Group"
-                data={ form.getInputProps(`UE.${index}.name`).value ? createGroups(
-    // @ts-ignore
-                    form.getInputProps(`UE.${index}.name`).value in groupCount ? groupCount[form.getInputProps(`UE.${index}.name`).value] : 1)
+                data={form.getInputProps(`UE.${index}.name`).value ? createGroups(
+                        // @ts-ignore
+                        form.getInputProps(`UE.${index}.name`).value in groupCount ? groupCount[form.getInputProps(`UE.${index}.name`).value] : 1)
                     : createGroups(1)}
                 sx={{flex: 1}}
                 {...form.getInputProps(`UE.${index}.group`)}
@@ -186,7 +200,7 @@ export default function IndexPage() {
                 <Text variant="link" component="a" href="https://support.google.com/calendar/answer/37100"
                       sx={{display: "flex"}}>google calendar subscription instructions</Text>
                 <Text variant="link" component="a" href="https://github.com/zhenyuefu/cal"
-                        sx={{display: "flex"}}>github source code</Text>
+                      sx={{display: "flex"}}>github source code</Text>
             </Box>
         </Center>
     )
