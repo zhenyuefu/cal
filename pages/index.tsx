@@ -37,6 +37,7 @@ export default function IndexPage() {
         "MU5IN259": 2,
         "MU5IN862": 2,
         "MU5IN861": 3,
+        "OIP": 2,
     };
 
     const ue_s1 = [
