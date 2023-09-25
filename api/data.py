@@ -14,6 +14,12 @@ parcours_s3 = {
     "MU5IN863": "DAC",
     "MU5IN864": "DAC",
     "MU5IN868": "DAC",
+    "MU5IN656": "IMA",
+    "MU5IN651": "IMA",
+    "MU5IN654": "IMA",
+    "MU5IN652": "IMA",
+    "MU5IN650": "IMA",
+    "MU5IN653": "IMA"
 }
 
 
