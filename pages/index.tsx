@@ -85,7 +85,13 @@ export default function IndexPage() {
         {value: "MU5IN862", label: "RLD"},
         {value: "MU5IN863", label: "REDS"},
         {value: "XAI", label: "XAI"},
-        {value: "OIP", label: "OIP"}
+        {value: "OIP", label: "OIP"},
+        {"MU5IN656": "PRAT"},
+        {"MU5IN651": "VISION"},
+        {"MU5IN654": "BIOMED"},
+        {"MU5IN652": "RDFIA"},
+        {"MU5IN650": "TADI"},
+        {"MU5IN653": "IG3DA"}
     ]
 
     const parcours = [
