@@ -6,7 +6,7 @@ from ics import Calendar
 
 user = ("student.master", "guest")
 all_ue = ["ANDROIDE", "DAC", "STL", "IMA", "BIM", "SAR", "SESI", "SFPN"]
-start_date = date.fromisoformat("2023-09-01")
+start_date = date.fromisoformat("2024-08-30")
 cal = dict()
 
 
