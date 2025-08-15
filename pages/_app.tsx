@@ -1,33 +1,20 @@
-import { AppProps } from "next/app";
+import "@mantine/core/styles.css";
 import Head from "next/head";
 import { MantineProvider } from "@mantine/core";
-import { useColorScheme } from '@mantine/hooks';
+import { theme } from "../theme";
 
-export default function App(props: AppProps) {
-  const { Component, pageProps } = props;
-  const colorScheme = useColorScheme();
-
+export default function App({ Component, pageProps }: any) {
   return (
-    <>
+    <MantineProvider theme={theme}>
       <Head>
         <title>Course Calendar Link Generation</title>
-        <link rel="shortcut icon" href="/favicon.svg" />
         <meta
           name="viewport"
-          content="minimum-scale=1, initial-scale=1, width=device-width"
+          content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"
         />
+        <link rel="shortcut icon" href="/favicon.svg" />
       </Head>
-
-      <MantineProvider
-        withGlobalStyles
-        withNormalizeCSS
-        theme={{
-          /** Put your mantine theme override here */
-          colorScheme: colorScheme,
-        }}
-      >
-        <Component {...pageProps} />
-      </MantineProvider>
-    </>
+      <Component {...pageProps} />
+    </MantineProvider>
   );
 }

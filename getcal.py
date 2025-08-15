@@ -1,12 +1,15 @@
-from datetime import date
-from os.path import join
+from datetime import date, timezone
+from os.path import join, exists
+import json
+import os
+import re
 
 import requests
 from ics import Calendar
 
 user = ("student.master", "guest")
 all_ue = ["ANDROIDE", "DAC", "STL", "IMA", "BIM", "SAR", "SESI", "SFPN"]
-start_date = date.fromisoformat("2024-08-30")
+start_date = date.fromisoformat("2025-08-30")
 cal = dict()
 
 
@@ -15,9 +18,11 @@ def get_url(ue, master_year):
 
 
 def get_remote(ue, master_year):
-    cal[f"{ue}{master_year}"] = Calendar(
-        requests.get(get_url(ue, master_year), auth=user, verify=False).text
-    )
+    resp = requests.get(get_url(ue, master_year), auth=user, verify=False)
+    # 强制使用 UTF-8 解析，防止服务器未声明编码导致后续写入问题
+    if not resp.encoding:
+        resp.encoding = "utf-8"
+    cal[f"{ue}{master_year}"] = Calendar(resp.text)
 
 
 def remove_events_before(c: Calendar, date: date):
@@ -31,8 +36,53 @@ def save(ue, master_year):
         ues = "AND"
     else:
         ues = ue
-    with open(join("data", f"{master_year}_{ues}.ics"), "w") as f:
-        f.write(cal[f"{ue}{master_year}"].serialize())
+    # 保存 ICS 文件
+    ics_path = join("data", f"{master_year}_{ues}.ics")
+    with open(ics_path, "w", encoding="utf-8", newline="") as f:
+        data_str = cal[f"{ue}{master_year}"].serialize()
+        # 确保无法编码字符不会中断（极少数非法码点时 fallback）
+        try:
+            f.write(data_str)
+        except UnicodeEncodeError:
+            f.write(data_str.encode("utf-8", errors="ignore").decode("utf-8"))
+
+    # 生成精简 JSON 索引（降低函数冷启动解析成本）
+    index_dir = join("data", "index")
+    if not exists(index_dir):
+        os.makedirs(index_dir, exist_ok=True)
+    json_path = join(index_dir, f"{master_year}_{ues}.json")
+    events_index = []
+    for ev in cal[f"{ue}{master_year}"].events:
+        begin = ev.begin if getattr(ev, "begin", None) else None
+        end = ev.end if getattr(ev, "end", None) else None
+        # 预格式化成 ICS UTC 时间字符串，减少运行时转换
+        dtstart_ics = (
+            begin.astimezone(timezone.utc).strftime("%Y%m%dT%H%M%SZ") if begin else None
+        )
+        dtend_ics = (
+            end.astimezone(timezone.utc).strftime("%Y%m%dT%H%M%SZ") if end else None
+        )
+        summary = ev.summary or ""
+        # 提取组号：TD1 / TME2 / TP3 等形式 + GR1 / gr2
+        groups = set()
+        for m in re.finditer(r"T\w{1,2}(\d+)", summary):
+            groups.add(m.group(1))
+        for m in re.finditer(r"[Gg][Rr]\s*(\d+)", summary):
+            groups.add(m.group(1))
+        events_index.append(
+            {
+                "summary": summary,
+                "begin": begin.isoformat() if begin else None,
+                "end": end.isoformat() if end else None,
+                "dtstart": dtstart_ics,
+                "dtend": dtend_ics,
+                "groups": sorted(groups),
+                "location": getattr(ev, "location", None),
+                "description": getattr(ev, "description", None),
+            }
+        )
+    with open(json_path, "w", encoding="utf-8") as jf:
+        json.dump(events_index, jf, ensure_ascii=False, separators=(",", ":"))
 
 
 def fix_SFPN():

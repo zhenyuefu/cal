@@ -1,0 +1,146 @@
+package cal
+
+import (
+	"encoding/json"
+	"log"
+	"net/http"
+	"os"
+	"path/filepath"
+	"regexp"
+	"sort"
+	"strings"
+)
+
+type IndexedEvent struct {
+	Summary     string   `json:"summary"`
+	BeginISO    string   `json:"begin"`
+	EndISO      string   `json:"end"`
+	DTStart     string   `json:"dtstart"`
+	DTEnd       string   `json:"dtend"`
+	Groups      []string `json:"groups"`
+	Location    string   `json:"location"`
+	Description string   `json:"description"`
+}
+
+type cacheEntry struct { Events []IndexedEvent }
+
+var (
+	cache      = map[string]cacheEntry{}
+	ueParcours = map[string]string{}
+	anglaisRe  = regexp.MustCompile(`(?i)anglais`)
+)
+
+func initParcours() {
+	for k, v := range map[string]string{"MOGPL":"AND","IL":"STL","LRC":"DAC","MLBDA":"DAC","MAPSI":"IMA","AAGB":"BIM","Maths":"BIM","BIMA":"IMA","PSCR":"SAR","NOYAU":"SAR","MOBJ":"SESI","ESA":"SESI","ARCHI":"SESI","SIGNAL":"SESI","VLSI":"SESI","SC":"SFPN","PPAR":"SFPN","COMPLEX":"SFPN","MODEL":"SFPN","ALGAV":"STL","DLP":"STL","OUV":"STL",} { ueParcours[k]=v }
+	for k, v := range map[string]string{"DJ":"AND","FoSyMa":"AND","MU4IN202":"AND","IHM":"AND","RP":"AND","RA":"AND","RITAL":"DAC","ML":"DAC","MU4IN812":"DAC","MU4IN811":"DAC","IAMSI":"DAC","SAM":"DAC","IG3D":"IMA","MU4IN910":"SFPN",} { ueParcours[k]=v }
+	for k, v := range map[string]string{"MU5IN250":"AND","MU5IN254":"AND","MU5IN258":"AND","MU5IN256":"AND","MU5IN257":"AND","MU5IN251":"AND","MU5IN252":"AND","MU5IN259":"AND","MU5IN852":"DAC","MU5IN860":"DAC","MU5IN861":"DAC","MU5IN862":"DAC","MU5IN863":"DAC","MU5IN864":"DAC","MU5IN868":"DAC","MU5IN656":"IMA","MU5IN651":"IMA","MU5IN654":"IMA","MU5IN652":"IMA","MU5IN650":"IMA","MU5IN653":"IMA",} { ueParcours[k]=v }
+}
+
+func loadIndex(year, parcour string) ([]IndexedEvent, error) {
+	key := year+"_"+parcour
+	if ce, ok := cache[key]; ok { return ce.Events, nil }
+	path := filepath.Join("data","index", key+".json")
+	b, err := os.ReadFile(path); if err!=nil { return nil, err }
+	var events []IndexedEvent
+	if err := json.Unmarshal(b,&events); err!=nil { return nil, err }
+	cache[key]=cacheEntry{Events:events}
+	return events,nil
+}
+
+func buildICS(calName string, events []IndexedEvent) string {
+	var sb strings.Builder
+	write := func(s string){ sb.WriteString(s); sb.WriteString("\r\n") }
+	write("BEGIN:VCALENDAR"); write("VERSION:2.0"); write("PRODID:-//cal-v2//EN"); write("X-WR-CALNAME:"+calName)
+	for _, ev := range events {
+		write("BEGIN:VEVENT")
+		if ev.DTStart!="" { write("DTSTART:"+ev.DTStart) }
+		if ev.DTEnd!="" { write("DTEND:"+ev.DTEnd) }
+		write("SUMMARY:"+escapeICS(ev.Summary))
+		if ev.Location!="" { write("LOCATION:"+escapeICS(ev.Location)) }
+		if ev.Description!="" { write("DESCRIPTION:"+escapeICS(ev.Description)) }
+		write("END:VEVENT")
+	}
+	write("END:VCALENDAR")
+	return sb.String()
+}
+
+func escapeICS(s string) string { return strings.NewReplacer("\\","\\\\",";","\\;",",","\\,","\n","\\n").Replace(s) }
+
+func passGroup(ev IndexedEvent, target string) bool {
+	if len(ev.Groups)==0 { return true }
+	if len(ev.Groups)==1 && ev.Groups[0]==target { return true }
+	for _, g := range ev.Groups { if g!=target { return false } }
+	return true
+}
+
+func filterHandler(w http.ResponseWriter, r *http.Request) {
+	q := r.URL.Query(); major := q.Get("MAJ"); if major=="" { http.Error(w,"MAJ required", http.StatusBadRequest); return }
+	semester := q.Get("SEMESTER") // "s1"|"s2"|"s3" (s3 -> M2) 可选
+	ueGroups := map[string]string{}
+	for k := range q { if k=="MAJ" || k=="SEMESTER" { continue }; ueGroups[k]=q.Get(k) }
+	// collect UEs by parcours
+	parcoursUE := map[string][]string{}
+	for ue, parcours := range ueParcours { if _, ok := ueGroups[ue]; ok { parcoursUE[parcours] = append(parcoursUE[parcours], ue) } }
+
+	// year need map: parcour -> set of years (M1/M2)
+	parcourYears := map[string]map[string]bool{}
+	isM2UE := func(ue string) bool {
+		if strings.HasPrefix(ue, "MU5") { return true }
+		switch ue { // 特殊 M2 课程短码
+		case "OIP", "XAI":
+			return true
+		}
+		return false
+	}
+	for parcour, ues := range parcoursUE {
+		for _, ue := range ues {
+			year := "M1"
+			if isM2UE(ue) { year = "M2" }
+			if _, ok := parcourYears[parcour]; !ok { parcourYears[parcour] = map[string]bool{} }
+			parcourYears[parcour][year] = true
+		}
+	}
+	// 如果没有任何 UE 但提供了 semester，可选载入 major 自身公共课
+	if len(parcoursUE)==0 && semester=="s3" {
+		parcourYears[major] = map[string]bool{"M2": true}
+	} else if len(parcoursUE)==0 {
+		parcourYears[major] = map[string]bool{"M1": true}
+	}
+
+	result := []IndexedEvent{}; seen := map[string]bool{}
+	for parcour, years := range parcourYears {
+		for year := range years {
+			events, err := loadIndex(year, parcour); if err!=nil { log.Println("loadIndex", year, parcour, err); continue }
+			for _, ev := range events {
+				if anglaisRe.MatchString(ev.Summary) { continue }
+				// major公共课：仅在该课 summary 含 parcours 名称且 parcours==major
+				if parcour==major && strings.Contains(ev.Summary, parcour) {
+					key := year+ev.DTStart+ev.Summary
+					if !seen[key] { result=append(result, ev); seen[key]=true }
+					continue
+				}
+				ues := parcoursUE[parcour]
+				for _, ue := range ues {
+					if strings.Contains(ev.Summary, ue) {
+						if passGroup(ev, ueGroups[ue]) {
+							key := year+ev.DTStart+ev.Summary
+							if !seen[key] { result=append(result, ev); seen[key]=true }
+						}
+						break
+					}
+				}
+			}
+		}
+	}
+	sort.SliceStable(result, func(i,j int) bool { if result[i].DTStart==result[j].DTStart { return result[i].Summary < result[j].Summary }; return result[i].DTStart < result[j].DTStart })
+	ics := buildICS("v2 "+major, result)
+	w.Header().Set("Content-Type","text/calendar; charset=utf-8")
+	w.Header().Set("Cache-Control","s-maxage=1, stale-while-revalidate")
+	_, _ = w.Write([]byte(ics))
+}
+
+// 保留占位（不再依赖 parcours 名称区分年级）
+func isM2Parcour(_ string) bool { return false }
+
+// Handler is the Vercel entrypoint
+func Handler(w http.ResponseWriter, r *http.Request) { if len(ueParcours)==0 { initParcours() }; filterHandler(w,r) }
