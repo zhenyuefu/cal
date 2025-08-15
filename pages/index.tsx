@@ -1,12 +1,16 @@
 import {useForm} from "@mantine/form";
-import {ActionIcon, Box, Button, Center, Code, CopyButton, Group, Select, Text, Tooltip} from "@mantine/core";
+import {ActionIcon, Box, Button, Center, Code, CopyButton, Group, Select, Text, Tooltip, SegmentedControl, Badge, Stack} from "@mantine/core";
 import {randomId} from "@mantine/hooks";
 import {IconCalendarEvent, IconCheck, IconCopy, IconTrash} from "@tabler/icons";
 import {NextLink} from "@mantine/next";
+import {useState, useMemo} from "react";
 
 
 export default function IndexPage() {
     const params = new URLSearchParams();
+
+    // API 版本：v2(Go) 默认 / 可切换回 v1(Python)
+    const [apiVersion, setApiVersion] = useState<'v1' | 'v2'>('v2');
 
 
     const form = useForm({
@@ -113,7 +117,21 @@ export default function IndexPage() {
             params.set(ue.name, ue.group.toString());
         }
     });
-    const cal_url = `webcal://cal.fuzy.tech/api/gen` + form.getInputProps("SEMESTER").value + `?` + params.toString();
+    const cal_url = useMemo(() => {
+        const semesterSuffix = form.getInputProps("SEMESTER").value; // "", "s2", "s3"
+        const paramString = params.toString();
+        let base: string;
+        if (apiVersion === 'v2') {
+            base = `webcal://cal.fuzy.tech/api/v2/cal`;
+            const seg = new URLSearchParams(paramString);
+            if (semesterSuffix) seg.set('SEMESTER', semesterSuffix);
+            const s = seg.toString();
+            return s ? `${base}?${s}` : base;
+        } else {
+            base = `webcal://cal.fuzy.tech/api/gen${semesterSuffix}`;
+            return paramString ? `${base}?${paramString}` : base;
+        }
+    }, [apiVersion, form.values.SEMESTER, form.values.MAJ, JSON.stringify(form.values.UE)]);
     const fields = form.values.UE.map((item, index) => (
         <Group key={item.key} mt="xs">
             <Select
@@ -143,7 +161,22 @@ export default function IndexPage() {
     return (
         <Center>
             <Box sx={{maxWidth: 500}} mx="auto" style={{margin: 20}}>
-                <Select placeholder="Semestre" data={semesters} {...form.getInputProps("SEMESTER")}/>
+                <Stack spacing="xs" mb={10}>
+                    <SegmentedControl
+                        value={apiVersion}
+                        onChange={(v) => setApiVersion(v as 'v1' | 'v2')}
+                        data={[
+                            {label: 'v2 (Fast)', value: 'v2'},
+                            {label: 'v1 (Legacy)', value: 'v1'}
+                        ]}
+                    />
+                    <Select placeholder="Semestre" data={semesters} {...form.getInputProps("SEMESTER")}/>
+                    <Group spacing={6}>
+                        <Badge color={apiVersion === 'v2' ? 'teal' : 'gray'}>Current: {apiVersion}</Badge>
+                        {apiVersion === 'v2' && <Text size="xs" color="dimmed">Go 版本，性能更好</Text>}
+                        {apiVersion === 'v1' && <Text size="xs" color="dimmed">Python 版本（兼容模式）</Text>}
+                    </Group>
+                </Stack>
                 <Select data={parcours} placeholder="Parcours" {...form.getInputProps("MAJ")}
                         sx={{marginBottom: 20}}/>
                 {fields.length > 0 ? (
