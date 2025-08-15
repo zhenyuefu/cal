@@ -7,8 +7,6 @@ import {useState, useMemo} from "react";
 
 
 export default function IndexPage() {
-    const params = new URLSearchParams();
-
     // API 版本：v2(Go) 默认 / 可切换回 v1(Python)
     const [apiVersion, setApiVersion] = useState<'v1' | 'v2'>('v2');
 
@@ -111,25 +109,23 @@ export default function IndexPage() {
         {value: "SFPN", label: "SFPN"},
     ]
 
-    form.values.MAJ ? params.set("MAJ", form.values.MAJ) : null;
-    form.values.UE.forEach((ue) => {
-        if (ue.name !== "" && ue.group !== "") {
-            params.set(ue.name, ue.group.toString());
-        }
-    });
     const cal_url = useMemo(() => {
-        const semesterSuffix = form.getInputProps("SEMESTER").value; // "", "s2", "s3"
-        const paramString = params.toString();
+        const params = new URLSearchParams();
+        if (form.values.MAJ) params.set("MAJ", form.values.MAJ);
+        form.values.UE.forEach(ue => {
+            if (ue.name && ue.group) params.set(ue.name, ue.group.toString());
+        });
+        const semesterSuffix = form.values.SEMESTER; // "", "s2", "s3"
         let base: string;
         if (apiVersion === 'v2') {
             base = `webcal://cal.fuzy.tech/api/v2/cal`;
-            const seg = new URLSearchParams(paramString);
-            if (semesterSuffix) seg.set('SEMESTER', semesterSuffix);
-            const s = seg.toString();
+            if (semesterSuffix) params.set('SEMESTER', semesterSuffix);
+            const s = params.toString();
             return s ? `${base}?${s}` : base;
         } else {
             base = `webcal://cal.fuzy.tech/api/gen${semesterSuffix}`;
-            return paramString ? `${base}?${paramString}` : base;
+            const s = params.toString();
+            return s ? `${base}?${s}` : base;
         }
     }, [apiVersion, form.values.SEMESTER, form.values.MAJ, JSON.stringify(form.values.UE)]);
     const fields = form.values.UE.map((item, index) => (
