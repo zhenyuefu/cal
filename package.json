@@ -3,7 +3,7 @@
   "version": "0.2.0",
   "private": true,
   "engines": {
-    "node": ">=20"
+    "node": "22.x"
   },
   "packageManager": "pnpm@9.0.0",
   "scripts": {
@@ -13,23 +13,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emotion/react": "^11.13.0",
-    "@emotion/server": "^11.13.0",
-    "@mantine/core": "^5.10.5",
-    "@mantine/form": "^5.10.5",
-    "@mantine/hooks": "^5.10.5",
-    "@mantine/next": "^5.10.5",
-    "@tabler/icons": "^2.47.0",
-    "next": "^14.2.5",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@mantine/core": "^8.2.4",
+    "@mantine/form": "^8.2.4",
+    "@mantine/hooks": "^8.2.4",
+    "@mantine/next": "^6.0.22",
+    "@tabler/icons-react": "^3.34.1",
+    "next": "^15.4.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@types/node": "20.11.30",
-    "@types/react": "18.2.25",
-    "@types/react-dom": "18.2.11",
-    "eslint": "^8.57.0",
-    "eslint-config-next": "^14.2.5",
-    "typescript": "^5.4.5"
+    "@types/react": "^19.1.10"
   }
 }
