@@ -18,9 +18,11 @@ def get_url(ue, master_year):
 
 
 def get_remote(ue, master_year):
-    cal[f"{ue}{master_year}"] = Calendar(
-        requests.get(get_url(ue, master_year), auth=user, verify=False).text
-    )
+    resp = requests.get(get_url(ue, master_year), auth=user, verify=False)
+    # 强制使用 UTF-8 解析，防止服务器未声明编码导致后续写入问题
+    if not resp.encoding:
+        resp.encoding = "utf-8"
+    cal[f"{ue}{master_year}"] = Calendar(resp.text)
 
 
 def remove_events_before(c: Calendar, date: date):
@@ -36,8 +38,13 @@ def save(ue, master_year):
         ues = ue
     # 保存 ICS 文件
     ics_path = join("data", f"{master_year}_{ues}.ics")
-    with open(ics_path, "w") as f:
-        f.write(cal[f"{ue}{master_year}"].serialize())
+    with open(ics_path, "w", encoding="utf-8", newline="") as f:
+        data_str = cal[f"{ue}{master_year}"].serialize()
+        # 确保无法编码字符不会中断（极少数非法码点时 fallback）
+        try:
+            f.write(data_str)
+        except UnicodeEncodeError:
+            f.write(data_str.encode("utf-8", errors="ignore").decode("utf-8"))
 
     # 生成精简 JSON 索引（降低函数冷启动解析成本）
     index_dir = join("data", "index")
