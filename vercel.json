@@ -1,0 +1,36 @@
+{
+  "functions": {
+    "api/v2/cal.go": {
+      "runtime": "@vercel/go"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/v2/cal",
+      "destination": "/api/v2/cal.go"
+    },
+    {
+      "source": "/api/v2/health",
+      "destination": "/api/v2/cal.go"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/api/v2/(.*)",
+      "headers": [
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",  
+          "value": "GET, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "Content-Type"
+        }
+      ]
+    }
+  ]
+}
