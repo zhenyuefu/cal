@@ -5,7 +5,19 @@ import {IconCalendarEvent, IconCheck, IconCopy, IconTrash} from "@tabler/icons-r
 import Link from "next/link";
 
 
-export default function IndexPage() {
+import fs from "fs";
+import path from "path";
+import type { GetStaticProps } from "next";
+
+type Option = { label: string; value: string };
+type Props = {
+  optionsS1: Option[];
+  optionsS2: Option[];
+  optionsS3: Option[];
+  groupCounts: Record<string, number>;
+};
+
+export default function IndexPage({ optionsS1, optionsS2, optionsS3, groupCounts }: Props) {
     const params = new URLSearchParams();
 
 
@@ -20,80 +32,10 @@ export default function IndexPage() {
     const semesters = [{label: "Semestre 1", value: ""}, {label: "Semestre 2", value: "s2"}, {label: "Semestre 3", value: "s3"}];
 
 
-    // 存储每个UE的组的数量
-    const groupCount = {
-        "RA": 2,
-        "MU4IN811": 2,
-        "IAMSI": 2,
-        "MOGPL": 4,
-        "MLBDA": 3,
-        "LRC": 5,
-        "MAPSI": 5,
-        "BIMA": 2,
-        "COMPLEX": 2,
-        "IL": 3,
-        "DLP": 2,
-        "ALGAV": 2,
-        "MU5IN259": 2,
-        "MU5IN862": 2,
-        "MU5IN861": 3,
-        "OIP": 2,
-        "MU5IN652": 3
-    };
-
-    const ue_s1 = [
-        {value: "MOGPL", label: "MOGPL"},
-        {value: "IL", label: "IL"},
-        {value: "LRC", label: "LRC"},
-        {value: "MLBDA", label: "MLBDA"},
-        {value: "MAPSI", label: "MAPSI"},
-        {value: "BIMA", label: "BIMA"},
-        {value: "COMPLEX", label: "COMPLEX"},
-        {value: "MODEL", label: "MODEL"},
-        {value: "PPAR", label: "PPAR"},
-        {value: "ALGAV", label: "ALGAV"},
-        {value: "DLP", label: "DLP"},
-        {value: "OUV", label: "OUV"},
-    ]
-
-    const ue_s2 = [
-        {value: "DJ", label: "DJ"},
-        {value: "MU4IN202", label: "FoSyMa"},
-        {value: "IHM", label: "IHM"},
-        {value: "RA", label: "RA"},
-        {value: "RP", label: "RP"},
-        {value: "RITAL", label: "RITAL"},
-        {value: "MU4IN811", label: "ML"},
-        {value: "MU4IN812", label: "MLL"},
-        {value: "IAMSI", label: "IAMSI"},
-        {value: "SAM", label: "SAM"},
-        {value: "IG3D", label: "IG3D"},
-        {value: "MU4IN910", label: "ANUM"},
-    ]
-
-    const ue_s3 = [
-        {value: "MU5IN250", label: "COCOMA"},
-        {value: "MU5IN254", label: "MOSIMA"},
-        {value: "MU5IN258", label: "ISG"},
-        {value: "MU5IN256", label: "MADMC"},
-        {value: "MU5IN257", label: "AOTJ"},
-        {value: "MU5IN251", label: "MAOA"},
-        {value: "MU5IN252", label: "EVHI"},
-        {value: "MU5IN259", label: "IAR"},
-        {value: "MU5IN852", label: "BDLE"},
-        {value: "MU5IN860", label: "LODAS"},
-        {value: "MU5IN861", label: "AMAL"},
-        {value: "MU5IN862", label: "RLD"},
-        {value: "MU5IN863", label: "REDS"},
-        {value: "XAI", label: "XAI"},
-        {value: "OIP", label: "OIP"},
-        {value: "MU5IN656", label: "PRAT"},
-        {value: "MU5IN651", label: "VISION"},
-        {value: "MU5IN654", label: "BIOMED"},
-        {value: "MU5IN652", label: "RDFIA"},
-        {value: "MU5IN650", label: "TADI"},
-        {value: "MU5IN653", label: "IG3DA"}
-    ]
+    // 动态生成的 UE 列表与组数，由 getStaticProps 提供
+    const ue_s1 = optionsS1;
+    const ue_s2 = optionsS2;
+    const ue_s3 = optionsS3;
 
     const parcours = [
         {value: "AND", label: "AND"},
@@ -110,6 +52,7 @@ export default function IndexPage() {
     form.values.MAJ ? params.set("MAJ", form.values.MAJ) : null;
     form.values.UE.forEach((ue, index) => {
         if (ue.name !== "" && ue.group) {
+            // 直接使用裁剪后的代码/特殊键作为后端键
             params.set(ue.name, String(ue.group));
         }
     });
@@ -125,8 +68,7 @@ export default function IndexPage() {
             <Select
                 placeholder="Group"
                 data={form.getInputProps(`UE.${index}.name`).value ? createGroups(
-                        // @ts-ignore
-                        form.getInputProps(`UE.${index}.name`).value in groupCount ? groupCount[form.getInputProps(`UE.${index}.name`).value] : 1)
+                        form.getInputProps(`UE.${index}.name`).value in groupCounts ? groupCounts[form.getInputProps(`UE.${index}.name`).value] : 1)
                     : createGroups(1)}
                 style={{flex: 1}}
                 {...form.getInputProps(`UE.${index}.group`)}
@@ -222,3 +164,30 @@ function createGroups(n: number) {
         label: `Group ${i + 1}`,
     }));
 }
+
+// 从 ICS 与 Python 映射中生成动态的 UE 列表与组数
+export const getStaticProps: GetStaticProps<Props> = async () => {
+  const catalogPath = path.join(process.cwd(), "data", "courses.json");
+  const raw = fs.readFileSync(catalogPath, "utf-8");
+  const catalog = JSON.parse(raw) as {
+    s1: Record<string, { label: string; parcours: string; groups: number }>;
+    s2: Record<string, { label: string; parcours: string; groups: number }>;
+    s3: Record<string, { label: string; parcours: string; groups: number }>;
+  };
+
+  const toOptions = (entries: Record<string, { label: string }>): Option[] =>
+    Object.entries(entries)
+      .map(([code, info]) => ({ value: code, label: info.label || code }))
+      .sort((a, b) => a.label.localeCompare(b.label));
+
+  const optionsS1 = toOptions(catalog.s1);
+  const optionsS2 = toOptions(catalog.s2);
+  const optionsS3 = toOptions(catalog.s3);
+
+  const groupCounts: Record<string, number> = {};
+  for (const [code, info] of Object.entries(catalog.s1)) groupCounts[code] = info.groups || 1;
+  for (const [code, info] of Object.entries(catalog.s2)) groupCounts[code] = info.groups || 1;
+  for (const [code, info] of Object.entries(catalog.s3)) groupCounts[code] = info.groups || 1;
+
+  return { props: { optionsS1, optionsS2, optionsS3, groupCounts } };
+};
