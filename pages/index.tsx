@@ -1,8 +1,8 @@
 import {useForm} from "@mantine/form";
 import {ActionIcon, Box, Button, Center, Code, CopyButton, Group, Select, Text, Tooltip} from "@mantine/core";
 import {randomId} from "@mantine/hooks";
-import {IconCalendarEvent, IconCheck, IconCopy, IconTrash} from "@tabler/icons";
-import {NextLink} from "@mantine/next";
+import {IconCalendarEvent, IconCheck, IconCopy, IconTrash} from "@tabler/icons-react";
+import Link from "next/link";
 
 
 export default function IndexPage() {
@@ -12,7 +12,7 @@ export default function IndexPage() {
     const form = useForm({
         initialValues: {
             SEMESTER: "s2",
-            UE: [{name: "", group: 1, key: randomId()}],
+            UE: [{name: "", group: "1", key: randomId()}],
             MAJ: ""
         },
     });
@@ -109,8 +109,8 @@ export default function IndexPage() {
 
     form.values.MAJ ? params.set("MAJ", form.values.MAJ) : null;
     form.values.UE.forEach((ue, index) => {
-        if (ue.name !== "" && ue.group !== 0) {
-            params.set(ue.name, ue.group.toString());
+        if (ue.name !== "" && ue.group) {
+            params.set(ue.name, String(ue.group));
         }
     });
     const cal_url = `webcal://cal.fuzy.tech/api/gen` + form.getInputProps("SEMESTER").value + `?` + params.toString();
@@ -119,7 +119,7 @@ export default function IndexPage() {
             <Select
                 placeholder="UE"
                 data={form.getInputProps("SEMESTER").value === "s2" ? ue_s2 : form.getInputProps("SEMESTER").value === "s3" ? ue_s3 : ue_s1}
-                sx={{flex: 1}}
+                style={{flex: 1}}
                 {...form.getInputProps(`UE.${index}.name`)}
             />
             <Select
@@ -128,7 +128,7 @@ export default function IndexPage() {
                         // @ts-ignore
                         form.getInputProps(`UE.${index}.name`).value in groupCount ? groupCount[form.getInputProps(`UE.${index}.name`).value] : 1)
                     : createGroups(1)}
-                sx={{flex: 1}}
+                style={{flex: 1}}
                 {...form.getInputProps(`UE.${index}.group`)}
             />
             <ActionIcon
@@ -142,34 +142,34 @@ export default function IndexPage() {
 
     return (
         <Center>
-            <Box sx={{maxWidth: 500}} mx="auto" style={{margin: 20}}>
+            <Box style={{maxWidth: 500, margin: 20}} mx="auto">
                 <Select placeholder="Semestre" data={semesters} {...form.getInputProps("SEMESTER")}/>
                 <Select data={parcours} placeholder="Parcours" {...form.getInputProps("MAJ")}
-                        sx={{marginBottom: 20}}/>
+                        style={{marginBottom: 20}}/>
                 {fields.length > 0 ? (
                     <Group mb="xs">
-                        <Text size="sm" weight={500} sx={{flex: 1}}>
+                        <Text size="sm" fw={500} style={{flex: 1}}>
                             UE
                         </Text>
-                        <Text size="sm" weight={500} sx={{flex: 1}}>
+                        <Text size="sm" fw={500} style={{flex: 1}}>
                             Group
                         </Text>
 
                     </Group>
                 ) : (
-                    <Text color="dimmed" align="center">
+                    <Text c="dimmed" ta="center">
                         No UE here...
                     </Text>
                 )}
 
                 {fields}
 
-                <Group position="center" mt="md">
+                <Group justify="center" mt="md">
                     <Button
                         onClick={() =>
                             form.insertListItem("UE", {
                                 name: "",
-                                group: 1,
+                                group: "1",
                                 key: randomId(),
                             })
                         }
@@ -178,17 +178,19 @@ export default function IndexPage() {
                     </Button>
                 </Group>
 
-                <Text size="sm" weight={500} mt="md" sx={{marginBottom: 10}}>
+                <Text size="sm" fw={500} mt="md" style={{marginBottom: 10}}>
                     For your subscription link, please copy it and add it to your calendar:
                 </Text>
 
                 <div style={{display: "flex", float: "right", position: "relative", alignSelf: "right", top: 5}}>
 
-                    <NextLink href={cal_url}>
-                        <ActionIcon>
-                            <IconCalendarEvent size={16}/>
-                        </ActionIcon>
-                    </NextLink>
+                    <Link href={cal_url} legacyBehavior>
+                        <a>
+                            <ActionIcon>
+                                <IconCalendarEvent size={16}/>
+                            </ActionIcon>
+                        </a>
+                    </Link>
 
                     <CopyButton value={cal_url} timeout={2000}>
                         {({copied, copy}) => (
@@ -203,12 +205,11 @@ export default function IndexPage() {
 
                 <Code block style={{marginBottom: 10}}>{cal_url}</Code>
 
-                <Text variant="link" component="a" href="https://support.apple.com/guide/iphone/iph3d1110d4/ios"
-                      sx={{display: "flex"}}>ios subscription instructions</Text>
-                <Text variant="link" component="a" href="https://support.google.com/calendar/answer/37100"
-                      sx={{display: "flex"}}>google calendar subscription instructions</Text>
-                <Text variant="link" component="a" href="https://github.com/zhenyuefu/cal"
-                      sx={{display: "flex"}}>github source code</Text>
+                <Text component="div" style={{display: "flex", flexDirection: "column", gap: 6}}>
+                  <a href="https://support.apple.com/guide/iphone/iph3d1110d4/ios" target="_blank" rel="noreferrer" style={{textDecoration: 'underline'}}>ios subscription instructions</a>
+                  <a href="https://support.google.com/calendar/answer/37100" target="_blank" rel="noreferrer" style={{textDecoration: 'underline'}}>google calendar subscription instructions</a>
+                  <a href="https://github.com/zhenyuefu/cal" target="_blank" rel="noreferrer" style={{textDecoration: 'underline'}}>github source code</a>
+                </Text>
             </Box>
         </Center>
     )
@@ -217,7 +218,7 @@ export default function IndexPage() {
 
 function createGroups(n: number) {
     return Array.from({length: n}, (_, i) => ({
-        value: i + 1,
+        value: String(i + 1),
         label: `Group ${i + 1}`,
     }));
 }
