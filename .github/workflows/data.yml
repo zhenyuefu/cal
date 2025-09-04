@@ -1,0 +1,43 @@
+name: Data Refresh
+
+on:
+  schedule:
+    - cron: "30 06 * * 1,2,3,4,5"
+  workflow_dispatch: {}
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Setup Rust
+        uses: actions-rust-lang/setup-rust-toolchain@v1
+        with:
+          toolchain: stable
+          target: wasm32-unknown-unknown
+
+      - name: Fetch ICS
+        env:
+          CAL_USERNAME: ${{ secrets.CAL_USERNAME }}
+          CAL_PASSWORD: ${{ secrets.CAL_PASSWORD }}
+        run: |
+          npm run fetch
+
+      - name: Preprocess JSON
+        run: npm run preprocess
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add data/preprocessed data/etag-map.json || true
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(data): refresh calendar"
+            git push
+          else
+            echo "No changes to commit"
+          fi

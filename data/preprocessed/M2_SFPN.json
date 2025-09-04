@@ -1,0 +1,911 @@
+{
+  "master_year": "M2",
+  "parcours": "SFPN",
+  "courses": [
+    {
+      "name": "AFAE",
+      "code": "950",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "7F59D7BC-9A1F-4BE8-B2FD-473309CF867D",
+              "summary": "MU5IN950-AFAE-Cours",
+              "location": "Résa n° 669693",
+              "start": "2025-09-23T06:30:00+00:00",
+              "end": "2025-09-23T08:30:00+00:00"
+            },
+            {
+              "uid": "DF20F7C9-9BFD-4F3A-AF17-A15B677A3000",
+              "summary": "MU5IN950-AFAE-Cours",
+              "location": "Résa n° 669694",
+              "start": "2025-10-07T06:30:00+00:00",
+              "end": "2025-10-07T08:30:00+00:00"
+            },
+            {
+              "uid": "D19C552B-ED11-4502-A8F9-3E7757DA79AC",
+              "summary": "MU5IN950-AFAE-Cours",
+              "location": "Salle: 24.34.103",
+              "start": "2025-10-21T06:30:00+00:00",
+              "end": "2025-10-21T08:30:00+00:00"
+            },
+            {
+              "uid": "1393A168-D1B9-4940-8DFF-A24E62BBC09E",
+              "summary": "MU5IN950-AFAE-Cours",
+              "location": "Résa n° 669696",
+              "start": "2025-11-04T07:30:00+00:00",
+              "end": "2025-11-04T09:30:00+00:00"
+            },
+            {
+              "uid": "46448463-A421-41BF-866E-CB2EFA7CFD5A",
+              "summary": "UM5IN950-AFAE-Cours",
+              "location": "Résa n° 669697",
+              "start": "2025-11-18T09:45:00+00:00",
+              "end": "2025-11-18T11:45:00+00:00"
+            },
+            {
+              "uid": "A2EC416C-7087-4942-846D-5E7EBFCFD634",
+              "summary": "MU5IN950-AFAE-Cours",
+              "location": "Résa n° 669697",
+              "start": "2025-11-18T07:30:00+00:00",
+              "end": "2025-11-18T09:30:00+00:00"
+            },
+            {
+              "uid": "1B0DC4B1-1D44-47C7-8C29-5141BC2E95FE",
+              "summary": "MU5IN950-AFAE-Cours",
+              "location": "Résa n° 669698",
+              "start": "2025-12-02T07:30:00+00:00",
+              "end": "2025-12-02T09:30:00+00:00"
+            },
+            {
+              "uid": "98CD1AA7-38AB-4B5C-9E7A-E54AFA9C16FA",
+              "summary": "UM5IN950-AFAE-Cours",
+              "location": "Résa n° 669698",
+              "start": "2025-12-02T09:45:00+00:00",
+              "end": "2025-12-02T11:45:00+00:00"
+            },
+            {
+              "uid": "20CC5893-60FE-462B-A866-780460BAC549",
+              "summary": "MU5IN950-AFAE-Cours",
+              "location": "Résa n° 669699",
+              "start": "2026-01-06T07:30:00+00:00",
+              "end": "2026-01-06T09:30:00+00:00"
+            },
+            {
+              "uid": "12E414DD-1283-4F16-9107-2F2A8240A856",
+              "summary": "UM5IN950-AFAE-Cours",
+              "location": "Résa n° 669699",
+              "start": "2026-01-06T09:45:00+00:00",
+              "end": "2026-01-06T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "C8800ABD-FF35-4176-A414-619AD8B30521",
+              "summary": "MU5IN950-AFAE-Examen2ndeSession",
+              "location": "Salle 24.34.202",
+              "start": "2025-09-02T06:30:00+00:00",
+              "end": "2025-09-02T08:30:00+00:00"
+            },
+            {
+              "uid": "3EAA235E-0EF4-4BA4-A975-09B84B6C44A0",
+              "summary": "UM5IN950-AFAE-ExamenR2",
+              "location": null,
+              "start": "2026-02-10T09:00:00+00:00",
+              "end": "2026-02-10T11:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "E480A690-6AAC-4AF0-A8A5-27559F3750BC",
+              "summary": "UM5IN950-AFAE-TD",
+              "location": "Résa n° 669693",
+              "start": "2025-09-23T08:45:00+00:00",
+              "end": "2025-09-23T10:45:00+00:00"
+            },
+            {
+              "uid": "AAC0344B-853D-43CF-AB59-99DF1C8E6D7C",
+              "summary": "UM5IN950-AFAE-TD",
+              "location": "Résa n° 669693",
+              "start": "2025-09-30T06:30:00+00:00",
+              "end": "2025-09-30T08:30:00+00:00"
+            },
+            {
+              "uid": "F007A06D-9EC4-4CD0-BFD1-CB319A1680DB",
+              "summary": "UM5IN950-AFAE-TD",
+              "location": "Salle: 24.34.103",
+              "start": "2025-10-21T08:45:00+00:00",
+              "end": "2025-10-21T10:45:00+00:00"
+            },
+            {
+              "uid": "12E414DD-1283-4F16-9107-2F2A8240A856",
+              "summary": "UM5IN950-AFAE-TD",
+              "location": "Résa n° 669699",
+              "start": "2026-01-06T09:45:00+00:00",
+              "end": "2026-01-06T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "4251C16B-5892-48C1-9BB9-24F1A9999CF3",
+              "summary": "UM5IN950-AFAE-TME",
+              "location": "En attente de salle",
+              "start": "2025-10-07T08:45:00+00:00",
+              "end": "2025-10-07T10:45:00+00:00"
+            },
+            {
+              "uid": "2C13226A-F06C-4223-B787-DB3CA2E00C1D",
+              "summary": "UM5IN950-AFAE-TME",
+              "location": "En attente de salle",
+              "start": "2025-11-04T09:45:00+00:00",
+              "end": "2025-11-04T11:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CRYPTA",
+      "code": "951",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "6B68A361-5610-4BD5-A589-570704AF4431",
+              "summary": "UM5IN951-CRYPTA-Cours",
+              "location": "AMPHI 55A",
+              "start": "2025-09-26T06:30:00+00:00",
+              "end": "2025-09-26T08:30:00+00:00"
+            },
+            {
+              "uid": "F2AA9634-772B-400C-90A9-67272D72277E",
+              "summary": "UM5IN951-CRYPTA-Cours",
+              "location": "Salle 14.24.101",
+              "start": "2025-10-03T08:45:00+00:00",
+              "end": "2025-10-03T10:45:00+00:00"
+            },
+            {
+              "uid": "0C5C85B5-E6C9-4157-B99F-49B2DE3CB437",
+              "summary": "UM5IN951-CRYPTA-Cours",
+              "location": "Salle: 24.34.105",
+              "start": "2025-10-24T08:45:00+00:00",
+              "end": "2025-10-24T10:45:00+00:00"
+            },
+            {
+              "uid": "28DF5BE6-6747-4492-BA9C-6899776187A9",
+              "summary": "UM5IN951-CRYPTA-Cours",
+              "location": "Résa n° 668342",
+              "start": "2025-10-17T06:30:00+00:00",
+              "end": "2025-10-17T08:30:00+00:00"
+            },
+            {
+              "uid": "BC48DC46-FED9-4B2C-892C-D95ACBB281D9",
+              "summary": "UM5IN951-CRYPTA-Cours",
+              "location": "Résa n° 668354",
+              "start": "2025-11-21T07:30:00+00:00",
+              "end": "2025-11-21T09:30:00+00:00"
+            },
+            {
+              "uid": "D34803C1-F6C3-4F70-AF51-90A5322D0916",
+              "summary": "UM5IN951-CRYPTA-Cours",
+              "location": "Résa n° 668356",
+              "start": "2025-12-05T09:45:00+00:00",
+              "end": "2025-12-05T11:45:00+00:00"
+            },
+            {
+              "uid": "32A7C4F3-56EF-4170-878A-DF29B8FFA6FE",
+              "summary": "UM5IN951-CRYPTA-Cours",
+              "location": "Résa n° 668359",
+              "start": "2025-12-19T07:30:00+00:00",
+              "end": "2025-12-19T09:30:00+00:00"
+            },
+            {
+              "uid": "36F21BB0-59B2-428B-A498-4D5824879086",
+              "summary": "UM5IN951-CRYPTA-CS",
+              "location": "Résa n° 668470",
+              "start": "2026-01-23T07:30:00+00:00",
+              "end": "2026-01-23T09:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "B8E456A3-FDC9-4590-B3C1-934F569F00FF",
+              "summary": "UM5IN951-CRYPTA-ExamenR1",
+              "location": null,
+              "start": "2025-11-28T09:45:00+00:00",
+              "end": "2025-11-28T11:45:00+00:00"
+            },
+            {
+              "uid": "4B7137EC-800C-4416-8D2A-0DC2C8018A69",
+              "summary": "MU5IN951-CRYPTA-Examen2ndeSession",
+              "location": "Salle: 14.24.106",
+              "start": "2025-09-04T06:30:00+00:00",
+              "end": "2025-09-04T08:30:00+00:00"
+            },
+            {
+              "uid": "2AEC6A1C-C63B-4518-AE7B-F24D2FF329F9",
+              "summary": "UM5IN951-CRYPTA-ExamenR2",
+              "location": null,
+              "start": "2026-02-13T09:00:00+00:00",
+              "end": "2026-02-13T11:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "20BE770D-B65B-4B7C-BC04-88C37B9B0E63",
+              "summary": "UM5IN951-CRYPTA-TD",
+              "location": "AMPHI 55A",
+              "start": "2025-09-26T08:45:00+00:00",
+              "end": "2025-09-26T10:45:00+00:00"
+            },
+            {
+              "uid": "0D9844E4-2E99-4A92-8BCD-33341576FA33",
+              "summary": "UM5IN951-CRYPTA-TD",
+              "location": "Salle 24.34.103",
+              "start": "2025-10-10T06:30:00+00:00",
+              "end": "2025-10-10T08:30:00+00:00"
+            },
+            {
+              "uid": "785F9739-3AA3-402F-880F-F3512A5428E2",
+              "summary": "UM5IN951-CRYPTA-TD",
+              "location": "Salle: 14.24.107",
+              "start": "2025-10-17T08:45:00+00:00",
+              "end": "2025-10-17T10:45:00+00:00"
+            },
+            {
+              "uid": "C2CC4D62-5743-436D-9F94-32893DC705DF",
+              "summary": "UM5IN951-CRYPTA-TD",
+              "location": "Résa n° 668346",
+              "start": "2025-11-07T07:30:00+00:00",
+              "end": "2025-11-07T09:30:00+00:00"
+            },
+            {
+              "uid": "66F7A837-1CB5-442E-A971-FBFF13235599",
+              "summary": "UM5IN951-CRYPTA-TD",
+              "location": "Résa n° 668354",
+              "start": "2025-11-21T09:45:00+00:00",
+              "end": "2025-11-21T11:45:00+00:00"
+            },
+            {
+              "uid": "0569EDA5-B686-4A0E-8888-44F40895234F",
+              "summary": "UM5IN951-CRYPTA-TD",
+              "location": "Résa n° 668357",
+              "start": "2025-12-12T07:30:00+00:00",
+              "end": "2025-12-12T09:30:00+00:00"
+            },
+            {
+              "uid": "B04D05D9-88DB-427B-B521-2B106B69B29E",
+              "summary": "UM5IN951-CRYPTA-TD",
+              "location": "Résa n° 668359",
+              "start": "2025-12-19T09:45:00+00:00",
+              "end": "2025-12-19T11:45:00+00:00"
+            },
+            {
+              "uid": "F1A7A82C-D0C0-42D8-990D-9A543BE21713",
+              "summary": "UM5IN951-CRYPTA-TD",
+              "location": "Résa n° 668468",
+              "start": "2026-01-09T09:45:00+00:00",
+              "end": "2026-01-09T11:45:00+00:00"
+            },
+            {
+              "uid": "833671E5-4566-4B5A-A637-183F0B566C4A",
+              "summary": "UM5IN951-CRYPTA-TD",
+              "location": "Résa n° 668469",
+              "start": "2026-01-16T07:30:00+00:00",
+              "end": "2026-01-16T09:30:00+00:00"
+            },
+            {
+              "uid": "EABF3C6C-BB4A-4ABE-8FBA-1A3A70D7844D",
+              "summary": "UM5IN951-CRYPTA-TD",
+              "location": "Résa n° 668470",
+              "start": "2026-01-23T09:45:00+00:00",
+              "end": "2026-01-23T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "5D9219DD-94EB-4F4B-9556-45C0F1338112",
+              "summary": "UM5IN951-CRYPTA-TME",
+              "location": "En attente de salle",
+              "start": "2025-10-03T06:30:00+00:00",
+              "end": "2025-10-03T08:30:00+00:00"
+            },
+            {
+              "uid": "9A613A86-267E-41B6-9A05-11AF502B6F5B",
+              "summary": "UM5IN951-CRYPTA-TME",
+              "location": "En attente de salle",
+              "start": "2025-10-10T08:45:00+00:00",
+              "end": "2025-10-10T10:45:00+00:00"
+            },
+            {
+              "uid": "320299A1-EA85-492D-A26E-DF53E82B8919",
+              "summary": "UM5IN951-CRYPTA-TME",
+              "location": "En attente de salle",
+              "start": "2025-10-24T06:30:00+00:00",
+              "end": "2025-10-24T08:30:00+00:00"
+            },
+            {
+              "uid": "FF1681C0-325C-4EF5-8F3E-4363A47041C4",
+              "summary": "UM5IN951-CRYPTA-TME",
+              "location": "En attente de salle",
+              "start": "2025-11-07T09:45:00+00:00",
+              "end": "2025-11-07T11:45:00+00:00"
+            },
+            {
+              "uid": "D4F6877D-BC9C-4BC1-AF9C-15A766DE6817",
+              "summary": "UM5IN951-CRYPTA-TME",
+              "location": "En attente de salle",
+              "start": "2025-12-05T07:30:00+00:00",
+              "end": "2025-12-05T09:30:00+00:00"
+            },
+            {
+              "uid": "3ABCA55A-C801-43A6-9C3C-901B79909E59",
+              "summary": "UM5IN951-CRYPTA-TME",
+              "location": "En attente de salle",
+              "start": "2025-12-12T09:45:00+00:00",
+              "end": "2025-12-12T11:45:00+00:00"
+            },
+            {
+              "uid": "ADCF02EE-23AF-4695-AAC0-DA8456996FA7",
+              "summary": "UM5IN951-CRYPTA-TME",
+              "location": null,
+              "start": "2026-01-09T07:30:00+00:00",
+              "end": "2026-01-09T09:30:00+00:00"
+            },
+            {
+              "uid": "88B3ECB1-E265-4542-B181-118C3789409C",
+              "summary": "UM5IN951-CRYPTA-TME",
+              "location": null,
+              "start": "2026-01-16T09:45:00+00:00",
+              "end": "2026-01-16T11:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "HPCA",
+      "code": "952",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "1E38660C-C4C3-4186-8CCC-3D8B2AD8639A",
+              "summary": "UM5IN952-HPCA-Cours",
+              "location": "Résa n° 670324",
+              "start": "2025-10-20T11:45:00+00:00",
+              "end": "2025-10-20T13:45:00+00:00"
+            },
+            {
+              "uid": "E87EBB3C-B504-450F-8CE4-A79C3BEE3AFA",
+              "summary": "UM5IN952-HPCA-Cours",
+              "location": "Résa n° 670320",
+              "start": "2025-09-25T11:45:00+00:00",
+              "end": "2025-09-25T16:00:00+00:00"
+            },
+            {
+              "uid": "0E4F812E-00E2-4F30-B1FE-E61CA89F10AB",
+              "summary": "UM5IN952-HPCA-Cours",
+              "location": "Salle: 23.24.101",
+              "start": "2025-10-09T11:45:00+00:00",
+              "end": "2025-10-09T13:45:00+00:00"
+            },
+            {
+              "uid": "478109F8-836E-49D0-A77A-857DF50DDD76",
+              "summary": "UM5IN952-HPCA-Cours",
+              "location": "Résa n° 670322",
+              "start": "2025-11-06T12:45:00+00:00",
+              "end": "2025-11-06T14:45:00+00:00"
+            },
+            {
+              "uid": "B37A0E75-C599-4B06-86F4-5AF29ACC5506",
+              "summary": "UM5IN952-HPCA-Cours",
+              "location": "Résa  n° 670323",
+              "start": "2025-10-23T11:45:00+00:00",
+              "end": "2025-10-23T13:45:00+00:00"
+            },
+            {
+              "uid": "B37A0E75-C599-4B06-86F4-5AF29ACC5506",
+              "summary": "UM5IN952-HPCA-Cours",
+              "location": "Résa  n° 670323",
+              "start": "2025-10-23T11:45:00+00:00",
+              "end": "2025-10-23T13:45:00+00:00"
+            },
+            {
+              "uid": "93DBBDF5-4D5F-4051-872F-9E1124C71717",
+              "summary": "UM5IN952-HPCA-Cours",
+              "location": "Résa n° 670327",
+              "start": "2025-12-04T12:45:00+00:00",
+              "end": "2025-12-04T17:00:00+00:00"
+            },
+            {
+              "uid": "18754779-1093-4692-A59C-329F3C00B817",
+              "summary": "UM5IN952-HPCA-Cours",
+              "location": "Résa n° 670328",
+              "start": "2026-01-08T12:45:00+00:00",
+              "end": "2026-01-08T17:00:00+00:00"
+            },
+            {
+              "uid": "7130165B-2B75-4DD4-A685-C6135B6945D5",
+              "summary": "UM5IN952-HPCA-Cours",
+              "location": "Résa n° 670332",
+              "start": "2026-01-29T12:45:00+00:00",
+              "end": "2026-01-29T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "6675F829-A45C-45E5-A75D-A0F00FBF9832",
+              "summary": "UM5IN952-HPCA-Examen2ndeSession",
+              "location": "Salle: 14.24.203",
+              "start": "2025-09-04T12:00:00+00:00",
+              "end": "2025-09-04T15:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "4CA8D5CE-DB92-4AFE-BF2C-4E0C22B0E9AC",
+              "summary": "UM5IN952-HPCA-TME",
+              "location": "En attente de salle",
+              "start": "2025-10-20T14:00:00+00:00",
+              "end": "2025-10-20T16:00:00+00:00"
+            },
+            {
+              "uid": "AF060111-7A8F-491A-B9F6-1E9F9BFEC98A",
+              "summary": "UM5IN952-HPCA-TME",
+              "location": "En attente de salle",
+              "start": "2025-10-02T11:45:00+00:00",
+              "end": "2025-10-02T16:00:00+00:00"
+            },
+            {
+              "uid": "A6054728-F72D-4C58-9B5E-EA36E4E43A21",
+              "summary": "UM5IN952-HPCA-TME",
+              "location": "En attente de salle",
+              "start": "2025-10-09T14:00:00+00:00",
+              "end": "2025-10-09T16:00:00+00:00"
+            },
+            {
+              "uid": "15F4509D-69E2-4E8E-B327-24A8F1559AEC",
+              "summary": "UM5IN952-HPCA-TME",
+              "location": "En attente de salle",
+              "start": "2025-10-23T14:00:00+00:00",
+              "end": "2025-10-23T16:00:00+00:00"
+            },
+            {
+              "uid": "C8DB4656-66A9-466A-804C-D15FD673F201",
+              "summary": "UM5IN952-HPCA-TME",
+              "location": "En attente de salle",
+              "start": "2025-11-06T15:00:00+00:00",
+              "end": "2025-11-06T17:00:00+00:00"
+            },
+            {
+              "uid": "E4C40644-9A2A-4E0C-9CD3-79A0B7123790",
+              "summary": "UM5IN952-HPCA-TME",
+              "location": "En attente de salle",
+              "start": "2025-11-20T12:45:00+00:00",
+              "end": "2025-11-20T17:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OIP",
+      "code": "OIP",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "1AC71437-C8D3-49FD-98EF-AEA2724B5FA1",
+              "summary": "OIPCCA- TD",
+              "location": "Résa n° 668643",
+              "start": "2025-11-05T12:45:00+00:00",
+              "end": "2025-11-05T17:00:00+00:00"
+            },
+            {
+              "uid": "34CE71A3-0B3B-4EB4-82C1-EA3F5E89E5CD",
+              "summary": "OIPCCA- TD",
+              "location": "Salle: 24.34.302",
+              "start": "2025-10-01T11:45:00+00:00",
+              "end": "2025-10-01T16:00:00+00:00"
+            },
+            {
+              "uid": "DD9C0D9C-8E8C-4744-B818-E917D56C6A73",
+              "summary": "OIPCCA- TD",
+              "location": "Résa n° 668937",
+              "start": "2025-11-19T12:45:00+00:00",
+              "end": "2025-11-19T17:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "POSSO",
+      "code": "953",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "96FCBDF4-83CB-4D44-9CF0-38230359CEE5",
+              "summary": "UM5IN953-POSSO-Cours",
+              "location": "Résa n° 668462",
+              "start": "2025-09-22T07:30:00+00:00",
+              "end": "2025-09-22T10:45:00+00:00"
+            },
+            {
+              "uid": "72449767-27CC-4ED6-80D0-DD698D8850A0",
+              "summary": "UM5IN953-POSSO-Cours",
+              "location": "Résa n° 668463",
+              "start": "2025-11-10T08:30:00+00:00",
+              "end": "2025-11-10T11:45:00+00:00"
+            },
+            {
+              "uid": "A5DE4864-F2DF-46B0-AA6A-004A5670FDB5",
+              "summary": "UM5IN953-POSSO-CS",
+              "location": "Résa n° 668466",
+              "start": "2026-01-05T08:30:00+00:00",
+              "end": "2026-01-05T11:45:00+00:00"
+            },
+            {
+              "uid": "2DCB36FF-0B2C-492F-8CD6-EFFB174FE6E6",
+              "summary": "UM5IN953-POSSO-Cours",
+              "location": "Résa n° 668463",
+              "start": "2025-11-03T08:30:00+00:00",
+              "end": "2025-11-03T11:45:00+00:00"
+            },
+            {
+              "uid": "2DCB36FF-0B2C-492F-8CD6-EFFB174FE6E6",
+              "summary": "UM5IN953-POSSO-Cours",
+              "location": "Résa n° 670325",
+              "start": "2025-11-17T08:30:00+00:00",
+              "end": "2025-11-17T11:45:00+00:00"
+            },
+            {
+              "uid": "61EBDE22-95AE-48A5-A61C-E2FC093F14A2",
+              "summary": "UM5IN953-POSSO-Cours",
+              "location": "Résa n° 668465",
+              "start": "2025-12-08T08:30:00+00:00",
+              "end": "2025-12-08T11:45:00+00:00"
+            },
+            {
+              "uid": "88BD0362-5FC0-46FC-8909-E02B219673C7",
+              "summary": "UM5IN953-POSSO-CS",
+              "location": "Résa n° 668465",
+              "start": "2025-12-01T08:30:00+00:00",
+              "end": "2025-12-01T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "47BBE375-FC9A-4623-A2BA-AB41DA9FB53C",
+              "summary": "MU5IN953-POSSO-Examen2ndeSession",
+              "location": "Salle: 14.15.106",
+              "start": "2025-09-01T08:45:00+00:00",
+              "end": "2025-09-01T10:45:00+00:00"
+            },
+            {
+              "uid": "75E90334-C5D3-4A32-83C9-6098203D6351",
+              "summary": "UM5IN953-POSSO-ExamenR2",
+              "location": null,
+              "start": "2026-02-09T09:00:00+00:00",
+              "end": "2026-02-09T11:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "429D015F-89D7-4BBA-B23F-266E4FCF2E21",
+              "summary": "UM5IN953-POSSO-TME",
+              "location": "En attente de salle",
+              "start": "2025-09-22T11:45:00+00:00",
+              "end": "2025-09-22T13:45:00+00:00"
+            },
+            {
+              "uid": "E515122B-6437-4098-B95B-BB40B4F869EB",
+              "summary": "UM5IN953-POSSO-TME",
+              "location": "En attente de salle",
+              "start": "2025-11-10T12:45:00+00:00",
+              "end": "2025-11-10T14:45:00+00:00"
+            },
+            {
+              "uid": "D5F5A1E1-F068-45DF-A144-44CDA2C54978",
+              "summary": "UM5IN953-POSSO-TME",
+              "location": "En attente de salle",
+              "start": "2025-11-03T12:45:00+00:00",
+              "end": "2025-11-03T14:45:00+00:00"
+            },
+            {
+              "uid": "62963C06-AC22-417A-9D18-4539A399C0A1",
+              "summary": "UM5IN953-POSSO-TME",
+              "location": "En attente de salle",
+              "start": "2025-12-01T12:45:00+00:00",
+              "end": "2025-12-01T14:45:00+00:00"
+            },
+            {
+              "uid": "A592DF6C-8724-410C-B2FD-6E09F6B754CC",
+              "summary": "UM5IN953-POSSO-TME",
+              "location": "En attente de salle",
+              "start": "2026-01-05T12:45:00+00:00",
+              "end": "2026-01-05T14:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SCA",
+      "code": "954",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "1AC2CBA4-E35D-4324-ACCF-3D142EFEC257",
+              "summary": "UM5IN954-SCA-SC",
+              "location": "Résa n° 668459",
+              "start": "2026-01-16T12:45:00+00:00",
+              "end": "2026-01-16T17:00:00+00:00"
+            },
+            {
+              "uid": "7E7228FA-9154-42AB-A7C3-9BEB313C8767",
+              "summary": "UM5IN954-SCA-SC",
+              "location": "Résa n° 668460",
+              "start": "2026-01-30T12:45:00+00:00",
+              "end": "2026-01-30T17:00:00+00:00"
+            },
+            {
+              "uid": "1EC102B6-3CB2-4104-816E-8DCF8FDEF666",
+              "summary": "UM5IN954-SCA-SC",
+              "location": "Résa n° 668460/ à modifier au 27/01",
+              "start": "2026-01-27T12:45:00+00:00",
+              "end": "2026-01-27T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "84838487-9297-4B4C-99DE-C3E4782FFA29",
+              "summary": "UM5IN954-SCA-Cours",
+              "location": "Résa n° 668360",
+              "start": "2025-09-26T11:45:00+00:00",
+              "end": "2025-09-26T16:00:00+00:00"
+            },
+            {
+              "uid": "84838487-9297-4B4C-99DE-C3E4782FFA29",
+              "summary": "UM5IN954-SCA-Cours",
+              "location": "Salle : 14.24.207",
+              "start": "2025-09-26T11:45:00+00:00",
+              "end": "2025-09-26T16:00:00+00:00"
+            },
+            {
+              "uid": "D5A0A970-E021-4CA5-93F8-3DD19456A355",
+              "summary": "UM5IN954-SCA-Cours",
+              "location": "Résa n° 668362",
+              "start": "2025-12-12T12:45:00+00:00",
+              "end": "2025-12-12T14:45:00+00:00"
+            },
+            {
+              "uid": "A0C4345F-365B-4023-90F8-930ECE2F0CB5",
+              "summary": "UM5IN954-SCA-Cours",
+              "location": "Salle: 24.34.105",
+              "start": "2025-10-24T11:45:00+00:00",
+              "end": "2025-10-24T13:45:00+00:00"
+            },
+            {
+              "uid": "C30A706F-0325-4EC1-BF41-21AC15BFE57E",
+              "summary": "UM5IN954-SCA-Cours",
+              "location": "Résa n° 668360",
+              "start": "2025-10-03T11:45:00+00:00",
+              "end": "2025-10-03T16:00:00+00:00"
+            },
+            {
+              "uid": "C30A706F-0325-4EC1-BF41-21AC15BFE57E",
+              "summary": "UM5IN954-SCA-Cours",
+              "location": "Salle: 14.24.207",
+              "start": "2025-10-03T11:45:00+00:00",
+              "end": "2025-10-03T16:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "47F0013B-27E5-4035-9DBF-A399BB7F2A08",
+              "summary": "MU5IN954-SCA-Examen2ndeSession",
+              "location": "Salle: 14.24.206",
+              "start": "2025-09-05T11:45:00+00:00",
+              "end": "2025-09-05T13:45:00+00:00"
+            },
+            {
+              "uid": "B87A7EFF-9FCE-4FDC-AC5B-8D9EE369FBEA",
+              "summary": "UM5IN954-SCA-ExamenR2",
+              "location": null,
+              "start": "2026-02-13T13:00:00+00:00",
+              "end": "2026-02-13T15:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "44729AFB-7A32-4934-84CE-FC476129F672",
+              "summary": "UM5IN954-SCA-TME",
+              "location": "En attente de salle",
+              "start": "2025-10-24T14:00:00+00:00",
+              "end": "2025-10-24T16:00:00+00:00"
+            },
+            {
+              "uid": "F934A87E-8081-4B88-AC0A-E48F23E06D22",
+              "summary": "UM5IN954-SCA-TME",
+              "location": "En attente de salle",
+              "start": "2025-11-21T12:45:00+00:00",
+              "end": "2025-11-21T17:00:00+00:00"
+            },
+            {
+              "uid": "899AC167-860D-469B-ACE7-C9E86D34530E",
+              "summary": "UM5IN954-SCA-TME",
+              "location": "En attente de salle",
+              "start": "2025-12-05T12:45:00+00:00",
+              "end": "2025-12-05T17:00:00+00:00"
+            },
+            {
+              "uid": "CAD02EE3-278E-4147-8A6E-C8D7DF1D9B40",
+              "summary": "UM5IN954-SCA-TME",
+              "location": "En attente de salle",
+              "start": "2025-12-12T15:00:00+00:00",
+              "end": "2025-12-12T17:00:00+00:00"
+            },
+            {
+              "uid": "9105A2C5-A6A2-469A-8B34-E1C2E94F77E5",
+              "summary": "UM5IN954-SCA-TME",
+              "location": "En attente de salle",
+              "start": "2025-12-19T12:45:00+00:00",
+              "end": "2025-12-19T17:00:00+00:00"
+            },
+            {
+              "uid": "55272015-26AB-4161-944C-FCAC8BA697C6",
+              "summary": "UM5IN954-SCA-TME",
+              "location": "En attente de salle",
+              "start": "2026-01-09T12:45:00+00:00",
+              "end": "2026-01-09T17:00:00+00:00"
+            },
+            {
+              "uid": "365234CE-8733-4A14-9A56-80AE701E606D",
+              "summary": "UM5IN954-SCA-TME",
+              "location": "En attente de salle",
+              "start": "2025-10-10T11:45:00+00:00",
+              "end": "2025-10-10T16:00:00+00:00"
+            },
+            {
+              "uid": "FFF37DA9-F880-4FDD-A086-42D36B77DC3D",
+              "summary": "UM5IN954-SCA-TME",
+              "location": "En attente de salle",
+              "start": "2026-01-23T12:45:00+00:00",
+              "end": "2026-01-23T17:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UM5INSO9-Stage CCA-Soutenance",
+      "code": "special",
+      "special": true,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "E19C51E6-C2F7-48F5-ABD0-17441A8A4A2B",
+              "summary": "UM5INSO9-Stage CCA-Soutenance",
+              "location": "Salle: 56.66.104",
+              "start": "2025-09-02T12:30:00+00:00",
+              "end": "2025-09-02T15:30:00+00:00"
+            },
+            {
+              "uid": "6B11A411-254A-43F4-8514-BAEAE3C6FDBA",
+              "summary": "UM5INSO9-Stage CCA-Soutenance",
+              "location": "Salle: 14.24.316",
+              "start": "2025-09-29T15:00:00+00:00",
+              "end": "2025-09-29T17:00:00+00:00"
+            },
+            {
+              "uid": "B320AA9D-A3E8-4644-81D1-C945513CA226",
+              "summary": "UM5INSO9-Stage CCA-Soutenance",
+              "location": "Salle 26.00.332",
+              "start": "2025-09-08T12:00:00+00:00",
+              "end": "2025-09-08T15:00:00+00:00"
+            },
+            {
+              "uid": "40363C80-3941-4A3E-8FE0-FD48E53A75E6",
+              "summary": "UM5INSO9-Stage CCA-Soutenance",
+              "location": "Salle: 14.24.203",
+              "start": "2025-09-09T07:00:00+00:00",
+              "end": "2025-09-09T10:45:00+00:00"
+            },
+            {
+              "uid": "6DF8E701-DB8B-4427-8CDB-A3F8728DFE5B",
+              "summary": "\\nRéunionM2CCA - Réunion de rentrée",
+              "location": "Salle: 14.24.109",
+              "start": "2025-09-09T13:00:00+00:00",
+              "end": "2025-09-09T14:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "updated_at": "2025-09-04T19:10:29.945503+00:00"
+}

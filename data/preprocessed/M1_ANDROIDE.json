@@ -1,0 +1,452 @@
+{
+  "master_year": "M1",
+  "parcours": "ANDROIDE",
+  "courses": [
+    {
+      "name": "AnglaisAI2D",
+      "code": "Anglais",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "EACA887C-DE31-4120-BF8E-11ADCECA87DB",
+              "summary": "AnglaisAI2D-AnglaisCS",
+              "location": "voir Moodle",
+              "start": "2025-09-18T11:45:00+00:00",
+              "end": "2025-09-18T14:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IREC",
+      "code": "211",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "FCFA6944-7221-4FD0-9E94-A7A8D8EB422B",
+              "summary": "UM4IN211-IREC-Cours",
+              "location": "Salle: 54.55.203",
+              "start": "2025-09-19T08:45:00+00:00",
+              "end": "2025-09-19T10:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MOGPL",
+      "code": "200",
+      "special": false,
+      "groups": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "3180F9F3-127B-4A8A-8B71-58819902DAA1",
+              "summary": "UM4IN200-MOGPL-CS",
+              "location": null,
+              "start": "2025-09-19T06:30:00+00:00",
+              "end": "2025-09-19T08:30:00+00:00"
+            },
+            {
+              "uid": "3180F9F3-127B-4A8A-8B71-58819902DAA1",
+              "summary": "UM4IN200-MOGPL-CS",
+              "location": "Salle: AMPHI.44",
+              "start": "2025-09-19T06:30:00+00:00",
+              "end": "2025-09-19T08:30:00+00:00"
+            },
+            {
+              "uid": "3180F9F3-127B-4A8A-8B71-58819902DAA1",
+              "summary": "UM4IN200-MOGPL-CS",
+              "location": "Salle: AMPHI.44",
+              "start": "2025-09-26T06:30:00+00:00",
+              "end": "2025-09-26T08:30:00+00:00"
+            },
+            {
+              "uid": "35A9BA46-8055-45B2-8017-F3FB65B497F9",
+              "summary": "UM4IN200-MOGPL-CS",
+              "location": null,
+              "start": "2025-11-28T07:30:00+00:00",
+              "end": "2025-11-28T09:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "40AC5808-669A-4C63-8437-CDA02D66FC5D",
+              "summary": "UM4IN200-MOGPL-TD1",
+              "location": null,
+              "start": "2025-09-22T11:45:00+00:00",
+              "end": "2025-09-22T16:00:00+00:00"
+            },
+            {
+              "uid": "45DF724F-CDB9-41AB-91EC-E41724F0A40B",
+              "summary": "UM4IN200-MOGPL-TD1",
+              "location": null,
+              "start": "2025-11-03T12:45:00+00:00",
+              "end": "2025-11-03T14:45:00+00:00"
+            },
+            {
+              "uid": "E8992770-CF7D-4BE4-BFD1-E03E7C6A1C2C",
+              "summary": "UM4IN200-MOGPL-TD1",
+              "location": null,
+              "start": "2025-11-10T12:45:00+00:00",
+              "end": "2025-11-10T17:00:00+00:00"
+            },
+            {
+              "uid": "9B00D2E1-9114-42A3-BD2A-CB8223EB9759",
+              "summary": "UM4IN200-MOGPL-TD1",
+              "location": null,
+              "start": "2025-11-24T12:45:00+00:00",
+              "end": "2025-11-24T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "5113C18D-ED5A-48E4-826A-02965B49C96E",
+              "summary": "UM4IN200-MOGPL-TME1",
+              "location": null,
+              "start": "2025-11-03T15:00:00+00:00",
+              "end": "2025-11-03T17:00:00+00:00"
+            },
+            {
+              "uid": "AB36D20F-3A2C-47A8-B792-E19B665F63A3",
+              "summary": "UM4IN200-MOGPL-TME1",
+              "location": null,
+              "start": "2025-12-15T12:45:00+00:00",
+              "end": "2025-12-15T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "1658EF0D-96FE-4A09-BAA4-38B0A837222F",
+              "summary": "UM4IN200-MOGPL-TD2",
+              "location": null,
+              "start": "2025-09-25T11:45:00+00:00",
+              "end": "2025-09-25T16:00:00+00:00"
+            },
+            {
+              "uid": "B87396B1-F737-4EFF-8C55-4FD619FBA965",
+              "summary": "UM4IN200-MOGPL-TD2 (Rattrapage du 16/10)",
+              "location": null,
+              "start": "2025-10-20T11:45:00+00:00",
+              "end": "2025-10-20T16:00:00+00:00"
+            },
+            {
+              "uid": "B6E327B6-D68A-412E-AD9F-146C36303000",
+              "summary": "UM4IN200-MOGPL-TD2",
+              "location": null,
+              "start": "2025-10-23T11:45:00+00:00",
+              "end": "2025-10-23T13:45:00+00:00"
+            },
+            {
+              "uid": "0174F512-AD3C-4BA3-959E-BD8843991934",
+              "summary": "UM4IN200-MOGPL-TD2",
+              "location": null,
+              "start": "2025-11-06T12:45:00+00:00",
+              "end": "2025-11-06T17:00:00+00:00"
+            },
+            {
+              "uid": "565423EF-674C-4A6C-A6D5-50044C724F56",
+              "summary": "UM4IN200-MOGPL-TD2",
+              "location": null,
+              "start": "2025-11-27T12:45:00+00:00",
+              "end": "2025-11-27T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "DB86BF61-7A07-40B6-95EE-1865D660AA33",
+              "summary": "UM4IN200-MOGPL-TME2",
+              "location": null,
+              "start": "2025-10-23T14:00:00+00:00",
+              "end": "2025-10-23T16:00:00+00:00"
+            },
+            {
+              "uid": "A3B7F200-E60D-453A-A24D-F0AAFF7CEA14",
+              "summary": "UM4IN200-MOGPL-TME2",
+              "location": null,
+              "start": "2025-12-18T12:45:00+00:00",
+              "end": "2025-12-18T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "3",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "8A54C6A6-113F-4371-BD50-FDF1BECA37F0",
+              "summary": "UM4IN200-MOGPL-TD3",
+              "location": null,
+              "start": "2025-10-03T11:45:00+00:00",
+              "end": "2025-10-03T13:45:00+00:00"
+            },
+            {
+              "uid": "44D0786C-547E-4836-B759-6321B41F926E",
+              "summary": "UM4IN200-MOGPL-TD3",
+              "location": null,
+              "start": "2025-10-03T08:45:00+00:00",
+              "end": "2025-10-03T10:45:00+00:00"
+            },
+            {
+              "uid": "20F383A5-6071-4DB1-B7C3-03FF90C89D06",
+              "summary": "UM4IN200-MOGPL-TD3",
+              "location": null,
+              "start": "2025-09-26T08:45:00+00:00",
+              "end": "2025-09-26T10:45:00+00:00"
+            },
+            {
+              "uid": "0C30D2D8-675D-415B-A3F8-44358EB15917",
+              "summary": "UM4IN200-MOGPL-TD3",
+              "location": null,
+              "start": "2025-09-26T11:45:00+00:00",
+              "end": "2025-09-26T13:45:00+00:00"
+            },
+            {
+              "uid": "0C30D2D8-675D-415B-A3F8-44358EB15917",
+              "summary": "UM4IN200-MOGPL-TD3",
+              "location": "Salle: 24.34.210",
+              "start": "2025-09-26T11:45:00+00:00",
+              "end": "2025-09-26T13:45:00+00:00"
+            },
+            {
+              "uid": "6AB3AD0A-EE68-486E-B563-BC9A1E003A09",
+              "summary": "UM4IN200-MOGPL-TD3",
+              "location": "Salle: 56.66.209",
+              "start": "2025-10-24T08:45:00+00:00",
+              "end": "2025-10-24T10:45:00+00:00"
+            },
+            {
+              "uid": "0C585BF1-DE67-4AE3-944E-631CFA52CCDD",
+              "summary": "UM4IN200-MOGPL-TD3",
+              "location": null,
+              "start": "2025-11-07T09:45:00+00:00",
+              "end": "2025-11-07T11:45:00+00:00"
+            },
+            {
+              "uid": "01AF9A15-96DB-4184-AD35-F331D5DF49C7",
+              "summary": "UM4IN200-MOGPL-TD3",
+              "location": null,
+              "start": "2025-11-07T12:45:00+00:00",
+              "end": "2025-11-07T14:45:00+00:00"
+            },
+            {
+              "uid": "D80E5739-3392-44DC-B611-1F1227D07118",
+              "summary": "UM4IN200-MOGPL-TD3",
+              "location": null,
+              "start": "2025-11-28T09:45:00+00:00",
+              "end": "2025-11-28T11:45:00+00:00"
+            },
+            {
+              "uid": "9D2DD684-8CC2-4F88-9476-898F5674375B",
+              "summary": "UM4IN200-MOGPL-TD3",
+              "location": null,
+              "start": "2025-11-28T12:45:00+00:00",
+              "end": "2025-11-28T14:45:00+00:00"
+            },
+            {
+              "uid": "E85B6137-3004-4925-A8F6-4C3DA7076976",
+              "summary": "UM4IN200-MOGPL-TD3",
+              "location": null,
+              "start": "2025-10-17T11:45:00+00:00",
+              "end": "2025-10-17T13:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "3",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "5F75F1DD-640A-4ABB-9AAF-052D1153ED83",
+              "summary": "UM4IN200-MOGPL-TME3",
+              "location": null,
+              "start": "2025-10-24T11:45:00+00:00",
+              "end": "2025-10-24T13:45:00+00:00"
+            },
+            {
+              "uid": "4CAD53D2-77C6-4148-A7B4-EF23575A792C",
+              "summary": "UM4IN200-MOGPL-TME3",
+              "location": null,
+              "start": "2025-12-19T09:45:00+00:00",
+              "end": "2025-12-19T11:45:00+00:00"
+            },
+            {
+              "uid": "63876278-8C7B-40D2-841A-12477FE52403",
+              "summary": "UM4IN200-MOGPL-TME3",
+              "location": null,
+              "start": "2025-12-19T12:45:00+00:00",
+              "end": "2025-12-19T14:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "4",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "F541AC69-3603-4349-83DA-08B1A9437EA1",
+              "summary": "UM4IN200-MOGPL-TD4",
+              "location": "Salle: 24.34.212",
+              "start": "2025-09-26T08:45:00+00:00",
+              "end": "2025-09-26T10:45:00+00:00"
+            },
+            {
+              "uid": "C6007B93-355B-44A7-AC78-32BC7F6B567C",
+              "summary": "UM4IN200-MOGPL-TD4",
+              "location": "Salle: 24.34.212",
+              "start": "2025-09-26T11:45:00+00:00",
+              "end": "2025-09-26T13:45:00+00:00"
+            },
+            {
+              "uid": "AA1B481E-F5DC-4037-BDDB-5633A04B28BB",
+              "summary": "UM4IN200-MOGPL-TD4",
+              "location": null,
+              "start": "2025-10-24T08:45:00+00:00",
+              "end": "2025-10-24T10:45:00+00:00"
+            },
+            {
+              "uid": "547A1AD5-53CE-46D4-8388-022B7E79FEEE",
+              "summary": "UM4IN200-MOGPL-TD4",
+              "location": null,
+              "start": "2025-11-07T09:45:00+00:00",
+              "end": "2025-11-07T11:45:00+00:00"
+            },
+            {
+              "uid": "C46BECFC-38E3-458A-BE7B-644B71D1BA95",
+              "summary": "UM4IN200-MOGPL-TD4",
+              "location": null,
+              "start": "2025-11-07T12:45:00+00:00",
+              "end": "2025-11-07T14:45:00+00:00"
+            },
+            {
+              "uid": "DA845A51-74B3-4C84-94D9-1FC25ADE5371",
+              "summary": "UM4IN200-MOGPL-TD4",
+              "location": null,
+              "start": "2025-11-28T09:45:00+00:00",
+              "end": "2025-11-28T11:45:00+00:00"
+            },
+            {
+              "uid": "A6AC3F3B-F695-405E-8463-AAE2C2D0F9AB",
+              "summary": "UM4IN200-MOGPL-TD4",
+              "location": null,
+              "start": "2025-11-28T12:45:00+00:00",
+              "end": "2025-11-28T14:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "4",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "6F3C4FA9-8EC5-4D6C-A7F1-27D92BDE145A",
+              "summary": "UM4IN200-MOGPL-TME4",
+              "location": null,
+              "start": "2025-10-24T11:45:00+00:00",
+              "end": "2025-10-24T13:45:00+00:00"
+            },
+            {
+              "uid": "578D4458-AE1B-478D-A7BC-6C3975318328",
+              "summary": "UM4IN200-MOGPL-TME4",
+              "location": null,
+              "start": "2025-12-19T09:45:00+00:00",
+              "end": "2025-12-19T11:45:00+00:00"
+            },
+            {
+              "uid": "E2DB96DE-C8C1-4801-8921-EA43D27B38C7",
+              "summary": "UM4IN200-MOGPL-TME4",
+              "location": null,
+              "start": "2025-12-19T12:45:00+00:00",
+              "end": "2025-12-19T14:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MOSIMA",
+      "code": "254",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "12FC51D2-A628-47BE-8278-C6EF30563FFB",
+              "summary": "UM5IN254-MOSIMA-CS",
+              "location": null,
+              "start": "2025-11-03T07:30:00+00:00",
+              "end": "2025-11-03T09:30:00+00:00"
+            },
+            {
+              "uid": "3604A18F-7F04-46C6-BB2D-D4071DBEBF25",
+              "summary": "UM5IN254-MOSIMA-CS",
+              "location": null,
+              "start": "2025-12-01T07:30:00+00:00",
+              "end": "2025-12-01T09:30:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RéunionM1AI2D-Réunion pédagogique",
+      "code": "special",
+      "special": true,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "CA1433ED-63B2-49CF-935D-24F1FE8F1239",
+              "summary": "RéunionM1AI2D-Réunion pédagogique",
+              "location": "Salle : 54.55.125",
+              "start": "2025-09-08T12:00:00+00:00",
+              "end": "2025-09-08T15:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "updated_at": "2025-09-04T19:10:15.391919+00:00"
+}

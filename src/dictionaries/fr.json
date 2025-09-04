@@ -1,0 +1,22 @@
+{
+  "title": "Générateur de calendrier des cours de Sorbonne Université",
+  "grade": "Année",
+  "parcours": "Parcours",
+  "search": "Rechercher nom ou code…",
+  "groupAll": "1",
+  "selectedNone": "Aucun cours sélectionné",
+  "selectedPrefix": "Sélectionné {n} cours :",
+  "genButton": "Générer mon calendrier",
+  "guide": "Guide d’importation (iOS, Google, Outlook)",
+  "guide_ios": "iOS/Apple Calendar : Réglages → Comptes → Ajouter un compte → Autre → Ajouter un calendrier abonné → collez le lien.",
+  "guide_google": "Google Agenda : “Autres agendas” → À partir de l’URL → collez le lien.",
+  "guide_outlook": "Outlook : Calendrier → Ajouter un calendrier → À partir du Web → collez le lien.",
+  "lang_zh": "中文",
+  "lang_fr": "Français",
+  "joiner": ", ",
+  "copy": "Copier",
+  "copied": "Copié",
+  "copyLink": "Copier le lien",
+  "importWebcal": "Importer dans le calendrier (webcal)",
+  "downloadIcs": "Télécharger ICS"
+}

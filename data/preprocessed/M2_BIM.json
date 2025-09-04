@@ -1,0 +1,630 @@
+{
+  "master_year": "M2",
+  "parcours": "BIM",
+  "courses": [
+    {
+      "name": "GENOM",
+      "code": "733",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "B3D45983-4A24-4564-812C-59E47A979A88",
+              "summary": "UM5BM733-GENOM-Soutenance orale des projets",
+              "location": "Reservation BMC",
+              "start": "2026-01-13T12:45:00+00:00",
+              "end": "2026-01-13T16:30:00+00:00"
+            },
+            {
+              "uid": "B8E96986-3803-4241-AC18-1420B4627ACF",
+              "summary": "UM5BM733-GENOM-Projets",
+              "location": "Réservation BMC en attente",
+              "start": "2025-12-03T12:45:00+00:00",
+              "end": "2025-12-03T14:45:00+00:00"
+            },
+            {
+              "uid": "B5ECC793-EEEC-448E-B273-9E3BA001E844",
+              "summary": "UM5BM733-GENOM-Projets",
+              "location": "Réservation BMC en attente",
+              "start": "2025-12-10T12:45:00+00:00",
+              "end": "2025-12-10T14:45:00+00:00"
+            },
+            {
+              "uid": "CF496DEF-9CB1-49D0-9FF0-1A24B9317BDB",
+              "summary": "UM5BM733-GENOM-Projets",
+              "location": "Réservation BMC en attente",
+              "start": "2025-12-17T12:45:00+00:00",
+              "end": "2025-12-17T14:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "E25030E7-10FE-46A5-95D0-36D1F61A780F",
+              "summary": "UM5BM733-GENOM-Cours",
+              "location": "Reservation BMC",
+              "start": "2025-11-18T12:45:00+00:00",
+              "end": "2025-11-18T14:45:00+00:00"
+            },
+            {
+              "uid": "940B8044-4E42-4D31-B3AC-212881CAFD38",
+              "summary": "UM5BM733-GENOM-Cours",
+              "location": "Réservation BMC en attente",
+              "start": "2025-11-18T15:00:00+00:00",
+              "end": "2025-11-18T17:00:00+00:00"
+            },
+            {
+              "uid": "CD76B7BA-88A7-446E-8BF4-665E2D1F9021",
+              "summary": "UM5BM733-GENOM-Cours",
+              "location": "Reservation BMC",
+              "start": "2025-11-19T12:45:00+00:00",
+              "end": "2025-11-19T14:45:00+00:00"
+            },
+            {
+              "uid": "19CBF3D5-D3C4-4E15-8D4D-8C84BA27BD63",
+              "summary": "UM5BM733-GENOM-Cours",
+              "location": "Réservation BMC en attente",
+              "start": "2025-11-19T15:00:00+00:00",
+              "end": "2025-11-19T17:00:00+00:00"
+            },
+            {
+              "uid": "F5C7EA44-95ED-4457-BFCA-6D4F3D5AAB9D",
+              "summary": "UM5BM733-GENOM-Cours",
+              "location": "Réservation BMC en attente",
+              "start": "2025-12-02T15:00:00+00:00",
+              "end": "2025-12-02T17:00:00+00:00"
+            },
+            {
+              "uid": "82DBC436-EDA7-4678-88AD-26731544A23D",
+              "summary": "UM5BM733-GENOM-Cours",
+              "location": "Reservation BMC",
+              "start": "2025-12-02T12:45:00+00:00",
+              "end": "2025-12-02T14:45:00+00:00"
+            },
+            {
+              "uid": "CAC3805B-4A2C-4A31-88A5-F0C9540B8E23",
+              "summary": "UM5BM733-GENOM-Cours",
+              "location": "Reservation BMC",
+              "start": "2025-12-09T12:45:00+00:00",
+              "end": "2025-12-09T14:45:00+00:00"
+            },
+            {
+              "uid": "CB572AF1-D56D-48BE-A8D4-448BB4B89232",
+              "summary": "UM5BM733-GENOM-Cours",
+              "location": "Réservation BMC en attente",
+              "start": "2025-12-09T15:00:00+00:00",
+              "end": "2025-12-09T17:00:00+00:00"
+            },
+            {
+              "uid": "FEDC76AA-F87A-4AB4-A5F0-B36A476E440D",
+              "summary": "UM5BM733-GENOM-Cours",
+              "location": "Réservation BMC en attente",
+              "start": "2025-12-16T15:00:00+00:00",
+              "end": "2025-12-16T17:00:00+00:00"
+            },
+            {
+              "uid": "F1B46D51-8634-44A8-B0BA-32DD9D2C9399",
+              "summary": "UM5BM733-GENOM-Cours",
+              "location": "Reservation BMC",
+              "start": "2025-12-16T12:45:00+00:00",
+              "end": "2025-12-16T14:45:00+00:00"
+            },
+            {
+              "uid": "7A1ED953-DBC6-48E0-8488-80B7CDF683E9",
+              "summary": "UM5BM733-GENOM-CS",
+              "location": "Réservation BMC en attente",
+              "start": "2025-12-03T15:00:00+00:00",
+              "end": "2025-12-03T17:00:00+00:00"
+            },
+            {
+              "uid": "1F107E20-4058-4922-82A7-B5A519135A90",
+              "summary": "UM5BM733-GENOM-CS",
+              "location": "Réservation BMC en attente",
+              "start": "2025-12-10T15:00:00+00:00",
+              "end": "2025-12-10T17:00:00+00:00"
+            },
+            {
+              "uid": "5A55288F-4D67-45CB-B283-6212465F2821",
+              "summary": "UM5BM733-GENOM-CS",
+              "location": "Réservation BMC en attente",
+              "start": "2025-12-17T15:00:00+00:00",
+              "end": "2025-12-17T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "EEF3A997-5E34-4076-AD5C-B96F2B52CB10",
+              "summary": "UM5BM733-GENOM-Examen",
+              "location": "Reservation BMC",
+              "start": "2026-01-20T12:45:00+00:00",
+              "end": "2026-01-20T14:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPOP",
+      "code": "752",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "7022299B-FB2F-4372-AE73-C256434FF38D",
+              "summary": "UM5IN752-GPOP-Cours",
+              "location": "Salle: 56.66.201BIS",
+              "start": "2025-09-24T11:45:00+00:00",
+              "end": "2025-09-24T13:45:00+00:00"
+            },
+            {
+              "uid": "676DB130-6ECF-4969-8F7A-29F0A6ADDF1E",
+              "summary": "UM5IN752-GPOP-Cours",
+              "location": "n°675775",
+              "start": "2025-09-23T11:45:00+00:00",
+              "end": "2025-09-23T13:45:00+00:00"
+            },
+            {
+              "uid": "7EF0A343-2FC8-458A-B131-7BBDA65E3BEE",
+              "summary": "UM5IN752-GPOP-Cours",
+              "location": "n°672092",
+              "start": "2025-11-25T12:45:00+00:00",
+              "end": "2025-11-25T14:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "78C36A20-B05D-43B4-9CAB-FB4AAC7C7E11",
+              "summary": "UM5IN752-GROP-ER1",
+              "location": "n°672094",
+              "start": "2025-11-26T12:45:00+00:00",
+              "end": "2025-11-26T14:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OIP",
+      "code": "OIP",
+      "special": false,
+      "groups": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "variants": [
+        {
+          "group": "1",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "B5550E43-D492-437F-A260-D22B15E05BAA",
+              "summary": "UM5INOIP-TD1",
+              "location": "Salle 24.34.110",
+              "start": "2025-09-24T06:30:00+00:00",
+              "end": "2025-09-24T10:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "B5550E43-D492-437F-A260-D22B15E05BAA",
+              "summary": "UM5INOIP-TD2",
+              "location": "Salle 24.34.110",
+              "start": "2025-10-01T06:30:00+00:00",
+              "end": "2025-10-01T10:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "3",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "B5550E43-D492-437F-A260-D22B15E05BAA",
+              "summary": "UM5INOIP-TD3",
+              "location": "Salle 24.34.110",
+              "start": "2025-10-08T06:30:00+00:00",
+              "end": "2025-10-08T10:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "4",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "B5550E43-D492-437F-A260-D22B15E05BAA",
+              "summary": "UM5INOIP-TD4",
+              "location": "Salle 24.34.110",
+              "start": "2025-10-15T06:30:00+00:00",
+              "end": "2025-10-15T10:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "5",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "B5550E43-D492-437F-A260-D22B15E05BAA",
+              "summary": "UM5INOIP-TD5",
+              "location": "Salle 24.34.110",
+              "start": "2025-10-22T06:30:00+00:00",
+              "end": "2025-10-22T10:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "6",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "B5550E43-D492-437F-A260-D22B15E05BAA",
+              "summary": "UM5INOIP-TD6",
+              "location": "Salle 24.34.110",
+              "start": "2025-11-05T07:30:00+00:00",
+              "end": "2025-11-05T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "7",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "B5550E43-D492-437F-A260-D22B15E05BAA",
+              "summary": "UM5INOIP-TD7",
+              "location": "Salle 24.34.110",
+              "start": "2025-11-19T07:30:00+00:00",
+              "end": "2025-11-19T11:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PHYG",
+      "code": "751",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "72E3ACD6-9F53-425E-BF8C-84B28FAC83DF",
+              "summary": "UM5IN751-PHYG-Cours (rattrapage du 16/10)",
+              "location": null,
+              "start": "2025-10-20T11:45:00+00:00",
+              "end": "2025-10-20T13:45:00+00:00"
+            },
+            {
+              "uid": "A2A8BAB7-2A0A-4946-A0E7-1BED0D09112A",
+              "summary": "UM5IN751-PHYG-Cours",
+              "location": "Salle 56.66.201BIS",
+              "start": "2025-09-25T11:45:00+00:00",
+              "end": "2025-09-25T13:45:00+00:00"
+            },
+            {
+              "uid": "A2A8BAB7-2A0A-4946-A0E7-1BED0D09112A",
+              "summary": "UM5IN751-PHYG-Cours (reporté au 20/10)",
+              "location": "Salle 56.66.201BIS",
+              "start": "2025-10-16T11:45:00+00:00",
+              "end": "2025-10-16T13:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "A2A8BAB7-2A0A-4946-A0E7-1BED0D09112A",
+              "summary": "UM5IN751-PHYG-ER1",
+              "location": "Salle 56.66.201BIS",
+              "start": "2025-11-27T12:45:00+00:00",
+              "end": "2025-11-27T14:45:00+00:00"
+            },
+            {
+              "uid": "24F6D31C-B12C-47AE-B093-95D9816ED015",
+              "summary": "MU5IN751-PHYG-Examen 2nde session",
+              "location": "Salle 46.56.110",
+              "start": "2025-09-04T12:00:00+00:00",
+              "end": "2025-09-04T14:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "68DDA476-0FE2-4241-BB4D-B150470897BF",
+              "summary": "UM5IN751-PHYG-TME",
+              "location": null,
+              "start": "2025-09-25T14:00:00+00:00",
+              "end": "2025-09-25T16:00:00+00:00"
+            },
+            {
+              "uid": "68DDA476-0FE2-4241-BB4D-B150470897BF",
+              "summary": "UM5IN751-PHYG-TME(reporté au 20/10)",
+              "location": null,
+              "start": "2025-10-16T14:00:00+00:00",
+              "end": "2025-10-16T16:00:00+00:00"
+            },
+            {
+              "uid": "AB8A1E5F-9FA6-474E-96E5-364B44A3B5FF",
+              "summary": "UM5IN751-PHYG-TME (rattrapage du 16/10)",
+              "location": null,
+              "start": "2025-10-20T14:00:00+00:00",
+              "end": "2025-10-20T16:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RESYS",
+      "code": "754",
+      "special": false,
+      "groups": [
+        "1",
+        "2"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "860E124E-07A7-47FB-84CC-049FD849BD79",
+              "summary": "UM5IN754-RESYS-Cours",
+              "location": null,
+              "start": "2025-11-03T12:45:00+00:00",
+              "end": "2025-11-03T14:45:00+00:00"
+            },
+            {
+              "uid": "6D719238-D257-492E-85D9-AAEC78E7BE1B",
+              "summary": "UM5IN754-RESYS-Cours",
+              "location": "n°668132",
+              "start": "2025-12-01T12:45:00+00:00",
+              "end": "2025-12-01T14:45:00+00:00"
+            },
+            {
+              "uid": "17179FFB-38EB-48B5-AF5B-D74C551DCB5C",
+              "summary": "UM5IN754-RESYS-Cours",
+              "location": "Salle 54.55.205",
+              "start": "2025-09-22T11:45:00+00:00",
+              "end": "2025-09-22T13:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "1AD60DDB-58AB-4788-896C-7788DA1772B5",
+              "summary": "MU5IN754-RESYS-Examen 2nde session",
+              "location": "Salle 14.15.104",
+              "start": "2025-09-01T12:00:00+00:00",
+              "end": "2025-09-01T14:00:00+00:00"
+            },
+            {
+              "uid": "17179FFB-38EB-48B5-AF5B-D74C551DCB5C",
+              "summary": "UM5IN754-RESYS-ER1",
+              "location": "Salle 54.55.205",
+              "start": "2025-11-24T12:45:00+00:00",
+              "end": "2025-11-24T14:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "55647222-5F46-49F6-9598-EFF29DFB99B7",
+              "summary": "UM5IN754-RESYS-TME 1",
+              "location": null,
+              "start": "2025-12-01T15:00:00+00:00",
+              "end": "2025-12-01T17:00:00+00:00"
+            },
+            {
+              "uid": "66A17F8D-D5FC-4A4C-863E-44066E094A79",
+              "summary": "UM5IN754-RESYS-TME 1",
+              "location": null,
+              "start": "2025-09-22T14:00:00+00:00",
+              "end": "2025-09-22T16:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "9E38E7A9-F70E-43CF-8412-054DA0BBD61E",
+              "summary": "UM5IN754-RESYS-TME 2",
+              "location": null,
+              "start": "2025-12-01T15:00:00+00:00",
+              "end": "2025-12-01T17:00:00+00:00"
+            },
+            {
+              "uid": "646B3489-42D8-489E-94F0-D095B527D03B",
+              "summary": "UM5IN754-RESYS-TME 2",
+              "location": null,
+              "start": "2025-09-22T14:00:00+00:00",
+              "end": "2025-09-22T16:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Réunion de rentrée M2 BIM",
+      "code": "special",
+      "special": true,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "5B85A521-9A03-4109-B2ED-82DF80B940B4",
+              "summary": "Réunion de rentrée M2 BIM",
+              "location": "6755771",
+              "start": "2025-09-15T13:00:00+00:00",
+              "end": "2025-09-15T15:00:00+00:00"
+            },
+            {
+              "uid": "FEB03956-006F-4AAF-BECA-D48CD5903EFA",
+              "summary": "Soutenances BIM",
+              "location": "Salle 14.24.210",
+              "start": "2025-09-05T07:30:00+00:00",
+              "end": "2025-09-05T13:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SPLEX",
+      "code": "753",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "3ABFA53B-F734-48B2-B82B-AEAC962FE55D",
+              "summary": "UM5IN753-SPLEX-Cours",
+              "location": "Salle 56.66.201BIS",
+              "start": "2025-09-26T06:30:00+00:00",
+              "end": "2025-09-26T08:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "3ABFA53B-F734-48B2-B82B-AEAC962FE55D",
+              "summary": "UM5IN753-SPLEX-ER1",
+              "location": "n°671469",
+              "start": "2025-11-28T07:30:00+00:00",
+              "end": "2025-11-28T09:30:00+00:00"
+            },
+            {
+              "uid": "416CEDF6-4137-499B-BE34-E51345568842",
+              "summary": "MU5IN753-SPLEX-Examen 2nde session",
+              "location": "Salle 46.56.114",
+              "start": "2025-09-05T06:30:00+00:00",
+              "end": "2025-09-05T08:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "D9D40E0C-BF82-400F-A4F2-DFFBA8061FBA",
+              "summary": "UM5IN753-SPLEX-TME",
+              "location": null,
+              "start": "2025-09-26T08:45:00+00:00",
+              "end": "2025-09-26T10:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "STRUCT",
+      "code": "755",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "41693C6C-C089-4189-8C4D-DA724905BACF",
+              "summary": "UM5IN755-STRUCT-Cours",
+              "location": "Salle 56.66.209",
+              "start": "2025-09-23T06:30:00+00:00",
+              "end": "2025-09-23T08:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "41693C6C-C089-4189-8C4D-DA724905BACF",
+              "summary": "UM5IN755-STRUCT-ER1",
+              "location": "Salle 56.66.209",
+              "start": "2025-11-25T07:30:00+00:00",
+              "end": "2025-11-25T09:30:00+00:00"
+            },
+            {
+              "uid": "C4DCBD57-AD95-4938-B84D-848802C3B5B3",
+              "summary": "MU5IN755-STRUCT-Examen 2nde session",
+              "location": "Salle 14.15.107",
+              "start": "2025-09-02T06:30:00+00:00",
+              "end": "2025-09-02T08:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "7F924E75-6A28-414E-8DF9-9A7F1B045AE6",
+              "summary": "UM5IN755-STRUCT-TME",
+              "location": null,
+              "start": "2025-09-23T08:45:00+00:00",
+              "end": "2025-09-23T10:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "updated_at": "2025-09-04T19:10:26.792382+00:00"
+}

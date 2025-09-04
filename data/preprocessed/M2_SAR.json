@@ -1,0 +1,379 @@
+{
+  "master_year": "M2",
+  "parcours": "SAR",
+  "courses": [
+    {
+      "name": "ARA",
+      "code": "450",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "EB7C8F53-D56F-47FE-8432-CE1083D04C84",
+              "summary": "UM5IN450-ARA-Cours",
+              "location": "salle SAR(14.15.508)",
+              "start": "2025-09-23T06:30:00+00:00",
+              "end": "2025-09-23T08:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "DD17BE27-0103-4EC6-A1E5-55FE3C42DA29",
+              "summary": "UM5IN450-ARA-Examen2ndeSession",
+              "location": "salle 14.24.108 (reservation n° 670564) (4 étu)",
+              "start": "2025-09-02T08:00:00+00:00",
+              "end": "2025-09-02T10:00:00+00:00"
+            },
+            {
+              "uid": "1237D5C3-AE25-4574-8EB3-9923AE86C30A",
+              "summary": "UM5IN450-ARA-ExamenR1",
+              "location": "salle SAR(14.15.508)",
+              "start": "2025-11-25T09:45:00+00:00",
+              "end": "2025-11-25T11:45:00+00:00"
+            },
+            {
+              "uid": "945920FB-253A-4F5F-8F67-0895EEB20845",
+              "summary": "UM5IN450-ARA-ExamenR2",
+              "location": null,
+              "start": "2026-02-10T09:00:00+00:00",
+              "end": "2026-02-10T11:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "1237D5C3-AE25-4574-8EB3-9923AE86C30A",
+              "summary": "UM5IN450-ARA-TME",
+              "location": "salle SAR(14.15.508)",
+              "start": "2025-09-23T08:45:00+00:00",
+              "end": "2025-09-23T10:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ASTRE",
+      "code": "455",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "A793D66D-6AC5-469E-A10C-5C9F5CDDE7AA",
+              "summary": "UM5IN455-ASTRE-Cours",
+              "location": "salle SAR(14.15.508)",
+              "start": "2025-09-25T11:45:00+00:00",
+              "end": "2025-09-25T13:45:00+00:00"
+            },
+            {
+              "uid": "3FD9240D-87C0-462D-91E8-4F96B97E4183",
+              "summary": "UM5IN455-ASTRE-Cours du 16/10",
+              "location": "salle SAR(14.15.508)",
+              "start": "2025-10-20T11:45:00+00:00",
+              "end": "2025-10-20T13:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "12689D26-D2CB-4FD3-8716-CD6146CE2271",
+              "summary": "UM5IN455-ASTRE-Examen2ndeSession",
+              "location": " salle SAR 14.15.508 ( 3 étu)",
+              "start": "2025-09-04T12:00:00+00:00",
+              "end": "2025-09-04T14:00:00+00:00"
+            },
+            {
+              "uid": "A793D66D-6AC5-469E-A10C-5C9F5CDDE7AA",
+              "summary": "UM5IN455-ASTRE-ExamenR1",
+              "location": "salle SAR(14.15.508)",
+              "start": "2025-11-27T12:45:00+00:00",
+              "end": "2025-11-27T14:45:00+00:00"
+            },
+            {
+              "uid": "541B4C41-84BE-4B57-994E-7BB71F23B008",
+              "summary": "UM5IN455-ASTRE-ExamenR2",
+              "location": null,
+              "start": "2026-02-12T13:00:00+00:00",
+              "end": "2026-02-12T15:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "5A870083-E125-46FE-BC42-C6FF38942E44",
+              "summary": "UM5IN455-ASTRE-TME",
+              "location": "salle SAR(14.15.508)",
+              "start": "2025-09-25T14:00:00+00:00",
+              "end": "2025-09-25T16:00:00+00:00"
+            },
+            {
+              "uid": "4D767814-9A02-4C00-B105-DF32E3204D11",
+              "summary": "UM5IN455-ASTRE-TME du 16/10",
+              "location": "salle SAR(14.15.508)",
+              "start": "2025-10-20T14:00:00+00:00",
+              "end": "2025-10-20T16:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ATRIUM DES MÉTIERS",
+      "code": "special",
+      "special": true,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "CE8BED71-6439-4708-8403-81ECDE367EE7",
+              "summary": "ATRIUM DES MÉTIERS",
+              "location": null,
+              "start": "2025-10-16T06:30:00+00:00",
+              "end": "2025-10-16T16:00:00+00:00"
+            },
+            {
+              "uid": "E075249A-DD89-4378-B36F-A57EE019B0C8",
+              "summary": "RéunionM2SAR",
+              "location": "Salle: 55.65.105 (reservation n° 674722)",
+              "start": "2025-09-15T12:00:00+00:00",
+              "end": "2025-09-15T14:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DATACLOUD",
+      "code": "451",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "0C797CBB-8F10-4A9C-B1FB-6333F213DEA7",
+              "summary": "UM5IN451-DATACLOUD-Cours",
+              "location": "salle SAR(14.15.508)",
+              "start": "2025-09-23T11:45:00+00:00",
+              "end": "2025-09-23T13:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "0C797CBB-8F10-4A9C-B1FB-6333F213DEA7",
+              "summary": "UM5IN451-DATACLOUD-ExamenR1",
+              "location": "salle SAR(14.15.508)",
+              "start": "2025-11-25T12:45:00+00:00",
+              "end": "2025-11-25T14:45:00+00:00"
+            },
+            {
+              "uid": "E3D8BEEA-5506-40D2-B958-41329D392694",
+              "summary": "UM5IN451-DATACLOUD-ExamenR2",
+              "location": null,
+              "start": "2026-02-10T13:00:00+00:00",
+              "end": "2026-02-10T15:00:00+00:00"
+            },
+            {
+              "uid": "AE79F477-BA1E-437B-B181-0CE30E60ED02",
+              "summary": "UM5IN451-Datacloud-Examen2ndeSession",
+              "location": "salle SAR( 14.15.508)",
+              "start": "2025-09-09T12:00:00+00:00",
+              "end": "2025-09-09T14:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "CA4AA5D7-66A9-4135-AA72-5963981E4899",
+              "summary": "UM5IN451-DATACLOUD-TME",
+              "location": "salle SAR(14.15.508)",
+              "start": "2025-09-23T14:00:00+00:00",
+              "end": "2025-09-23T16:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NMV",
+      "code": "453",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "94135BC3-1850-4340-9D10-BAF7FEA9AF43",
+              "summary": "UM5IN453-NMV-Cours",
+              "location": "salle SAR(14.15.508)",
+              "start": "2025-09-24T06:30:00+00:00",
+              "end": "2025-09-24T08:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "7BBE09AA-5017-438F-BD9B-0539E9199671",
+              "summary": "UM5IN453-NMV-Examen2ndeSession",
+              "location": "salle SAR 14.15.508 (2 étu)",
+              "start": "2025-09-03T08:00:00+00:00",
+              "end": "2025-09-03T10:00:00+00:00"
+            },
+            {
+              "uid": "C5CE5131-E409-47B9-AED2-27C41E2CE4EB",
+              "summary": "UM5IN453-NMV-ExamenR2",
+              "location": null,
+              "start": "2026-02-11T09:00:00+00:00",
+              "end": "2026-02-11T11:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "B036AAD4-161E-45F4-897C-2DAED6D85579",
+              "summary": "UM5IN453-NMV-TME",
+              "location": "salle SAR(14.15.508)",
+              "start": "2025-09-24T08:45:00+00:00",
+              "end": "2025-09-24T10:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OIP",
+      "code": "OIP",
+      "special": false,
+      "groups": [
+        "1",
+        "2"
+      ],
+      "variants": [
+        {
+          "group": "1",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "747E5C8E-6407-451C-9873-A87E214C22C5",
+              "summary": "OIPSAR-TD1",
+              "location": "Salle: 24.34.210 (reservation n° 666945)",
+              "start": "2025-10-01T11:45:00+00:00",
+              "end": "2025-10-01T16:00:00+00:00"
+            },
+            {
+              "uid": "3C5764F1-F66C-4400-B623-980B58142F79",
+              "summary": "OIPSAR-TD1",
+              "location": "salle 24.25.103 (reservation n° 666948)",
+              "start": "2025-11-05T12:45:00+00:00",
+              "end": "2025-11-05T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "BA28787F-64F5-48D8-9456-928306FDB51D",
+              "summary": "OIPSAR-TD2",
+              "location": "reservation n° 666949",
+              "start": "2025-10-03T11:45:00+00:00",
+              "end": "2025-10-03T16:00:00+00:00"
+            },
+            {
+              "uid": "BA28787F-64F5-48D8-9456-928306FDB51D",
+              "summary": "OIPSAR-TD2",
+              "location": "Salle: 14.15.106 (reservation n° 666949)",
+              "start": "2025-10-24T11:45:00+00:00",
+              "end": "2025-10-24T16:00:00+00:00"
+            },
+            {
+              "uid": "BA28787F-64F5-48D8-9456-928306FDB51D",
+              "summary": "OIPSAR-TD2",
+              "location": "Salle: 14.15.106 (reservation n° 666949)",
+              "start": "2025-10-17T11:45:00+00:00",
+              "end": "2025-10-17T16:00:00+00:00"
+            },
+            {
+              "uid": "BA28787F-64F5-48D8-9456-928306FDB51D",
+              "summary": "OIPSAR-TD2",
+              "location": "Salle: 14.15.106 (reservation n° 666949)",
+              "start": "2025-10-10T11:45:00+00:00",
+              "end": "2025-10-10T16:00:00+00:00"
+            },
+            {
+              "uid": "BA28787F-64F5-48D8-9456-928306FDB51D",
+              "summary": "OIPSAR-TD2",
+              "location": "Salle: 14.15.106 (reservation n° 666949)",
+              "start": "2025-10-03T11:45:00+00:00",
+              "end": "2025-10-03T16:00:00+00:00"
+            },
+            {
+              "uid": "4928AABA-6902-474C-8105-43FC96329CD6",
+              "summary": "OIPSAR-TD2",
+              "location": "reservation n° 666950",
+              "start": "2025-11-07T12:45:00+00:00",
+              "end": "2025-11-07T17:00:00+00:00"
+            },
+            {
+              "uid": "8DAAD69B-5838-4494-88DE-C16D4CF659A9",
+              "summary": "OIPSAR-TD2",
+              "location": "salle 24.25.103 (reservation n° 666950)",
+              "start": "2025-12-05T12:45:00+00:00",
+              "end": "2025-12-05T17:00:00+00:00"
+            },
+            {
+              "uid": "8DAAD69B-5838-4494-88DE-C16D4CF659A9",
+              "summary": "OIPSAR-TD2",
+              "location": "reservation n° 666950",
+              "start": "2025-12-05T12:45:00+00:00",
+              "end": "2025-12-05T17:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "updated_at": "2025-09-04T19:10:27.282699+00:00"
+}

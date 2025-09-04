@@ -1,0 +1,725 @@
+{
+  "master_year": "M2",
+  "parcours": "STL",
+  "courses": [
+    {
+      "name": "AAGA",
+      "code": "550",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "91A5814C-029B-4581-9048-105E787B9B0C",
+              "summary": "UM5IN550-AAGA-Cours",
+              "location": "Salle 54.55.205",
+              "start": "2025-10-03T11:45:00+00:00",
+              "end": "2025-10-03T13:45:00+00:00"
+            },
+            {
+              "uid": "91A5814C-029B-4581-9048-105E787B9B0C",
+              "summary": "UM5IN550-AAGA-Cours",
+              "location": "Résa n°665920",
+              "start": "2025-11-21T12:45:00+00:00",
+              "end": "2025-11-21T14:45:00+00:00"
+            },
+            {
+              "uid": "9119F908-C282-463C-B4F2-7DDCBF2EEAE7",
+              "summary": "UM5IN550-AAGA-Cours",
+              "location": "AMPHI 45B",
+              "start": "2025-09-26T11:45:00+00:00",
+              "end": "2025-09-26T13:45:00+00:00"
+            },
+            {
+              "uid": "81BEE527-E0F1-4F94-B9BF-38CE908F4CD8",
+              "summary": "UM5IN550-AAGA-Cours",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-12-04T07:30:00+00:00",
+              "end": "2025-12-04T09:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "A208B05F-6C39-4133-B492-437F8FBCD535",
+              "summary": "UM5IN550-AAGA-TME",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-09-26T14:00:00+00:00",
+              "end": "2025-09-26T16:00:00+00:00"
+            },
+            {
+              "uid": "ACEBD451-031F-44A8-8679-6972CDA69977",
+              "summary": "UM5IN550-AAGA-TME",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-12-04T09:45:00+00:00",
+              "end": "2025-12-04T11:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ALASCA",
+      "code": "551",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "97214FF8-95C2-49EF-81E4-D9188904790D",
+              "summary": "UM5IN551-ALASCA-Cours/TME",
+              "location": "Salle STL (14.15.507)",
+              "start": "2025-09-24T11:45:00+00:00",
+              "end": "2025-09-24T16:00:00+00:00"
+            },
+            {
+              "uid": "3D3C5486-44B6-4868-969C-6BEB745A96F7",
+              "summary": "UM5IN551-ALASCA-Cours/TME",
+              "location": "Salle STL (14.15.507)",
+              "start": "2026-01-09T12:45:00+00:00",
+              "end": "2026-01-09T17:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DAAR",
+      "code": "552",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "3B952B6B-C76F-4E40-8DE4-7632BA3919DA",
+              "summary": "UM5IN552-DAAR-Cours",
+              "location": "Résa n°665925",
+              "start": "2026-01-19T07:30:00+00:00",
+              "end": "2026-01-19T09:30:00+00:00"
+            },
+            {
+              "uid": "48F9C146-7737-4F84-A039-2CEAE02D334C",
+              "summary": "UM5IN552-DAAR-Cours",
+              "location": "AMPHI 55B",
+              "start": "2025-09-22T06:30:00+00:00",
+              "end": "2025-09-22T08:30:00+00:00"
+            },
+            {
+              "uid": "1D4E0DF8-5D73-4ED6-A1AC-83CC9EE57BC6",
+              "summary": "UM5IN552-DAAR-Cours",
+              "location": "Résa n°665924",
+              "start": "2025-12-01T07:30:00+00:00",
+              "end": "2025-12-01T09:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "3C729615-E664-469B-8C05-53F0CA8EA788",
+              "summary": "MU5IN552-DAAR-Examen2ndeSession",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-09-01T08:45:00+00:00",
+              "end": "2025-09-01T10:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "3BA79049-5150-4170-BEB2-A6D317DEFBA8",
+              "summary": "UM5IN552-DAAR-TME RES",
+              "location": null,
+              "start": "2025-09-22T08:45:00+00:00",
+              "end": "2025-09-22T10:45:00+00:00"
+            },
+            {
+              "uid": "4085B65A-4C8A-4B96-9592-6FA6436071B5",
+              "summary": "UM5IN552-DAAR-TME STL",
+              "location": "Salle STL (14.15.507)",
+              "start": "2025-09-22T08:45:00+00:00",
+              "end": "2025-09-22T10:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GPSTL",
+      "code": "558",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "8B558199-4827-4509-8EE6-17630C242703",
+              "summary": "UM5IN558-GPSTL-Cours/TME",
+              "location": null,
+              "start": "2025-09-26T06:30:00+00:00",
+              "end": "2025-09-26T10:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "GRAPA",
+      "code": "556",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "B7A1C3C9-40B4-429A-BC2F-E1B69A4E1E8A",
+              "summary": "UM5IN556-GRAPA-Cours/TME",
+              "location": "Résa n°665926",
+              "start": "2025-12-05T07:30:00+00:00",
+              "end": "2025-12-05T11:45:00+00:00"
+            },
+            {
+              "uid": "E27EFCA6-5C8E-4FA7-9C52-37B6825DAA9E",
+              "summary": "UM5IN556-GRAPA-Cours/TME",
+              "location": "Résa n°665927",
+              "start": "2026-01-30T07:30:00+00:00",
+              "end": "2026-01-30T11:45:00+00:00"
+            },
+            {
+              "uid": "86467F3E-3C96-49EC-9701-229ADF171F97",
+              "summary": "UM5IN556-GRAPA-Cours/TME",
+              "location": "Salle 56.66.102",
+              "start": "2025-09-26T06:30:00+00:00",
+              "end": "2025-09-26T10:45:00+00:00"
+            },
+            {
+              "uid": "FAEED3D3-EB9F-4F41-9DB3-55125532C009",
+              "summary": "UM5IN556-GRAPA-Cours/TME",
+              "location": "Salle 56.66.102",
+              "start": "2025-10-03T06:30:00+00:00",
+              "end": "2025-10-03T10:45:00+00:00"
+            },
+            {
+              "uid": "FAEED3D3-EB9F-4F41-9DB3-55125532C009",
+              "summary": "UM5IN556-GRAPA-Cours/TME",
+              "location": "Salle 56.66.102",
+              "start": "2025-11-07T07:30:00+00:00",
+              "end": "2025-11-07T11:45:00+00:00"
+            },
+            {
+              "uid": "B02A7B6C-EC11-4743-948C-17BCDC49D0C8",
+              "summary": "UM5IN556-GRAPA-Cours/TME",
+              "location": "Salle 14.15.102",
+              "start": "2025-11-21T07:30:00+00:00",
+              "end": "2025-11-21T11:45:00+00:00"
+            },
+            {
+              "uid": "B02A7B6C-EC11-4743-948C-17BCDC49D0C8",
+              "summary": "UM5IN556-GRAPA-Cours/TME",
+              "location": "Salle 14.15.102",
+              "start": "2025-11-21T07:30:00+00:00",
+              "end": "2025-11-21T11:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OIP",
+      "code": "OIP",
+      "special": false,
+      "groups": [
+        "1",
+        "2"
+      ],
+      "variants": [
+        {
+          "group": "1",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "F6719194-E6EB-4EF9-B94E-F3CAAECFCCD4",
+              "summary": "OIPSTL-TD1",
+              "location": "Salle 24.34.104",
+              "start": "2025-09-30T11:45:00+00:00",
+              "end": "2025-09-30T16:00:00+00:00"
+            },
+            {
+              "uid": "24BF32F4-9BCE-46D3-B62B-EBE03F1B0F9E",
+              "summary": "OIPSTL-TD1",
+              "location": "Résa n°665922",
+              "start": "2025-11-18T12:45:00+00:00",
+              "end": "2025-11-18T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "F214CA8F-D6BC-403D-8783-26F7CD6EB77A",
+              "summary": "OIPSTL-TD2",
+              "location": "Salle 24.34.205",
+              "start": "2025-11-13T12:45:00+00:00",
+              "end": "2025-11-13T17:00:00+00:00"
+            },
+            {
+              "uid": "DBDF6E05-F1AE-489C-B752-029DFC9A4B6E",
+              "summary": "OIPSTL-TD2",
+              "location": "Salle 24.34.205",
+              "start": "2025-11-20T12:45:00+00:00",
+              "end": "2025-11-20T17:00:00+00:00"
+            },
+            {
+              "uid": "65C9EA68-C3F2-4A0C-A179-0DBEE76B9453",
+              "summary": "OIPSTL-TD2",
+              "location": "Salle 24.34.205",
+              "start": "2025-10-02T11:45:00+00:00",
+              "end": "2025-10-02T16:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PISTL",
+      "code": "559",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "805E7CC4-4D39-43EB-95F8-55A4F64B59B2",
+              "summary": "UM5IN559-PISTL-Cours/TME",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-09-26T06:30:00+00:00",
+              "end": "2025-09-26T10:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PPC",
+      "code": "553",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "6B0F2E84-841F-4710-A6CF-20BA3296E2BF",
+              "summary": "UM5IN553-PPC-Cours",
+              "location": "Salle 54.55.205",
+              "start": "2025-09-24T06:30:00+00:00",
+              "end": "2025-09-24T08:30:00+00:00"
+            },
+            {
+              "uid": "6B0F2E84-841F-4710-A6CF-20BA3296E2BF",
+              "summary": "UM5IN553-PPC-Cours",
+              "location": "Résa n°665901",
+              "start": "2025-11-19T07:30:00+00:00",
+              "end": "2025-11-19T09:30:00+00:00"
+            },
+            {
+              "uid": "DDA5EADD-5EF4-4E43-968A-0EE35067A606",
+              "summary": "UM5IN553-PPC-Cours",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-12-03T07:30:00+00:00",
+              "end": "2025-12-03T09:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "3EB91373-E80E-4219-B7E5-E3B4CEEB9BF2",
+              "summary": "UM5IN553-PPC-TME STL",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-09-24T08:45:00+00:00",
+              "end": "2025-09-24T10:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RéunionM2STL - Réunion de rentrée",
+      "code": "special",
+      "special": true,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "65AA28DC-EC30-4DCF-A7F2-A0F3F7CF0A19",
+              "summary": "Soutenance Stage Malenfant - BOUMESSAOUD",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-09-12T08:00:00+00:00",
+              "end": "2025-09-12T09:00:00+00:00"
+            },
+            {
+              "uid": "CC37D219-56CF-4483-9DF7-6D8F600D5D35",
+              "summary": "Soutenance Stage Malenfant - HYUNH",
+              "location": "Salle 55.65.105",
+              "start": "2025-09-05T13:00:00+00:00",
+              "end": "2025-09-05T14:00:00+00:00"
+            },
+            {
+              "uid": "A880AFD2-72A4-4246-A227-F688FC912B13",
+              "summary": "RéunionM2STL - Réunion de rentrée",
+              "location": "Salle 54.55.205",
+              "start": "2025-09-18T08:45:00+00:00",
+              "end": "2025-09-18T10:45:00+00:00"
+            },
+            {
+              "uid": "E74A68B0-D36F-46F4-B953-231BC5880941",
+              "summary": "Soutenance Stage Genitrini/Peschanski - CARBONNEAU",
+              "location": "Salle STL (14.15.507)",
+              "start": "2025-09-02T08:10:00+00:00",
+              "end": "2025-09-02T08:50:00+00:00"
+            },
+            {
+              "uid": "2BB41EE0-900B-45D8-846C-F7D74D4AA71E",
+              "summary": "Soutenance Stage Genitrini/Peschanski - JAVAID",
+              "location": "Salle STL (14.15.507)",
+              "start": "2025-09-02T07:30:00+00:00",
+              "end": "2025-09-02T08:10:00+00:00"
+            },
+            {
+              "uid": "6CA962F2-3EA8-4ED8-9874-F0E0DEC0F442",
+              "summary": "Soutenance Stage Genitrini/Peschanski - FALL",
+              "location": "Salle STL (14.15.507)",
+              "start": "2025-09-02T09:00:00+00:00",
+              "end": "2025-09-02T09:40:00+00:00"
+            },
+            {
+              "uid": "E41D2A81-CF7D-406C-B178-4E77A2654869",
+              "summary": "Soutenance Stage Genitrini/Peschanski - PERLIN",
+              "location": "Salle STL (14.15.507)",
+              "start": "2025-09-02T09:40:00+00:00",
+              "end": "2025-09-02T10:20:00+00:00"
+            },
+            {
+              "uid": "98BC527E-3642-4023-B833-299FF637851A",
+              "summary": "Soutenance Stage Genitrini/Peschanski - MAHFOUZ",
+              "location": "Salle STL (14.15.507)",
+              "start": "2025-09-02T12:10:00+00:00",
+              "end": "2025-09-02T12:50:00+00:00"
+            },
+            {
+              "uid": "E4625B11-BD08-49FC-AAA6-EB364555FC73",
+              "summary": "Soutenance Stage Genitrini/Peschanski - XUE",
+              "location": "Salle STL (14.15.507)",
+              "start": "2025-09-02T13:30:00+00:00",
+              "end": "2025-09-02T14:10:00+00:00"
+            },
+            {
+              "uid": "F89BE71D-5DAC-4F70-B6D9-2BD6DE486261",
+              "summary": "Soutenance Stage Genitrini/Peschanski - ZUHAIR",
+              "location": "Salle 14.24.105",
+              "start": "2025-09-04T07:10:00+00:00",
+              "end": "2025-09-04T07:50:00+00:00"
+            },
+            {
+              "uid": "A15E3FC1-3032-4423-B6EC-352A3A814BC2",
+              "summary": "Soutenance Stage Genitrini/Peschanski - LUONG",
+              "location": "Salle 14.24.105",
+              "start": "2025-09-04T07:50:00+00:00",
+              "end": "2025-09-04T08:30:00+00:00"
+            },
+            {
+              "uid": "AB777EA9-25F2-4AC4-855C-CE55C15371E0",
+              "summary": "Soutenance Stage Genitrini/Peschanski - LI",
+              "location": "Salle 14.24.105",
+              "start": "2025-09-04T08:30:00+00:00",
+              "end": "2025-09-04T09:10:00+00:00"
+            },
+            {
+              "uid": "6C5AA0F4-BBB8-495A-9AEF-D9D5C173F976",
+              "summary": "Soutenance Stage Genitrini/Peschanski - GAUDIN",
+              "location": "Salle 14.24.105",
+              "start": "2025-09-04T09:10:00+00:00",
+              "end": "2025-09-04T09:50:00+00:00"
+            },
+            {
+              "uid": "27DC0223-D1F2-439A-882F-D879EC2675D7",
+              "summary": "Soutenance Stage Genitrini/Peschanski - NAHARI",
+              "location": "Salle 14.24.105",
+              "start": "2025-09-04T09:50:00+00:00",
+              "end": "2025-09-04T10:30:00+00:00"
+            },
+            {
+              "uid": "AB993C3E-57B0-4196-8773-9D161D54D964",
+              "summary": "Soutenance Stage Miné/Truchet - VICENTE",
+              "location": "Salle 14.24.103",
+              "start": "2025-09-03T07:00:00+00:00",
+              "end": "2025-09-03T07:45:00+00:00"
+            },
+            {
+              "uid": "85D3DF0B-57AC-486A-AF71-FF62E2D09F71",
+              "summary": "Soutenance Stage Miné/Truchet - GLASZIOU",
+              "location": "Salle 14.24.103",
+              "start": "2025-09-03T07:45:00+00:00",
+              "end": "2025-09-03T08:30:00+00:00"
+            },
+            {
+              "uid": "6B1A138B-8A39-49BF-9D74-BD3186587C68",
+              "summary": "Soutenance Stage Miné/Truchet -  FAN",
+              "location": "Salle 14.24.103",
+              "start": "2025-09-03T08:30:00+00:00",
+              "end": "2025-09-03T09:15:00+00:00"
+            },
+            {
+              "uid": "DD0EB1EC-352B-4FD6-8F1F-5F17161D9964",
+              "summary": "Soutenance Stage Miné/Truchet - HERNANDEZ-YEPES",
+              "location": "Salle 14.24.103",
+              "start": "2025-09-03T09:15:00+00:00",
+              "end": "2025-09-03T10:00:00+00:00"
+            },
+            {
+              "uid": "6508D01A-70E6-4FE4-9CEE-7A3FED865223",
+              "summary": "Soutenance Stage Miné/Truchet - RATTANAVAN",
+              "location": "Salle 14.24.103",
+              "start": "2025-09-03T11:30:00+00:00",
+              "end": "2025-09-03T12:15:00+00:00"
+            },
+            {
+              "uid": "72652D36-01C2-4DE9-902F-D861D73AEBAF",
+              "summary": "Soutenance Stage Miné/Truchet - UTHAYAKUMAR",
+              "location": "Salle 14.24.103",
+              "start": "2025-09-03T12:15:00+00:00",
+              "end": "2025-09-03T13:00:00+00:00"
+            },
+            {
+              "uid": "F375A6F4-2831-4AC9-90BF-F66C57AB67CE",
+              "summary": "Soutenance Stage Miné/Truchet - CAO",
+              "location": "Salle 14.24.103",
+              "start": "2025-09-03T13:00:00+00:00",
+              "end": "2025-09-03T13:45:00+00:00"
+            },
+            {
+              "uid": "4BBC810A-B5F0-4606-8B6E-C13F6E898394",
+              "summary": "Soutenance Stage Miné/Truchet - PHAM",
+              "location": "Salle 14.24.103",
+              "start": "2025-09-03T14:00:00+00:00",
+              "end": "2025-09-03T14:45:00+00:00"
+            },
+            {
+              "uid": "137D9505-94F2-4305-AED0-FD4BAFF88687",
+              "summary": "Soutenance Stage Miné/Truchet - BENSAID",
+              "location": "Salle 14.24.103",
+              "start": "2025-09-03T14:45:00+00:00",
+              "end": "2025-09-03T15:30:00+00:00"
+            },
+            {
+              "uid": "65EB483C-91B1-4C40-8D8D-3F07DD3C9E01",
+              "summary": "Soutenance Stage Miné - SANTONI",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-09-05T12:00:00+00:00",
+              "end": "2025-09-05T12:45:00+00:00"
+            },
+            {
+              "uid": "45081D8E-30DF-44B1-95DC-CD3FB9567669",
+              "summary": "Soutenance Stage Miné - EL ABBOUD",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-09-05T12:45:00+00:00",
+              "end": "2025-09-05T13:30:00+00:00"
+            },
+            {
+              "uid": "1F52DA55-C144-437C-8BBB-61BE487301AC",
+              "summary": "Soutenance Stage Miné - CHETOUANI",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-09-05T13:30:00+00:00",
+              "end": "2025-09-05T14:15:00+00:00"
+            },
+            {
+              "uid": "9C7E423B-E8A6-4AFB-BCAF-A602E1BF8484",
+              "summary": "Soutenance Stage Miné - DESMAZIERES",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-09-05T14:15:00+00:00",
+              "end": "2025-09-05T15:00:00+00:00"
+            },
+            {
+              "uid": "95D18B0D-DBCE-41BA-94C7-89924D327B8C",
+              "summary": "Soutenance Stage Naima - HONG",
+              "location": "Salle 14.24.108",
+              "start": "2025-09-04T07:00:00+00:00",
+              "end": "2025-09-04T07:45:00+00:00"
+            },
+            {
+              "uid": "252F71C2-1792-4AD5-8A6C-BFBCD8B1156B",
+              "summary": "Soutenance Stage Naima - ZEMALI",
+              "location": "Salle 14.24.108",
+              "start": "2025-09-04T08:30:00+00:00",
+              "end": "2025-09-04T09:15:00+00:00"
+            },
+            {
+              "uid": "DCE698CB-7BDC-4D5B-9604-091D02251B8C",
+              "summary": "Soutenance Stage Naima - ZHUANG",
+              "location": "Salle 14.24.108",
+              "start": "2025-09-04T09:15:00+00:00",
+              "end": "2025-09-04T10:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SVP",
+      "code": "554",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "44A89735-08AD-4894-862D-F318A3098DA3",
+              "summary": "UM5IN554-SVP-Cours/TME",
+              "location": null,
+              "start": "2025-09-23T11:45:00+00:00",
+              "end": "2025-09-23T16:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TAS",
+      "code": "555",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "58DE5E41-B8A4-4030-864E-45E5C15A4586",
+              "summary": "UM5IN555-TAS-Cours",
+              "location": "Salle 54.55.205",
+              "start": "2025-11-06T07:30:00+00:00",
+              "end": "2025-11-06T09:30:00+00:00"
+            },
+            {
+              "uid": "58DE5E41-B8A4-4030-864E-45E5C15A4586",
+              "summary": "UM5IN555-TAS-Cours",
+              "location": "Résa n°665906",
+              "start": "2025-11-20T07:30:00+00:00",
+              "end": "2025-11-20T09:30:00+00:00"
+            },
+            {
+              "uid": "7E6C29E4-CFFF-48DD-A40A-BE384ADFFBAE",
+              "summary": "UM5IN555-TAS-Cours",
+              "location": "Salle 54.55.205",
+              "start": "2025-10-23T06:30:00+00:00",
+              "end": "2025-10-23T08:30:00+00:00"
+            },
+            {
+              "uid": "C9321F5D-AC8F-4163-9B45-99FDA36FEBAD",
+              "summary": "UM5IN555-TAS-Cours",
+              "location": "Salle 54.55.205",
+              "start": "2025-09-25T06:30:00+00:00",
+              "end": "2025-09-25T08:30:00+00:00"
+            },
+            {
+              "uid": "183924D0-E6D4-4F5A-A834-67511CBA5DA9",
+              "summary": "UM5IN555-TAS-Cours",
+              "location": "AMPHI 55B",
+              "start": "2025-10-20T06:30:00+00:00",
+              "end": "2025-10-20T08:30:00+00:00"
+            },
+            {
+              "uid": "8626338E-D5D8-4B3B-AD78-2057636D2BE3",
+              "summary": "UM5IN555-TAS-Cours",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-12-04T12:45:00+00:00",
+              "end": "2025-12-04T14:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "0AEF2984-90BB-4355-9E8C-71C99108051F",
+              "summary": "UM5IN555-TAS-TME STL",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-09-25T08:45:00+00:00",
+              "end": "2025-09-25T10:45:00+00:00"
+            },
+            {
+              "uid": "8857C09D-066F-4E8D-BABE-32898A5FA990",
+              "summary": "UM5IN555-TAS-TME STL",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-10-20T08:45:00+00:00",
+              "end": "2025-10-20T10:45:00+00:00"
+            },
+            {
+              "uid": "FEB46CC3-4FF2-427C-9A71-11DE51D82575",
+              "summary": "UM5IN555-TAS-TME STL",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-12-04T15:00:00+00:00",
+              "end": "2025-12-04T17:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TPEA",
+      "code": "562",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "AA5CDFCF-FE3D-489E-88E3-C9E9E61304EC",
+              "summary": "UM5IN562-TPEA-Cours/TME - Clearsy",
+              "location": "Salle STL (14.15.507)",
+              "start": "2025-09-22T11:45:00+00:00",
+              "end": "2025-09-22T16:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "updated_at": "2025-09-04T19:10:25.606517+00:00"
+}

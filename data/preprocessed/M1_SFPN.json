@@ -1,0 +1,643 @@
+{
+  "master_year": "M1",
+  "parcours": "SFPN",
+  "courses": [
+    {
+      "name": "COMPLEX",
+      "code": "900",
+      "special": false,
+      "groups": [
+        "1",
+        "2",
+        "3"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "CC980844-75F5-477C-B85B-7F06D4603660",
+              "summary": "UM4IN900-COMPLEX-Cours",
+              "location": "Amphi 55A",
+              "start": "2025-09-18T08:45:00+00:00",
+              "end": "2025-09-18T10:45:00+00:00"
+            },
+            {
+              "uid": "7BFBC6C4-3C0A-4669-A1C9-B53995286C4A",
+              "summary": "UM4IN900-COMPLEX-Cours",
+              "location": "Résa n° 666091",
+              "start": "2025-11-27T09:45:00+00:00",
+              "end": "2025-11-27T11:45:00+00:00"
+            },
+            {
+              "uid": "817D459F-B341-44AC-8D67-9C9819FDE1E5",
+              "summary": "UM4IN900-COMPLEX-Cours",
+              "location": "Résa n° 667658",
+              "start": "2025-11-06T09:45:00+00:00",
+              "end": "2025-11-06T11:45:00+00:00"
+            },
+            {
+              "uid": "C5E889F7-0CA9-4DAE-8591-1EAEFF67BE68",
+              "summary": "UM4IN900-COMPLEX-Cours",
+              "location": "Amphi Astier",
+              "start": "2025-10-23T08:45:00+00:00",
+              "end": "2025-10-23T10:45:00+00:00"
+            },
+            {
+              "uid": "73A59BFB-3471-478C-A51A-295FA939AF7E",
+              "summary": "UM4IN900-COMPLEX-Cours",
+              "location": "Résa n° 668008",
+              "start": "2025-10-20T08:45:00+00:00",
+              "end": "2025-10-20T10:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "19CEDC86-2067-4F2C-B5CA-9A8055A7F50F",
+              "summary": "UM4IN900-COMPLEX-TD1",
+              "location": "Résa n° 667656",
+              "start": "2025-09-22T06:30:00+00:00",
+              "end": "2025-09-22T10:45:00+00:00"
+            },
+            {
+              "uid": "7698CC33-D20B-4DB9-B175-FA728B11AE4A",
+              "summary": "UM4IN900-COMPLEX-TD1",
+              "location": "Salle: 56.66.112",
+              "start": "2025-10-06T06:30:00+00:00",
+              "end": "2025-10-06T08:30:00+00:00"
+            },
+            {
+              "uid": "86C69AF7-0560-4B66-8F41-B1ACF5AE135F",
+              "summary": "UM4IN900-COMPLEX-TD1",
+              "location": "Résa n° 667722",
+              "start": "2025-11-03T07:30:00+00:00",
+              "end": "2025-11-03T09:30:00+00:00"
+            },
+            {
+              "uid": "70A507E0-EF2B-4794-8B1A-BDA8E461D6D8",
+              "summary": "UM4IN900-COMPLEX-TD1",
+              "location": "Résa n° 667725",
+              "start": "2025-11-24T07:30:00+00:00",
+              "end": "2025-11-24T09:30:00+00:00"
+            },
+            {
+              "uid": "32DC1009-20BF-499B-B759-563062B6FC96",
+              "summary": "UM4IN900-COMPLEX-TD1",
+              "location": "Résa n° 667906",
+              "start": "2025-11-05T07:30:00+00:00",
+              "end": "2025-11-05T09:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "F04C5315-8110-4A3B-B254-AF880D0ED0C1",
+              "summary": "UM4IN900-COMPLEX-TME1",
+              "location": "Salle : 24.25.108",
+              "start": "2025-10-06T08:45:00+00:00",
+              "end": "2025-10-06T10:45:00+00:00"
+            },
+            {
+              "uid": "68DDCC5E-CA66-4291-AED2-116C7296ADD4",
+              "summary": "UM4IN900-COMPLEX-TME1",
+              "location": "En attente de salle",
+              "start": "2025-10-13T08:45:00+00:00",
+              "end": "2025-10-13T10:45:00+00:00"
+            },
+            {
+              "uid": "551F1288-045A-45F1-B4AA-1195F16D66FC",
+              "summary": "UM4IN900-COMPLEX-TME1",
+              "location": "En attente de salle",
+              "start": "2025-11-03T09:45:00+00:00",
+              "end": "2025-11-03T11:45:00+00:00"
+            },
+            {
+              "uid": "E5B1462C-1AA5-4DD7-81C9-3FD94DCA709A",
+              "summary": "UM4IN900-COMPLEX-TME1",
+              "location": "En attente de salle",
+              "start": "2025-11-24T09:45:00+00:00",
+              "end": "2025-11-24T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "ED47FCDD-95A9-4DB0-A19F-B557182DC28A",
+              "summary": "UM4IN900-COMPLEX-TD2",
+              "location": " n° 667886",
+              "start": "2025-09-24T06:30:00+00:00",
+              "end": "2025-09-24T10:45:00+00:00"
+            },
+            {
+              "uid": "ED47FCDD-95A9-4DB0-A19F-B557182DC28A",
+              "summary": "UM4IN900-COMPLEX-TD2",
+              "location": "Salle: 24.25.105",
+              "start": "2025-09-24T06:30:00+00:00",
+              "end": "2025-09-24T10:45:00+00:00"
+            },
+            {
+              "uid": "EEA9861B-A852-4CA6-A282-7B70C2DA7D2A",
+              "summary": "UM4IN900-COMPLEX-TD2",
+              "location": "Salle: 24.25.105",
+              "start": "2025-10-01T06:30:00+00:00",
+              "end": "2025-10-01T10:45:00+00:00"
+            },
+            {
+              "uid": "3087900A-6737-4BF6-93F1-6B4AEAF88C72",
+              "summary": "UM4IN900-COMPLEX-TD2",
+              "location": "Salle: 24.34.305",
+              "start": "2025-10-08T06:30:00+00:00",
+              "end": "2025-10-08T08:30:00+00:00"
+            },
+            {
+              "uid": "2F6988FC-25E5-4F19-A8D0-AABE39E03DCF",
+              "summary": "UM4IN900-COMPLEX-TD2",
+              "location": "Résa n° 667916",
+              "start": "2025-11-26T07:30:00+00:00",
+              "end": "2025-11-26T09:30:00+00:00"
+            },
+            {
+              "uid": "6256FB57-6334-48E4-9857-D7896B82B09D",
+              "summary": "UM4IN900-COMPLEX-TD2",
+              "location": "Résa n° 667722",
+              "start": "2025-11-10T07:30:00+00:00",
+              "end": "2025-11-10T09:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "260E189A-6B92-4EBB-BA03-144B286C5C28",
+              "summary": "UM4IN900-COMPLEX-TME2",
+              "location": "En attente de salle",
+              "start": "2025-10-08T08:45:00+00:00",
+              "end": "2025-10-08T10:45:00+00:00"
+            },
+            {
+              "uid": "4CF9EB79-9D36-4A88-B021-C250560BE7BF",
+              "summary": "UM4IN900-COMPLEX-TME2",
+              "location": "En attente de salle",
+              "start": "2025-11-05T09:45:00+00:00",
+              "end": "2025-11-05T11:45:00+00:00"
+            },
+            {
+              "uid": "CA93D6DC-F720-4C77-B143-F8E06B276DD7",
+              "summary": "UM4IN900-COMPLEX-TME2",
+              "location": "En attente de salle",
+              "start": "2025-11-26T09:45:00+00:00",
+              "end": "2025-11-26T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "3",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "C6C21697-B696-40E1-8D99-8549332820E0",
+              "summary": "UM4IN900-COMPLEX-TD3",
+              "location": "Salle: 24.34.204",
+              "start": "2025-09-25T11:45:00+00:00",
+              "end": "2025-09-25T16:00:00+00:00"
+            },
+            {
+              "uid": "625F2FB3-51D8-4C26-ACFA-078FBE6378FF",
+              "summary": "UM4IN900-COMPLEX-TD3",
+              "location": "Salle: 24.34.310",
+              "start": "2025-10-09T11:45:00+00:00",
+              "end": "2025-10-09T13:45:00+00:00"
+            },
+            {
+              "uid": "17939D05-4314-4350-9640-931B8870C096",
+              "summary": "UM4IN900-COMPLEX-TD3",
+              "location": "Salle: 54.55.108",
+              "start": "2025-10-23T11:45:00+00:00",
+              "end": "2025-10-23T13:45:00+00:00"
+            },
+            {
+              "uid": "2413E421-6949-4661-9C0B-02D2FB31C7DC",
+              "summary": "UM4IN900-COMPLEX-TD3",
+              "location": "Résa n° 667973",
+              "start": "2025-11-06T12:45:00+00:00",
+              "end": "2025-11-06T14:45:00+00:00"
+            },
+            {
+              "uid": "26CDE322-0742-463E-8D35-9B208140B7C2",
+              "summary": "UM4IN900-COMPLEX-TD3",
+              "location": "Résa n° 667975",
+              "start": "2025-11-27T12:45:00+00:00",
+              "end": "2025-11-27T14:45:00+00:00"
+            },
+            {
+              "uid": "4189AEFC-A5A6-461C-8DC8-B160D27972BB",
+              "summary": "UM4IN900-COMPLEX-TD3",
+              "location": "Résa 668012",
+              "start": "2025-10-20T11:45:00+00:00",
+              "end": "2025-10-20T13:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "3",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "287ECA86-8277-4EA7-A652-AEBCFCC3C295",
+              "summary": "UM4IN900-COMPLEX-TME3",
+              "location": "En attente de salle",
+              "start": "2025-10-09T14:00:00+00:00",
+              "end": "2025-10-09T16:00:00+00:00"
+            },
+            {
+              "uid": "4C6458F1-F9D2-41AD-A3F7-C836D97561DD",
+              "summary": "UM4IN900-COMPLEX-TME3",
+              "location": "En attente de salle",
+              "start": "2025-10-23T14:00:00+00:00",
+              "end": "2025-10-23T16:00:00+00:00"
+            },
+            {
+              "uid": "644E77DE-09A0-46DC-A6B3-F1B977BF62C1",
+              "summary": "UM4IN900-COMPLEX-TME3",
+              "location": "En attente de salle",
+              "start": "2025-11-06T15:00:00+00:00",
+              "end": "2025-11-06T17:00:00+00:00"
+            },
+            {
+              "uid": "6068A50A-F698-4AB3-8892-D0A74870A869",
+              "summary": "UM4IN900-COMPLEX-TME3",
+              "location": "En attente de salle",
+              "start": "2025-11-27T15:00:00+00:00",
+              "end": "2025-11-27T17:00:00+00:00"
+            },
+            {
+              "uid": "4BC22A13-5A02-4BD0-B342-3F41D609CB21",
+              "summary": "UM4IN900-COMPLEX-TME3",
+              "location": "En attente de salle",
+              "start": "2025-10-20T14:00:00+00:00",
+              "end": "2025-10-20T16:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MODEL",
+      "code": "901",
+      "special": false,
+      "groups": [
+        "1",
+        "2"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "700F6A1B-11EA-4D8A-8CDF-88716B564419",
+              "summary": "UM4IN901-MODEL-Cours (EN)",
+              "location": "Résa n° 666094",
+              "start": "2025-09-19T06:30:00+00:00",
+              "end": "2025-09-19T08:30:00+00:00"
+            },
+            {
+              "uid": "D2083AB5-1CD8-4717-B35F-94D7A78AF860",
+              "summary": "UM4IN901-MODEL-Cours (EN)",
+              "location": "Résa n° 666097",
+              "start": "2025-11-28T07:30:00+00:00",
+              "end": "2025-11-28T09:30:00+00:00"
+            },
+            {
+              "uid": "4EAB22DB-9FF1-4333-8032-4BC5F5122817",
+              "summary": "UM4IN901-MODEL-Cours (EN)",
+              "location": "Résa n° 667680",
+              "start": "2025-11-07T07:30:00+00:00",
+              "end": "2025-11-07T09:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "1B401A31-77D9-4B7D-9CB7-5720CA3E3361",
+              "summary": "UM4IN901-MODEL-TD1",
+              "location": "Salle: 24.34.303",
+              "start": "2025-09-24T11:45:00+00:00",
+              "end": "2025-09-24T13:45:00+00:00"
+            },
+            {
+              "uid": "DA41BAE7-3FD4-4E82-8300-9C3517D978A1",
+              "summary": "UM4IN901-MODEL-TD1",
+              "location": "Résa n° 667941",
+              "start": "2025-11-05T12:45:00+00:00",
+              "end": "2025-11-05T14:45:00+00:00"
+            },
+            {
+              "uid": "6ED5368F-6B07-431F-A256-9ED0AB9705B3",
+              "summary": "UM4IN901-MODEL-TD1",
+              "location": "Résa n° 667951",
+              "start": "2025-11-26T12:45:00+00:00",
+              "end": "2025-11-26T14:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "1FDB17A5-C668-425A-9621-380150E23D97",
+              "summary": "UM4IN901-MODEL-TME1",
+              "location": "En attente de salle",
+              "start": "2025-09-24T14:00:00+00:00",
+              "end": "2025-09-24T16:00:00+00:00"
+            },
+            {
+              "uid": "D7E72A93-03A3-4A1F-A464-8E704BD5F4FA",
+              "summary": "UM4IN901-MODEL-TME1",
+              "location": "En attente de salle",
+              "start": "2025-11-05T15:00:00+00:00",
+              "end": "2025-11-05T17:00:00+00:00"
+            },
+            {
+              "uid": "7792FD1A-C552-4AE9-89D7-5D84BB6071F9",
+              "summary": "UM4IN901-MODEL-TME1",
+              "location": "En attente de salle",
+              "start": "2025-11-26T15:00:00+00:00",
+              "end": "2025-11-26T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "0EB2C6CE-B57B-45A5-A44C-822E6F361BDE",
+              "summary": "UM4IN901-MODEL- TD2",
+              "location": "Résa n° 667803",
+              "start": "2025-09-22T08:45:00+00:00",
+              "end": "2025-09-22T10:45:00+00:00"
+            },
+            {
+              "uid": "723902E4-1296-4516-9B75-2A591C209374",
+              "summary": "UM4IN901-MODEL- TD2",
+              "location": "Résa n° 667857",
+              "start": "2025-11-03T09:45:00+00:00",
+              "end": "2025-11-03T11:45:00+00:00"
+            },
+            {
+              "uid": "20AB8459-01FA-4A01-8074-E8E5E13D27E6",
+              "summary": "UM4IN901-MODEL- TD2",
+              "location": "Résa n° 667860",
+              "start": "2025-11-24T09:45:00+00:00",
+              "end": "2025-11-24T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "8430A1B4-DC2E-4D33-8F0C-7D632BAE0504",
+              "summary": "UM4IN901-MODEL- (EN) TME2",
+              "location": "En attente de salle",
+              "start": "2025-09-22T06:30:00+00:00",
+              "end": "2025-09-22T08:30:00+00:00"
+            },
+            {
+              "uid": "E354EB1D-E7B1-447D-AD00-B45CBEC6A3E3",
+              "summary": "UM4IN901-MODEL- (EN) TME2",
+              "location": "En attente de salle",
+              "start": "2025-11-03T07:30:00+00:00",
+              "end": "2025-11-03T09:30:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PPAR",
+      "code": "903",
+      "special": false,
+      "groups": [
+        "1",
+        "2"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "EFAB16D8-81AB-45EF-A1C9-9D71D8098FE3",
+              "summary": "UM4IN903-PPAR-CS (EN)",
+              "location": "Résa n° 666019",
+              "start": "2025-11-26T07:30:00+00:00",
+              "end": "2025-11-26T09:30:00+00:00"
+            },
+            {
+              "uid": "B5AAD20E-AAAE-425B-92AA-184247AB52B4",
+              "summary": "UM4IN903-PPAR-CS (EN)",
+              "location": "Résa n° 665957",
+              "start": "2025-11-05T07:30:00+00:00",
+              "end": "2025-11-05T09:30:00+00:00"
+            },
+            {
+              "uid": "21A1F1ED-5905-4B9C-B3EE-074F050ED9BC",
+              "summary": "UM4IN903-PPAR-Cours",
+              "location": "Salle: 24.34.207",
+              "start": "2025-09-17T06:30:00+00:00",
+              "end": "2025-09-17T08:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "329E2E50-DFCA-41F0-98A3-9AA9F973274D",
+              "summary": "UM4IN903-PPAR-TME 1 (EN)",
+              "location": "En attente de salle",
+              "start": "2025-09-26T11:45:00+00:00",
+              "end": "2025-09-26T16:00:00+00:00"
+            },
+            {
+              "uid": "38A9FE6A-D060-4CA9-BE94-861F8D55CB5E",
+              "summary": "UM4IN903-PPAR-TME 1 (EN)",
+              "location": "En attente de salle",
+              "start": "2025-11-07T12:45:00+00:00",
+              "end": "2025-11-07T17:00:00+00:00"
+            },
+            {
+              "uid": "E587F625-2DA4-4F86-A28C-9DCB2C6AD57F",
+              "summary": "UM4IN903-PPAR-TME 1 (EN)",
+              "location": "En attente de salle",
+              "start": "2025-11-28T12:45:00+00:00",
+              "end": "2025-11-28T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "4132F375-52A6-458D-A2EA-D890BF700E37",
+              "summary": "UM4IN903-PPAR-TME 2 (EN)",
+              "location": "En attente de salle",
+              "start": "2025-09-23T06:30:00+00:00",
+              "end": "2025-09-23T10:45:00+00:00"
+            },
+            {
+              "uid": "7DADA083-17E5-4150-A97A-67F973F51551",
+              "summary": "UM4IN903-PPAR-TME 2 (EN)",
+              "location": "En attente de salle",
+              "start": "2025-11-04T07:30:00+00:00",
+              "end": "2025-11-04T11:45:00+00:00"
+            },
+            {
+              "uid": "2E5E2F3A-7D4D-4622-8FEA-54C293327FAA",
+              "summary": "UM4IN903-PPAR-TME 2 (EN)",
+              "location": "En attente de salle",
+              "start": "2025-11-25T07:30:00+00:00",
+              "end": "2025-11-25T11:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SC",
+      "code": "905",
+      "special": false,
+      "groups": [
+        "1",
+        "2"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "47AFA57D-8F67-4FC5-A088-235F55DD9719",
+              "summary": "UM4IN905-SC-Cours",
+              "location": "Salle: 14.24.109",
+              "start": "2025-09-15T08:45:00+00:00",
+              "end": "2025-09-15T10:45:00+00:00"
+            },
+            {
+              "uid": "D071D9E1-C4AF-4E99-A617-27773E0DFE9B",
+              "summary": "UM4IN905-SC-Cours",
+              "location": "Résa n° 666117",
+              "start": "2025-11-03T09:45:00+00:00",
+              "end": "2025-11-03T11:45:00+00:00"
+            },
+            {
+              "uid": "45C3F455-EDAD-46FB-A954-98AA66DCFC02",
+              "summary": "UM4IN905-SC-Cours",
+              "location": "Résa n° 666118",
+              "start": "2025-11-24T09:45:00+00:00",
+              "end": "2025-11-24T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "0DB52D13-3376-404E-8AA3-DF24115E467B",
+              "summary": "UM4IN905-SC-TME1",
+              "location": "En attente de salle",
+              "start": "2025-09-22T11:45:00+00:00",
+              "end": "2025-09-22T16:00:00+00:00"
+            },
+            {
+              "uid": "EA653E88-324E-469B-A7C6-3C5D1E117900",
+              "summary": "UM4IN905-SC-TME1",
+              "location": "En attente de salle",
+              "start": "2025-11-03T12:45:00+00:00",
+              "end": "2025-11-03T17:00:00+00:00"
+            },
+            {
+              "uid": "50D0E588-9AD5-4B25-B1E7-E71DA4F8C52F",
+              "summary": "UM4IN905-SC-TME1",
+              "location": "En attente de salle",
+              "start": "2025-11-24T12:45:00+00:00",
+              "end": "2025-11-24T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "F702E96F-7771-4B84-94B3-4015BE6DDB83",
+              "summary": "UM4IN905-SC-TME2",
+              "location": "Salle : 14.15.301",
+              "start": "2025-09-23T11:45:00+00:00",
+              "end": "2025-09-23T16:00:00+00:00"
+            },
+            {
+              "uid": "58BE87E9-DCFD-4AD0-810A-16D372FAC3E7",
+              "summary": "UM4IN905-SC-TME2",
+              "location": "Salle : 14.15.301",
+              "start": "2025-11-04T12:45:00+00:00",
+              "end": "2025-11-04T17:00:00+00:00"
+            },
+            {
+              "uid": "4DE7687E-A295-44B5-8279-F862DD0DE2B5",
+              "summary": "UM4IN905-SC-TME2",
+              "location": "Salle : 14.15.301",
+              "start": "2025-11-25T12:45:00+00:00",
+              "end": "2025-11-25T17:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "\\nRéunionM1CCA - Réunion de rentrée",
+      "code": "special",
+      "special": true,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "6A3EE624-AA7A-4048-8868-AE3A394DE91E",
+              "summary": "\\nRéunionM1CCA - Réunion de rentrée",
+              "location": "Salle: 14.24.109",
+              "start": "2025-09-09T12:00:00+00:00",
+              "end": "2025-09-09T13:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "updated_at": "2025-09-04T19:10:21.184571+00:00"
+}

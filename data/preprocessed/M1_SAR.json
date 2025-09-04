@@ -1,0 +1,473 @@
+{
+  "master_year": "M1",
+  "parcours": "SAR",
+  "courses": [
+    {
+      "name": "ATRIUM DES MÉTIERS",
+      "code": "special",
+      "special": true,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "07CD5C31-E098-40A7-94EA-CF98A8AB0D02",
+              "summary": "ATRIUM DES MÉTIERS",
+              "location": null,
+              "start": "2025-10-16T06:00:00+00:00",
+              "end": "2025-10-16T16:00:00+00:00"
+            },
+            {
+              "uid": "2E6E3885-D487-4E28-8241-DDF1F9C31126",
+              "summary": "RéunionM1SAR",
+              "location": "Salle: 14.24.209 (reservation n° 674721)",
+              "start": "2025-09-08T12:00:00+00:00",
+              "end": "2025-09-08T14:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NOYAU",
+      "code": "401",
+      "special": false,
+      "groups": [
+        "1",
+        "2",
+        "3"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "3C758AF4-8F8F-44BA-9D11-A12CB4087010",
+              "summary": "UM4IN401-NOYAU-Cours",
+              "location": null,
+              "start": "2025-11-03T15:00:00+00:00",
+              "end": "2025-11-03T17:00:00+00:00"
+            },
+            {
+              "uid": "3C758AF4-8F8F-44BA-9D11-A12CB4087010",
+              "summary": "UM4IN401-NOYAU-Cours",
+              "location": "reservation n° 665974",
+              "start": "2025-11-03T15:00:00+00:00",
+              "end": "2025-11-03T17:00:00+00:00"
+            },
+            {
+              "uid": "3C758AF4-8F8F-44BA-9D11-A12CB4087010",
+              "summary": "UM4IN401-NOYAU-Cours",
+              "location": "reservation n° 665974",
+              "start": "2025-11-10T15:00:00+00:00",
+              "end": "2025-11-10T17:00:00+00:00"
+            },
+            {
+              "uid": "B7A306FF-B229-49A5-BD3D-29E6D3BD69AB",
+              "summary": "UM4IN401-NOYAU-Cours",
+              "location": "reservation n° 665977",
+              "start": "2025-11-24T15:00:00+00:00",
+              "end": "2025-11-24T17:00:00+00:00"
+            },
+            {
+              "uid": "44BB66CC-9EC8-41C8-A4A5-A1A0FCD71DEA",
+              "summary": "UM4IN401-NOYAU-Cours",
+              "location": "AMPHI.45A (reservation n° 665969)",
+              "start": "2025-09-15T14:00:00+00:00",
+              "end": "2025-09-15T16:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "0BF739E4-19FE-4A6F-929C-DD15EC4A022D",
+              "summary": "UM4IN401-NOYAU-ExamenR1",
+              "location": null,
+              "start": "2025-11-17T15:00:00+00:00",
+              "end": "2025-11-17T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "9B2497B4-5DF1-442B-8AA3-992FE9772738",
+              "summary": "UM4IN401-NOYAU-TD1",
+              "location": "Salle: 14.15.101 (reservation n° 666004)",
+              "start": "2025-09-23T11:45:00+00:00",
+              "end": "2025-09-23T16:00:00+00:00"
+            },
+            {
+              "uid": "912ABA5C-23F8-4C91-8BC4-DBDBCD37C0DB",
+              "summary": "UM4IN401-NOYAU-TD1",
+              "location": "reservation n° 666016",
+              "start": "2025-11-25T12:45:00+00:00",
+              "end": "2025-11-25T17:00:00+00:00"
+            },
+            {
+              "uid": "F336C961-F8E3-4E03-B609-A0972C51A3A5",
+              "summary": "UM4IN401-NOYAU-TD1",
+              "location": null,
+              "start": "2025-11-04T12:45:00+00:00",
+              "end": "2025-11-04T17:00:00+00:00"
+            },
+            {
+              "uid": "F336C961-F8E3-4E03-B609-A0972C51A3A5",
+              "summary": "UM4IN401-NOYAU-TD1",
+              "location": "reservation n° 666008",
+              "start": "2025-11-04T12:45:00+00:00",
+              "end": "2025-11-04T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "C1A3AB44-71C5-46CC-A6E3-1A4D39A3144A",
+              "summary": "UM4IN401-NOYAU-TD2",
+              "location": "Salle: 14.24.107 (reservation n° 666021)",
+              "start": "2025-09-23T11:45:00+00:00",
+              "end": "2025-09-23T16:00:00+00:00"
+            },
+            {
+              "uid": "FC8D1999-4D21-4F4E-845E-A468598BDF21",
+              "summary": "UM4IN401-NOYAU-TD2",
+              "location": null,
+              "start": "2025-11-04T12:45:00+00:00",
+              "end": "2025-11-04T17:00:00+00:00"
+            },
+            {
+              "uid": "FC8D1999-4D21-4F4E-845E-A468598BDF21",
+              "summary": "UM4IN401-NOYAU-TD2",
+              "location": "reservation n° 666025",
+              "start": "2025-11-04T12:45:00+00:00",
+              "end": "2025-11-04T17:00:00+00:00"
+            },
+            {
+              "uid": "5B0DF82C-4775-4B91-8BFF-F9A8FD8093EB",
+              "summary": "UM4IN401-NOYAU-TD2",
+              "location": "reservation n° 666029",
+              "start": "2025-11-25T12:45:00+00:00",
+              "end": "2025-11-25T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "3",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "A0135048-57DD-4D61-B81A-E6C0B3AE9DE9",
+              "summary": "UM4IN401-NOYAU-TD3",
+              "location": "Salle: 54.55.204 (reservation n° 666034)",
+              "start": "2025-09-24T11:45:00+00:00",
+              "end": "2025-09-24T16:00:00+00:00"
+            },
+            {
+              "uid": "1CB4C16B-CA67-4AFC-9AC8-D86D778CF47E",
+              "summary": "UM4IN401-NOYAU-TD3",
+              "location": null,
+              "start": "2025-11-05T12:45:00+00:00",
+              "end": "2025-11-05T17:00:00+00:00"
+            },
+            {
+              "uid": "1CB4C16B-CA67-4AFC-9AC8-D86D778CF47E",
+              "summary": "UM4IN401-NOYAU-TD3",
+              "location": "reservation n° 666037",
+              "start": "2025-11-05T12:45:00+00:00",
+              "end": "2025-11-05T17:00:00+00:00"
+            },
+            {
+              "uid": "54002E26-9A10-4C06-B9B5-9BD7573E1648",
+              "summary": "UM4IN401-NOYAU-TD3",
+              "location": "reservation n° 666040",
+              "start": "2025-11-26T12:45:00+00:00",
+              "end": "2025-11-26T17:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PSCR",
+      "code": "400",
+      "special": false,
+      "groups": [
+        "1",
+        "2",
+        "3"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "E82E9A81-B1C7-4217-B78B-12C1EF9AAD2C",
+              "summary": "UM4IN400-PSCR-Cours",
+              "location": null,
+              "start": "2025-11-03T12:45:00+00:00",
+              "end": "2025-11-03T14:45:00+00:00"
+            },
+            {
+              "uid": "E82E9A81-B1C7-4217-B78B-12C1EF9AAD2C",
+              "summary": "UM4IN400-PSCR-Cours",
+              "location": "reservation n° 665960",
+              "start": "2025-11-03T12:45:00+00:00",
+              "end": "2025-11-03T14:45:00+00:00"
+            },
+            {
+              "uid": "E82E9A81-B1C7-4217-B78B-12C1EF9AAD2C",
+              "summary": "UM4IN400-PSCR-Cours",
+              "location": "reservation n° 665960",
+              "start": "2025-11-10T12:45:00+00:00",
+              "end": "2025-11-10T14:45:00+00:00"
+            },
+            {
+              "uid": "95F1EF70-046A-408D-A1CE-9FDE67D600F1",
+              "summary": "UM4IN400-PSCR-Cours",
+              "location": "reservation n° 665963",
+              "start": "2025-11-24T12:45:00+00:00",
+              "end": "2025-11-24T14:45:00+00:00"
+            },
+            {
+              "uid": "45E86D4A-969F-435E-9980-436CE2B9F74C",
+              "summary": "UM4IN400-PSCR-Cours",
+              "location": "AMPHI.55B (reservation n° 665955)",
+              "start": "2025-09-15T11:45:00+00:00",
+              "end": "2025-09-15T13:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "4EC132A3-9AF8-43CF-9FC8-7FBC5AAA1062",
+              "summary": "UM4IN400-PSCR-ExamenR1",
+              "location": null,
+              "start": "2025-11-17T12:45:00+00:00",
+              "end": "2025-11-17T14:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "A3F75702-BC8E-4F57-B3A3-5CF29C5908C7",
+              "summary": "UM4IN400-PSCR-TD1",
+              "location": null,
+              "start": "2025-11-05T07:30:00+00:00",
+              "end": "2025-11-05T09:30:00+00:00"
+            },
+            {
+              "uid": "A3F75702-BC8E-4F57-B3A3-5CF29C5908C7",
+              "summary": "UM4IN400-PSCR-TD1",
+              "location": "reservation n° 665983",
+              "start": "2025-11-05T07:30:00+00:00",
+              "end": "2025-11-05T09:30:00+00:00"
+            },
+            {
+              "uid": "1F029776-378C-4395-BD84-7C9652159645",
+              "summary": "UM4IN400-PSCR-TD1",
+              "location": "reservation n° 665984",
+              "start": "2025-11-26T07:30:00+00:00",
+              "end": "2025-11-26T09:30:00+00:00"
+            },
+            {
+              "uid": "9BA9DA70-EC6B-4B95-83F0-6A4753708C23",
+              "summary": "UM4IN400-PSCR-TD1",
+              "location": "Salle: 24.25.108 (reservation n° 665982)",
+              "start": "2025-09-24T06:30:00+00:00",
+              "end": "2025-09-24T08:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "9843BEB8-5B42-454C-9CC1-459252FDE541",
+              "summary": "UM4IN400-PSCR-TME1",
+              "location": null,
+              "start": "2025-09-24T08:45:00+00:00",
+              "end": "2025-09-24T10:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "07ED1694-BED2-4FCF-A6A9-925635784FFF",
+              "summary": "UM4IN400-PSCR-TD2",
+              "location": null,
+              "start": "2025-11-05T12:45:00+00:00",
+              "end": "2025-11-05T14:45:00+00:00"
+            },
+            {
+              "uid": "07ED1694-BED2-4FCF-A6A9-925635784FFF",
+              "summary": "UM4IN400-PSCR-TD2",
+              "location": "reservation n° 665988",
+              "start": "2025-11-05T12:45:00+00:00",
+              "end": "2025-11-05T14:45:00+00:00"
+            },
+            {
+              "uid": "2B99D59C-6F35-42FC-AD66-552DBE84C221",
+              "summary": "UM4IN400-PSCR-TD2",
+              "location": "reservation n° 665990",
+              "start": "2025-11-26T12:45:00+00:00",
+              "end": "2025-11-26T14:45:00+00:00"
+            },
+            {
+              "uid": "FA8704CC-A82F-49EF-BD13-7DD337467B46",
+              "summary": "UM4IN400-PSCR-TD2",
+              "location": "Salle: 55.65.101 (reservation n° 665985)",
+              "start": "2025-09-24T11:45:00+00:00",
+              "end": "2025-09-24T13:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "DBBDEA3F-64C8-4881-9480-0FDAE6C8ABB5",
+              "summary": "UM4IN400-PSCR-TME2",
+              "location": null,
+              "start": "2025-09-24T14:00:00+00:00",
+              "end": "2025-09-24T16:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "3",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "BA4D1BAF-242E-42D1-B6D3-10E9DC70BFE8",
+              "summary": "UM4IN400-PSCR-TD3",
+              "location": "Atrium.325",
+              "start": "2025-09-26T06:30:00+00:00",
+              "end": "2025-09-26T08:30:00+00:00"
+            },
+            {
+              "uid": "BA4D1BAF-242E-42D1-B6D3-10E9DC70BFE8",
+              "summary": "UM4IN400-PSCR-TD3",
+              "location": "Atrium.325",
+              "start": "2025-09-26T06:30:00+00:00",
+              "end": "2025-09-26T08:30:00+00:00"
+            },
+            {
+              "uid": "872DF6C1-EED8-4F2B-8747-5BE825A9FCD7",
+              "summary": "UM4IN400-PSCR-TD3",
+              "location": "Atrium.325",
+              "start": "2025-11-07T07:30:00+00:00",
+              "end": "2025-11-07T09:30:00+00:00"
+            },
+            {
+              "uid": "55DC467A-0DFD-4678-8C54-C23CB3A2DC66",
+              "summary": "UM4IN400-PSCR-TD3",
+              "location": "salle 55.65.105 (reservation n° 666000)",
+              "start": "2025-11-28T07:30:00+00:00",
+              "end": "2025-11-28T09:30:00+00:00"
+            },
+            {
+              "uid": "55DC467A-0DFD-4678-8C54-C23CB3A2DC66",
+              "summary": "UM4IN400-PSCR-TD3",
+              "location": "salle 54.55.204",
+              "start": "2025-11-28T07:30:00+00:00",
+              "end": "2025-11-28T09:30:00+00:00"
+            },
+            {
+              "uid": "59D531E4-9BC1-4A5E-AEAC-90542D5446E8",
+              "summary": "UM4IN400-PSCR-TD3",
+              "location": "Atrium.325",
+              "start": "2025-10-03T06:30:00+00:00",
+              "end": "2025-10-03T08:30:00+00:00"
+            },
+            {
+              "uid": "59D531E4-9BC1-4A5E-AEAC-90542D5446E8",
+              "summary": "UM4IN400-PSCR-TD3",
+              "location": "Atrium.325",
+              "start": "2025-10-03T06:30:00+00:00",
+              "end": "2025-10-03T08:30:00+00:00"
+            },
+            {
+              "uid": "133D2250-CE18-4857-A972-F93421F83718",
+              "summary": "UM4IN400-PSCR-TD3",
+              "location": "Atrium.325",
+              "start": "2025-10-10T06:30:00+00:00",
+              "end": "2025-10-10T08:30:00+00:00"
+            },
+            {
+              "uid": "133D2250-CE18-4857-A972-F93421F83718",
+              "summary": "UM4IN400-PSCR-TD3",
+              "location": "Atrium.325",
+              "start": "2025-10-10T06:30:00+00:00",
+              "end": "2025-10-10T08:30:00+00:00"
+            },
+            {
+              "uid": "FDF4F11E-F7A8-4C6B-A8B2-4A1F6660BB00",
+              "summary": "UM4IN400-PSCR-TD3",
+              "location": "Atrium.325",
+              "start": "2025-10-17T06:30:00+00:00",
+              "end": "2025-10-17T08:30:00+00:00"
+            },
+            {
+              "uid": "FDF4F11E-F7A8-4C6B-A8B2-4A1F6660BB00",
+              "summary": "UM4IN400-PSCR-TD3",
+              "location": "Atrium.325",
+              "start": "2025-10-17T06:30:00+00:00",
+              "end": "2025-10-17T08:30:00+00:00"
+            },
+            {
+              "uid": "F2431103-52D5-4E05-BD1F-046EBB87CCB6",
+              "summary": "UM4IN400-PSCR-TD3",
+              "location": "Atrium.325",
+              "start": "2025-10-24T06:30:00+00:00",
+              "end": "2025-10-24T08:30:00+00:00"
+            },
+            {
+              "uid": "73096583-F47D-483E-99F3-E510678CFD1E",
+              "summary": "UM4IN400-PSCR-TD3",
+              "location": "salle 54.55.204",
+              "start": "2025-12-05T07:30:00+00:00",
+              "end": "2025-12-05T09:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "3",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "8D1DAF4B-1E4C-4A54-86B2-94990BF903D3",
+              "summary": "UM4IN400-PSCR-TME3",
+              "location": "salle SAR (14.15.508)",
+              "start": "2025-09-26T08:45:00+00:00",
+              "end": "2025-09-26T10:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "updated_at": "2025-09-04T19:10:18.411057+00:00"
+}

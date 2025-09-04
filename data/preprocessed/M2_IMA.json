@@ -1,0 +1,412 @@
+{
+  "master_year": "M2",
+  "parcours": "IMA",
+  "courses": [
+    {
+      "name": "BIOMED",
+      "code": "654",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "3263A414-D344-48A1-8ABE-30142623B8FE",
+              "summary": "UM5IN654-BIOMED-Cours",
+              "location": "24.34.205",
+              "start": "2025-09-25T06:30:00+00:00",
+              "end": "2025-09-25T10:45:00+00:00"
+            },
+            {
+              "uid": "8467085E-ACE4-4E0A-8C01-9B3164693C81",
+              "summary": "UM5IN654-BIOMED-Cours",
+              "location": "24.34.205",
+              "start": "2025-10-23T06:30:00+00:00",
+              "end": "2025-10-23T10:45:00+00:00"
+            },
+            {
+              "uid": "6B17EAE1-2B84-4646-9004-F6DAA3D70B8D",
+              "summary": "UM5IN654-BIOMED-Cours",
+              "location": "Résa n° 674637",
+              "start": "2025-10-20T06:30:00+00:00",
+              "end": "2025-10-20T10:45:00+00:00"
+            },
+            {
+              "uid": "BEDAEC77-96BC-40BE-82FA-050012476D5F",
+              "summary": "UM5IN654-BIOMED-Cours",
+              "location": "24.34.205",
+              "start": "2025-12-04T07:30:00+00:00",
+              "end": "2025-12-04T11:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IG3DA",
+      "code": "653",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "C7E214DF-E632-4D6D-82A5-2D26FA99DE68",
+              "summary": "UM5IN653-IG3DA-Cours",
+              "location": "Salle à Télécom",
+              "start": "2025-09-26T06:30:00+00:00",
+              "end": "2025-09-26T10:45:00+00:00"
+            },
+            {
+              "uid": "5323F43B-D83D-46BC-A0C6-6820B2232173",
+              "summary": "UM5IN653-IG3DA-Cours",
+              "location": "Salle à Télécom",
+              "start": "2025-12-05T07:30:00+00:00",
+              "end": "2025-12-05T11:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MAPIMED",
+      "code": "655",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "5DF5E137-318C-4F15-BE01-33B0B2BE03F6",
+              "summary": "UM5IN655-MAPIMED-Cours",
+              "location": "Salle à la Pitié-Salpêtrière - 91 bd de l'hôpital 75013 Paris",
+              "start": "2025-09-22T06:30:00+00:00",
+              "end": "2025-09-22T10:00:00+00:00"
+            },
+            {
+              "uid": "BFF29BC6-AF0B-4F0D-A11F-AD6C02BEFD61",
+              "summary": "UM5IN655-MAPIMED-Cours",
+              "location": "Salle à la Pitié-Salpêtrière - 91 bd de l'Hôpital 75013 Paris",
+              "start": "2025-12-01T07:30:00+00:00",
+              "end": "2025-12-01T11:00:00+00:00"
+            },
+            {
+              "uid": "6FE47A79-209A-46E0-9C40-32C35AAC7EBE",
+              "summary": "UM5IN655-MAPIMED-Cours",
+              "location": "Salle à la Pitié-Salpêtrière - 91 bd de l'Hôpital 75013 Paris",
+              "start": "2025-12-15T13:00:00+00:00",
+              "end": "2025-12-15T16:00:00+00:00"
+            },
+            {
+              "uid": "EB6874E3-A1B0-4D62-947B-90F9263A8920",
+              "summary": "UM5IN655-MAPIMED-Cours",
+              "location": "Salle à la Pitié-Salpêtrière - 91 Boulevard de l'Hôpital\\n75013 Paris\\, France",
+              "start": "2025-11-10T07:30:00+00:00",
+              "end": "2025-11-10T11:00:00+00:00"
+            },
+            {
+              "uid": "3C2CA1F1-A0A9-46D7-9A6D-F9763DE2107E",
+              "summary": "UM5IN655-MAPIMED-Cours",
+              "location": "Salle à la Pitié-Salpêtrière - 91 bd de l'Hôpital 75013 Paris",
+              "start": "2025-12-16T08:30:00+00:00",
+              "end": "2025-12-16T11:30:00+00:00"
+            },
+            {
+              "uid": "774DFD5C-1391-42E2-904B-3E1625D052C2",
+              "summary": "UM5IN655-MAPIMED-Cours",
+              "location": "Salle à la Pitié-Salpêtrière - 91 bd de l'Hôpital 75013 Paris",
+              "start": "2025-12-18T08:30:00+00:00",
+              "end": "2025-12-18T11:30:00+00:00"
+            },
+            {
+              "uid": "0CF6E6EC-25A0-4A18-8323-4C99D574F310",
+              "summary": "UM5IN655-MAPIMED-Cours",
+              "location": "Salle à la Pitié-Salpêtrière - 91 bd de l'Hôpital 75013 Paris",
+              "start": "2025-12-19T08:30:00+00:00",
+              "end": "2025-12-19T11:30:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OIP",
+      "code": "OIP",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "399AD4C4-6DF2-4E5A-AA2E-4BB03F69BEB5",
+              "summary": "UM5INOIP-OIP",
+              "location": "13.14.106",
+              "start": "2025-09-23T06:30:00+00:00",
+              "end": "2025-09-23T10:45:00+00:00"
+            },
+            {
+              "uid": "BEC45793-0FF3-4E3A-9E46-E3CAB2F37C1F",
+              "summary": "UM5INOIP-OIP",
+              "location": "13.14.106",
+              "start": "2025-10-21T06:30:00+00:00",
+              "end": "2025-10-21T10:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PRAT",
+      "code": "656",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "100265E3-A775-4B01-A72E-4FE5E2398E03",
+              "summary": "UM5IN656-PRAT-Cours",
+              "location": "54.55.204",
+              "start": "2025-09-22T11:45:00+00:00",
+              "end": "2025-09-22T16:00:00+00:00"
+            },
+            {
+              "uid": "7C8E3B9D-1D64-47A7-9FAF-42DDFD7D86A3",
+              "summary": "UM5IN656-PRAT-Cours",
+              "location": "54.55.204",
+              "start": "2025-12-01T12:45:00+00:00",
+              "end": "2025-12-01T17:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RDFIA",
+      "code": "652",
+      "special": false,
+      "groups": [
+        "1",
+        "2",
+        "3"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "B5378EB1-4A65-408F-BD4E-9DF16B226E42",
+              "summary": "UM5IN652-RDFIA-Cours",
+              "location": "AMPHI.56B",
+              "start": "2025-09-24T11:45:00+00:00",
+              "end": "2025-09-24T13:45:00+00:00"
+            },
+            {
+              "uid": "091ADD79-2DE2-4FC2-8A53-6FF520BAE575",
+              "summary": "UM5IN652-RDFIA-Cours",
+              "location": "AMPHI.56B",
+              "start": "2025-10-22T11:45:00+00:00",
+              "end": "2025-10-22T13:45:00+00:00"
+            },
+            {
+              "uid": "0CBB5B55-00CD-4B6C-8178-0C5A962B808E",
+              "summary": "UM5IN652-RDFIA-Cours",
+              "location": "AMPHI.56B",
+              "start": "2025-11-26T12:45:00+00:00",
+              "end": "2025-11-26T14:45:00+00:00"
+            },
+            {
+              "uid": "50A78B0F-ECA7-4A31-8C64-AFB0E8C1F094",
+              "summary": "UM5IN652-RDFIA-Cours",
+              "location": "AMPHI.56B",
+              "start": "2025-12-03T12:45:00+00:00",
+              "end": "2025-12-03T14:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "800D5306-3BA1-4723-97E7-9D6C22E38C14",
+              "summary": "MU5IN652-RDFIA-Examen session 2",
+              "location": "55.65.103",
+              "start": "2025-09-03T11:45:00+00:00",
+              "end": "2025-09-03T13:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "1C9CA284-BED5-4D41-A68D-1581E15C5823",
+              "summary": "UM5IN652-RDFIA-TME1",
+              "location": null,
+              "start": "2025-09-24T14:00:00+00:00",
+              "end": "2025-09-24T16:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "8739BCB3-8C56-4DD2-9714-A628714DC63E",
+              "summary": "UM5IN652-RDFIA-TME2",
+              "location": null,
+              "start": "2025-09-24T14:00:00+00:00",
+              "end": "2025-09-24T16:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "3",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "DC8770B4-AB8C-4F07-AF96-169A7E9F42EA",
+              "summary": "UM5IN652-RDFIA-TME3",
+              "location": null,
+              "start": "2025-09-24T14:00:00+00:00",
+              "end": "2025-09-24T16:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Réunion de rentrée M2 IMA",
+      "code": "special",
+      "special": true,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "EF7F1464-3C87-46A7-B70D-ABABFC4AFFCF",
+              "summary": "Soutenances stages M2 IMA",
+              "location": "14.24.103",
+              "start": "2025-09-01T06:30:00+00:00",
+              "end": "2025-09-01T11:30:00+00:00"
+            },
+            {
+              "uid": "DD9AE9B6-4E7C-4D2B-B4B1-908C4FF29143",
+              "summary": "Réunion de rentrée M2 IMA",
+              "location": "24.34.302",
+              "start": "2025-09-19T08:45:00+00:00",
+              "end": "2025-09-19T10:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "0F6020A8-F95E-4042-A7E4-0AC04B98C18F",
+              "summary": "Soutenances stages M2 IMA - Session 2",
+              "location": "Résa n° 675619",
+              "start": "2025-10-03T09:00:00+00:00",
+              "end": "2025-10-03T11:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TADI",
+      "code": "650",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "CFECD0A2-9444-4A8D-8280-60B954EA0C87",
+              "summary": "UM5IN650-TADI-Cours",
+              "location": "24.34.204",
+              "start": "2025-09-24T06:30:00+00:00",
+              "end": "2025-09-24T10:45:00+00:00"
+            },
+            {
+              "uid": "73CB0BEF-4B51-405C-A34B-8B0E8797CCD0",
+              "summary": "UM5IN650-TADI-Cours",
+              "location": "24.34.204",
+              "start": "2025-10-22T06:30:00+00:00",
+              "end": "2025-10-22T10:45:00+00:00"
+            },
+            {
+              "uid": "4F97B167-62A5-429F-9D42-CA772E4DC13A",
+              "summary": "UM5IN650-TADI-Cours",
+              "location": "24.34.204",
+              "start": "2025-12-03T07:30:00+00:00",
+              "end": "2025-12-03T11:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VISION",
+      "code": "651",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "E7003F26-FE6F-44F5-BECE-F4086AA73BCD",
+              "summary": "UM5IN651-VISION-Cours",
+              "location": "46.56.102",
+              "start": "2025-12-16T12:00:00+00:00",
+              "end": "2025-12-16T17:00:00+00:00"
+            },
+            {
+              "uid": "B89AF967-503A-4E53-B7F4-5BC62F4077D1",
+              "summary": "UM5IN651-VISION-Cours",
+              "location": "24.34.203",
+              "start": "2025-09-23T11:00:00+00:00",
+              "end": "2025-09-23T16:00:00+00:00"
+            },
+            {
+              "uid": "FAF5F036-ED79-4740-80A2-6024EA0B0E93",
+              "summary": "UM5IN651-VISION-Cours",
+              "location": "24.34.203",
+              "start": "2025-10-21T11:00:00+00:00",
+              "end": "2025-10-21T16:00:00+00:00"
+            },
+            {
+              "uid": "E4A739F2-FD6F-458A-99F4-952AB700F1EB",
+              "summary": "UM5IN651-VISION-Cours",
+              "location": "24.34.203",
+              "start": "2025-12-02T12:00:00+00:00",
+              "end": "2025-12-02T17:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "updated_at": "2025-09-04T19:10:26.070763+00:00"
+}

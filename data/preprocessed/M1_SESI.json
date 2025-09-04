@@ -1,0 +1,1319 @@
+{
+  "master_year": "M1",
+  "parcours": "SESI",
+  "courses": [
+    {
+      "name": "ARCHI1",
+      "code": "100",
+      "special": false,
+      "groups": [
+        "1",
+        "2",
+        "3",
+        "anglais"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "F71BB60A-6A17-414B-A7B6-9A0CB3031BB8",
+              "summary": "UM4IN100-ARCHI-Cours",
+              "location": "AMPHI 56A",
+              "start": "2025-09-18T11:45:00+00:00",
+              "end": "2025-09-18T13:45:00+00:00"
+            },
+            {
+              "uid": "4966A001-71BD-4A56-9BE8-2A8FC4CC9179",
+              "summary": "UM4IN100-ARCHI-Cours",
+              "location": "AMPHI 56A",
+              "start": "2025-09-25T11:45:00+00:00",
+              "end": "2025-09-25T13:45:00+00:00"
+            },
+            {
+              "uid": "C78ECE93-D680-4EEA-8A5E-88EE2EC2393D",
+              "summary": "UM4IN100-ARCHI-Cours",
+              "location": "AMPHI 56A",
+              "start": "2025-10-02T11:45:00+00:00",
+              "end": "2025-10-02T13:45:00+00:00"
+            },
+            {
+              "uid": "85780467-36C2-4047-99DE-4816E5B17B05",
+              "summary": "UM4IN100-ARCHI-Cours",
+              "location": "AMPHI 56A",
+              "start": "2025-10-09T11:45:00+00:00",
+              "end": "2025-10-09T13:45:00+00:00"
+            },
+            {
+              "uid": "3CC7A538-6888-458E-A195-99108EB0108D",
+              "summary": "UM4IN100-ARCHI-Cours",
+              "location": "Réservation : 668264",
+              "start": "2025-10-20T11:45:00+00:00",
+              "end": "2025-10-20T13:45:00+00:00"
+            },
+            {
+              "uid": "AB662AFF-95D4-4399-B644-06A453E2BF71",
+              "summary": "UM4IN100-ARCHI-Cours",
+              "location": "AMPHI.56A",
+              "start": "2025-10-23T11:45:00+00:00",
+              "end": "2025-10-23T13:45:00+00:00"
+            },
+            {
+              "uid": "239999DB-1FD6-4125-8164-29B99745282F",
+              "summary": "UM4IN100-ARCHI-Cours",
+              "location": "AMPHI.56A",
+              "start": "2025-11-06T12:45:00+00:00",
+              "end": "2025-11-06T14:45:00+00:00"
+            },
+            {
+              "uid": "1DA97E6A-65FB-4721-B87A-17870E79CFFA",
+              "summary": "UM4IN100-ARCHI-Cours",
+              "location": "Réservation : 668266",
+              "start": "2025-11-27T12:45:00+00:00",
+              "end": "2025-11-27T14:45:00+00:00"
+            },
+            {
+              "uid": "92F2E093-BC26-4AED-B132-F5950E58D848",
+              "summary": "UM4IN100-ARCHI-Cours",
+              "location": null,
+              "start": "2025-12-04T12:45:00+00:00",
+              "end": "2025-12-04T14:45:00+00:00"
+            },
+            {
+              "uid": "59C4B331-D69B-4016-A22B-556F88468B63",
+              "summary": "UM4IN100-ARCHI-Cours",
+              "location": null,
+              "start": "2025-12-11T12:45:00+00:00",
+              "end": "2025-12-11T14:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "F3B44575-F9F9-42EC-BFE6-773A1873047F",
+              "summary": "UM4IN100-ARCHI-ER1",
+              "location": null,
+              "start": "2025-11-20T12:45:00+00:00",
+              "end": "2025-11-20T14:45:00+00:00"
+            },
+            {
+              "uid": "BA39B353-1D7D-4A09-B8C2-5CDC0E3F716D",
+              "summary": "UM4IN100-ARCHI-ER2",
+              "location": null,
+              "start": "2026-01-08T12:45:00+00:00",
+              "end": "2026-01-08T14:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "2C97485D-5E13-452D-92F0-367246163655",
+              "summary": "UM4IN100-ARCHI1-TD1",
+              "location": "Salle 24.34.110",
+              "start": "2025-09-23T06:30:00+00:00",
+              "end": "2025-09-23T10:45:00+00:00"
+            },
+            {
+              "uid": "2FC68767-0918-4C23-A828-8AF4C82B9C27",
+              "summary": "UM4IN100-ARCHI1-TD1",
+              "location": "Salle 24.34.110",
+              "start": "2025-09-30T06:30:00+00:00",
+              "end": "2025-09-30T10:45:00+00:00"
+            },
+            {
+              "uid": "E3A48936-887C-4F13-8B49-59FE843F27EE",
+              "summary": "UM4IN100-ARCHI1-TD1",
+              "location": "Salle 24.34.110",
+              "start": "2025-10-07T06:30:00+00:00",
+              "end": "2025-10-07T10:45:00+00:00"
+            },
+            {
+              "uid": "F90A686B-3210-45E4-ABD6-01CDC66B8EE1",
+              "summary": "UM4IN100-ARCHI1-TD1",
+              "location": "Salle 24.34.110",
+              "start": "2025-10-14T06:30:00+00:00",
+              "end": "2025-10-14T10:45:00+00:00"
+            },
+            {
+              "uid": "738F1C17-68BD-41E0-8E27-40CB0BE2D108",
+              "summary": "UM4IN100-ARCHI1-TD1",
+              "location": "Salle 24.34.110",
+              "start": "2025-10-21T06:30:00+00:00",
+              "end": "2025-10-21T10:45:00+00:00"
+            },
+            {
+              "uid": "1BA7E68F-C508-4B44-B9BD-B2A10F11094F",
+              "summary": "UM4IN100-ARCHI1-TD1",
+              "location": "Salle 24.34.110",
+              "start": "2025-11-04T07:30:00+00:00",
+              "end": "2025-11-04T11:45:00+00:00"
+            },
+            {
+              "uid": "A39B8811-73A1-4A09-954C-1AEFB5682F5B",
+              "summary": "UM4IN100-ARCHI1-TD1",
+              "location": "Réservation : 668276",
+              "start": "2025-11-25T07:30:00+00:00",
+              "end": "2025-11-25T11:45:00+00:00"
+            },
+            {
+              "uid": "74662F1C-2C26-4CAD-8A84-4DDE70F1F013",
+              "summary": "UM4IN100-ARCHI1-TD1",
+              "location": null,
+              "start": "2025-12-02T07:30:00+00:00",
+              "end": "2025-12-02T11:45:00+00:00"
+            },
+            {
+              "uid": "E98D2133-9A4E-4DA7-8FC5-D17731C32073",
+              "summary": "UM4IN100-ARCHI1-TD1",
+              "location": null,
+              "start": "2025-12-09T07:30:00+00:00",
+              "end": "2025-12-09T11:45:00+00:00"
+            },
+            {
+              "uid": "F3FA8426-7E93-4D3A-8CEC-82FE9867F775",
+              "summary": "UM4IN100-ARCHI1-TD1",
+              "location": null,
+              "start": "2025-12-16T07:30:00+00:00",
+              "end": "2025-12-16T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "85602C99-14CD-4671-B142-EC560F3D0D3D",
+              "summary": "UM4IN100-ARCHI1-TD2",
+              "location": "Salle 24.34.204",
+              "start": "2025-09-23T11:45:00+00:00",
+              "end": "2025-09-23T16:00:00+00:00"
+            },
+            {
+              "uid": "F51B6B79-ECD5-4499-AAF9-D9347E30E84D",
+              "summary": "UM4IN100-ARCHI1-TD2",
+              "location": "Salle 24.34.204",
+              "start": "2025-09-30T11:45:00+00:00",
+              "end": "2025-09-30T16:00:00+00:00"
+            },
+            {
+              "uid": "BC483C95-47C0-438D-9429-AC0AAC220B8F",
+              "summary": "UM4IN100-ARCHI1-TD2",
+              "location": "Salle 24.34.204",
+              "start": "2025-10-07T11:45:00+00:00",
+              "end": "2025-10-07T16:00:00+00:00"
+            },
+            {
+              "uid": "0BBF5BF8-A987-4E2A-BFCD-4B8AF7D286C6",
+              "summary": "UM4IN100-ARCHI1-TD2",
+              "location": "Salle 24.34.204",
+              "start": "2025-10-14T11:45:00+00:00",
+              "end": "2025-10-14T16:00:00+00:00"
+            },
+            {
+              "uid": "A1C85E16-20A7-429B-86B4-28D7024DD4D6",
+              "summary": "UM4IN100-ARCHI1-TD2",
+              "location": "Salle 24.34.204",
+              "start": "2025-10-21T11:45:00+00:00",
+              "end": "2025-10-21T16:00:00+00:00"
+            },
+            {
+              "uid": "4B1D40E4-D541-4050-B35C-EC31665CF1CC",
+              "summary": "UM4IN100-ARCHI1-TD2",
+              "location": "Salle 24.34.204",
+              "start": "2025-11-04T12:45:00+00:00",
+              "end": "2025-11-04T17:00:00+00:00"
+            },
+            {
+              "uid": "74B8B48F-BBAC-4EAF-B410-F03DDF0A988C",
+              "summary": "UM4IN100-ARCHI1-TD2",
+              "location": "Réservation : 668277",
+              "start": "2025-11-25T12:45:00+00:00",
+              "end": "2025-11-25T17:00:00+00:00"
+            },
+            {
+              "uid": "09BF9C0B-357E-4D73-A0B0-F73501C11722",
+              "summary": "UM4IN100-ARCHI1-TD2",
+              "location": null,
+              "start": "2025-12-02T12:45:00+00:00",
+              "end": "2025-12-02T17:00:00+00:00"
+            },
+            {
+              "uid": "E14FADEC-E12D-4169-8A67-06ED3DC1C4E3",
+              "summary": "UM4IN100-ARCHI1-TD2",
+              "location": null,
+              "start": "2025-12-09T12:45:00+00:00",
+              "end": "2025-12-09T17:00:00+00:00"
+            },
+            {
+              "uid": "3C20735A-CA75-4817-A884-D6CA41738DAC",
+              "summary": "UM4IN100-ARCHI1-TD2",
+              "location": null,
+              "start": "2025-12-16T12:45:00+00:00",
+              "end": "2025-12-16T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "3",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "2F0815B7-4774-4F7F-8E71-519BAC137A6C",
+              "summary": "UM4IN100-ARCHI1-TD3",
+              "location": "Salle 55.65.103",
+              "start": "2025-09-24T11:45:00+00:00",
+              "end": "2025-09-24T16:00:00+00:00"
+            },
+            {
+              "uid": "96B9886C-7962-4BAB-BB6C-201D16A6FC06",
+              "summary": "UM4IN100-ARCHI1-TD3",
+              "location": "Salle 55.65.103",
+              "start": "2025-10-01T11:45:00+00:00",
+              "end": "2025-10-01T16:00:00+00:00"
+            },
+            {
+              "uid": "6EB4AE76-D5CC-467E-9738-5BD9AAC99684",
+              "summary": "UM4IN100-ARCHI1-TD3",
+              "location": "Salle 55.65.103",
+              "start": "2025-10-08T11:45:00+00:00",
+              "end": "2025-10-08T16:00:00+00:00"
+            },
+            {
+              "uid": "855CF444-06F5-4D0C-8E4B-A3F310BF6659",
+              "summary": "UM4IN100-ARCHI1-TD3",
+              "location": "Salle 55.65.103",
+              "start": "2025-10-15T11:45:00+00:00",
+              "end": "2025-10-15T16:00:00+00:00"
+            },
+            {
+              "uid": "8BBB7F0F-6D04-40CF-8666-26E0379F0167",
+              "summary": "UM4IN100-ARCHI1-TD3",
+              "location": "Salle 55.65.103",
+              "start": "2025-10-22T11:45:00+00:00",
+              "end": "2025-10-22T16:00:00+00:00"
+            },
+            {
+              "uid": "15BC0B53-904F-4215-AB7E-F1AA270B3515",
+              "summary": "UM4IN100-ARCHI1-TD3",
+              "location": "Salle 55.65.103",
+              "start": "2025-11-05T12:45:00+00:00",
+              "end": "2025-11-05T17:00:00+00:00"
+            },
+            {
+              "uid": "D7A5E697-2063-439A-85A9-86B3B747CE5B",
+              "summary": "UM4IN100-ARCHI1-TD3",
+              "location": "Réservation : 668280",
+              "start": "2025-11-26T12:45:00+00:00",
+              "end": "2025-11-26T17:00:00+00:00"
+            },
+            {
+              "uid": "AB800440-E525-4694-BD84-5B6981B773BE",
+              "summary": "UM4IN100-ARCHI1-TD3",
+              "location": null,
+              "start": "2025-12-03T12:45:00+00:00",
+              "end": "2025-12-03T17:00:00+00:00"
+            },
+            {
+              "uid": "0CB6F513-8C01-4DF7-A860-F18916D6805C",
+              "summary": "UM4IN100-ARCHI1-TD3",
+              "location": null,
+              "start": "2025-12-10T12:45:00+00:00",
+              "end": "2025-12-10T17:00:00+00:00"
+            },
+            {
+              "uid": "C959508D-11FE-4B34-ADB7-6C08F0053379",
+              "summary": "UM4IN100-ARCHI1-TD3",
+              "location": null,
+              "start": "2025-12-17T12:45:00+00:00",
+              "end": "2025-12-17T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "anglais",
+          "type": "CS",
+          "events": [
+            {
+              "uid": "821A47C4-A072-41BD-BD8C-5E512332EACA",
+              "summary": "UM4IN100-ARCHI (en anglais)-Cours",
+              "location": "Salle 54.55.125",
+              "start": "2025-09-18T08:45:00+00:00",
+              "end": "2025-09-18T10:45:00+00:00"
+            },
+            {
+              "uid": "AC129D5C-3B5C-408B-B803-BF736CFB2A6A",
+              "summary": "UM4IN100-ARCHI (en anglais)-Cours",
+              "location": "Salle 54.55.125",
+              "start": "2025-09-25T08:45:00+00:00",
+              "end": "2025-09-25T10:45:00+00:00"
+            },
+            {
+              "uid": "CF43B744-6429-4178-AA70-D3433086BAC0",
+              "summary": "UM4IN100-ARCHI (en anglais)-Cours",
+              "location": "Salle 54.55.125",
+              "start": "2025-10-02T08:45:00+00:00",
+              "end": "2025-10-02T10:45:00+00:00"
+            },
+            {
+              "uid": "8D7FEA60-C733-4C06-B8AB-D364FAB9F606",
+              "summary": "UM4IN100-ARCHI (en anglais)-Cours",
+              "location": "Salle 54.55.125",
+              "start": "2025-10-09T08:45:00+00:00",
+              "end": "2025-10-09T10:45:00+00:00"
+            },
+            {
+              "uid": "7983EE2D-376D-400D-9A9B-EC9EAFF8D00E",
+              "summary": "UM4IN100-ARCHI (en anglais)-Cours",
+              "location": "Réservation : 668260",
+              "start": "2025-10-20T08:45:00+00:00",
+              "end": "2025-10-20T10:45:00+00:00"
+            },
+            {
+              "uid": "2BC2D0F2-BD03-42C7-9975-598951199977",
+              "summary": "UM4IN100-ARCHI (en anglais)-Cours",
+              "location": "Réservation : 668261",
+              "start": "2025-10-23T08:45:00+00:00",
+              "end": "2025-10-23T10:45:00+00:00"
+            },
+            {
+              "uid": "06CB9B0C-E234-40BF-9B2F-C4261DBA71A3",
+              "summary": "UM4IN100-ARCHI (en anglais)-Cours",
+              "location": null,
+              "start": "2025-11-06T09:45:00+00:00",
+              "end": "2025-11-06T11:45:00+00:00"
+            },
+            {
+              "uid": "603AE7E7-7071-4A2F-A1E9-2FC0AB4D4908",
+              "summary": "UM4IN100-ARCHI (en anglais)-Cours",
+              "location": "Réservation : 668262",
+              "start": "2025-11-27T09:45:00+00:00",
+              "end": "2025-11-27T11:45:00+00:00"
+            },
+            {
+              "uid": "9B6F6D7C-D458-473A-8D35-45CB6D100CEB",
+              "summary": "UM4IN100-ARCHI (en anglais)-Cours",
+              "location": null,
+              "start": "2025-12-04T09:45:00+00:00",
+              "end": "2025-12-04T11:45:00+00:00"
+            },
+            {
+              "uid": "DEAC3C94-6A26-4F97-A1D9-4EBE9FEF0C46",
+              "summary": "UM4IN100-ARCHI (en anglais)-Cours",
+              "location": null,
+              "start": "2025-12-11T09:45:00+00:00",
+              "end": "2025-12-11T11:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MOBJ",
+      "code": "103",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "C599093E-25D0-4997-87BF-CF0AE86A3E34",
+              "summary": "UM4IN103-MOBJ-Cours",
+              "location": "Salle 56.66.103",
+              "start": "2025-09-15T06:30:00+00:00",
+              "end": "2025-09-15T08:30:00+00:00"
+            },
+            {
+              "uid": "C81CEDA9-5AFC-4704-970F-BFFB395B9AB2",
+              "summary": "UM4IN103-MOBJ-Cours",
+              "location": "Salle 56.66.103",
+              "start": "2025-09-22T06:30:00+00:00",
+              "end": "2025-09-22T08:30:00+00:00"
+            },
+            {
+              "uid": "8066FB62-A235-4739-9D77-C3AAEBC86AE0",
+              "summary": "UM4IN103-MOBJ-Cours",
+              "location": "Salle 56.66.103",
+              "start": "2025-09-29T06:30:00+00:00",
+              "end": "2025-09-29T08:30:00+00:00"
+            },
+            {
+              "uid": "5C398A5E-AF61-4F22-B33C-80A4BB7FC1F1",
+              "summary": "UM4IN103-MOBJ-Cours",
+              "location": "Salle 56.66.103",
+              "start": "2025-10-06T06:30:00+00:00",
+              "end": "2025-10-06T08:30:00+00:00"
+            },
+            {
+              "uid": "F990A95A-0461-48FC-9B23-797F84FD77D2",
+              "summary": "UM4IN103-MOBJ-Cours",
+              "location": "Salle 56.66.103",
+              "start": "2025-10-13T06:30:00+00:00",
+              "end": "2025-10-13T08:30:00+00:00"
+            },
+            {
+              "uid": "F07B525D-237F-4534-8FB4-34E7BCDB2F80",
+              "summary": "UM4IN103-MOBJ-Cours",
+              "location": "Réservation : 668257",
+              "start": "2025-11-03T07:30:00+00:00",
+              "end": "2025-11-03T09:30:00+00:00"
+            },
+            {
+              "uid": "A833BD5A-2522-49C2-9397-62F7E6E3D5D0",
+              "summary": "UM4IN103-MOBJ-Cours",
+              "location": "Réservation : 668258",
+              "start": "2025-11-24T07:30:00+00:00",
+              "end": "2025-11-24T09:30:00+00:00"
+            },
+            {
+              "uid": "3F9E1255-51B1-4C1A-92A9-6422AE60DF22",
+              "summary": "UM4IN103-MOBJ-Cours",
+              "location": null,
+              "start": "2025-12-01T07:30:00+00:00",
+              "end": "2025-12-01T09:30:00+00:00"
+            },
+            {
+              "uid": "813413D4-04D4-4C49-90AF-6FF77B62936A",
+              "summary": "UM4IN103-MOBJ-Cours",
+              "location": null,
+              "start": "2025-12-08T07:30:00+00:00",
+              "end": "2025-12-08T09:30:00+00:00"
+            },
+            {
+              "uid": "8071E075-35A3-41EF-8B3B-E66E7E63B119",
+              "summary": "UM4IN103-MOBJ-Cours",
+              "location": null,
+              "start": "2025-12-15T07:30:00+00:00",
+              "end": "2025-12-15T09:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "C749099B-6E6E-478B-9D03-35681DD7E790",
+              "summary": "UM4IN103-MOBJ-ER1",
+              "location": null,
+              "start": "2025-11-17T07:30:00+00:00",
+              "end": "2025-11-17T09:30:00+00:00"
+            },
+            {
+              "uid": "F25E3817-1353-47AF-B98A-5A105AEACB6C",
+              "summary": "UM4IN103-MOBJ-ER2",
+              "location": null,
+              "start": "2026-01-05T07:30:00+00:00",
+              "end": "2026-01-05T09:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "D1AD6AA4-2754-4A6C-8A46-CA97AA5D24F5",
+              "summary": "UM4IN103-MOBJ-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-09-24T11:45:00+00:00",
+              "end": "2025-09-24T16:00:00+00:00"
+            },
+            {
+              "uid": "AF1019EA-2C2C-4596-9C9F-A6E5510C550E",
+              "summary": "UM4IN103-MOBJ-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-10-01T11:45:00+00:00",
+              "end": "2025-10-01T16:00:00+00:00"
+            },
+            {
+              "uid": "341D10D3-9082-464F-95C8-787A32059BAE",
+              "summary": "UM4IN103-MOBJ-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-10-08T11:45:00+00:00",
+              "end": "2025-10-08T16:00:00+00:00"
+            },
+            {
+              "uid": "AE7A8EB8-6F20-4D09-84B7-271E8EA7D939",
+              "summary": "UM4IN103-MOBJ-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-10-15T11:45:00+00:00",
+              "end": "2025-10-15T16:00:00+00:00"
+            },
+            {
+              "uid": "84D90FAE-2ED3-4748-BBF9-620FF1070684",
+              "summary": "UM4IN103-MOBJ-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-11-05T12:45:00+00:00",
+              "end": "2025-11-05T17:00:00+00:00"
+            },
+            {
+              "uid": "31D2800F-A1E6-4AAF-B834-62D1B0D7C266",
+              "summary": "UM4IN103-MOBJ-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-11-26T12:45:00+00:00",
+              "end": "2025-11-26T17:00:00+00:00"
+            },
+            {
+              "uid": "DC345AEA-45F5-4C64-AE05-FA27F2C37B09",
+              "summary": "UM4IN103-MOBJ-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-12-03T12:45:00+00:00",
+              "end": "2025-12-03T17:00:00+00:00"
+            },
+            {
+              "uid": "EAD5601F-AEB1-43E6-A946-9FCE926F9105",
+              "summary": "UM4IN103-MOBJ-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-12-10T12:45:00+00:00",
+              "end": "2025-12-10T17:00:00+00:00"
+            },
+            {
+              "uid": "9DC04559-15B7-48C8-B8B3-8F9B927EED07",
+              "summary": "UM4IN103-MOBJ-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-12-17T12:45:00+00:00",
+              "end": "2025-12-17T17:00:00+00:00"
+            },
+            {
+              "uid": "7CC85BF9-EFF8-4CAD-8863-7438986C742E",
+              "summary": "UM4IN103-MOBJ-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-11-12T12:45:00+00:00",
+              "end": "2025-11-12T17:00:00+00:00"
+            },
+            {
+              "uid": "B15AABAC-A3F5-4898-B863-C94E54A3F351",
+              "summary": "UM4IN103-MOBJ-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-10-22T11:45:00+00:00",
+              "end": "2025-10-22T16:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SIGNAL",
+      "code": "104",
+      "special": false,
+      "groups": [
+        "1",
+        "2"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "09FF91E4-34AA-40E1-BD68-6B861674EF2B",
+              "summary": "UM4IN104-SIGNAL-Cours",
+              "location": "Salle 24.34.201",
+              "start": "2025-09-19T08:45:00+00:00",
+              "end": "2025-09-19T10:45:00+00:00"
+            },
+            {
+              "uid": "D2B0FE52-36C4-4F0A-930B-AFE6227C9C1F",
+              "summary": "UM4IN104-SIGNAL-Cours",
+              "location": "Salle 24.34.201",
+              "start": "2025-09-26T08:45:00+00:00",
+              "end": "2025-09-26T10:45:00+00:00"
+            },
+            {
+              "uid": "9F604FC1-D58D-4980-A3D1-81D8B245ECCA",
+              "summary": "UM4IN104-SIGNAL-Cours",
+              "location": "Salle 24.34.201",
+              "start": "2025-10-03T08:45:00+00:00",
+              "end": "2025-10-03T10:45:00+00:00"
+            },
+            {
+              "uid": "FCB90CFB-0E37-4CD2-90E1-CE53438A46AE",
+              "summary": "UM4IN104-SIGNAL-Cours",
+              "location": "Salle 24.34.201",
+              "start": "2025-10-10T08:45:00+00:00",
+              "end": "2025-10-10T10:45:00+00:00"
+            },
+            {
+              "uid": "43ED9589-1B22-41AC-8DD5-7795D9F216E3",
+              "summary": "UM4IN104-SIGNAL-Cours",
+              "location": "Salle 24.34.201",
+              "start": "2025-10-17T08:45:00+00:00",
+              "end": "2025-10-17T10:45:00+00:00"
+            },
+            {
+              "uid": "9D4E17DD-33BF-43F9-A42E-88319DF9A5E0",
+              "summary": "UM4IN104-SIGNAL-Cours",
+              "location": "Salle 24.34.201",
+              "start": "2025-10-24T08:45:00+00:00",
+              "end": "2025-10-24T10:45:00+00:00"
+            },
+            {
+              "uid": "F14FFC49-D653-4CD1-B474-B0E945188B82",
+              "summary": "UM4IN104-SIGNAL-Cours",
+              "location": "Salle 24.34.201",
+              "start": "2025-11-07T09:45:00+00:00",
+              "end": "2025-11-07T11:45:00+00:00"
+            },
+            {
+              "uid": "CF2E86A8-5D1D-4225-A33C-422C7A3781AF",
+              "summary": "UM4IN104-SIGNAL-Cours",
+              "location": "Réservation : 668282",
+              "start": "2025-11-28T09:45:00+00:00",
+              "end": "2025-11-28T11:45:00+00:00"
+            },
+            {
+              "uid": "C321CF48-B879-40EB-AE92-B890E6BF25F3",
+              "summary": "UM4IN104-SIGNAL-Cours",
+              "location": null,
+              "start": "2025-12-05T09:45:00+00:00",
+              "end": "2025-12-05T11:45:00+00:00"
+            },
+            {
+              "uid": "5D3AF41F-EF83-4B44-984B-C4DE532A40EB",
+              "summary": "UM4IN104-SIGNAL-Cours",
+              "location": null,
+              "start": "2025-12-12T09:45:00+00:00",
+              "end": "2025-12-12T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "5C035112-17CC-45F7-9AD2-E2E230B71751",
+              "summary": "UM4IN104-SIGNAL-ER1",
+              "location": null,
+              "start": "2025-11-21T09:45:00+00:00",
+              "end": "2025-11-21T11:45:00+00:00"
+            },
+            {
+              "uid": "F1AE545A-512A-4AD5-889D-ABD764B7A6B8",
+              "summary": "UM4IN104-SIGNAL-ER2",
+              "location": null,
+              "start": "2026-01-09T10:00:00+00:00",
+              "end": "2026-01-09T12:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "922A3FD9-5933-4CA0-BE48-D2509B770B9C",
+              "summary": "UM4IN104-SIGNAL-TD1",
+              "location": "Réservation : 668273",
+              "start": "2025-11-04T07:30:00+00:00",
+              "end": "2025-11-04T11:45:00+00:00"
+            },
+            {
+              "uid": "B18E1E42-B4CF-415A-9AD1-6FB9771C1B6B",
+              "summary": "UM4IN104-SIGNAL-TD1",
+              "location": "Réservation : 668274",
+              "start": "2025-11-25T07:30:00+00:00",
+              "end": "2025-11-25T11:45:00+00:00"
+            },
+            {
+              "uid": "56192B77-2FC6-4FB7-B718-0CC735CDAC2A",
+              "summary": "UM4IN104-SIGNAL-TD1",
+              "location": null,
+              "start": "2025-12-02T07:30:00+00:00",
+              "end": "2025-12-02T11:45:00+00:00"
+            },
+            {
+              "uid": "58DA1FD4-E631-419D-BE45-9E878D62DF44",
+              "summary": "UM4IN104-SIGNAL-TD1",
+              "location": null,
+              "start": "2025-12-09T07:30:00+00:00",
+              "end": "2025-12-09T11:45:00+00:00"
+            },
+            {
+              "uid": "EDC41C6D-FBD9-4094-BA67-A696A27CA25C",
+              "summary": "UM4IN104-SIGNAL-TD1",
+              "location": null,
+              "start": "2025-12-16T07:30:00+00:00",
+              "end": "2025-12-16T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "2135616D-9C87-40AB-A0F0-F7BD399BE181",
+              "summary": "UM4IN104-SIGNAL-TME1",
+              "location": "Salle SESI : 24.25.307",
+              "start": "2025-09-23T06:30:00+00:00",
+              "end": "2025-09-23T10:45:00+00:00"
+            },
+            {
+              "uid": "C9AD2652-7DB8-49E5-9CCA-E4E3B27D7BFF",
+              "summary": "UM4IN104-SIGNAL-TME1",
+              "location": "Salle SESI : 24.25.307",
+              "start": "2025-09-30T06:30:00+00:00",
+              "end": "2025-09-30T10:45:00+00:00"
+            },
+            {
+              "uid": "A9A12C88-157A-4640-9679-923D30FDAB2B",
+              "summary": "UM4IN104-SIGNAL-TME1",
+              "location": "Salle SESI : 24.25.307",
+              "start": "2025-10-07T06:30:00+00:00",
+              "end": "2025-10-07T10:45:00+00:00"
+            },
+            {
+              "uid": "5EDD97C7-D054-4914-BDC4-E326C71333DC",
+              "summary": "UM4IN104-SIGNAL-TME1",
+              "location": "Salle SESI : 24.25.307",
+              "start": "2025-10-14T06:30:00+00:00",
+              "end": "2025-10-14T10:45:00+00:00"
+            },
+            {
+              "uid": "F3B84ABF-5C21-4061-9084-E803F310A3C6",
+              "summary": "UM4IN104-SIGNAL-TME1",
+              "location": "Salle SESI : 24.25.307",
+              "start": "2025-10-21T06:30:00+00:00",
+              "end": "2025-10-21T10:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "3B7456B3-F6B1-4D00-BF11-5A25C815123D",
+              "summary": "UM4IN104-SIGNAL-TD2",
+              "location": "Réservation : 668271",
+              "start": "2025-11-06T07:30:00+00:00",
+              "end": "2025-11-06T11:45:00+00:00"
+            },
+            {
+              "uid": "A76BC082-3385-4F14-BD81-0744C02F71D8",
+              "summary": "UM4IN104-SIGNAL-TD2",
+              "location": "Réservation : 668272",
+              "start": "2025-11-27T07:30:00+00:00",
+              "end": "2025-11-27T11:45:00+00:00"
+            },
+            {
+              "uid": "273FB583-DF7E-40F8-B9CD-2563A55D2FFE",
+              "summary": "UM4IN104-SIGNAL-TD2",
+              "location": null,
+              "start": "2025-12-04T07:30:00+00:00",
+              "end": "2025-12-04T11:45:00+00:00"
+            },
+            {
+              "uid": "81824CA0-AB81-4DDB-9655-8B69B59F2ECA",
+              "summary": "UM4IN104-SIGNAL-TD2",
+              "location": null,
+              "start": "2025-12-11T07:30:00+00:00",
+              "end": "2025-12-11T11:45:00+00:00"
+            },
+            {
+              "uid": "ACEAA6F1-C895-4423-87EC-CF959C32AE73",
+              "summary": "UM4IN104-SIGNAL-TD2",
+              "location": null,
+              "start": "2025-12-18T07:30:00+00:00",
+              "end": "2025-12-18T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "7FC9015B-D4F8-49A5-8D83-986D6B2657D7",
+              "summary": "UM4IN104-SIGNAL-TME2",
+              "location": "Salle SESI: 24.25.307",
+              "start": "2025-09-25T06:30:00+00:00",
+              "end": "2025-09-25T10:45:00+00:00"
+            },
+            {
+              "uid": "2300230E-87DC-4B73-8AA4-E2630E074F94",
+              "summary": "UM4IN104-SIGNAL-TME2",
+              "location": "Salle SESI: 24.25.307",
+              "start": "2025-10-02T06:30:00+00:00",
+              "end": "2025-10-02T10:45:00+00:00"
+            },
+            {
+              "uid": "6580EA5E-8571-44CA-8641-0A1D74D8FB95",
+              "summary": "UM4IN104-SIGNAL-TME2",
+              "location": "Salle SESI: 24.25.307",
+              "start": "2025-10-09T06:30:00+00:00",
+              "end": "2025-10-09T10:45:00+00:00"
+            },
+            {
+              "uid": "575A79EB-6564-4AC8-8B25-7B1FBDD78F85",
+              "summary": "UM4IN104-SIGNAL-TME2",
+              "location": "Salle SESI: 24.25.307",
+              "start": "2025-10-20T06:30:00+00:00",
+              "end": "2025-10-20T10:45:00+00:00"
+            },
+            {
+              "uid": "4B726915-81A1-49F4-AC17-4EC6FF106B42",
+              "summary": "UM4IN104-SIGNAL-TME2",
+              "location": "Salle SESI: 24.25.307",
+              "start": "2025-10-23T06:30:00+00:00",
+              "end": "2025-10-23T10:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "UM4EES05-ESA-TD",
+      "code": "special",
+      "special": true,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "996D6985-8523-4CEA-9727-CE9E204B0E48",
+              "summary": "RéunionM1SESI - Réunion de rentrée",
+              "location": "Salle 14.15.101",
+              "start": "2025-09-08T08:45:00+00:00",
+              "end": "2025-09-08T10:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "1AD8794C-F9CC-481E-80D7-0B5A6E6A819B",
+              "summary": "UM4EES05-ESA-CS (FV)",
+              "location": "Réservation : 670941",
+              "start": "2025-11-10T12:45:00+00:00",
+              "end": "2025-11-10T14:45:00+00:00"
+            },
+            {
+              "uid": "7A2B5990-63E6-4B29-AE9B-BC5A74BC2845",
+              "summary": "UM4EES05-ESA-CS (FV)",
+              "location": "Réservation : 670940",
+              "start": "2025-11-07T12:45:00+00:00",
+              "end": "2025-11-07T14:45:00+00:00"
+            },
+            {
+              "uid": "81C7F62D-1470-46FF-B642-B9002380CFED",
+              "summary": "UM4EES05-ESA-CS (FV)",
+              "location": "Réservation : 670942",
+              "start": "2025-11-14T12:45:00+00:00",
+              "end": "2025-11-14T14:45:00+00:00"
+            },
+            {
+              "uid": "4C568620-CA89-4B53-8ABA-DA21F4E9845B",
+              "summary": "UM4EES05-ESA-CS",
+              "location": null,
+              "start": "2025-09-11T14:00:00+00:00",
+              "end": "2025-09-11T16:00:00+00:00"
+            },
+            {
+              "uid": "8BF3CB25-9855-4E6C-9E3A-E13E62E45035",
+              "summary": "UM4EES05-ESA-CS",
+              "location": null,
+              "start": "2025-09-12T14:00:00+00:00",
+              "end": "2025-09-12T16:00:00+00:00"
+            },
+            {
+              "uid": "930D8868-6563-47E9-87B9-50FB9A7003FB",
+              "summary": "UM4EES05-ESA-CS",
+              "location": null,
+              "start": "2025-09-26T11:45:00+00:00",
+              "end": "2025-09-26T13:45:00+00:00"
+            },
+            {
+              "uid": "330203D5-239B-4E6E-BF2D-AE161F67135A",
+              "summary": "UM4EES05-ESA-CS",
+              "location": null,
+              "start": "2025-09-19T11:45:00+00:00",
+              "end": "2025-09-19T13:45:00+00:00"
+            },
+            {
+              "uid": "F8294E5D-2318-4D08-B4E2-AF89041BDCFD",
+              "summary": "UM4EES05-ESA-CS",
+              "location": null,
+              "start": "2025-10-03T11:45:00+00:00",
+              "end": "2025-10-03T13:45:00+00:00"
+            },
+            {
+              "uid": "9A680292-06B3-4B71-94D4-DDCACFFAD74A",
+              "summary": "UM4EES05-ESA-CS",
+              "location": null,
+              "start": "2025-10-10T11:45:00+00:00",
+              "end": "2025-10-10T13:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "B26012D0-F43D-463F-A455-0EBE3EB7BDA4",
+              "summary": "UM4EES05-ESA-ER1",
+              "location": null,
+              "start": "2025-10-17T14:00:00+00:00",
+              "end": "2025-10-17T16:00:00+00:00"
+            },
+            {
+              "uid": "8C6910BC-A22A-4EE2-878A-70510C5572A3",
+              "summary": "UM4EES05-ESA-ER2",
+              "location": null,
+              "start": "2025-11-14T07:30:00+00:00",
+              "end": "2025-11-14T09:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "7C4A4448-4BAF-49EB-B06C-BD6B65F9D8FA",
+              "summary": "UM4EES05-ESA-TD (FV)",
+              "location": null,
+              "start": "2025-11-14T15:00:00+00:00",
+              "end": "2025-11-14T17:00:00+00:00"
+            },
+            {
+              "uid": "CA34C78D-F8F9-421F-BD5C-6AB9A4C0EBEC",
+              "summary": "UM4EES05-ESA-TD",
+              "location": "Réservation : 668283",
+              "start": "2025-11-24T09:45:00+00:00",
+              "end": "2025-11-24T11:45:00+00:00"
+            },
+            {
+              "uid": "489CEFFC-F0AB-4FCE-9A7E-FC7E59C9E5F2",
+              "summary": "UM4EES05-ESA-TD",
+              "location": null,
+              "start": "2025-12-01T09:45:00+00:00",
+              "end": "2025-12-01T11:45:00+00:00"
+            },
+            {
+              "uid": "35CA7AF0-8BA0-47A0-8C23-55C93D8B6908",
+              "summary": "UM4EES05-ESA-TD",
+              "location": null,
+              "start": "2025-12-08T09:45:00+00:00",
+              "end": "2025-12-08T11:45:00+00:00"
+            },
+            {
+              "uid": "F38A78A9-A690-498D-8031-836FEC63B9BB",
+              "summary": "UM4EES05-ESA-TD",
+              "location": null,
+              "start": "2025-12-15T09:45:00+00:00",
+              "end": "2025-12-15T11:45:00+00:00"
+            },
+            {
+              "uid": "6DE65A2E-9960-43A0-A89D-8787783EB2CE",
+              "summary": "UM4EES05-ESA-TD",
+              "location": null,
+              "start": "2025-12-19T12:45:00+00:00",
+              "end": "2025-12-19T14:45:00+00:00"
+            },
+            {
+              "uid": "FE494063-BFF0-45A3-96FD-D8C09640D1D4",
+              "summary": "UM4EES05-ESA-TD",
+              "location": null,
+              "start": "2025-12-12T12:45:00+00:00",
+              "end": "2025-12-12T14:45:00+00:00"
+            },
+            {
+              "uid": "0D96006F-D0EF-4F85-84D7-3840F756DE8B",
+              "summary": "UM4EES05-ESA-TD",
+              "location": null,
+              "start": "2025-12-05T12:45:00+00:00",
+              "end": "2025-12-05T14:45:00+00:00"
+            },
+            {
+              "uid": "A9950157-E455-4EBD-93A2-18BB4008AB36",
+              "summary": "UM4EES05-ESA-TD",
+              "location": "Réservation : 668284",
+              "start": "2025-11-28T12:45:00+00:00",
+              "end": "2025-11-28T14:45:00+00:00"
+            },
+            {
+              "uid": "3E84667B-B375-4D3F-BBCB-C8CC2338E976",
+              "summary": "UM4EES05-ESA-TD",
+              "location": null,
+              "start": "2025-09-22T08:45:00+00:00",
+              "end": "2025-09-22T10:45:00+00:00"
+            },
+            {
+              "uid": "A82676CF-AF50-46EA-A390-854696718D8E",
+              "summary": "UM4EES05-ESA-TD",
+              "location": null,
+              "start": "2025-10-06T08:45:00+00:00",
+              "end": "2025-10-06T10:45:00+00:00"
+            },
+            {
+              "uid": "5888A64C-3428-4D1D-BFF6-B99F4762899D",
+              "summary": "UM4EES05-ESA-TD",
+              "location": null,
+              "start": "2025-10-13T08:45:00+00:00",
+              "end": "2025-10-13T10:45:00+00:00"
+            },
+            {
+              "uid": "109F56C9-5E8C-4BC8-8877-B909A6319FE6",
+              "summary": "UM4EES05-ESA-TD",
+              "location": null,
+              "start": "2025-11-03T09:45:00+00:00",
+              "end": "2025-11-03T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TP",
+          "events": [
+            {
+              "uid": "20360540-0C8F-4B0F-B0FC-D4F3B27289F6",
+              "summary": "UM4EES05-ESA-TP",
+              "location": "Salle Esclangon 226",
+              "start": "2025-10-13T11:45:00+00:00",
+              "end": "2025-10-13T16:00:00+00:00"
+            },
+            {
+              "uid": "C372D3E6-68A8-4F3D-86F1-4C4FDCAE86D9",
+              "summary": "UM4EES05-ESA-TP",
+              "location": "Salle SESI 24.25.305",
+              "start": "2025-11-24T12:45:00+00:00",
+              "end": "2025-11-24T17:00:00+00:00"
+            },
+            {
+              "uid": "8119F3CC-C7CF-43F6-8EF8-22AF94CD1828",
+              "summary": "UM4EES05-ESA-TP",
+              "location": "Salle SESI 24.25.305",
+              "start": "2025-12-08T12:45:00+00:00",
+              "end": "2025-12-08T17:00:00+00:00"
+            },
+            {
+              "uid": "F7A79B4C-7C0B-42AC-AD98-FB28D71B994C",
+              "summary": "UM4EES05-ESA-TP",
+              "location": "Salle SESI 24.25.307",
+              "start": "2025-12-15T12:45:00+00:00",
+              "end": "2025-12-15T17:00:00+00:00"
+            },
+            {
+              "uid": "E3970452-FDA3-484E-B1B3-D3DFAA1C2925",
+              "summary": "UM4EES05-ESA-TP",
+              "location": "Salle Esclangon 227",
+              "start": "2025-11-03T12:45:00+00:00",
+              "end": "2025-11-03T17:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VLSI",
+      "code": "101",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "BF0D23F1-6EE8-4C25-929F-1961F0B95F3D",
+              "summary": "UM4IN101-VLSI-Cours",
+              "location": "Salle 23.24.101",
+              "start": "2025-09-18T14:00:00+00:00",
+              "end": "2025-09-18T16:00:00+00:00"
+            },
+            {
+              "uid": "7FEBBF87-BB85-4351-A656-64C099BE618D",
+              "summary": "UM4IN101-VLSI-Cours",
+              "location": "Salle 23.24.101",
+              "start": "2025-09-25T14:00:00+00:00",
+              "end": "2025-09-25T16:00:00+00:00"
+            },
+            {
+              "uid": "932FCD06-1C9F-4D5D-BCA4-65409B2F4374",
+              "summary": "UM4IN101-VLSI-Cours",
+              "location": "Salle 23.24.101",
+              "start": "2025-10-02T14:00:00+00:00",
+              "end": "2025-10-02T16:00:00+00:00"
+            },
+            {
+              "uid": "16921BD4-53F3-4980-819D-7D2923259BCA",
+              "summary": "UM4IN101-VLSI-Cours",
+              "location": "Salle 23.24.101",
+              "start": "2025-10-09T14:00:00+00:00",
+              "end": "2025-10-09T16:00:00+00:00"
+            },
+            {
+              "uid": "93D67898-7307-47F9-8A5D-030CF6CEF241",
+              "summary": "UM4IN101-VLSI-Cours",
+              "location": "Réservation : 668268",
+              "start": "2025-10-20T14:00:00+00:00",
+              "end": "2025-10-20T16:00:00+00:00"
+            },
+            {
+              "uid": "1A5BCB53-9572-4017-A5E3-41385F40903B",
+              "summary": "UM4IN101-VLSI-Cours",
+              "location": "Salle 24.25.107",
+              "start": "2025-10-23T14:00:00+00:00",
+              "end": "2025-10-23T16:00:00+00:00"
+            },
+            {
+              "uid": "F5FD59D4-04AF-4561-A95E-27680AF35952",
+              "summary": "UM4IN101-VLSI-Cours",
+              "location": "Salle 24.25.107",
+              "start": "2025-11-06T15:00:00+00:00",
+              "end": "2025-11-06T17:00:00+00:00"
+            },
+            {
+              "uid": "F0E8C925-3E7D-431E-BFC3-6C63BF88882E",
+              "summary": "UM4IN101-VLSI-Cours",
+              "location": "Réservation : 668270",
+              "start": "2025-11-27T15:00:00+00:00",
+              "end": "2025-11-27T17:00:00+00:00"
+            },
+            {
+              "uid": "6AB6D283-52CC-4A72-82FE-AC065632DFA7",
+              "summary": "UM4IN101-VLSI-Cours",
+              "location": null,
+              "start": "2025-12-04T15:00:00+00:00",
+              "end": "2025-12-04T17:00:00+00:00"
+            },
+            {
+              "uid": "500C3E6B-0CDA-484C-812D-25B63A880B59",
+              "summary": "UM4IN101-VLSI-Cours",
+              "location": null,
+              "start": "2025-12-11T15:00:00+00:00",
+              "end": "2025-12-11T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "254BA7A3-F49B-4CD7-94BF-3CECE3C7A117",
+              "summary": "UM4IN101-VLSI-ER1",
+              "location": null,
+              "start": "2025-11-20T15:00:00+00:00",
+              "end": "2025-11-20T17:00:00+00:00"
+            },
+            {
+              "uid": "9C7F1F8C-2FBB-4706-AE64-BD965E015822",
+              "summary": "UM4IN101-VLSI-ER2",
+              "location": null,
+              "start": "2026-01-08T15:30:00+00:00",
+              "end": "2026-01-08T17:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "877C86B6-54CA-4154-A43E-91700D13D9AA",
+              "summary": "UM4EE101-ESA-TD",
+              "location": null,
+              "start": "2025-10-20T08:45:00+00:00",
+              "end": "2025-10-20T10:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "DB40B85B-3432-45D9-933D-C44D1E781CDA",
+              "summary": "UM4IN101-VLSI1-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-10-01T06:30:00+00:00",
+              "end": "2025-10-01T10:45:00+00:00"
+            },
+            {
+              "uid": "4AAD6BAA-3914-40B0-AF0F-5EE6D256613E",
+              "summary": "UM4IN101-VLSI1-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-10-08T06:30:00+00:00",
+              "end": "2025-10-08T10:45:00+00:00"
+            },
+            {
+              "uid": "C5E856ED-33F2-4DAB-93C7-9638FA087398",
+              "summary": "UM4IN101-VLSI1-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-10-15T06:30:00+00:00",
+              "end": "2025-10-15T10:45:00+00:00"
+            },
+            {
+              "uid": "4F56DBE4-F53C-403C-871B-C11B44E6296C",
+              "summary": "UM4IN101-VLSI1-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-10-22T06:30:00+00:00",
+              "end": "2025-10-22T10:45:00+00:00"
+            },
+            {
+              "uid": "8725CA39-BC28-4E0E-996B-DA61E1C76711",
+              "summary": "UM4IN101-VLSI1-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-11-05T07:30:00+00:00",
+              "end": "2025-11-05T11:45:00+00:00"
+            },
+            {
+              "uid": "3375CEA6-9B47-4432-B6C8-9870A22C4FF1",
+              "summary": "UM4IN101-VLSI1-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-11-26T07:30:00+00:00",
+              "end": "2025-11-26T11:45:00+00:00"
+            },
+            {
+              "uid": "7F7E8EBD-1F6F-4856-A62B-050EE566F4F7",
+              "summary": "UM4IN101-VLSI1-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-12-03T07:30:00+00:00",
+              "end": "2025-12-03T11:45:00+00:00"
+            },
+            {
+              "uid": "AE7A6EE6-683F-4EF4-B31A-4FA287B556F3",
+              "summary": "UM4IN101-VLSI1-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-12-10T07:30:00+00:00",
+              "end": "2025-12-10T11:45:00+00:00"
+            },
+            {
+              "uid": "F37274C6-90ED-404E-A435-CF6A917D08D6",
+              "summary": "UM4IN101-VLSI1-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-12-17T07:30:00+00:00",
+              "end": "2025-12-17T11:45:00+00:00"
+            },
+            {
+              "uid": "FD919963-13E2-4223-AECB-462F77667EEE",
+              "summary": "UM4IN101-VLSI1-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-09-24T06:30:00+00:00",
+              "end": "2025-09-24T10:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "updated_at": "2025-09-04T19:10:20.348162+00:00"
+}

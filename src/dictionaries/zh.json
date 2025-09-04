@@ -1,0 +1,22 @@
+{
+  "title": "索邦大学课程日历生成",
+  "grade": "年级",
+  "parcours": "专业",
+  "search": "搜索课程名或代码…",
+  "groupAll": "1",
+  "selectedNone": "未选择任何课程",
+  "selectedPrefix": "已选 {n} 门课：",
+  "genButton": "生成我的课程表",
+  "guide": "导入教程（iOS、Google、Outlook）",
+  "guide_ios": "iOS/Apple Calendar：设置 → 账户 → 添加账户 → 其他 → 添加已订阅的日历 → 粘贴链接。",
+  "guide_google": "Google Calendar：左侧“其他日历” → 通过网址添加 → 粘贴链接。",
+  "guide_outlook": "Outlook：日历 → 添加日历 → 从网络订阅 → 粘贴链接。",
+  "lang_zh": "中文",
+  "lang_fr": "Français",
+  "joiner": "、",
+  "copy": "复制",
+  "copied": "已复制",
+  "copyLink": "复制链接",
+  "importWebcal": "导入到日历 (webcal)",
+  "downloadIcs": "下载 ICS"
+}

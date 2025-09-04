@@ -1,0 +1,472 @@
+{
+  "master_year": "M1",
+  "parcours": "STL",
+  "courses": [
+    {
+      "name": "ALGAV",
+      "code": "500",
+      "special": false,
+      "groups": [
+        "1",
+        "2",
+        "3"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "1B89A1D1-945F-4A6D-ABB4-B46353CE765B",
+              "summary": "UM4IN500-ALGAV-Cours",
+              "location": "AMPHI 56B",
+              "start": "2025-09-16T08:45:00+00:00",
+              "end": "2025-09-16T10:45:00+00:00"
+            },
+            {
+              "uid": "D8E1882E-E21A-4C46-8338-791C263B1279",
+              "summary": "UM4IN500-ALGAV-Cours",
+              "location": "Résa n°667327",
+              "start": "2025-11-25T09:45:00+00:00",
+              "end": "2025-11-25T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "6CA31D7C-AA4E-4C60-8088-0FD5F788A083",
+              "summary": "UM4IN500-ALGAV-TD1",
+              "location": "Salle 55.65.105",
+              "start": "2025-11-13T07:30:00+00:00",
+              "end": "2025-11-13T11:45:00+00:00"
+            },
+            {
+              "uid": "5E1BB788-4E52-4AB4-89BF-258819DFA53F",
+              "summary": "UM4IN500-ALGAV-TD1",
+              "location": "Salle 23.24.207",
+              "start": "2025-09-22T11:45:00+00:00",
+              "end": "2025-09-22T16:00:00+00:00"
+            },
+            {
+              "uid": "D6C18D30-FB61-41D3-AC73-D2F79C180127",
+              "summary": "UM4IN500-ALGAV-TD1",
+              "location": "Résa n°667825",
+              "start": "2025-11-24T12:45:00+00:00",
+              "end": "2025-11-24T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "39FCCE7B-5D95-4C8D-B861-8B409E403E10",
+              "summary": "UM4IN500-ALGAV-TME1",
+              "location": null,
+              "start": "2025-12-15T12:45:00+00:00",
+              "end": "2025-12-15T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "2A33438B-485B-4DF0-9D8B-542C8F3BC2D2",
+              "summary": "UM4IN500-ALGAV-TD2",
+              "location": "Salle 55.65.105",
+              "start": "2025-09-25T06:30:00+00:00",
+              "end": "2025-09-25T10:45:00+00:00"
+            },
+            {
+              "uid": "C2376866-78E0-455A-AF1B-3C65F0FA361D",
+              "summary": "UM4IN500-ALGAV-TD2",
+              "location": "Résa n°667833",
+              "start": "2025-10-20T06:30:00+00:00",
+              "end": "2025-10-20T10:45:00+00:00"
+            },
+            {
+              "uid": "68906FE4-07AC-41ED-BDFB-08D738387D80",
+              "summary": "UM4IN500-ALGAV-TD2",
+              "location": "Résa n°667826",
+              "start": "2025-11-27T07:30:00+00:00",
+              "end": "2025-11-27T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "091745B8-2104-4E4F-81C2-EAE69E45DACC",
+              "summary": "UM4IN500-ALGAV-TME2",
+              "location": null,
+              "start": "2025-12-18T07:30:00+00:00",
+              "end": "2025-12-18T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "3",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "A6EC5FA0-A5CB-4F4C-BE4A-C04086AE96B4",
+              "summary": "UM4IN500-ALGAV-TD3",
+              "location": "Salle 56.66.201BIS",
+              "start": "2025-09-25T06:30:00+00:00",
+              "end": "2025-09-25T10:45:00+00:00"
+            },
+            {
+              "uid": "25C77A01-2984-4D50-8895-618CD7CE75DA",
+              "summary": "UM4IN500-ALGAV-TD3",
+              "location": "Résa n°667834",
+              "start": "2025-10-20T06:30:00+00:00",
+              "end": "2025-10-20T10:45:00+00:00"
+            },
+            {
+              "uid": "57E47546-D0E1-44A5-A4A1-7295D947B42B",
+              "summary": "UM4IN500-ALGAV-TD3",
+              "location": "Résa n°667828",
+              "start": "2025-11-27T07:30:00+00:00",
+              "end": "2025-11-27T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "3",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "664FB053-6B54-49FB-9B6B-F5448AA99958",
+              "summary": "UM4IN500-ALGAV-TME3",
+              "location": null,
+              "start": "2025-12-18T07:30:00+00:00",
+              "end": "2025-12-18T11:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AnglaisSTL",
+      "code": "Anglais",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "7960A909-D86D-4B8D-AC8A-E56AFF6A5C43",
+              "summary": "AnglaisSTL-Anglais-Cours",
+              "location": "Voir Moodle",
+              "start": "2025-09-18T11:45:00+00:00",
+              "end": "2025-09-18T14:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "7BFF898C-1A5A-4ABE-B720-360FFE0BB1F4",
+              "summary": "AnglaisSTL-Anglais-Examen",
+              "location": "Voir Moodle",
+              "start": "2025-12-18T12:45:00+00:00",
+              "end": "2025-12-18T15:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "DLP",
+      "code": "501",
+      "special": false,
+      "groups": [
+        "1",
+        "2"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "9673C441-D326-47B2-A287-B9D8F8B727ED",
+              "summary": "UM4IN501-DLP-Cours",
+              "location": "Salle 14.24.305",
+              "start": "2025-09-16T06:30:00+00:00",
+              "end": "2025-09-16T08:30:00+00:00"
+            },
+            {
+              "uid": "726C0A78-D73F-4F94-999D-47D0A8309489",
+              "summary": "UM4IN501-DLP-Cours",
+              "location": "Résa n°667326",
+              "start": "2025-11-25T07:30:00+00:00",
+              "end": "2025-11-25T09:30:00+00:00"
+            },
+            {
+              "uid": "CA6C8CA6-A7A1-44B6-A23C-B033F7B6B797",
+              "summary": "UM4IN501-DLP-Cours",
+              "location": "Salle 14.24.305",
+              "start": "2025-11-14T07:30:00+00:00",
+              "end": "2025-11-14T09:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "DD9069FC-66DA-4596-8279-75A5C8DD6499",
+              "summary": "UM4IN501-DLP-TME1",
+              "location": null,
+              "start": "2025-09-26T11:45:00+00:00",
+              "end": "2025-09-26T16:00:00+00:00"
+            },
+            {
+              "uid": "73314F2F-704E-413A-B9E0-D8DFB1ACBEE2",
+              "summary": "UM4IN501-DLP-TME1",
+              "location": null,
+              "start": "2025-11-28T12:45:00+00:00",
+              "end": "2025-11-28T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "EE4888F1-7B1F-4E90-9681-80C7D2F3170A",
+              "summary": "UM4IN501-DLP-TME2",
+              "location": null,
+              "start": "2025-09-26T11:45:00+00:00",
+              "end": "2025-09-26T16:00:00+00:00"
+            },
+            {
+              "uid": "1F33DD93-F0E5-4375-A217-E96016514601",
+              "summary": "UM4IN501-DLP-TME2",
+              "location": null,
+              "start": "2025-11-28T12:45:00+00:00",
+              "end": "2025-11-28T17:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "LS",
+      "code": "509",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "3E3829DF-A333-4665-9C47-62C3EDBAB779",
+              "summary": "UM4IN509-LS-Cours",
+              "location": "Salle 54.55.202",
+              "start": "2025-09-19T06:30:00+00:00",
+              "end": "2025-09-19T08:30:00+00:00"
+            },
+            {
+              "uid": "D09769F1-DCD7-4C56-BACB-CD7D4E8FB756",
+              "summary": "UM4IN509-LS-Cours",
+              "location": "Résa n°667325",
+              "start": "2025-11-28T07:30:00+00:00",
+              "end": "2025-11-28T09:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "185FEC79-0F34-49C9-87DE-8F137F56A222",
+              "summary": "UM4IN509-LS-TD",
+              "location": "Salle 56.66.209",
+              "start": "2025-09-24T11:45:00+00:00",
+              "end": "2025-09-24T13:45:00+00:00"
+            },
+            {
+              "uid": "32BFAC6F-8CC7-4DE2-8C92-CC3B3A80160A",
+              "summary": "UM4IN509-LS-TD",
+              "location": "Résa n°667832",
+              "start": "2025-11-26T12:45:00+00:00",
+              "end": "2025-11-26T14:45:00+00:00"
+            },
+            {
+              "uid": "07877EDB-C9A6-4986-8CB0-FAA1418D15BD",
+              "summary": "UM4IN509-LS-TD",
+              "location": "Salle 56.66.209",
+              "start": "2025-11-05T12:45:00+00:00",
+              "end": "2025-11-05T14:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "C0AFA49B-EF87-47FE-8810-AE183D9BE8F8",
+              "summary": "UM4IN509-LS-TME",
+              "location": null,
+              "start": "2025-09-24T14:00:00+00:00",
+              "end": "2025-09-24T16:00:00+00:00"
+            },
+            {
+              "uid": "855FB081-83B1-483E-AFF4-E2B1D9BCA141",
+              "summary": "UM4IN509-LS-TME",
+              "location": null,
+              "start": "2025-11-26T15:00:00+00:00",
+              "end": "2025-11-26T17:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OUV",
+      "code": "511",
+      "special": false,
+      "groups": [
+        "1",
+        "2"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "F655B46F-B758-4FF5-9BD6-455652F12FE3",
+              "summary": "UM4IN511-OUV-TM2",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-09-23T14:00:00+00:00",
+              "end": "2025-09-23T16:00:00+00:00"
+            },
+            {
+              "uid": "F655B46F-B758-4FF5-9BD6-455652F12FE3",
+              "summary": "UM4IN511-OUV-TM1",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-10-14T14:00:00+00:00",
+              "end": "2025-10-14T16:00:00+00:00"
+            },
+            {
+              "uid": "F655B46F-B758-4FF5-9BD6-455652F12FE3",
+              "summary": "UM4IN511-OUV-TM1",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-09-30T14:00:00+00:00",
+              "end": "2025-09-30T16:00:00+00:00"
+            },
+            {
+              "uid": "F655B46F-B758-4FF5-9BD6-455652F12FE3",
+              "summary": "UM4IN511-OUV-TM1",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-11-04T15:00:00+00:00",
+              "end": "2025-11-04T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "8E0D2A7F-D306-4A5C-B923-26492EC4CE85",
+              "summary": "UM4IN511-OUV-Cours",
+              "location": "Salle 24.34.105",
+              "start": "2025-09-16T11:45:00+00:00",
+              "end": "2025-09-16T13:45:00+00:00"
+            },
+            {
+              "uid": "87A449B7-FE92-4D1A-AA6F-AB452CA2B2F3",
+              "summary": "UM4IN511-OUV-Cours",
+              "location": "Résa n°667328",
+              "start": "2025-11-25T12:45:00+00:00",
+              "end": "2025-11-25T15:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "D355655B-0D43-4620-A6B8-B5DE1F72AD32",
+              "summary": "UM4IN511-OUV-TD1",
+              "location": "Salle 24.34.303",
+              "start": "2025-09-23T14:00:00+00:00",
+              "end": "2025-09-23T16:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "D355655B-0D43-4620-A6B8-B5DE1F72AD32",
+              "summary": "UM4IN511-OUV-TD2",
+              "location": "Salle 24.34.303",
+              "start": "2025-10-14T14:00:00+00:00",
+              "end": "2025-10-14T16:00:00+00:00"
+            },
+            {
+              "uid": "D355655B-0D43-4620-A6B8-B5DE1F72AD32",
+              "summary": "UM4IN511-OUV-TD2",
+              "location": "Salle 24.34.303",
+              "start": "2025-11-04T15:00:00+00:00",
+              "end": "2025-11-04T17:00:00+00:00"
+            },
+            {
+              "uid": "D355655B-0D43-4620-A6B8-B5DE1F72AD32",
+              "summary": "UM4IN511-OUV-TD2",
+              "location": "Salle 24.34.303",
+              "start": "2025-09-30T14:00:00+00:00",
+              "end": "2025-09-30T16:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "RéunionM1STL - Réunion de rentrée",
+      "code": "special",
+      "special": true,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "A24E1B03-D836-4C4F-A2DF-D18E09FCCD78",
+              "summary": "RéunionM1STL - Réunion de rentrée",
+              "location": "Salle 24.34.107",
+              "start": "2025-09-08T11:45:00+00:00",
+              "end": "2025-09-08T13:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "updated_at": "2025-09-04T19:10:16.861823+00:00"
+}

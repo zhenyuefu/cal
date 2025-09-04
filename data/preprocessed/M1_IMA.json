@@ -1,0 +1,309 @@
+{
+  "master_year": "M1",
+  "parcours": "IMA",
+  "courses": [
+    {
+      "name": "BIMA",
+      "code": "600",
+      "special": false,
+      "groups": [
+        "2",
+        "3"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "670177F3-364E-4AD0-B8E3-B6527A927222",
+              "summary": "UM4IN600-BIMA-TD1_English",
+              "location": "ATRIUM.525",
+              "start": "2025-09-23T06:30:00+00:00",
+              "end": "2025-09-23T08:30:00+00:00"
+            },
+            {
+              "uid": "C60B7456-2040-4198-A226-EFA57F11E6F3",
+              "summary": "UM4IN600-BIMA-TME1_English",
+              "location": null,
+              "start": "2025-09-23T08:45:00+00:00",
+              "end": "2025-09-23T10:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "28C4FCD6-1E59-4D3A-B835-E5E24F8E7760",
+              "summary": "UM4IN600-BIMA-Cours",
+              "location": "AMPHI.56B",
+              "start": "2025-09-23T11:45:00+00:00",
+              "end": "2025-09-23T13:45:00+00:00"
+            },
+            {
+              "uid": "3CCFE419-BE98-4E1F-8D94-F4F3778887D5",
+              "summary": "UM4IN600-BIMA-Cours English",
+              "location": "14.24.107",
+              "start": "2025-09-15T14:00:00+00:00",
+              "end": "2025-09-15T16:00:00+00:00"
+            },
+            {
+              "uid": "749EE88E-BE71-44F5-9CA9-C8E8FB906DFD",
+              "summary": "UM4IN600-BIMA-Cours",
+              "location": "AMPHI.24",
+              "start": "2025-09-16T11:45:00+00:00",
+              "end": "2025-09-16T13:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "F2FBEB0F-1814-4D06-9D6E-EB78C7D5B12D",
+              "summary": "UM4IN600-BIMA-TD2",
+              "location": "14.24.105",
+              "start": "2025-09-24T11:45:00+00:00",
+              "end": "2025-09-24T13:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "591660A0-BDE1-4FA9-A736-C67F8DC5FDE7",
+              "summary": "UM4IN600-BIMA-TME2",
+              "location": null,
+              "start": "2025-09-24T14:00:00+00:00",
+              "end": "2025-09-24T16:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "3",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "720171C7-DB10-4AC7-8DF0-BB3BC4E52078",
+              "summary": "UM4IN600-BIMA-TD3",
+              "location": "24.34.212",
+              "start": "2025-09-25T11:45:00+00:00",
+              "end": "2025-09-25T13:45:00+00:00"
+            },
+            {
+              "uid": "D61CBD14-5ECF-4FF6-9D78-D8CB44E30D57",
+              "summary": "UM4IN600-BIMA-TD3",
+              "location": null,
+              "start": "2025-10-20T11:45:00+00:00",
+              "end": "2025-10-20T13:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "3",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "C89BF1D8-D35F-4576-A8C5-14E7ACF9A059",
+              "summary": "UM4IN600-BIMA-TME3",
+              "location": null,
+              "start": "2025-09-25T14:00:00+00:00",
+              "end": "2025-09-25T16:00:00+00:00"
+            },
+            {
+              "uid": "E9C310DE-CF04-4A46-871F-7C51E4DB50FB",
+              "summary": "UM4IN600-BIMA-TME3",
+              "location": null,
+              "start": "2025-10-20T14:00:00+00:00",
+              "end": "2025-10-20T16:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MAPSI",
+      "code": "601",
+      "special": false,
+      "groups": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "467B0551-3AD4-4DFB-96B6-6B9FAAB3D040",
+              "summary": "UM4IN601-MAPSI-Cours",
+              "location": "AMPHI.15",
+              "start": "2025-09-16T14:00:00+00:00",
+              "end": "2025-09-16T16:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "3E9D8951-25F3-4D7E-89DA-865059FE5E19",
+              "summary": "UM4IN601-MAPSI-TD1",
+              "location": "46.56.116",
+              "start": "2025-09-22T06:30:00+00:00",
+              "end": "2025-09-22T08:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "23845D78-EA8B-410E-BC66-A677DF5561EF",
+              "summary": "UM4IN601-MAPSI-TME1",
+              "location": null,
+              "start": "2025-09-22T08:45:00+00:00",
+              "end": "2025-09-22T10:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "311626B0-053B-4ECA-A54F-8D266BAFC002",
+              "summary": "UM4IN601-MAPSI-TD2",
+              "location": "24.34.305",
+              "start": "2025-09-22T11:45:00+00:00",
+              "end": "2025-09-22T13:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "DE8FFDDA-DBC1-4A5E-8DB7-6D63B6440C7F",
+              "summary": "UM4IN601-MAPSI-TME2",
+              "location": null,
+              "start": "2025-09-22T14:00:00+00:00",
+              "end": "2025-09-22T16:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "3",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "BDB947E2-83C0-40E7-B8CC-88A674A8CD3D",
+              "summary": "UM4IN601-MAPSI-TD3",
+              "location": "24.25.105",
+              "start": "2025-09-23T06:30:00+00:00",
+              "end": "2025-09-23T08:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "3",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "A0BCF7DA-2A8E-4929-9689-65A115D7BA1E",
+              "summary": "UM4IN601-MAPSI-TME3",
+              "location": null,
+              "start": "2025-09-23T08:45:00+00:00",
+              "end": "2025-09-23T10:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "4",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "D557224D-B955-412A-B23F-E45CF7A1722F",
+              "summary": "UM4IN601-MAPSI-TD4",
+              "location": "14.24.112",
+              "start": "2025-09-23T06:30:00+00:00",
+              "end": "2025-09-23T08:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "4",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "810E530C-6B81-4F0E-A775-418439933267",
+              "summary": "UM4IN601-MAPSI-TME4",
+              "location": null,
+              "start": "2025-09-23T11:45:00+00:00",
+              "end": "2025-09-23T13:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "5",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "A4479629-7FAA-4ED6-B0A9-A16B4AC9177F",
+              "summary": "UM4IN601-MAPSI-TD5",
+              "location": "14.24.208",
+              "start": "2025-09-23T06:30:00+00:00",
+              "end": "2025-09-23T08:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "5",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "D9407F56-A84E-4202-8F09-C81076C7FA93",
+              "summary": "UM4IN601-MAPSI-TME5",
+              "location": null,
+              "start": "2025-09-23T08:45:00+00:00",
+              "end": "2025-09-23T10:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Réunion de rentrée M1 IMA",
+      "code": "special",
+      "special": true,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "FB01A244-A786-41E4-963B-43EE0D2E03AB",
+              "summary": "Réunion de rentrée M1 IMA",
+              "location": "24.25.103",
+              "start": "2025-09-08T08:45:00+00:00",
+              "end": "2025-09-08T10:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "updated_at": "2025-09-04T19:10:17.194265+00:00"
+}
