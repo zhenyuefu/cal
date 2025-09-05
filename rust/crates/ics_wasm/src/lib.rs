@@ -31,6 +31,12 @@ struct EventIn {
     summary: String,
     location: Option<String>,
     uid: Option<String>,
+    #[serde(default)]
+    rrule: Option<String>,
+    #[serde(default)]
+    exdates: Option<Vec<String>>, // ISO strings
+    #[serde(default)]
+    recurrence_id: Option<String>, // ISO string
 }
 
 #[derive(Debug, Deserialize)]
@@ -80,6 +86,15 @@ fn build_calendar(data: &BuildInput) -> String {
         out.push_str(&format!("UID:{}\r\n", esc(&uid)));
         out.push_str(&format!("DTSTART:{}\r\n", to_ics_dt(&ev.start)));
         out.push_str(&format!("DTEND:{}\r\n", to_ics_dt(&ev.end)));
+        // RRULE/EXDATE for base events; RECURRENCE-ID for overrides
+        if let Some(rid) = &ev.recurrence_id {
+            out.push_str(&format!("RECURRENCE-ID:{}\r\n", to_ics_dt(rid)));
+        } else {
+            if let Some(rr) = &ev.rrule { out.push_str(&format!("RRULE:{}\r\n", rr.trim())); }
+            if let Some(xs) = &ev.exdates {
+                for x in xs { out.push_str(&format!("EXDATE:{}\r\n", to_ics_dt(x))); }
+            }
+        }
         out.push_str(&format!("SUMMARY:{}\r\n", esc(&ev.summary)));
         if let Some(loc) = &ev.location { out.push_str(&format!("LOCATION:{}\r\n", esc(loc))); }
         out.push_str("END:VEVENT\r\n");
@@ -203,6 +218,9 @@ pub extern "C" fn build_ics_from_selection(ptr: *mut u8, len: usize) -> *mut u8 
                             summary: ev.summary.clone(),
                             location: ev.location.clone(),
                             uid: ev.uid.clone(),
+                            rrule: ev.rrule.clone(),
+                            exdates: ev.exdates.clone(),
+                            recurrence_id: ev.recurrence_id.clone(),
                         });
                     }
                 }
@@ -228,6 +246,9 @@ pub extern "C" fn build_ics_from_selection(ptr: *mut u8, len: usize) -> *mut u8 
                             summary: c.name.clone(),
                             location: ev.location.clone(),
                             uid: ev.uid.clone(),
+                            rrule: ev.rrule.clone(),
+                            exdates: ev.exdates.clone(),
+                            recurrence_id: ev.recurrence_id.clone(),
                         });
                     }
                 }

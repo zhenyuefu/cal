@@ -19,6 +19,12 @@ struct Event {
     location: Option<String>,
     start: String,
     end: String,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    rrule: Option<String>,
+    #[serde(default, skip_serializing_if = "Vec::is_empty")]
+    exdates: Vec<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    recurrence_id: Option<String>,
 }
 
 #[derive(Debug, Clone, Serialize, Deserialize)]
@@ -122,28 +128,66 @@ fn process_one(path: &Path, year: &str, parcours: &str) -> Result<Bundle> {
     }
 
     let start_cut = academic_year_start_utc();
+    let end_cut = academic_year_end_utc();
     // Group by code only; keep candidate names per event to pick a canonical name later
     let mut grouped: BTreeMap<String, Vec<(Option<String>, Option<String>, Event, String)>> = BTreeMap::new();
 
-    for ev in events {
-        let summary = get_prop(&ev, "SUMMARY").unwrap_or_else(|| "(sans titre)".into());
-        let location = get_prop(&ev, "LOCATION");
-        let uid = get_prop(&ev, "UID").unwrap_or_else(|| Uuid::new_v4().to_string());
+    for ev in &events {
+        let summary = get_prop(ev, "SUMMARY").unwrap_or_else(|| "(sans titre)".into());
+        let location = get_prop(ev, "LOCATION");
+        let uid = get_prop(ev, "UID").unwrap_or_else(|| Uuid::new_v4().to_string());
 
         // datetime
-        let (start, end) = match (get_prop(&ev, "DTSTART"), get_prop(&ev, "DTEND")) {
+        let (start_raw, end_raw) = match (get_prop(ev, "DTSTART"), get_prop(ev, "DTEND")) {
             (Some(s), Some(e)) => (s, e),
             _ => continue,
         };
-        let start_iso = parse_ics_datetime_to_utc_iso(&start);
-        let end_iso = parse_ics_datetime_to_utc_iso(&end);
+        let start_iso = parse_ics_datetime_to_utc_iso(&start_raw);
+        let end_iso = parse_ics_datetime_to_utc_iso(&end_raw);
         let start_dt = DateTime::parse_from_rfc3339(&start_iso).unwrap().with_timezone(&Utc);
-        if start_dt < start_cut { continue; }
+
+        // Recurrence info
+        let rrule = get_prop(ev, "RRULE");
+        let mut exdates: BTreeSet<String> = BTreeSet::new();
+        for ex in get_props(ev, "EXDATE") {
+            for part in ex.split(',') {
+                let iso = parse_ics_datetime_to_utc_iso(part.trim());
+                exdates.insert(iso);
+            }
+        }
+        let recurrence_id = get_prop(ev, "RECURRENCE-ID").map(|s| parse_ics_datetime_to_utc_iso(&s));
+
+        // Filter window: singles and overrides by start; recurring base by intersection with UNTIL if available
+        let include = if recurrence_id.is_some() {
+            start_dt >= start_cut && start_dt <= end_cut
+        } else if rrule.is_some() {
+            if let Some(rule) = rrule.as_ref().map(|s| parse_rrule(s)) {
+                if let Some(until_iso) = rule.until_iso.as_ref() {
+                    if let Ok(until_dt) = DateTime::parse_from_rfc3339(until_iso) {
+                        let until_dt = until_dt.with_timezone(&Utc);
+                        // intersect [start, until] with [start_cut, end_cut]
+                        !(until_dt < start_cut)
+                    } else { true }
+                } else { true }
+            } else { true }
+        } else {
+            start_dt >= start_cut && start_dt <= end_cut
+        };
+        if !include { continue; }
 
         // extract name, code, type, group from summary with improved rules
         let Parsed { name, code, typ, group: grp } = parse_summary(&summary);
 
-        let event = Event { uid, summary: summary.clone(), location, start: start_iso, end: end_iso };
+        let event = Event {
+            uid,
+            summary: summary.clone(),
+            location,
+            start: start_iso,
+            end: end_iso,
+            rrule,
+            exdates: exdates.into_iter().collect(),
+            recurrence_id,
+        };
         grouped.entry(code.clone()).or_default().push((grp.clone(), typ.clone(), event, name.clone()));
     }
 
@@ -189,6 +233,14 @@ fn process_one(path: &Path, year: &str, parcours: &str) -> Result<Bundle> {
 
 fn get_prop(ev: &IcalEvent, name: &str) -> Option<String> {
     ev.properties.iter().find(|p| p.name.eq_ignore_ascii_case(name)).and_then(|p| p.value.clone())
+}
+
+fn get_props(ev: &IcalEvent, name: &str) -> Vec<String> {
+    ev.properties
+        .iter()
+        .filter(|p| p.name.eq_ignore_ascii_case(name))
+        .filter_map(|p| p.value.clone())
+        .collect()
 }
 
 fn parse_ics_datetime_to_utc_iso(s: &str) -> String {
@@ -394,3 +446,63 @@ fn parse_summary(summary: &str) -> Parsed {
 
     Parsed { name, code, typ: ty, group: grp }
 }
+
+#[derive(Debug, Default, Clone)]
+struct RRule {
+    freq: Option<String>,
+    interval: u32,
+    until_iso: Option<String>,
+    count: Option<u32>,
+    byday: Vec<chrono::Weekday>,
+}
+
+fn parse_rrule(s: &str) -> RRule {
+    let mut rule = RRule { freq: None, interval: 1, until_iso: None, count: None, byday: Vec::new() };
+    for part in s.split(';') {
+        let mut it = part.splitn(2, '=');
+        let key = it.next().unwrap_or("").to_uppercase();
+        let val = it.next().unwrap_or("");
+        match key.as_str() {
+            "FREQ" => rule.freq = Some(val.to_uppercase()),
+            "INTERVAL" => {
+                if let Ok(n) = val.parse::<u32>() { rule.interval = n.max(1); }
+            }
+            "UNTIL" => {
+                rule.until_iso = Some(parse_ics_datetime_to_utc_iso(val));
+            }
+            "COUNT" => {
+                if let Ok(n) = val.parse::<u32>() { rule.count = Some(n); }
+            }
+            "BYDAY" => {
+                let mut days: Vec<chrono::Weekday> = Vec::new();
+                for d in val.split(',') {
+                    let wd = match d.trim().to_uppercase().as_str() {
+                        "MO" => Some(chrono::Weekday::Mon),
+                        "TU" => Some(chrono::Weekday::Tue),
+                        "WE" => Some(chrono::Weekday::Wed),
+                        "TH" => Some(chrono::Weekday::Thu),
+                        "FR" => Some(chrono::Weekday::Fri),
+                        "SA" => Some(chrono::Weekday::Sat),
+                        "SU" => Some(chrono::Weekday::Sun),
+                        _ => None,
+                    };
+                    if let Some(wd) = wd { days.push(wd); }
+                }
+                // stable ordering Monday..Sunday
+                days.sort_by_key(|d| d.num_days_from_monday());
+                rule.byday = days;
+            }
+            _ => {}
+        }
+    }
+    rule
+}
+
+fn academic_year_end_utc() -> chrono::DateTime<Utc> {
+    let now = Utc::now().with_timezone(&Paris);
+    let year = if now.month() >= 9 { now.year() + 1 } else { now.year() };
+    let dt = Paris.with_ymd_and_hms(year, 8, 31, 23, 59, 59).unwrap();
+    dt.with_timezone(&Utc)
+}
+
+// note: RRULE expansion removed from preprocess; ICS builder will emit RRULE

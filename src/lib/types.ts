@@ -22,8 +22,16 @@ export type Bundle = {
     variants: Array<{
       group?: string;
       type?: string;
-      events: Array<{ uid: string; summary: string; location?: string; start: string; end: string }>;
+      events: Array<{
+        uid: string;
+        summary: string;
+        location?: string;
+        start: string;
+        end: string;
+        rrule?: string;
+        exdates?: string[];
+        recurrence_id?: string;
+      }>;
     }>;
   }>;
 };
-
