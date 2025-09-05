@@ -2,7 +2,6 @@ use std::{collections::HashMap, env, fs, path::PathBuf, time::Duration};
 
 use anyhow::{Context, Result};
 use backoff::{future::retry, ExponentialBackoff};
-use chrono::{DateTime, Utc};
 use reqwest::{header, StatusCode};
 use serde::{Deserialize, Serialize};
 
