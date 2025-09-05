@@ -1,14 +1,8 @@
 import {useForm} from "@mantine/form";
-import {
-    Group,
-    ActionIcon,
-    Box,
-    Text,
-    Button,
-    Code, Select,
-} from "@mantine/core";
+import {ActionIcon, Box, Button, Center, Code, CopyButton, Group, Select, Text, Tooltip} from "@mantine/core";
 import {randomId} from "@mantine/hooks";
-import {IconTrash} from "@tabler/icons";
+import {IconCalendarEvent, IconCheck, IconCopy, IconTrash} from "@tabler/icons-react";
+import Link from "next/link";
 
 
 export default function IndexPage() {
@@ -17,42 +11,88 @@ export default function IndexPage() {
 
     const form = useForm({
         initialValues: {
-            UE: [{name: "", group: 0, key: randomId()}],
+            SEMESTER: "s2",
+            UE: [{name: "", group: "1", key: randomId()}],
             MAJ: ""
         },
     });
 
-    const groups = [
-        {value: '1', label: 'GR1'},
-        {value: '2', label: 'GR2'},
-        {value: '3', label: 'GR3'},
-        {value: '4', label: 'GR4'},
-        {value: '5', label: 'GR5'},
-    ];
+    const semesters = [{label: "Semestre 1", value: ""}, {label: "Semestre 2", value: "s2"}, {label: "Semestre 3", value: "s3"}];
 
-    const all_ue = [
+
+    // 存储每个UE的组的数量
+    const groupCount = {
+        "RA": 2,
+        "MU4IN811": 2,
+        "IAMSI": 2,
+        "MOGPL": 4,
+        "MLBDA": 3,
+        "LRC": 5,
+        "MAPSI": 5,
+        "BIMA": 2,
+        "COMPLEX": 2,
+        "IL": 3,
+        "DLP": 2,
+        "ALGAV": 2,
+        "MU5IN259": 2,
+        "MU5IN862": 2,
+        "MU5IN861": 3,
+        "OIP": 2,
+        "MU5IN652": 3
+    };
+
+    const ue_s1 = [
         {value: "MOGPL", label: "MOGPL"},
         {value: "IL", label: "IL"},
         {value: "LRC", label: "LRC"},
         {value: "MLBDA", label: "MLBDA"},
         {value: "MAPSI", label: "MAPSI"},
-        {value: "AAGB", label: "AAGB"},
-        {value: "Maths", label: "Maths"},
         {value: "BIMA", label: "BIMA"},
-        {value: "PSCR", label: "PSCR"},
-        {value: "NOYAU", label: "NOYAU"},
-        {value: "MOBJ", label: "MOBJ"},
-        {value: "ESA", label: "ESA"},
-        {value: "ARCHI", label: "ARCHI"},
-        {value: "SIGNAL", label: "SIGNAL"},
-        {value: "VLSI", label: "VLSI"},
-        {value: "SC", label: "SC"},
-        {value: "PPAR", label: "PPAR"},
         {value: "COMPLEX", label: "COMPLEX"},
         {value: "MODEL", label: "MODEL"},
+        {value: "PPAR", label: "PPAR"},
         {value: "ALGAV", label: "ALGAV"},
         {value: "DLP", label: "DLP"},
         {value: "OUV", label: "OUV"},
+    ]
+
+    const ue_s2 = [
+        {value: "DJ", label: "DJ"},
+        {value: "MU4IN202", label: "FoSyMa"},
+        {value: "IHM", label: "IHM"},
+        {value: "RA", label: "RA"},
+        {value: "RP", label: "RP"},
+        {value: "RITAL", label: "RITAL"},
+        {value: "MU4IN811", label: "ML"},
+        {value: "MU4IN812", label: "MLL"},
+        {value: "IAMSI", label: "IAMSI"},
+        {value: "SAM", label: "SAM"},
+        {value: "IG3D", label: "IG3D"},
+        {value: "MU4IN910", label: "ANUM"},
+    ]
+
+    const ue_s3 = [
+        {value: "MU5IN250", label: "COCOMA"},
+        {value: "MU5IN254", label: "MOSIMA"},
+        {value: "MU5IN258", label: "ISG"},
+        {value: "MU5IN256", label: "MADMC"},
+        {value: "MU5IN257", label: "AOTJ"},
+        {value: "MU5IN251", label: "MAOA"},
+        {value: "MU5IN252", label: "EVHI"},
+        {value: "MU5IN259", label: "IAR"},
+        {value: "MU5IN852", label: "BDLE"},
+        {value: "MU5IN860", label: "LODAS"},
+        {value: "MU5IN861", label: "AMAL"},
+        {value: "MU5IN862", label: "RLD"},
+        {value: "MU5IN863", label: "REDS"},
+        {value: "XAI", label: "XAI"},
+        {value: "OIP", label: "OIP"},
+        {value: "MU5IN656", label: "PRAT"},
+        {value: "MU5IN651", label: "VISION"},
+        {value: "MU5IN654", label: "BIOMED"},
+        {value: "MU5IN652", label: "RDFIA"},
+        {value: "MU5IN650", label: "TADI"},
+        {value: "MU5IN653", label: "IG3DA"}
     ]
 
     const parcours = [
@@ -67,22 +107,28 @@ export default function IndexPage() {
         {value: "SFPN", label: "SFPN"},
     ]
 
-    params.set("MAJ", form.values.MAJ);
+    form.values.MAJ ? params.set("MAJ", form.values.MAJ) : null;
     form.values.UE.forEach((ue, index) => {
-        return params.set(ue.name, ue.group.toString());
+        if (ue.name !== "" && ue.group) {
+            params.set(ue.name, String(ue.group));
+        }
     });
+    const cal_url = `webcal://cal.fuzy.tech/api/gen` + form.getInputProps("SEMESTER").value + `?` + params.toString();
     const fields = form.values.UE.map((item, index) => (
         <Group key={item.key} mt="xs">
             <Select
                 placeholder="UE"
-                data={all_ue}
-                sx={{flex: 1}}
+                data={form.getInputProps("SEMESTER").value === "s2" ? ue_s2 : form.getInputProps("SEMESTER").value === "s3" ? ue_s3 : ue_s1}
+                style={{flex: 1}}
                 {...form.getInputProps(`UE.${index}.name`)}
             />
             <Select
                 placeholder="Group"
-                data={groups}
-                sx={{flex: 1}}
+                data={form.getInputProps(`UE.${index}.name`).value ? createGroups(
+                        // @ts-ignore
+                        form.getInputProps(`UE.${index}.name`).value in groupCount ? groupCount[form.getInputProps(`UE.${index}.name`).value] : 1)
+                    : createGroups(1)}
+                style={{flex: 1}}
                 {...form.getInputProps(`UE.${index}.group`)}
             />
             <ActionIcon
@@ -95,48 +141,84 @@ export default function IndexPage() {
     ));
 
     return (
-        <Box sx={{maxWidth: 500}} mx="auto">
-            <Select data={parcours} placeholder="你的专业" {...form.getInputProps("MAJ")}
-                    sx={{margin: 45, marginLeft: 0}}/>
-            {fields.length > 0 ? (
-                <Group mb="xs">
-                    <Text size="sm" weight={500} sx={{flex: 1}}>
-                        UE
-                    </Text>
-                    <Text size="sm" weight={500} sx={{flex: 1}}>
-                        Group
-                    </Text>
+        <Center>
+            <Box style={{maxWidth: 500, margin: 20}} mx="auto">
+                <Select placeholder="Semestre" data={semesters} {...form.getInputProps("SEMESTER")}/>
+                <Select data={parcours} placeholder="Parcours" {...form.getInputProps("MAJ")}
+                        style={{marginBottom: 20}}/>
+                {fields.length > 0 ? (
+                    <Group mb="xs">
+                        <Text size="sm" fw={500} style={{flex: 1}}>
+                            UE
+                        </Text>
+                        <Text size="sm" fw={500} style={{flex: 1}}>
+                            Group
+                        </Text>
 
+                    </Group>
+                ) : (
+                    <Text c="dimmed" ta="center">
+                        No UE here...
+                    </Text>
+                )}
+
+                {fields}
+
+                <Group justify="center" mt="md">
+                    <Button
+                        onClick={() =>
+                            form.insertListItem("UE", {
+                                name: "",
+                                group: "1",
+                                key: randomId(),
+                            })
+                        }
+                    >
+                        Add UE
+                    </Button>
                 </Group>
-            ) : (
-                <Text color="dimmed" align="center">
-                    No UE here...
+
+                <Text size="sm" fw={500} mt="md" style={{marginBottom: 10}}>
+                    For your subscription link, please copy it and add it to your calendar:
                 </Text>
-            )}
 
-            {fields}
+                <div style={{display: "flex", float: "right", position: "relative", alignSelf: "right", top: 5}}>
 
-            <Group position="center" mt="md">
-                <Button
-                    onClick={() =>
-                        form.insertListItem("UE", {
-                            name: "",
-                            group: 0,
-                            key: randomId(),
-                        })
-                    }
-                >
-                    Add UE
-                </Button>
-            </Group>
+                    <Link href={cal_url} legacyBehavior>
+                        <a>
+                            <ActionIcon>
+                                <IconCalendarEvent size={16}/>
+                            </ActionIcon>
+                        </a>
+                    </Link>
 
-            <Text size="sm" weight={500} mt="md">
-                Your Calender URL:
-            </Text>
+                    <CopyButton value={cal_url} timeout={2000}>
+                        {({copied, copy}) => (
+                            <Tooltip label={copied ? 'Copied' : 'Copy'} withArrow position="right">
+                                <ActionIcon color={copied ? 'teal' : 'gray'} onClick={copy}>
+                                    {copied ? <IconCheck size={16}/> : <IconCopy size={16}/>}
+                                </ActionIcon>
+                            </Tooltip>
+                        )}
+                    </CopyButton>
+                </div>
 
-            <Code block>{`https://cal.fuzy.tech/api/gen?`+params.toString()}</Code>
+                <Code block style={{marginBottom: 10}}>{cal_url}</Code>
 
-        </Box>
+                <Text component="div" style={{display: "flex", flexDirection: "column", gap: 6}}>
+                  <a href="https://support.apple.com/guide/iphone/iph3d1110d4/ios" target="_blank" rel="noreferrer" style={{textDecoration: 'underline'}}>ios subscription instructions</a>
+                  <a href="https://support.google.com/calendar/answer/37100" target="_blank" rel="noreferrer" style={{textDecoration: 'underline'}}>google calendar subscription instructions</a>
+                  <a href="https://github.com/zhenyuefu/cal" target="_blank" rel="noreferrer" style={{textDecoration: 'underline'}}>github source code</a>
+                </Text>
+            </Box>
+        </Center>
     )
         ;
+}
+
+function createGroups(n: number) {
+    return Array.from({length: n}, (_, i) => ({
+        value: String(i + 1),
+        label: `Group ${i + 1}`,
+    }));
 }

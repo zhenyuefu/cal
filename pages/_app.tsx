@@ -1,14 +1,17 @@
 import { AppProps } from "next/app";
 import Head from "next/head";
 import { MantineProvider } from "@mantine/core";
+import { useColorScheme } from '@mantine/hooks';
+import '@mantine/core/styles.css';
 
 export default function App(props: AppProps) {
   const { Component, pageProps } = props;
+  const colorScheme = useColorScheme();
 
   return (
     <>
       <Head>
-        <title>Page title</title>
+        <title>Course Calendar Link Generation</title>
         <link rel="shortcut icon" href="/favicon.svg" />
         <meta
           name="viewport"
@@ -16,14 +19,7 @@ export default function App(props: AppProps) {
         />
       </Head>
 
-      <MantineProvider
-        withGlobalStyles
-        withNormalizeCSS
-        theme={{
-          /** Put your mantine theme override here */
-          colorScheme: "dark",
-        }}
-      >
+      <MantineProvider defaultColorScheme={colorScheme}>
         <Component {...pageProps} />
       </MantineProvider>
     </>
