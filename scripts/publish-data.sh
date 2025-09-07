@@ -33,8 +33,8 @@ last_non_data_commit() {
 }
 
 ensure_git_user() {
-  git config user.name  "github-actions" || true
-  git config user.email "actions@github.com" || true
+  git config user.name  "github-actions[bot]" || true
+  git config user.email "github-actions[bot]@users.noreply.github.com" || true
 }
 
 stage_only_data_paths() {
