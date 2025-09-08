@@ -58,18 +58,18 @@
             {
               "uid": "3C758AF4-8F8F-44BA-9D11-A12CB4087010",
               "summary": "UM4IN401-NOYAU-Cours",
-              "location": "reservation n° 665974",
-              "start": "2025-11-03T15:00:00+00:00",
-              "end": "2025-11-03T17:00:00+00:00",
-              "recurrence_id": "2025-11-03T15:00:00+00:00"
+              "location": "Amphi.A3 (reservation n° 665974)",
+              "start": "2025-11-10T15:00:00+00:00",
+              "end": "2025-11-10T17:00:00+00:00",
+              "recurrence_id": "2025-11-10T15:00:00+00:00"
             },
             {
               "uid": "3C758AF4-8F8F-44BA-9D11-A12CB4087010",
               "summary": "UM4IN401-NOYAU-Cours",
-              "location": "reservation n° 665974",
-              "start": "2025-11-10T15:00:00+00:00",
-              "end": "2025-11-10T17:00:00+00:00",
-              "recurrence_id": "2025-11-10T15:00:00+00:00"
+              "location": "Amphi.A3 (reservation n° 665974)",
+              "start": "2025-11-03T15:00:00+00:00",
+              "end": "2025-11-03T17:00:00+00:00",
+              "recurrence_id": "2025-11-03T15:00:00+00:00"
             },
             {
               "uid": "B7A306FF-B229-49A5-BD3D-29E6D3BD69AB",
@@ -77,7 +77,15 @@
               "location": "reservation n° 665977",
               "start": "2025-11-24T15:00:00+00:00",
               "end": "2025-11-24T17:00:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251208T225959Z"
+              "rrule": "FREQ=WEEKLY;UNTIL=20251124T225959Z"
+            },
+            {
+              "uid": "B7A306FF-B229-49A5-BD3D-29E6D3BD69AB",
+              "summary": "UM4IN401-NOYAU-Cours",
+              "location": "Amphi.A3 (reservation n° 665977)",
+              "start": "2025-11-24T15:00:00+00:00",
+              "end": "2025-11-24T17:00:00+00:00",
+              "recurrence_id": "2025-11-24T15:00:00+00:00"
             },
             {
               "uid": "44BB66CC-9EC8-41C8-A4A5-A1A0FCD71DEA",
@@ -90,6 +98,14 @@
                 "2025-10-20T14:00:00+00:00",
                 "2025-10-27T15:00:00+00:00"
               ]
+            },
+            {
+              "uid": "63EE90E1-E31F-4DFA-B277-7654C4741BD2",
+              "summary": "UM4IN401-NOYAU-Cours",
+              "location": "Amphi.A3 (reservation n° 665977)",
+              "start": "2025-12-01T15:00:00+00:00",
+              "end": "2025-12-01T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251208T225959Z"
             }
           ]
         },
@@ -271,7 +287,7 @@
             {
               "uid": "E82E9A81-B1C7-4217-B78B-12C1EF9AAD2C",
               "summary": "UM4IN400-PSCR-Cours",
-              "location": "reservation n° 665960",
+              "location": "Amphi.34B(reservation n° 665960)",
               "start": "2025-11-03T12:45:00+00:00",
               "end": "2025-11-03T14:45:00+00:00",
               "recurrence_id": "2025-11-03T12:45:00+00:00"
@@ -279,7 +295,7 @@
             {
               "uid": "E82E9A81-B1C7-4217-B78B-12C1EF9AAD2C",
               "summary": "UM4IN400-PSCR-Cours",
-              "location": "reservation n° 665960",
+              "location": "Amphi.34B (reservation n° 665960)",
               "start": "2025-11-10T12:45:00+00:00",
               "end": "2025-11-10T14:45:00+00:00",
               "recurrence_id": "2025-11-10T12:45:00+00:00"
@@ -287,7 +303,7 @@
             {
               "uid": "95F1EF70-046A-408D-A1CE-9FDE67D600F1",
               "summary": "UM4IN400-PSCR-Cours",
-              "location": "reservation n° 665963",
+              "location": "Amphi.55B (reservation n° 665963)",
               "start": "2025-11-24T12:45:00+00:00",
               "end": "2025-11-24T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251208T225959Z"
@@ -577,5 +593,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-05T06:49:02.566290325+00:00"
+  "updated_at": "2025-09-08T06:51:26.482501651+00:00"
 }

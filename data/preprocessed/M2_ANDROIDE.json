@@ -517,6 +517,22 @@
               "start": "2025-09-22T06:30:00+00:00",
               "end": "2025-09-22T10:45:00+00:00",
               "recurrence_id": "2025-09-22T06:30:00+00:00"
+            },
+            {
+              "uid": "12FC51D2-A628-47BE-8278-C6EF30563FFB",
+              "summary": "UM5IN254-MOSIMA-CS",
+              "location": null,
+              "start": "2025-11-03T07:30:00+00:00",
+              "end": "2025-11-03T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251117T225959Z"
+            },
+            {
+              "uid": "3604A18F-7F04-46C6-BB2D-D4071DBEBF25",
+              "summary": "UM5IN254-MOSIMA-CS",
+              "location": null,
+              "start": "2025-12-01T07:30:00+00:00",
+              "end": "2025-12-01T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251215T225959Z"
             }
           ]
         },
@@ -605,13 +621,6 @@
               "end": "2025-09-05T15:30:00+00:00"
             },
             {
-              "uid": "53196972-7A4B-4A42-A4F8-3CB7C1200B2C",
-              "summary": "Nouvel évènement",
-              "location": null,
-              "start": "2025-09-27T16:45:00+00:00",
-              "end": "2025-09-28T16:45:00+00:00"
-            },
-            {
               "uid": "D1377883-3F5C-49E9-BBB3-8FA8B7513A47",
               "summary": "RéunionM2-AI2D- réunion pédagogique",
               "location": "Salle: 24.34.105",
@@ -668,5 +677,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-05T06:49:08.139284811+00:00"
+  "updated_at": "2025-09-08T06:51:32.033854276+00:00"
 }
