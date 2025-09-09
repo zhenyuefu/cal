@@ -195,7 +195,7 @@
             {
               "uid": "3BA79049-5150-4170-BEB2-A6D317DEFBA8",
               "summary": "UM5IN552-DAAR-TME RES",
-              "location": null,
+              "location": "Salle 14.15.503",
               "start": "2025-09-22T08:45:00+00:00",
               "end": "2025-09-22T10:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260130T225959Z",
@@ -239,7 +239,7 @@
             {
               "uid": "8B558199-4827-4509-8EE6-17630C242703",
               "summary": "UM5IN558-GPSTL-Cours/TME",
-              "location": null,
+              "location": "Salle 14.15.503",
               "start": "2025-09-26T06:30:00+00:00",
               "end": "2025-09-26T10:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260130T225959Z",
@@ -744,7 +744,7 @@
             {
               "uid": "44A89735-08AD-4894-862D-F318A3098DA3",
               "summary": "UM5IN554-SVP-Cours/TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-09-23T11:45:00+00:00",
               "end": "2025-09-23T16:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260130T225959Z",
@@ -909,5 +909,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-08T06:51:37.831603394+00:00"
+  "updated_at": "2025-09-09T06:50:28.840216103+00:00"
 }
