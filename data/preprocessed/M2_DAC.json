@@ -6,7 +6,10 @@
       "name": "ADL",
       "code": "873",
       "special": false,
-      "groups": [],
+      "groups": [
+        "1",
+        "2"
+      ],
       "variants": [
         {
           "group": null,
@@ -43,13 +46,6 @@
           "group": null,
           "type": "TME",
           "events": [
-            {
-              "uid": "693C34C9-6566-4D03-91DA-A45ED5483C62",
-              "summary": "UM5IN873-ADL-TME",
-              "location": null,
-              "start": "2025-12-01T09:45:00+00:00",
-              "end": "2025-12-01T11:45:00+00:00"
-            },
             {
               "uid": "D41ADFA3-6C89-4470-9866-CB63FAEF3389",
               "summary": "UM5IN873-ADL-TME",
@@ -93,13 +89,6 @@
               "end": "2026-01-26T11:45:00+00:00"
             },
             {
-              "uid": "F41BDC07-C6B1-4596-92D3-0110B6A2029D",
-              "summary": "UM5IN873-ADL-TME",
-              "location": null,
-              "start": "2025-12-01T09:45:00+00:00",
-              "end": "2025-12-01T11:45:00+00:00"
-            },
-            {
               "uid": "44C9F528-1C6E-4BFF-AEAB-1DBEF6B358B6",
               "summary": "UM5IN873-ADL-TME",
               "location": null,
@@ -140,6 +129,32 @@
               "location": null,
               "start": "2026-01-26T09:45:00+00:00",
               "end": "2026-01-26T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "693C34C9-6566-4D03-91DA-A45ED5483C62",
+              "summary": "UM5IN873-ADL-TME1",
+              "location": "Salle 14.15.502",
+              "start": "2025-12-01T09:45:00+00:00",
+              "end": "2025-12-01T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "F41BDC07-C6B1-4596-92D3-0110B6A2029D",
+              "summary": "UM5IN873-ADL-TME2",
+              "location": "Salle 14.15.509\\n",
+              "start": "2025-12-01T09:45:00+00:00",
+              "end": "2025-12-01T11:45:00+00:00"
             }
           ]
         }
@@ -245,7 +260,7 @@
             {
               "uid": "F8F9E07B-1551-406E-944A-502EAD14D416",
               "summary": "UM5IN861-DEEP-L-TME2",
-              "location": null,
+              "location": "Salle 14.15.502",
               "start": "2025-09-23T06:30:00+00:00",
               "end": "2025-09-23T08:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260127T225959Z",
@@ -267,7 +282,7 @@
             {
               "uid": "7CF1B904-5CFA-4D0C-A8EB-FF99DD35B98F",
               "summary": "UM5IN861-DEEP-L-TME3",
-              "location": null,
+              "location": "Salle 14.15.509",
               "start": "2025-09-23T06:30:00+00:00",
               "end": "2025-09-23T08:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260127T225959Z",
@@ -336,25 +351,11 @@
           "type": "TME",
           "events": [
             {
-              "uid": "C631BD9B-EC42-4F13-8AA0-B4A36C41F2FF",
-              "summary": "UM5IN870-GDC-TME",
-              "location": null,
-              "start": "2025-12-03T09:45:00+00:00",
-              "end": "2025-12-03T11:45:00+00:00"
-            },
-            {
               "uid": "D1C85D74-7BAB-49A1-98B6-9109C098EA47",
               "summary": "UM5IN870-GDC-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-12-10T09:45:00+00:00",
               "end": "2025-12-10T11:45:00+00:00"
-            },
-            {
-              "uid": "684946A2-8E94-4B74-9373-CE221387BE2B",
-              "summary": "UM5IN870-GDC-TME",
-              "location": null,
-              "start": "2025-12-17T09:45:00+00:00",
-              "end": "2025-12-17T11:45:00+00:00"
             },
             {
               "uid": "FFB265D3-DCFE-4A7E-8843-76F7AD66C7CF",
@@ -387,49 +388,63 @@
             {
               "uid": "056CEE25-BA0B-48E6-8094-3F9DDAFF3688",
               "summary": "UM5IN870-GDC-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-11-05T09:45:00+00:00",
               "end": "2025-11-05T11:45:00+00:00"
             },
             {
               "uid": "3DE81749-C61C-48EF-9B60-76C8B9834FD2",
               "summary": "UM5IN870-GDC-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-09-24T08:45:00+00:00",
               "end": "2025-09-24T10:45:00+00:00"
             },
             {
               "uid": "5E53CA3D-E776-4C35-860F-E376EF781D15",
               "summary": "UM5IN870-GDC-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-10-01T08:45:00+00:00",
               "end": "2025-10-01T10:45:00+00:00"
             },
             {
               "uid": "78762486-06F8-4878-8A0A-3CB018777FF9",
               "summary": "UM5IN870-GDC-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-10-08T08:45:00+00:00",
               "end": "2025-10-08T10:45:00+00:00"
             },
             {
               "uid": "A2E1E301-12FA-400F-A387-204621BCE5BC",
               "summary": "UM5IN870-GDC-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-10-15T08:45:00+00:00",
               "end": "2025-10-15T10:45:00+00:00"
             },
             {
+              "uid": "C631BD9B-EC42-4F13-8AA0-B4A36C41F2FF",
+              "summary": "UM5IN870-GDC-TME",
+              "location": "Salle 14.15.407",
+              "start": "2025-12-03T09:45:00+00:00",
+              "end": "2025-12-03T11:45:00+00:00"
+            },
+            {
+              "uid": "684946A2-8E94-4B74-9373-CE221387BE2B",
+              "summary": "UM5IN870-GDC-TME",
+              "location": "Salle 14.15.407",
+              "start": "2025-12-17T09:45:00+00:00",
+              "end": "2025-12-17T11:45:00+00:00"
+            },
+            {
               "uid": "3C188025-351B-4D46-A554-77F169E09D78",
               "summary": "UM5IN870-GDC-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-10-22T08:45:00+00:00",
               "end": "2025-10-22T10:45:00+00:00"
             },
             {
               "uid": "A524F58E-D44B-433B-A065-45F1010D08D3",
               "summary": "UM5IN870-GDC-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-11-19T09:45:00+00:00",
               "end": "2025-11-19T11:45:00+00:00"
             }
@@ -497,13 +512,6 @@
               "end": "2025-12-08T17:00:00+00:00"
             },
             {
-              "uid": "4FDB59BB-0B63-48EA-A377-AEB27BD5BCC5",
-              "summary": "UM5IN874-TME-LMM",
-              "location": null,
-              "start": "2025-12-15T15:00:00+00:00",
-              "end": "2025-12-15T17:00:00+00:00"
-            },
-            {
               "uid": "3E61F701-F7F0-4347-A1C8-3F1531F7747C",
               "summary": "UM5IN874-TME-LMM",
               "location": null,
@@ -540,7 +548,7 @@
             {
               "uid": "9B2D0395-CAB1-49E8-AB58-BBE0EB8F556F",
               "summary": "UM5IN874-LMM-TME1",
-              "location": null,
+              "location": "Salle 14.15.407\\n",
               "start": "2025-11-10T15:00:00+00:00",
               "end": "2025-11-10T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260126T225959Z",
@@ -549,6 +557,14 @@
                 "2025-12-22T15:00:00+00:00",
                 "2025-12-29T15:00:00+00:00"
               ]
+            },
+            {
+              "uid": "9B2D0395-CAB1-49E8-AB58-BBE0EB8F556F",
+              "summary": "UM5IN874-LMM-TME1",
+              "location": "Salle en attente",
+              "start": "2025-12-15T15:00:00+00:00",
+              "end": "2025-12-15T17:00:00+00:00",
+              "recurrence_id": "2025-12-15T15:00:00+00:00"
             }
           ]
         },
@@ -559,7 +575,7 @@
             {
               "uid": "F0EAD486-8D32-430A-806D-5C5CC24D691E",
               "summary": "UM5IN874-LMM-TME2",
-              "location": null,
+              "location": "salle 24.25.303",
               "start": "2025-11-10T15:00:00+00:00",
               "end": "2025-11-10T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260126T225959Z",
@@ -715,27 +731,6 @@
           "type": "TME",
           "events": [
             {
-              "uid": "660514A8-5794-4BBB-9445-605C92CD9DF2",
-              "summary": "UM5IN852-LSDA-TME",
-              "location": null,
-              "start": "2025-12-05T09:45:00+00:00",
-              "end": "2025-12-05T11:45:00+00:00"
-            },
-            {
-              "uid": "A75375AD-C859-4833-AD46-7D823FED7516",
-              "summary": "UM5IN852-LSDA-TME",
-              "location": null,
-              "start": "2025-12-12T09:45:00+00:00",
-              "end": "2025-12-12T11:45:00+00:00"
-            },
-            {
-              "uid": "293718DB-B821-4579-B975-00F20F0D7334",
-              "summary": "UM5IN852-LSDA-TME",
-              "location": null,
-              "start": "2025-12-19T09:45:00+00:00",
-              "end": "2025-12-19T11:45:00+00:00"
-            },
-            {
               "uid": "3A4A5DCF-342B-4481-B589-C827FA2B762B",
               "summary": "UM5IN852-LSDA-TME",
               "location": null,
@@ -764,53 +759,74 @@
               "end": "2026-01-30T11:45:00+00:00"
             },
             {
-              "uid": "5AE10FCF-11B4-42E5-A66C-3599C6422550",
-              "summary": "UM5IN852-LSDA-TME",
-              "location": null,
-              "start": "2025-11-07T09:45:00+00:00",
-              "end": "2025-11-07T11:45:00+00:00"
-            },
-            {
               "uid": "BFA3F08D-B57F-4736-9B75-F03AAC72D6BA",
               "summary": "UM5IN852-LSDA-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-09-26T08:45:00+00:00",
               "end": "2025-09-26T10:45:00+00:00"
             },
             {
-              "uid": "5348CB61-7456-4675-B54C-45C9931576C9",
+              "uid": "6EFB86CA-2D03-4C0F-ACBA-1E2C694B8AF2",
               "summary": "UM5IN852-LSDA-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-10-03T08:45:00+00:00",
               "end": "2025-10-03T10:45:00+00:00"
             },
             {
-              "uid": "B85C4351-D6EF-48D1-9C13-8D1154D1A1D7",
+              "uid": "790AC79F-842A-4B91-BFF1-3F5699F6E752",
               "summary": "UM5IN852-LSDA-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-10-10T08:45:00+00:00",
               "end": "2025-10-10T10:45:00+00:00"
             },
             {
-              "uid": "0322BA61-3BD6-4E3D-A4B1-345D25EC14C1",
+              "uid": "44EBD944-F0A1-4760-AE83-D1800547DE75",
               "summary": "UM5IN852-LSDA-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-10-17T08:45:00+00:00",
               "end": "2025-10-17T10:45:00+00:00"
             },
             {
-              "uid": "B508AF37-7293-4D25-A3B5-154F1498E347",
+              "uid": "FD8AE8CD-BAB9-47D6-B002-4D557D7B27CB",
               "summary": "UM5IN852-LSDA-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-10-24T08:45:00+00:00",
               "end": "2025-10-24T10:45:00+00:00"
             },
             {
-              "uid": "4C6193AE-124D-4B0E-8555-5FB3E9784183",
+              "uid": "E7CD75E0-A7AE-486C-9BAC-6D0A2C8BEF92",
               "summary": "UM5IN852-LSDA-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
+              "start": "2025-11-07T09:45:00+00:00",
+              "end": "2025-11-07T11:45:00+00:00"
+            },
+            {
+              "uid": "29889A3E-7D36-4A8E-9C31-BA1BD6CFB08A",
+              "summary": "UM5IN852-LSDA-TME",
+              "location": "Salle 14.15.407",
               "start": "2025-11-21T09:45:00+00:00",
               "end": "2025-11-21T11:45:00+00:00"
+            },
+            {
+              "uid": "D62058EB-B588-4FF3-84DA-0EBCD9519EC4",
+              "summary": "UM5IN852-LSDA-TME",
+              "location": "Salle 14.15.407",
+              "start": "2025-12-05T09:45:00+00:00",
+              "end": "2025-12-05T11:45:00+00:00"
+            },
+            {
+              "uid": "1B7E9B1D-8263-4A82-AF68-9EFEF1FD23ED",
+              "summary": "UM5IN852-LSDA-TME",
+              "location": "Salle 14.15.407",
+              "start": "2025-12-12T09:45:00+00:00",
+              "end": "2025-12-12T11:45:00+00:00"
+            },
+            {
+              "uid": "2A6EA496-2B14-4771-A34C-61AAC28915EC",
+              "summary": "UM5IN852-LSDA-TME",
+              "location": "Salle 14.15.407",
+              "start": "2025-12-19T09:45:00+00:00",
+              "end": "2025-12-19T11:45:00+00:00"
             }
           ]
         }
@@ -892,20 +908,6 @@
           "type": "TME",
           "events": [
             {
-              "uid": "135B039E-55FC-44A8-A565-2F7298C182F7",
-              "summary": "UM5IN863-TME-MEDS",
-              "location": null,
-              "start": "2025-12-11T12:45:00+00:00",
-              "end": "2025-12-11T14:45:00+00:00"
-            },
-            {
-              "uid": "93552C5B-AA88-4524-945B-BAA57C4CB4E0",
-              "summary": "UM5IN863-TME-MEDS",
-              "location": null,
-              "start": "2025-12-18T12:45:00+00:00",
-              "end": "2025-12-18T14:45:00+00:00"
-            },
-            {
               "uid": "54868A2F-A715-4DEF-8E8E-C9938B962EAE",
               "summary": "UM5IN863-TME-MEDS",
               "location": null,
@@ -934,13 +936,6 @@
               "end": "2026-01-29T14:45:00+00:00"
             },
             {
-              "uid": "D13952F1-271F-4DE3-843E-9D3F1324C06F",
-              "summary": "UM5IN863-MEDS-TME",
-              "location": null,
-              "start": "2025-11-06T12:45:00+00:00",
-              "end": "2025-11-06T14:45:00+00:00"
-            },
-            {
               "uid": "90F3AD11-066E-4750-8714-DB751C9D012B",
               "summary": "UM5IN863-MEDS-TME (reporté au 20/10)",
               "location": null,
@@ -955,20 +950,6 @@
               "end": "2025-10-20T13:45:00+00:00"
             },
             {
-              "uid": "61EE533A-33BF-47DD-8AC8-F72BBE538CEA",
-              "summary": "UM5IN863-MEDS-TME",
-              "location": null,
-              "start": "2025-10-23T11:45:00+00:00",
-              "end": "2025-10-23T13:45:00+00:00"
-            },
-            {
-              "uid": "3F29F998-74C7-44F2-963D-520CE0F8E7E7",
-              "summary": "UM5IN863-MEDS-TME",
-              "location": null,
-              "start": "2025-11-20T12:45:00+00:00",
-              "end": "2025-11-20T14:45:00+00:00"
-            },
-            {
               "uid": "F868FAAE-680C-4D12-9C45-15E2760B8AFC",
               "summary": "UM5IN863-MEDS-TME",
               "location": "reporté au 20/10",
@@ -981,48 +962,6 @@
               "location": null,
               "start": "2025-10-20T11:45:00+00:00",
               "end": "2025-10-20T13:45:00+00:00"
-            },
-            {
-              "uid": "F8EC6724-8849-417E-A8EB-F28BD3E4B6DD",
-              "summary": "UM5IN863-MEDS-TME",
-              "location": null,
-              "start": "2025-10-23T11:45:00+00:00",
-              "end": "2025-10-23T13:45:00+00:00"
-            },
-            {
-              "uid": "8890173C-3A08-48E4-94E9-C2BC37FF939D",
-              "summary": "UM5IN863-MEDS-TME",
-              "location": null,
-              "start": "2025-11-06T12:45:00+00:00",
-              "end": "2025-11-06T14:45:00+00:00"
-            },
-            {
-              "uid": "BB78E6A7-1229-48D1-8DBB-670D3DC13325",
-              "summary": "UM5IN863-MEDS-TME",
-              "location": null,
-              "start": "2025-11-20T12:45:00+00:00",
-              "end": "2025-11-20T14:45:00+00:00"
-            },
-            {
-              "uid": "E4C17D73-2F66-4171-853D-937BBBC8E319",
-              "summary": "UM5IN863-TME-MEDS",
-              "location": null,
-              "start": "2025-12-04T12:45:00+00:00",
-              "end": "2025-12-04T14:45:00+00:00"
-            },
-            {
-              "uid": "532A2FE5-B9AB-49C4-9D9F-EE3DFD12CEC0",
-              "summary": "UM5IN863-TME-MEDS",
-              "location": null,
-              "start": "2025-12-11T12:45:00+00:00",
-              "end": "2025-12-11T14:45:00+00:00"
-            },
-            {
-              "uid": "E3321B24-0DB2-41B6-9406-F7F43BDD953B",
-              "summary": "UM5IN863-TME-MEDS",
-              "location": null,
-              "start": "2025-12-18T12:45:00+00:00",
-              "end": "2025-12-18T14:45:00+00:00"
             },
             {
               "uid": "091ECA60-F1F6-4E8E-9929-8ACC2961D0F4",
@@ -1051,13 +990,6 @@
               "location": null,
               "start": "2026-01-29T12:45:00+00:00",
               "end": "2026-01-29T14:45:00+00:00"
-            },
-            {
-              "uid": "5BDD9DED-05CB-4B1A-BF40-2A93FEA17A02",
-              "summary": "UM5IN863-TME-MEDS",
-              "location": null,
-              "start": "2025-12-04T12:45:00+00:00",
-              "end": "2025-12-04T14:45:00+00:00"
             }
           ]
         },
@@ -1066,25 +998,67 @@
           "type": "TME",
           "events": [
             {
-              "uid": "60359076-1B9D-4F98-AFF5-9C3FF76FDC04",
+              "uid": "B189CDBC-7F76-41E2-B249-D79AADBFA23B",
               "summary": "UM5IN863-MEDS-TME1",
-              "location": null,
+              "location": "Salle 24.25.302",
+              "start": "2025-10-02T11:45:00+00:00",
+              "end": "2025-10-02T13:45:00+00:00"
+            },
+            {
+              "uid": "D326F8D3-12FF-4D27-9586-04E6DB430B5B",
+              "summary": "UM5IN863-MEDS-TME1",
+              "location": "Salle 24.25.302",
               "start": "2025-10-09T11:45:00+00:00",
               "end": "2025-10-09T13:45:00+00:00"
             },
             {
-              "uid": "2F316B49-62D9-47D3-9491-CF3010A7D8ED",
+              "uid": "00B405DD-19D3-449D-9430-09CCFC9B7845",
               "summary": "UM5IN863-MEDS-TME1",
-              "location": null,
-              "start": "2025-09-25T11:45:00+00:00",
-              "end": "2025-09-25T13:45:00+00:00"
+              "location": "Salle 24.25.302",
+              "start": "2025-10-23T11:45:00+00:00",
+              "end": "2025-10-23T13:45:00+00:00"
             },
             {
-              "uid": "03A90C8A-C68D-4542-9507-666D1498DF8C",
+              "uid": "B2F86B70-CAB7-4F00-ACBC-D4660E1C1FED",
               "summary": "UM5IN863-MEDS-TME1",
-              "location": null,
-              "start": "2025-10-02T11:45:00+00:00",
-              "end": "2025-10-02T13:45:00+00:00"
+              "location": "Salle 24.25.302",
+              "start": "2025-11-06T12:45:00+00:00",
+              "end": "2025-11-06T14:45:00+00:00"
+            },
+            {
+              "uid": "DA107D55-F6B3-4CBE-A92B-9DA4E4912399",
+              "summary": "UM5IN863-MEDS-TME1",
+              "location": "Salle 24.25.302",
+              "start": "2025-11-20T12:45:00+00:00",
+              "end": "2025-11-20T14:45:00+00:00"
+            },
+            {
+              "uid": "D3D36F11-01D1-4F45-8419-80502A727C89",
+              "summary": "UM5IN863-MEDS-TME1",
+              "location": "Salle 24.25.302",
+              "start": "2025-12-04T12:45:00+00:00",
+              "end": "2025-12-04T14:45:00+00:00"
+            },
+            {
+              "uid": "F22A2199-062F-4772-8075-5693CEF576F9",
+              "summary": "UM5IN863-MEDS-TME1",
+              "location": "Salle 24.25.302",
+              "start": "2025-12-11T12:45:00+00:00",
+              "end": "2025-12-11T14:45:00+00:00"
+            },
+            {
+              "uid": "6E9D894A-AB60-4127-8593-A2BF16400B4A",
+              "summary": "UM5IN863-MEDS-TME1",
+              "location": "Salle 24.25.302",
+              "start": "2025-12-18T12:45:00+00:00",
+              "end": "2025-12-18T14:45:00+00:00"
+            },
+            {
+              "uid": "2F316B49-62D9-47D3-9491-CF3010A7D8ED",
+              "summary": "UM5IN863-MEDS-TME1",
+              "location": "Salle 24.25.302",
+              "start": "2025-09-25T11:45:00+00:00",
+              "end": "2025-09-25T13:45:00+00:00"
             }
           ]
         },
@@ -1095,23 +1069,65 @@
             {
               "uid": "FC3D9F50-71AC-4812-9478-22A409C73F50",
               "summary": "UM5IN863-MEDS-TME2",
-              "location": null,
+              "location": "Salle 24.25.304",
               "start": "2025-09-25T11:45:00+00:00",
               "end": "2025-09-25T13:45:00+00:00"
             },
             {
-              "uid": "F0E98EDC-5E6C-4DE8-89B1-D7976ACC53A8",
+              "uid": "D215E45E-B59E-462C-A094-407D8EA6D19A",
               "summary": "UM5IN863-MEDS-TME2",
-              "location": null,
+              "location": "Salle 24.25.304",
               "start": "2025-10-02T11:45:00+00:00",
               "end": "2025-10-02T13:45:00+00:00"
             },
             {
-              "uid": "BAC22308-08CB-4A57-9255-A54F666719C9",
+              "uid": "329C33EF-8E50-4095-84EE-3D4641D06E1A",
               "summary": "UM5IN863-MEDS-TME2",
-              "location": null,
+              "location": "Salle 24.25.304",
               "start": "2025-10-09T11:45:00+00:00",
               "end": "2025-10-09T13:45:00+00:00"
+            },
+            {
+              "uid": "1F8980F3-5AE0-452F-BCFE-2383532C8266",
+              "summary": "UM5IN863-MEDS-TME2",
+              "location": "Salle 24.25.304",
+              "start": "2025-10-23T11:45:00+00:00",
+              "end": "2025-10-23T13:45:00+00:00"
+            },
+            {
+              "uid": "5777A2F0-0F4D-4960-A95D-236D1ABE29E3",
+              "summary": "UM5IN863-MEDS-TME2",
+              "location": "Salle 24.25.304",
+              "start": "2025-11-06T12:45:00+00:00",
+              "end": "2025-11-06T14:45:00+00:00"
+            },
+            {
+              "uid": "D17D6E19-6D97-4330-869D-831F4E6C6EF8",
+              "summary": "UM5IN863-MEDS-TME2",
+              "location": "Salle 24.25.304",
+              "start": "2025-11-20T12:45:00+00:00",
+              "end": "2025-11-20T14:45:00+00:00"
+            },
+            {
+              "uid": "0EB5E309-30E0-4BA9-90FD-8A6EB12FEC48",
+              "summary": "UM5IN863-MEDS-TME2",
+              "location": "Salle 24.25.304",
+              "start": "2025-12-04T12:45:00+00:00",
+              "end": "2025-12-04T14:45:00+00:00"
+            },
+            {
+              "uid": "66BD1CCF-D61D-49F0-A4A6-1A5B7381CA0B",
+              "summary": "UM5IN863-MEDS-TME2",
+              "location": "Salle 24.25.304",
+              "start": "2025-12-11T12:45:00+00:00",
+              "end": "2025-12-11T14:45:00+00:00"
+            },
+            {
+              "uid": "321EC56C-6CAA-4297-A1EF-B56EB70E0E05",
+              "summary": "UM5IN863-MEDS-TME2",
+              "location": "Salle 24.25.304",
+              "start": "2025-12-18T12:45:00+00:00",
+              "end": "2025-12-18T14:45:00+00:00"
             }
           ]
         }
@@ -1300,7 +1316,7 @@
             {
               "uid": "E303B129-0ADA-4B8C-962B-900D365A3A0B",
               "summary": "UM5IN872-RL-TME",
-              "location": null,
+              "location": "Salle 14.15.509",
               "start": "2025-09-22T08:45:00+00:00",
               "end": "2025-09-22T10:45:00+00:00"
             },
@@ -1321,7 +1337,7 @@
             {
               "uid": "4D5C0398-C974-4BDF-B549-CC11599D7ED7",
               "summary": "UM5IN872-RL-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-09-22T08:45:00+00:00",
               "end": "2025-09-22T10:45:00+00:00"
             },
@@ -1508,7 +1524,7 @@
             {
               "uid": "13B3950D-724B-4FEA-961E-7947C4A52B55",
               "summary": "UM5IN871-SACE-TME",
-              "location": null,
+              "location": "PAS DE SALLE",
               "start": "2025-11-21T15:00:00+00:00",
               "end": "2025-11-21T17:00:00+00:00"
             },
@@ -1793,7 +1809,7 @@
             {
               "uid": "97765B7B-C7FD-4FD1-B523-9BE5EF3E5A46",
               "summary": "UM5IN868-XAI-TME",
-              "location": null,
+              "location": "Salle 24.25.304",
               "start": "2025-09-30T14:00:00+00:00",
               "end": "2025-09-30T16:00:00+00:00"
             },
@@ -1837,5 +1853,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-09T06:50:27.000856137+00:00"
+  "updated_at": "2025-09-10T06:49:40.850352653+00:00"
 }

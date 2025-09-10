@@ -399,7 +399,7 @@
             {
               "uid": "68DDA476-0FE2-4241-BB4D-B150470897BF",
               "summary": "UM5IN751-PHYG-TME",
-              "location": null,
+              "location": "Salle 14.15.501",
               "start": "2025-09-25T14:00:00+00:00",
               "end": "2025-09-25T16:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260129T225959Z",
@@ -414,7 +414,7 @@
             {
               "uid": "68DDA476-0FE2-4241-BB4D-B150470897BF",
               "summary": "UM5IN751-PHYG-TME(reporté au 20/10)",
-              "location": null,
+              "location": "Salle 14.15.501",
               "start": "2025-10-16T14:00:00+00:00",
               "end": "2025-10-16T16:00:00+00:00",
               "recurrence_id": "2025-10-16T14:00:00+00:00"
@@ -527,7 +527,7 @@
             {
               "uid": "66A17F8D-D5FC-4A4C-863E-44066E094A79",
               "summary": "UM5IN754-RESYS-TME 1",
-              "location": null,
+              "location": "Salle 14.15.503",
               "start": "2025-09-22T14:00:00+00:00",
               "end": "2025-09-22T16:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251201T225959Z",
@@ -560,7 +560,7 @@
             {
               "uid": "646B3489-42D8-489E-94F0-D095B527D03B",
               "summary": "UM5IN754-RESYS-TME 2",
-              "location": null,
+              "location": "Salle 14.15.502",
               "start": "2025-09-22T14:00:00+00:00",
               "end": "2025-09-22T16:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251201T225959Z",
@@ -657,7 +657,7 @@
             {
               "uid": "D9D40E0C-BF82-400F-A4F2-DFFBA8061FBA",
               "summary": "UM5IN753-SPLEX-TME",
-              "location": null,
+              "location": "Salle 14.15.509",
               "start": "2025-09-26T08:45:00+00:00",
               "end": "2025-09-26T10:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260130T225959Z",
@@ -727,7 +727,7 @@
             {
               "uid": "7F924E75-6A28-414E-8DF9-9A7F1B045AE6",
               "summary": "UM5IN755-STRUCT-TME",
-              "location": null,
+              "location": "Salle 14.15.406",
               "start": "2025-09-23T08:45:00+00:00",
               "end": "2025-09-23T10:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260127T225959Z",
@@ -744,5 +744,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-09T06:50:30.708048848+00:00"
+  "updated_at": "2025-09-10T06:49:44.554190785+00:00"
 }

@@ -573,7 +573,10 @@
     "873|M2_DAC": {
       "name": "ADL",
       "code": "873",
-      "groups": [],
+      "groups": [
+        "1",
+        "2"
+      ],
       "source": "M2_DAC"
     },
     "874|M2_DAC": {

@@ -62,6 +62,22 @@
               "location": "Salle SESI : 24.25.307",
               "start": "2025-09-24T06:30:00+00:00",
               "end": "2025-09-24T10:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251008T215959Z"
+            },
+            {
+              "uid": "B20C31D8-D0D8-48F2-AA5D-33F615D6F75F",
+              "summary": "UM5IN164-COCCA",
+              "location": "Salle SESI : 24.25.307",
+              "start": "2025-10-13T06:30:00+00:00",
+              "end": "2025-10-13T10:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251013T215959Z"
+            },
+            {
+              "uid": "7BB20563-80A4-4229-B385-93F195864269",
+              "summary": "UM5IN164-COCCA",
+              "location": "Salle SESI : 24.25.307",
+              "start": "2025-10-22T06:30:00+00:00",
+              "end": "2025-10-22T10:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251217T225959Z",
               "exdates": [
                 "2025-10-29T07:30:00+00:00",
@@ -75,7 +91,7 @@
           "type": "EXAM",
           "events": [
             {
-              "uid": "A5193A97-F9F3-4400-814E-9FCF4D91C70D",
+              "uid": "7BB20563-80A4-4229-B385-93F195864269",
               "summary": "UM5IN164-COCCA-ER1",
               "location": "Salle SESI : 24.25.307",
               "start": "2025-11-26T09:45:00+00:00",
@@ -1074,5 +1090,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-09T06:50:33.354998470+00:00"
+  "updated_at": "2025-09-10T06:49:47.255115334+00:00"
 }
