@@ -18,11 +18,7 @@
               "location": null,
               "start": "2025-09-22T11:45:00+00:00",
               "end": "2025-09-22T16:00:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251117T225959Z",
-              "exdates": [
-                "2025-10-20T11:45:00+00:00",
-                "2025-10-27T12:45:00+00:00"
-              ]
+              "rrule": "FREQ=WEEKLY;UNTIL=20250922T215959Z"
             },
             {
               "uid": "563FB1C3-7593-4FA6-8B18-B56B9E530643",
@@ -31,6 +27,28 @@
               "start": "2025-12-01T12:45:00+00:00",
               "end": "2025-12-01T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251215T225959Z"
+            },
+            {
+              "uid": "A7CB86EB-2D1B-40AB-B82A-E3E38E9E1F49",
+              "summary": "UM5IN258-AI-ADAPT-TME",
+              "location": "Salle : 2425-306",
+              "start": "2025-09-29T11:45:00+00:00",
+              "end": "2025-09-29T16:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251013T215959Z"
+            },
+            {
+              "uid": "D310F160-D6F0-4775-94D7-536CCC0DDAE6",
+              "summary": "UM5IN258-AI-ADAPT-TME",
+              "location": "Salle : 2425-303",
+              "start": "2025-11-03T12:45:00+00:00",
+              "end": "2025-11-03T17:00:00+00:00"
+            },
+            {
+              "uid": "B2C4268E-0604-4DA2-B7F3-BCC905CE9961",
+              "summary": "UM5IN258-AI-ADAPT-TME",
+              "location": null,
+              "start": "2025-11-17T12:45:00+00:00",
+              "end": "2025-11-17T17:00:00+00:00"
             }
           ]
         }
@@ -109,7 +127,7 @@
             {
               "uid": "89DF261F-9677-45B0-B351-0AC3E4DC1FF8",
               "summary": "UM5IN250-COCOMA-TME",
-              "location": null,
+              "location": "Salle : 1415-509",
               "start": "2025-09-23T08:45:00+00:00",
               "end": "2025-09-23T10:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251118T225959Z",
@@ -121,7 +139,7 @@
             {
               "uid": "D5BC8248-6326-442F-9C01-5A3C4268F963",
               "summary": "UM5IN250-COCOMA-TME",
-              "location": null,
+              "location": "Salle : 1415-509",
               "start": "2025-12-02T09:45:00+00:00",
               "end": "2025-12-02T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251216T225959Z"
@@ -143,7 +161,7 @@
             {
               "uid": "E79456BE-E22A-4C04-892D-F2CAFA45DF06",
               "summary": "UM5IN252-IA-HAII-TME",
-              "location": null,
+              "location": "salle : 1415-407",
               "start": "2025-09-25T11:45:00+00:00",
               "end": "2025-09-25T16:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251120T225959Z",
@@ -156,7 +174,7 @@
             {
               "uid": "CD7533BA-3622-4AEF-92A9-3A73AAAA8F7D",
               "summary": "UM5IN252-IA-HAII-TME",
-              "location": null,
+              "location": "Salle : 1415-407",
               "start": "2025-12-04T12:45:00+00:00",
               "end": "2025-12-04T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251218T225959Z"
@@ -248,42 +266,42 @@
             {
               "uid": "D1118BF3-F50A-47F0-800E-9AAD8F49E98B",
               "summary": "UM5IN259-IAR-TME1",
-              "location": null,
+              "location": "Salle : 1415-408",
               "start": "2025-10-10T08:45:00+00:00",
               "end": "2025-10-10T10:45:00+00:00"
             },
             {
               "uid": "FC625E9C-3E90-43A6-8B29-22CDDA204B18",
               "summary": "UM5IN259-IAR-TME-GR1",
-              "location": null,
+              "location": "Salle : 1415-501",
               "start": "2025-10-17T06:30:00+00:00",
               "end": "2025-10-17T10:45:00+00:00"
             },
             {
               "uid": "4294867A-4F7C-4EC5-8967-B1C4EF0835AF",
               "summary": "UM5IN259-IAR-TME1",
-              "location": null,
+              "location": "Salle : 1415-408\\n",
               "start": "2025-10-24T08:45:00+00:00",
               "end": "2025-10-24T10:45:00+00:00"
             },
             {
               "uid": "C680E0DA-949D-4A2B-B7BB-8CDD5EF273A4",
               "summary": "UM5IN259-IAR-TME1",
-              "location": null,
+              "location": "Salle : 1415-501",
               "start": "2025-11-07T07:30:00+00:00",
               "end": "2025-11-07T11:45:00+00:00"
             },
             {
               "uid": "6DC6674C-6C23-4689-996F-0D66CBDFE5CF",
               "summary": "UM5IN259-IAR-TME1",
-              "location": null,
+              "location": "Salle : 1415-501",
               "start": "2025-12-12T07:30:00+00:00",
               "end": "2025-12-12T11:45:00+00:00"
             },
             {
               "uid": "2E07ED52-E7A8-41A0-AC16-006B92D39AC1",
               "summary": "UM5IN259-IAR-TME1",
-              "location": null,
+              "location": "Salle : 1415-408\\n",
               "start": "2025-12-19T09:45:00+00:00",
               "end": "2025-12-19T11:45:00+00:00"
             }
@@ -296,7 +314,7 @@
             {
               "uid": "DC4CBAB5-A3E2-4102-A78F-B46878333EC9",
               "summary": "UM5IN259-IAR-TME2",
-              "location": null,
+              "location": "Salle : 2425-304",
               "start": "2025-10-10T11:45:00+00:00",
               "end": "2025-10-10T13:45:00+00:00"
             },
@@ -310,7 +328,7 @@
             {
               "uid": "8B6D19D7-8448-4070-B191-8AF3168F66A2",
               "summary": "UM5IN259-IAR-TME2",
-              "location": null,
+              "location": "Salle : 2425-304",
               "start": "2025-10-24T11:45:00+00:00",
               "end": "2025-10-24T13:45:00+00:00"
             },
@@ -331,7 +349,7 @@
             {
               "uid": "A435FCE1-A683-41B4-8343-530CB947CA05",
               "summary": "UM5IN259-IAR-TME2",
-              "location": null,
+              "location": "Salle : 2425-304",
               "start": "2025-12-19T12:45:00+00:00",
               "end": "2025-12-19T14:45:00+00:00"
             }
@@ -435,7 +453,7 @@
             {
               "uid": "01171385-4C8D-4012-A8B8-962ECEF72768",
               "summary": "UM5IN256-MADMC-TME",
-              "location": null,
+              "location": "Salle : 1415-509",
               "start": "2025-10-21T11:45:00+00:00",
               "end": "2025-10-21T16:00:00+00:00"
             }
@@ -515,7 +533,7 @@
               "summary": "UM5IN254-MOSIMA-CS",
               "location": null,
               "start": "2025-09-22T06:30:00+00:00",
-              "end": "2025-09-22T10:45:00+00:00",
+              "end": "2025-09-22T08:30:00+00:00",
               "recurrence_id": "2025-09-22T06:30:00+00:00"
             },
             {
@@ -541,35 +559,35 @@
           "type": "TME",
           "events": [
             {
-              "uid": "DDE54ADF-F0D1-4353-BFB4-EFBCA64AE7F6",
-              "summary": "UM5IN254-MOSIMA-TME",
-              "location": null,
-              "start": "2025-11-10T07:30:00+00:00",
-              "end": "2025-11-10T11:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251215T225959Z",
-              "exdates": [
-                "2025-11-24T07:30:00+00:00"
-              ]
-            },
-            {
               "uid": "C431E5AB-7141-4DA6-B211-58E0F72F4C50",
               "summary": "UM5IN254-MOSIMA-TME",
-              "location": null,
+              "location": "Salle : 2425-306",
               "start": "2025-11-03T09:45:00+00:00",
               "end": "2025-11-03T11:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251103T225959Z"
+              "rrule": "FREQ=WEEKLY;UNTIL=20251117T225959Z"
             },
             {
-              "uid": "9C205285-CDBD-41B6-93B1-13FE75F20589",
+              "uid": "0E922287-8EE4-4778-A7A4-22190BD64EC9",
               "summary": "UM5IN254-MOSIMA-TME",
-              "location": null,
+              "location": "Salle : 2425-306",
               "start": "2025-09-22T08:45:00+00:00",
               "end": "2025-09-22T10:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251013T084500Z",
-              "exdates": [
-                "2025-09-22T08:45:00+00:00",
-                "2025-10-27T09:45:00+00:00"
-              ]
+              "rrule": "FREQ=WEEKLY;UNTIL=20251013T215959Z"
+            },
+            {
+              "uid": "AB5A1B9A-C9F9-4486-B217-892F83062DEF",
+              "summary": "UM5IN254-MOSIMA-TME",
+              "location": "Salle : 2425-306",
+              "start": "2025-12-01T09:45:00+00:00",
+              "end": "2025-12-01T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251215T225959Z"
+            },
+            {
+              "uid": "3E774403-40FF-4793-977F-AD28B1CBA9CB",
+              "summary": "UM5IN254-MOSIMA-TME",
+              "location": "Salle : 2425-306",
+              "start": "2025-11-17T09:45:00+00:00",
+              "end": "2025-11-17T11:45:00+00:00"
             }
           ]
         }
@@ -677,5 +695,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-10T06:49:36.890901173+00:00"
+  "updated_at": "2025-09-11T06:49:44.808066926+00:00"
 }
