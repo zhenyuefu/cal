@@ -15,14 +15,14 @@
             {
               "uid": "7F59D7BC-9A1F-4BE8-B2FD-473309CF867D",
               "summary": "MU5IN950-AFAE-Cours",
-              "location": "Résa n° 669693",
+              "location": "Salle: 14.24.101",
               "start": "2025-09-23T06:30:00+00:00",
               "end": "2025-09-23T08:30:00+00:00"
             },
             {
               "uid": "DF20F7C9-9BFD-4F3A-AF17-A15B677A3000",
               "summary": "MU5IN950-AFAE-Cours",
-              "location": "Résa n° 669694",
+              "location": "Salle: 24.34.101",
               "start": "2025-10-07T06:30:00+00:00",
               "end": "2025-10-07T08:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251014T215959Z"
@@ -37,28 +37,28 @@
             {
               "uid": "1393A168-D1B9-4940-8DFF-A24E62BBC09E",
               "summary": "MU5IN950-AFAE-Cours",
-              "location": "Résa n° 669696",
+              "location": "Salle: 23.24.105",
               "start": "2025-11-04T07:30:00+00:00",
               "end": "2025-11-04T09:30:00+00:00"
             },
             {
               "uid": "46448463-A421-41BF-866E-CB2EFA7CFD5A",
               "summary": "UM5IN950-AFAE-Cours",
-              "location": "Résa n° 669697",
+              "location": "Salle: 24.34.101",
               "start": "2025-11-18T09:45:00+00:00",
               "end": "2025-11-18T11:45:00+00:00"
             },
             {
               "uid": "A2EC416C-7087-4942-846D-5E7EBFCFD634",
               "summary": "MU5IN950-AFAE-Cours",
-              "location": "Résa n° 669697",
+              "location": "Salle: 24.34.101",
               "start": "2025-11-18T07:30:00+00:00",
               "end": "2025-11-18T09:30:00+00:00"
             },
             {
               "uid": "1B0DC4B1-1D44-47C7-8C29-5141BC2E95FE",
               "summary": "MU5IN950-AFAE-Cours",
-              "location": "Résa n° 669698",
+              "location": "Salle: 24.34.201",
               "start": "2025-12-02T07:30:00+00:00",
               "end": "2025-12-02T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251216T225959Z"
@@ -66,7 +66,7 @@
             {
               "uid": "98CD1AA7-38AB-4B5C-9E7A-E54AFA9C16FA",
               "summary": "UM5IN950-AFAE-Cours",
-              "location": "Résa n° 669698",
+              "location": "Salle: 24.34.201",
               "start": "2025-12-02T09:45:00+00:00",
               "end": "2025-12-02T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251216T225959Z"
@@ -116,7 +116,7 @@
             {
               "uid": "E480A690-6AAC-4AF0-A8A5-27559F3750BC",
               "summary": "UM5IN950-AFAE-TD",
-              "location": "Résa n° 669693",
+              "location": "Salle: 14.24.101",
               "start": "2025-09-23T08:45:00+00:00",
               "end": "2025-09-23T10:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20250930T215959Z"
@@ -124,7 +124,7 @@
             {
               "uid": "AAC0344B-853D-43CF-AB59-99DF1C8E6D7C",
               "summary": "UM5IN950-AFAE-TD",
-              "location": "Résa n° 669693",
+              "location": "Salle: 14.24.101",
               "start": "2025-09-30T06:30:00+00:00",
               "end": "2025-09-30T08:30:00+00:00"
             },
@@ -152,7 +152,7 @@
             {
               "uid": "4251C16B-5892-48C1-9BB9-24F1A9999CF3",
               "summary": "UM5IN950-AFAE-TME",
-              "location": "En attente de salle",
+              "location": "Salle 14.15.502",
               "start": "2025-10-07T08:45:00+00:00",
               "end": "2025-10-07T10:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251014T215959Z"
@@ -160,7 +160,7 @@
             {
               "uid": "2C13226A-F06C-4223-B787-DB3CA2E00C1D",
               "summary": "UM5IN950-AFAE-TME",
-              "location": "En attente de salle",
+              "location": "Salle 14.15.502",
               "start": "2025-11-04T09:45:00+00:00",
               "end": "2025-11-04T11:45:00+00:00"
             }
@@ -202,28 +202,28 @@
             {
               "uid": "28DF5BE6-6747-4492-BA9C-6899776187A9",
               "summary": "UM5IN951-CRYPTA-Cours",
-              "location": "Résa n° 668342",
+              "location": "Salle: 14.24.107",
               "start": "2025-10-17T06:30:00+00:00",
               "end": "2025-10-17T08:30:00+00:00"
             },
             {
               "uid": "BC48DC46-FED9-4B2C-892C-D95ACBB281D9",
               "summary": "UM5IN951-CRYPTA-Cours",
-              "location": "Résa n° 668354",
+              "location": "Résa n° 676401",
               "start": "2025-11-21T07:30:00+00:00",
               "end": "2025-11-21T09:30:00+00:00"
             },
             {
               "uid": "D34803C1-F6C3-4F70-AF51-90A5322D0916",
               "summary": "UM5IN951-CRYPTA-Cours",
-              "location": "Résa n° 668356",
+              "location": "Salle: 14.24.109",
               "start": "2025-12-05T09:45:00+00:00",
               "end": "2025-12-05T11:45:00+00:00"
             },
             {
               "uid": "32A7C4F3-56EF-4170-878A-DF29B8FFA6FE",
               "summary": "UM5IN951-CRYPTA-Cours",
-              "location": "Résa n° 668359",
+              "location": "Salle: 14.24.209",
               "start": "2025-12-19T07:30:00+00:00",
               "end": "2025-12-19T09:30:00+00:00"
             },
@@ -292,28 +292,28 @@
             {
               "uid": "C2CC4D62-5743-436D-9F94-32893DC705DF",
               "summary": "UM5IN951-CRYPTA-TD",
-              "location": "Résa n° 668346",
+              "location": "Salle: 23.24.101",
               "start": "2025-11-07T07:30:00+00:00",
               "end": "2025-11-07T09:30:00+00:00"
             },
             {
               "uid": "66F7A837-1CB5-442E-A971-FBFF13235599",
               "summary": "UM5IN951-CRYPTA-TD",
-              "location": "Résa n° 668354",
+              "location": "Résa n° 676401",
               "start": "2025-11-21T09:45:00+00:00",
               "end": "2025-11-21T11:45:00+00:00"
             },
             {
               "uid": "0569EDA5-B686-4A0E-8888-44F40895234F",
               "summary": "UM5IN951-CRYPTA-TD",
-              "location": "Résa n° 668357",
+              "location": "Salle: 14.24.109",
               "start": "2025-12-12T07:30:00+00:00",
               "end": "2025-12-12T09:30:00+00:00"
             },
             {
               "uid": "B04D05D9-88DB-427B-B521-2B106B69B29E",
               "summary": "UM5IN951-CRYPTA-TD",
-              "location": "Résa n° 668359",
+              "location": "Salle: 14.24.209",
               "start": "2025-12-19T09:45:00+00:00",
               "end": "2025-12-19T11:45:00+00:00"
             },
@@ -362,42 +362,42 @@
             {
               "uid": "320299A1-EA85-492D-A26E-DF53E82B8919",
               "summary": "UM5IN951-CRYPTA-TME",
-              "location": "En attente de salle",
+              "location": "Salle 14.15.502",
               "start": "2025-10-24T06:30:00+00:00",
               "end": "2025-10-24T08:30:00+00:00"
             },
             {
               "uid": "FF1681C0-325C-4EF5-8F3E-4363A47041C4",
               "summary": "UM5IN951-CRYPTA-TME",
-              "location": "En attente de salle",
+              "location": "Salle 14.15.502",
               "start": "2025-11-07T09:45:00+00:00",
               "end": "2025-11-07T11:45:00+00:00"
             },
             {
               "uid": "D4F6877D-BC9C-4BC1-AF9C-15A766DE6817",
               "summary": "UM5IN951-CRYPTA-TME",
-              "location": "En attente de salle",
+              "location": "Salle 14.15.502",
               "start": "2025-12-05T07:30:00+00:00",
               "end": "2025-12-05T09:30:00+00:00"
             },
             {
               "uid": "3ABCA55A-C801-43A6-9C3C-901B79909E59",
               "summary": "UM5IN951-CRYPTA-TME",
-              "location": "En attente de salle",
+              "location": "Salle 14.15.502",
               "start": "2025-12-12T09:45:00+00:00",
               "end": "2025-12-12T11:45:00+00:00"
             },
             {
               "uid": "ADCF02EE-23AF-4695-AAC0-DA8456996FA7",
               "summary": "UM5IN951-CRYPTA-TME",
-              "location": null,
+              "location": "Salle 14.15.502",
               "start": "2026-01-09T07:30:00+00:00",
               "end": "2026-01-09T09:30:00+00:00"
             },
             {
               "uid": "88B3ECB1-E265-4542-B181-118C3789409C",
               "summary": "UM5IN951-CRYPTA-TME",
-              "location": null,
+              "location": "Salle 14.15.502",
               "start": "2026-01-16T09:45:00+00:00",
               "end": "2026-01-16T11:45:00+00:00"
             }
@@ -418,14 +418,14 @@
             {
               "uid": "1E38660C-C4C3-4186-8CCC-3D8B2AD8639A",
               "summary": "UM5IN952-HPCA-Cours",
-              "location": "Résa n° 670324",
+              "location": "Résa n°676402",
               "start": "2025-10-20T11:45:00+00:00",
               "end": "2025-10-20T13:45:00+00:00"
             },
             {
               "uid": "E87EBB3C-B504-450F-8CE4-A79C3BEE3AFA",
               "summary": "UM5IN952-HPCA-Cours",
-              "location": "Résa n° 670320",
+              "location": "Salle: 13.14.101",
               "start": "2025-09-25T11:45:00+00:00",
               "end": "2025-09-25T16:00:00+00:00"
             },
@@ -443,7 +443,7 @@
             {
               "uid": "478109F8-836E-49D0-A77A-857DF50DDD76",
               "summary": "UM5IN952-HPCA-Cours",
-              "location": "Résa n° 670322",
+              "location": "Salle: 24.34.101",
               "start": "2025-11-06T12:45:00+00:00",
               "end": "2025-11-06T14:45:00+00:00"
             },
@@ -458,7 +458,7 @@
             {
               "uid": "B37A0E75-C599-4B06-86F4-5AF29ACC5506",
               "summary": "UM5IN952-HPCA-Cours",
-              "location": "Résa  n° 670323",
+              "location": "Salle: 23.24.101",
               "start": "2025-10-23T11:45:00+00:00",
               "end": "2025-10-23T13:45:00+00:00",
               "recurrence_id": "2025-10-23T11:45:00+00:00"
@@ -524,7 +524,7 @@
             {
               "uid": "A6054728-F72D-4C58-9B5E-EA36E4E43A21",
               "summary": "UM5IN952-HPCA-TME",
-              "location": "En attente de salle",
+              "location": "Salle 24.25.303",
               "start": "2025-10-09T14:00:00+00:00",
               "end": "2025-10-09T16:00:00+00:00",
               "exdates": [
@@ -534,7 +534,7 @@
             {
               "uid": "15F4509D-69E2-4E8E-B327-24A8F1559AEC",
               "summary": "UM5IN952-HPCA-TME",
-              "location": "En attente de salle",
+              "location": "Salle : 24.25.303",
               "start": "2025-10-23T14:00:00+00:00",
               "end": "2025-10-23T16:00:00+00:00",
               "exdates": [
@@ -544,7 +544,7 @@
             {
               "uid": "C8DB4656-66A9-466A-804C-D15FD673F201",
               "summary": "UM5IN952-HPCA-TME",
-              "location": "En attente de salle",
+              "location": "Salle : 24.25.303",
               "start": "2025-11-06T15:00:00+00:00",
               "end": "2025-11-06T17:00:00+00:00",
               "exdates": [
@@ -578,7 +578,7 @@
             {
               "uid": "1AC71437-C8D3-49FD-98EF-AEA2724B5FA1",
               "summary": "OIPCCA- TD",
-              "location": "Résa n° 668643",
+              "location": "Salle: 24.34.302",
               "start": "2025-11-05T12:45:00+00:00",
               "end": "2025-11-05T17:00:00+00:00"
             },
@@ -593,7 +593,7 @@
             {
               "uid": "DD9C0D9C-8E8C-4744-B818-E917D56C6A73",
               "summary": "OIPCCA- TD",
-              "location": "Résa n° 668937",
+              "location": "Salle: 24.34.212",
               "start": "2025-11-19T12:45:00+00:00",
               "end": "2025-11-19T17:00:00+00:00"
             }
@@ -614,7 +614,7 @@
             {
               "uid": "96FCBDF4-83CB-4D44-9CF0-38230359CEE5",
               "summary": "UM5IN953-POSSO-Cours",
-              "location": "Résa n° 668462",
+              "location": "Salle: 23.24.201",
               "start": "2025-09-22T07:30:00+00:00",
               "end": "2025-09-22T10:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251013T215959Z"
@@ -622,7 +622,7 @@
             {
               "uid": "72449767-27CC-4ED6-80D0-DD698D8850A0",
               "summary": "UM5IN953-POSSO-Cours",
-              "location": "Résa n° 668463",
+              "location": "Résa n° 676399",
               "start": "2025-11-10T08:30:00+00:00",
               "end": "2025-11-10T11:45:00+00:00",
               "exdates": [
@@ -640,26 +640,18 @@
             {
               "uid": "2DCB36FF-0B2C-492F-8CD6-EFFB174FE6E6",
               "summary": "UM5IN953-POSSO-Cours",
-              "location": "Résa n° 668463",
+              "location": "Salle: 24.25.107",
               "start": "2025-11-03T08:30:00+00:00",
               "end": "2025-11-03T11:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251117T225959Z",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251110T225959Z",
               "exdates": [
                 "2025-11-10T08:30:00+00:00"
               ]
             },
             {
-              "uid": "2DCB36FF-0B2C-492F-8CD6-EFFB174FE6E6",
-              "summary": "UM5IN953-POSSO-Cours",
-              "location": "Résa n° 670325",
-              "start": "2025-11-17T08:30:00+00:00",
-              "end": "2025-11-17T11:45:00+00:00",
-              "recurrence_id": "2025-11-17T08:30:00+00:00"
-            },
-            {
               "uid": "61EBDE22-95AE-48A5-A61C-E2FC093F14A2",
               "summary": "UM5IN953-POSSO-Cours",
-              "location": "Résa n° 668465",
+              "location": "Salle: 24.34.103",
               "start": "2025-12-08T08:30:00+00:00",
               "end": "2025-12-08T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251215T225959Z"
@@ -667,10 +659,26 @@
             {
               "uid": "88BD0362-5FC0-46FC-8909-E02B219673C7",
               "summary": "UM5IN953-POSSO-CS",
-              "location": "Résa n° 668465",
+              "location": "Salle: 24.34.103",
               "start": "2025-12-01T08:30:00+00:00",
               "end": "2025-12-01T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251201T225959Z"
+            },
+            {
+              "uid": "C822B91B-7213-465D-90EE-A0BB521E9F95",
+              "summary": "UM5IN953-POSSO-Cours",
+              "location": "Salle: 56.66.101",
+              "start": "2025-11-17T08:30:00+00:00",
+              "end": "2025-11-17T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251117T225959Z"
+            },
+            {
+              "uid": "C822B91B-7213-465D-90EE-A0BB521E9F95",
+              "summary": "UM5IN953-POSSO-Cours",
+              "location": "Salle: 56.66.101",
+              "start": "2025-11-17T08:30:00+00:00",
+              "end": "2025-11-17T11:45:00+00:00",
+              "recurrence_id": "2025-11-17T08:30:00+00:00"
             }
           ]
         },
@@ -701,7 +709,7 @@
             {
               "uid": "429D015F-89D7-4BBA-B23F-266E4FCF2E21",
               "summary": "UM5IN953-POSSO-TME",
-              "location": "En attente de salle",
+              "location": "Salle 14.15.501",
               "start": "2025-09-22T11:45:00+00:00",
               "end": "2025-09-22T13:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251013T215959Z"
@@ -709,7 +717,7 @@
             {
               "uid": "E515122B-6437-4098-B95B-BB40B4F869EB",
               "summary": "UM5IN953-POSSO-TME",
-              "location": "En attente de salle",
+              "location": "Salle 14.15.501",
               "start": "2025-11-10T12:45:00+00:00",
               "end": "2025-11-10T14:45:00+00:00",
               "exdates": [
@@ -719,7 +727,7 @@
             {
               "uid": "D5F5A1E1-F068-45DF-A144-44CDA2C54978",
               "summary": "UM5IN953-POSSO-TME",
-              "location": "En attente de salle",
+              "location": "Salle 14.15.501",
               "start": "2025-11-03T12:45:00+00:00",
               "end": "2025-11-03T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251117T225959Z",
@@ -730,7 +738,7 @@
             {
               "uid": "62963C06-AC22-417A-9D18-4539A399C0A1",
               "summary": "UM5IN953-POSSO-TME",
-              "location": "En attente de salle",
+              "location": "Salle 14.15.501",
               "start": "2025-12-01T12:45:00+00:00",
               "end": "2025-12-01T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251215T225959Z"
@@ -738,7 +746,7 @@
             {
               "uid": "A592DF6C-8724-410C-B2FD-6E09F6B754CC",
               "summary": "UM5IN953-POSSO-TME",
-              "location": "En attente de salle",
+              "location": "Salle 14.15.501",
               "start": "2026-01-05T12:45:00+00:00",
               "end": "2026-01-05T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260126T225959Z"
@@ -785,6 +793,13 @@
           "type": "CS",
           "events": [
             {
+              "uid": "5D212582-A1CF-4441-8473-E175E86E16D7",
+              "summary": "UM5IN954-SCA-Cours",
+              "location": "Salle: 14.24.207",
+              "start": "2025-10-03T11:45:00+00:00",
+              "end": "2025-10-03T16:00:00+00:00"
+            },
+            {
               "uid": "84838487-9297-4B4C-99DE-C3E4782FFA29",
               "summary": "UM5IN954-SCA-Cours",
               "location": "Résa n° 668360",
@@ -803,7 +818,7 @@
             {
               "uid": "D5A0A970-E021-4CA5-93F8-3DD19456A355",
               "summary": "UM5IN954-SCA-Cours",
-              "location": "Résa n° 668362",
+              "location": "Salle: 14.24.109",
               "start": "2025-12-12T12:45:00+00:00",
               "end": "2025-12-12T14:45:00+00:00"
             },
@@ -813,22 +828,6 @@
               "location": "Salle: 24.34.105",
               "start": "2025-10-24T11:45:00+00:00",
               "end": "2025-10-24T13:45:00+00:00"
-            },
-            {
-              "uid": "C30A706F-0325-4EC1-BF41-21AC15BFE57E",
-              "summary": "UM5IN954-SCA-Cours",
-              "location": "Résa n° 668360",
-              "start": "2025-10-03T11:45:00+00:00",
-              "end": "2025-10-03T16:00:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251003T215959Z"
-            },
-            {
-              "uid": "C30A706F-0325-4EC1-BF41-21AC15BFE57E",
-              "summary": "UM5IN954-SCA-Cours",
-              "location": "Salle: 14.24.207",
-              "start": "2025-10-03T11:45:00+00:00",
-              "end": "2025-10-03T16:00:00+00:00",
-              "recurrence_id": "2025-10-03T11:45:00+00:00"
             }
           ]
         },
@@ -892,19 +891,19 @@
               "end": "2025-12-19T17:00:00+00:00"
             },
             {
+              "uid": "365234CE-8733-4A14-9A56-80AE701E606D",
+              "summary": "UM5IN954-SCA-TME",
+              "location": "Salle",
+              "start": "2025-10-10T11:45:00+00:00",
+              "end": "2025-10-10T16:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251017T215959Z"
+            },
+            {
               "uid": "55272015-26AB-4161-944C-FCAC8BA697C6",
               "summary": "UM5IN954-SCA-TME",
               "location": "En attente de salle",
               "start": "2026-01-09T12:45:00+00:00",
               "end": "2026-01-09T17:00:00+00:00"
-            },
-            {
-              "uid": "365234CE-8733-4A14-9A56-80AE701E606D",
-              "summary": "UM5IN954-SCA-TME",
-              "location": "En attente de salle",
-              "start": "2025-10-10T11:45:00+00:00",
-              "end": "2025-10-10T16:00:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251017T215959Z"
             },
             {
               "uid": "FFF37DA9-F880-4FDD-A086-42D36B77DC3D",
@@ -967,5 +966,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-08T06:51:44.463786725+00:00"
+  "updated_at": "2025-09-12T06:49:18.615811833+00:00"
 }

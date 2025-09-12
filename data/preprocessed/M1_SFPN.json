@@ -27,7 +27,7 @@
             {
               "uid": "7BFBC6C4-3C0A-4669-A1C9-B53995286C4A",
               "summary": "UM4IN900-COMPLEX-Cours",
-              "location": "Résa n° 666091",
+              "location": "Salle: AMPHI.45A",
               "start": "2025-11-27T09:45:00+00:00",
               "end": "2025-11-27T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251211T225959Z"
@@ -35,7 +35,7 @@
             {
               "uid": "817D459F-B341-44AC-8D67-9C9819FDE1E5",
               "summary": "UM4IN900-COMPLEX-Cours",
-              "location": "Résa n° 667658",
+              "location": "Salle: AMPHI.ASTIER",
               "start": "2025-11-06T09:45:00+00:00",
               "end": "2025-11-06T11:45:00+00:00"
             },
@@ -183,7 +183,7 @@
             {
               "uid": "2F6988FC-25E5-4F19-A8D0-AABE39E03DCF",
               "summary": "UM4IN900-COMPLEX-TD2",
-              "location": "Résa n° 667916",
+              "location": "Salle: 14.15.104",
               "start": "2025-11-26T07:30:00+00:00",
               "end": "2025-11-26T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251217T225959Z"
@@ -264,14 +264,14 @@
             {
               "uid": "2413E421-6949-4661-9C0B-02D2FB31C7DC",
               "summary": "UM4IN900-COMPLEX-TD3",
-              "location": "Résa n° 667973",
+              "location": "Salle: 24.34.204",
               "start": "2025-11-06T12:45:00+00:00",
               "end": "2025-11-06T14:45:00+00:00"
             },
             {
               "uid": "26CDE322-0742-463E-8D35-9B208140B7C2",
               "summary": "UM4IN900-COMPLEX-TD3",
-              "location": "Résa n° 667975",
+              "location": "Salle: 13.14.102",
               "start": "2025-11-27T12:45:00+00:00",
               "end": "2025-11-27T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251218T225959Z"
@@ -313,7 +313,7 @@
             {
               "uid": "6068A50A-F698-4AB3-8892-D0A74870A869",
               "summary": "UM4IN900-COMPLEX-TME3",
-              "location": "Salle 1415.502",
+              "location": "Salle 14.15.502",
               "start": "2025-11-27T15:00:00+00:00",
               "end": "2025-11-27T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251218T225959Z"
@@ -345,7 +345,7 @@
             {
               "uid": "700F6A1B-11EA-4D8A-8CDF-88716B564419",
               "summary": "UM4IN901-MODEL-Cours (EN)",
-              "location": "Résa n° 666094",
+              "location": "Salle: 24.34.201",
               "start": "2025-09-19T06:30:00+00:00",
               "end": "2025-09-19T08:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251024T215959Z"
@@ -353,7 +353,7 @@
             {
               "uid": "D2083AB5-1CD8-4717-B35F-94D7A78AF860",
               "summary": "UM4IN901-MODEL-Cours (EN)",
-              "location": "Résa n° 666097",
+              "location": "Salle: 24.34.201",
               "start": "2025-11-28T07:30:00+00:00",
               "end": "2025-11-28T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251212T225959Z"
@@ -361,7 +361,7 @@
             {
               "uid": "4EAB22DB-9FF1-4333-8032-4BC5F5122817",
               "summary": "UM4IN901-MODEL-Cours (EN)",
-              "location": "Résa n° 667680",
+              "location": "Salle: 24.34.201",
               "start": "2025-11-07T07:30:00+00:00",
               "end": "2025-11-07T09:30:00+00:00"
             }
@@ -389,7 +389,7 @@
             {
               "uid": "6ED5368F-6B07-431F-A256-9ED0AB9705B3",
               "summary": "UM4IN901-MODEL-TD1",
-              "location": "Résa n° 667951",
+              "location": "Salle: 24.25.105",
               "start": "2025-11-26T12:45:00+00:00",
               "end": "2025-11-26T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251217T225959Z"
@@ -511,7 +511,7 @@
             {
               "uid": "EFAB16D8-81AB-45EF-A1C9-9D71D8098FE3",
               "summary": "UM4IN903-PPAR-CS (EN)",
-              "location": "Résa n° 666019",
+              "location": "Salle: 24.34.207",
               "start": "2025-11-26T07:30:00+00:00",
               "end": "2025-11-26T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251210T225959Z"
@@ -684,5 +684,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-11T06:49:43.565799293+00:00"
+  "updated_at": "2025-09-12T06:49:04.880134982+00:00"
 }
