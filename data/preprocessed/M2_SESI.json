@@ -302,6 +302,34 @@
       ]
     },
     {
+      "name": "M2 - Réunion rentrée primo-entrants",
+      "code": "special",
+      "special": true,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "08D794E4-0F86-4514-A19F-E4612AF28F22",
+              "summary": "M2 - Réunion rentrée primo-entrants",
+              "location": "Amphi Durand",
+              "start": "2025-09-15T08:45:00+00:00",
+              "end": "2025-09-15T10:45:00+00:00"
+            },
+            {
+              "uid": "903674AC-10A3-4132-A8F3-1B2940C8C74B",
+              "summary": "RéunionM2SESI - Réunion de rentrée",
+              "location": "Salle 24.34.107",
+              "start": "2025-09-15T11:45:00+00:00",
+              "end": "2025-09-15T13:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "MASSOC",
       "code": "150",
       "special": false,
@@ -905,27 +933,6 @@
       ]
     },
     {
-      "name": "RéunionM2SESI - Réunion de rentrée",
-      "code": "special",
-      "special": true,
-      "groups": [],
-      "variants": [
-        {
-          "group": null,
-          "type": null,
-          "events": [
-            {
-              "uid": "903674AC-10A3-4132-A8F3-1B2940C8C74B",
-              "summary": "RéunionM2SESI - Réunion de rentrée",
-              "location": "Salle 24.34.107",
-              "start": "2025-09-15T11:45:00+00:00",
-              "end": "2025-09-15T13:45:00+00:00"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "SMC",
       "code": "162",
       "special": false,
@@ -1016,5 +1023,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-12T06:49:16.461570281+00:00"
+  "updated_at": "2025-09-15T06:52:29.100995282+00:00"
 }

@@ -518,6 +518,13 @@
           "type": null,
           "events": [
             {
+              "uid": "538C4A21-A9F4-411D-854A-7FD1C3DC6BF1",
+              "summary": "RéunionM2STL - Réunion de rentrée",
+              "location": "Résa n°676442",
+              "start": "2025-09-19T08:45:00+00:00",
+              "end": "2025-09-19T10:45:00+00:00"
+            },
+            {
               "uid": "65AA28DC-EC30-4DCF-A7F2-A0F3F7CF0A19",
               "summary": "Soutenance Stage Malenfant - BOUMESSAOUD",
               "location": "Salle 14.15.507 (STL)",
@@ -530,13 +537,6 @@
               "location": "Salle 55.65.105",
               "start": "2025-09-05T13:00:00+00:00",
               "end": "2025-09-05T14:00:00+00:00"
-            },
-            {
-              "uid": "A880AFD2-72A4-4246-A227-F688FC912B13",
-              "summary": "RéunionM2STL - Réunion de rentrée",
-              "location": "Salle 54.55.205",
-              "start": "2025-09-18T08:45:00+00:00",
-              "end": "2025-09-18T10:45:00+00:00"
             },
             {
               "uid": "E74A68B0-D36F-46F4-B953-231BC5880941",
@@ -909,5 +909,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-12T06:49:12.022956942+00:00"
+  "updated_at": "2025-09-15T06:52:24.630944792+00:00"
 }

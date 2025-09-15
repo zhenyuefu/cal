@@ -31,7 +31,7 @@
             {
               "uid": "C60B7456-2040-4198-A226-EFA57F11E6F3",
               "summary": "UM4IN600-BIMA-TME1_English",
-              "location": null,
+              "location": "24.25.303",
               "start": "2025-09-23T08:45:00+00:00",
               "end": "2025-09-23T10:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251216T225959Z",
@@ -109,7 +109,7 @@
             {
               "uid": "591660A0-BDE1-4FA9-A736-C67F8DC5FDE7",
               "summary": "UM4IN600-BIMA-TME2",
-              "location": null,
+              "location": "24.25.304",
               "start": "2025-09-24T14:00:00+00:00",
               "end": "2025-09-24T16:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251217T225959Z",
@@ -155,7 +155,7 @@
             {
               "uid": "C89BF1D8-D35F-4576-A8C5-14E7ACF9A059",
               "summary": "UM4IN600-BIMA-TME3",
-              "location": null,
+              "location": "14.15.408",
               "start": "2025-09-25T14:00:00+00:00",
               "end": "2025-09-25T16:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251218T225959Z",
@@ -169,7 +169,7 @@
             {
               "uid": "E9C310DE-CF04-4A46-871F-7C51E4DB50FB",
               "summary": "UM4IN600-BIMA-TME3",
-              "location": null,
+              "location": "14.15.408",
               "start": "2025-10-20T14:00:00+00:00",
               "end": "2025-10-20T16:00:00+00:00"
             }
@@ -386,7 +386,7 @@
             {
               "uid": "D9407F56-A84E-4202-8F09-C81076C7FA93",
               "summary": "UM4IN601-MAPSI-TME5",
-              "location": null,
+              "location": "14.15.407",
               "start": "2025-09-23T08:45:00+00:00",
               "end": "2025-09-23T10:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251216T225959Z",
@@ -422,5 +422,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-12T06:48:58.464440391+00:00"
+  "updated_at": "2025-09-15T06:52:10.992514835+00:00"
 }

@@ -129,6 +129,14 @@
               ]
             },
             {
+              "uid": "2C6D2A69-BFB3-4794-A4ED-1128DC71B6E5",
+              "summary": "UM5IN250-COCOMA-CS",
+              "location": "Cours annulé et reporté au 14 novembre.",
+              "start": "2025-10-21T06:30:00+00:00",
+              "end": "2025-10-21T08:30:00+00:00",
+              "recurrence_id": "2025-10-21T06:30:00+00:00"
+            },
+            {
               "uid": "2E25F07F-6774-494F-BCB2-324C5F79C812",
               "summary": "UM5IN250-COCOMA-CS",
               "location": null,
@@ -160,6 +168,14 @@
                 "2025-10-28T09:45:00+00:00",
                 "2025-11-11T09:45:00+00:00"
               ]
+            },
+            {
+              "uid": "89DF261F-9677-45B0-B351-0AC3E4DC1FF8",
+              "summary": "UM5IN250-COCOMA-TME",
+              "location": "TME annulé et reporté au 14 novembre",
+              "start": "2025-10-21T08:45:00+00:00",
+              "end": "2025-10-21T10:45:00+00:00",
+              "recurrence_id": "2025-10-21T08:45:00+00:00"
             },
             {
               "uid": "D5BC8248-6326-442F-9C01-5A3C4268F963",
@@ -727,5 +743,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-12T06:49:06.210231209+00:00"
+  "updated_at": "2025-09-15T06:52:18.812473659+00:00"
 }
