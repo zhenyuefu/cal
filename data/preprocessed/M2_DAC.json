@@ -191,7 +191,7 @@
             {
               "uid": "A9D43C7F-47FC-4329-9178-121F221113F3",
               "summary": "UM5IN861-DEEP-L-Cours",
-              "location": "n°675849",
+              "location": "AMPHI B1",
               "start": "2025-09-23T06:30:00+00:00",
               "end": "2025-09-23T08:30:00+00:00",
               "exdates": [
@@ -238,7 +238,7 @@
             {
               "uid": "8ECB44CF-3153-4BF2-B8A4-A1BB19DA8576",
               "summary": "UM5IN861-DEEP-L-TME1",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-09-23T06:30:00+00:00",
               "end": "2025-09-23T08:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260127T225959Z",
@@ -1795,7 +1795,7 @@
             {
               "uid": "594E49F9-11F2-452C-A0D0-35DFE2740441",
               "summary": "UM5IN868-XAI-TME",
-              "location": null,
+              "location": "Salle 24.25.304",
               "start": "2025-11-04T15:00:00+00:00",
               "end": "2025-11-04T17:00:00+00:00"
             },
@@ -1816,21 +1816,21 @@
             {
               "uid": "ACB05890-FF69-4215-AAAA-ED641FFBD95A",
               "summary": "UM5IN868-XAI-TME",
-              "location": null,
+              "location": "Salle 24.25.304",
               "start": "2025-10-07T14:00:00+00:00",
               "end": "2025-10-07T16:00:00+00:00"
             },
             {
               "uid": "6975F311-5F3D-41F6-8897-EC6161E9CFFD",
               "summary": "UM5IN868-XAI-TME",
-              "location": null,
+              "location": "Salle 24.25.304",
               "start": "2025-10-14T14:00:00+00:00",
               "end": "2025-10-14T16:00:00+00:00"
             },
             {
               "uid": "1DE0AF5B-215B-477A-B0EF-EA670631447E",
               "summary": "UM5IN868-XAI-TME",
-              "location": null,
+              "location": "Salle 24.25.304",
               "start": "2025-10-21T14:00:00+00:00",
               "end": "2025-10-21T16:00:00+00:00"
             },
@@ -1853,5 +1853,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-16T06:50:24.915539148+00:00"
+  "updated_at": "2025-09-17T06:49:40.926851073+00:00"
 }

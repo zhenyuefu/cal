@@ -114,44 +114,65 @@
           "type": "TD",
           "events": [
             {
+              "uid": "8EEC7110-6243-4EA3-99C1-126EFADDF1E5",
+              "summary": "UM4IN100-ARCHI1-TD1",
+              "location": "Salle 24.34.201",
+              "start": "2025-10-07T08:45:00+00:00",
+              "end": "2025-10-07T10:45:00+00:00"
+            },
+            {
+              "uid": "D67F6B59-A800-4773-A02F-2DB4D1A8BA51",
+              "summary": "UM4IN100-ARCHI1-TD1",
+              "location": "Salle 56.66.104",
+              "start": "2025-10-21T06:30:00+00:00",
+              "end": "2025-10-21T08:30:00+00:00"
+            },
+            {
+              "uid": "5E2E17F9-A621-4891-A77D-05BC50733623",
+              "summary": "UM4IN100-ARCHI1-TD1",
+              "location": "Salle 56.66.109",
+              "start": "2025-11-25T09:45:00+00:00",
+              "end": "2025-11-25T11:45:00+00:00"
+            },
+            {
               "uid": "2C97485D-5E13-452D-92F0-367246163655",
               "summary": "UM4IN100-ARCHI1-TD1",
-              "location": "Salle 24.34.110",
+              "location": "Salle 24.25.107",
               "start": "2025-09-23T06:30:00+00:00",
               "end": "2025-09-23T10:45:00+00:00"
             },
             {
               "uid": "2FC68767-0918-4C23-A828-8AF4C82B9C27",
               "summary": "UM4IN100-ARCHI1-TD1",
-              "location": "Salle 24.34.110",
+              "location": "Salle 24.25.107",
               "start": "2025-09-30T06:30:00+00:00",
               "end": "2025-09-30T10:45:00+00:00"
             },
             {
               "uid": "E3A48936-887C-4F13-8B49-59FE843F27EE",
               "summary": "UM4IN100-ARCHI1-TD1",
-              "location": "Salle 24.34.110",
+              "location": "Salle 23.24.105",
               "start": "2025-10-07T06:30:00+00:00",
-              "end": "2025-10-07T10:45:00+00:00"
+              "end": "2025-10-07T08:30:00+00:00"
             },
             {
               "uid": "F90A686B-3210-45E4-ABD6-01CDC66B8EE1",
               "summary": "UM4IN100-ARCHI1-TD1",
-              "location": "Salle 24.34.110",
+              "location": "Amphi 25",
               "start": "2025-10-14T06:30:00+00:00",
               "end": "2025-10-14T10:45:00+00:00"
             },
             {
               "uid": "738F1C17-68BD-41E0-8E27-40CB0BE2D108",
               "summary": "UM4IN100-ARCHI1-TD1",
-              "location": "Salle 24.34.110",
-              "start": "2025-10-21T06:30:00+00:00",
+              "location": "Salle 56.66.109",
+              "start": "2025-10-21T08:45:00+00:00",
               "end": "2025-10-21T10:45:00+00:00"
             },
             {
               "uid": "1BA7E68F-C508-4B44-B9BD-B2A10F11094F",
               "summary": "UM4IN100-ARCHI1-TD1",
-              "location": "Salle 24.34.110",
+              "location": "Salle 24.34.103",
               "start": "2025-11-04T07:30:00+00:00",
               "end": "2025-11-04T11:45:00+00:00"
             },
@@ -165,21 +186,21 @@
             {
               "uid": "74662F1C-2C26-4CAD-8A84-4DDE70F1F013",
               "summary": "UM4IN100-ARCHI1-TD1",
-              "location": "Salle 24.34.112",
+              "location": "Salle 24.34.101",
               "start": "2025-12-02T07:30:00+00:00",
               "end": "2025-12-02T11:45:00+00:00"
             },
             {
               "uid": "E98D2133-9A4E-4DA7-8FC5-D17731C32073",
               "summary": "UM4IN100-ARCHI1-TD1",
-              "location": "Salle 24.34.112",
+              "location": "Salle 24.34.101",
               "start": "2025-12-09T07:30:00+00:00",
               "end": "2025-12-09T11:45:00+00:00"
             },
             {
               "uid": "F3FA8426-7E93-4D3A-8CEC-82FE9867F775",
               "summary": "UM4IN100-ARCHI1-TD1",
-              "location": "Salle 24.34.112",
+              "location": "Salle 24.34.101",
               "start": "2025-12-16T07:30:00+00:00",
               "end": "2025-12-16T11:45:00+00:00"
             }
@@ -721,9 +742,9 @@
             {
               "uid": "B18E1E42-B4CF-415A-9AD1-6FB9771C1B6B",
               "summary": "UM4IN104-SIGNAL-TD1",
-              "location": "Salle 24.34.205",
+              "location": "Salle 56.66.104",
               "start": "2025-11-25T07:30:00+00:00",
-              "end": "2025-11-25T11:45:00+00:00"
+              "end": "2025-11-25T09:30:00+00:00"
             },
             {
               "uid": "56192B77-2FC6-4FB7-B718-0CC735CDAC2A",
@@ -1322,5 +1343,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-16T06:50:18.211189801+00:00"
+  "updated_at": "2025-09-17T06:49:34.260430184+00:00"
 }
