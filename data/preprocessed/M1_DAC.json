@@ -753,7 +753,7 @@
             {
               "uid": "EB5212EC-5EFD-4911-B442-2E8A595554EC",
               "summary": "UM4IN801-MLBDA-TME2  ( report du 22/10 )",
-              "location": "mail envoyé à la PPTI le 03/09",
+              "location": "Salle 14.15.408",
               "start": "2025-11-12T09:45:00+00:00",
               "end": "2025-11-12T11:45:00+00:00"
             },
@@ -827,7 +827,7 @@
             {
               "uid": "C016C4EF-1CA1-4FBC-817E-315494378D6E",
               "summary": "UM4IN801-MLBDA-TME3 ( report du 23/10 )",
-              "location": "Mail envoyé à la PPTI le 03/09",
+              "location": "Salle 14.15.408",
               "start": "2025-11-13T09:45:00+00:00",
               "end": "2025-11-13T11:45:00+00:00"
             },
@@ -878,5 +878,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-17T06:49:27.755536416+00:00"
+  "updated_at": "2025-09-18T06:49:37.439341804+00:00"
 }
