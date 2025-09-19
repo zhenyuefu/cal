@@ -253,12 +253,6 @@
       "groups": [],
       "source": "M2_SESI"
     },
-    "161|M2_SESI": {
-      "name": "DSP",
-      "code": "161",
-      "groups": [],
-      "source": "M2_SESI"
-    },
     "162|M2_SESI": {
       "name": "SMC",
       "code": "162",

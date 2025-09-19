@@ -324,14 +324,14 @@
             {
               "uid": "4CAD53D2-77C6-4148-A7B4-EF23575A792C",
               "summary": "UM4IN200-MOGPL-TME3",
-              "location": null,
+              "location": "Salle : 2425-308",
               "start": "2025-12-19T09:45:00+00:00",
               "end": "2025-12-19T11:45:00+00:00"
             },
             {
               "uid": "63876278-8C7B-40D2-841A-12477FE52403",
               "summary": "UM4IN200-MOGPL-TME3",
-              "location": null,
+              "location": "Salle : 2425-308",
               "start": "2025-12-19T12:45:00+00:00",
               "end": "2025-12-19T14:45:00+00:00"
             }
@@ -410,14 +410,14 @@
             {
               "uid": "578D4458-AE1B-478D-A7BC-6C3975318328",
               "summary": "UM4IN200-MOGPL-TME4",
-              "location": null,
+              "location": "Salle : 2425-301",
               "start": "2025-12-19T09:45:00+00:00",
               "end": "2025-12-19T11:45:00+00:00"
             },
             {
               "uid": "E2DB96DE-C8C1-4801-8921-EA43D27B38C7",
               "summary": "UM4IN200-MOGPL-TME4",
-              "location": null,
+              "location": "Salle : 1415-407",
               "start": "2025-12-19T12:45:00+00:00",
               "end": "2025-12-19T14:45:00+00:00"
             }
@@ -447,5 +447,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-18T06:49:36.035388409+00:00"
+  "updated_at": "2025-09-19T06:49:27.710373265+00:00"
 }

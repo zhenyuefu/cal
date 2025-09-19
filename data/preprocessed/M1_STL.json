@@ -340,17 +340,6 @@
           "type": "CS",
           "events": [
             {
-              "uid": "3E3829DF-A333-4665-9C47-62C3EDBAB779",
-              "summary": "UM4IN509-LS-Cours",
-              "location": "Salle 54.55.202",
-              "start": "2025-09-19T06:30:00+00:00",
-              "end": "2025-09-19T08:30:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251110T225959Z",
-              "exdates": [
-                "2025-10-31T07:30:00+00:00"
-              ]
-            },
-            {
               "uid": "D09769F1-DCD7-4C56-BACB-CD7D4E8FB756",
               "summary": "UM4IN509-LS-Cours",
               "location": "Résa n°667325",
@@ -585,5 +574,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-18T06:49:38.318056906+00:00"
+  "updated_at": "2025-09-19T06:49:30.011438312+00:00"
 }
