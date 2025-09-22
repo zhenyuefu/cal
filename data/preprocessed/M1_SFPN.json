@@ -221,14 +221,14 @@
             {
               "uid": "4CF9EB79-9D36-4A88-B021-C250560BE7BF",
               "summary": "UM4IN900-COMPLEX-TME2",
-              "location": "En attente de salle",
+              "location": "Salle 14.15.502",
               "start": "2025-11-05T09:45:00+00:00",
               "end": "2025-11-05T11:45:00+00:00"
             },
             {
               "uid": "CA93D6DC-F720-4C77-B143-F8E06B276DD7",
               "summary": "UM4IN900-COMPLEX-TME2",
-              "location": "En attente de salle",
+              "location": "Salle 14.15.502",
               "start": "2025-11-26T09:45:00+00:00",
               "end": "2025-11-26T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251217T225959Z"
@@ -691,5 +691,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-19T06:49:37.140963317+00:00"
+  "updated_at": "2025-09-22T06:51:52.678327417+00:00"
 }

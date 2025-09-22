@@ -337,41 +337,8 @@
       "variants": [
         {
           "group": null,
-          "type": "CS",
-          "events": [
-            {
-              "uid": "D09769F1-DCD7-4C56-BACB-CD7D4E8FB756",
-              "summary": "UM4IN509-LS-Cours",
-              "location": "Résa n°667325",
-              "start": "2025-11-28T07:30:00+00:00",
-              "end": "2025-11-28T09:30:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251212T225959Z"
-            }
-          ]
-        },
-        {
-          "group": null,
           "type": "TD",
           "events": [
-            {
-              "uid": "185FEC79-0F34-49C9-87DE-8F137F56A222",
-              "summary": "UM4IN509-LS-TD",
-              "location": "Salle 56.66.209",
-              "start": "2025-09-24T11:45:00+00:00",
-              "end": "2025-09-24T13:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251029T225959Z",
-              "exdates": [
-                "2025-10-29T12:45:00+00:00"
-              ]
-            },
-            {
-              "uid": "32BFAC6F-8CC7-4DE2-8C92-CC3B3A80160A",
-              "summary": "UM4IN509-LS-TD",
-              "location": "Résa n°667832",
-              "start": "2025-11-26T12:45:00+00:00",
-              "end": "2025-11-26T14:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251219T225959Z"
-            },
             {
               "uid": "07877EDB-C9A6-4986-8CB0-FAA1418D15BD",
               "summary": "UM4IN509-LS-TD",
@@ -379,31 +346,6 @@
               "start": "2025-11-05T12:45:00+00:00",
               "end": "2025-11-05T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251110T225959Z"
-            }
-          ]
-        },
-        {
-          "group": null,
-          "type": "TME",
-          "events": [
-            {
-              "uid": "C0AFA49B-EF87-47FE-8810-AE183D9BE8F8",
-              "summary": "UM4IN509-LS-TME",
-              "location": "Salle 14.18.408",
-              "start": "2025-09-24T14:00:00+00:00",
-              "end": "2025-09-24T16:00:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251110T225959Z",
-              "exdates": [
-                "2025-10-29T15:00:00+00:00"
-              ]
-            },
-            {
-              "uid": "855FB081-83B1-483E-AFF4-E2B1D9BCA141",
-              "summary": "UM4IN509-LS-TME",
-              "location": null,
-              "start": "2025-11-26T15:00:00+00:00",
-              "end": "2025-11-26T17:00:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251219T225959Z"
             }
           ]
         }
@@ -574,5 +516,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-19T06:49:30.011438312+00:00"
+  "updated_at": "2025-09-22T06:51:45.503611071+00:00"
 }

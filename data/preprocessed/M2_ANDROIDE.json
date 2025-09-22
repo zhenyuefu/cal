@@ -701,27 +701,9 @@
       "code": "OIP",
       "special": false,
       "groups": [
-        "1",
         "2"
       ],
       "variants": [
-        {
-          "group": "1",
-          "type": null,
-          "events": [
-            {
-              "uid": "4F80983B-9F54-4944-BD05-62F4AB6C8F9A",
-              "summary": "UM5IN-OIPAI2D-OIP-Gr1",
-              "location": "Salle :33.34.117",
-              "start": "2025-09-23T11:45:00+00:00",
-              "end": "2025-09-23T16:00:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251104T225959Z",
-              "exdates": [
-                "2025-10-28T12:45:00+00:00"
-              ]
-            }
-          ]
-        },
         {
           "group": "2",
           "type": null,
@@ -742,5 +724,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-19T06:49:38.535774076+00:00"
+  "updated_at": "2025-09-22T06:51:54.046321736+00:00"
 }

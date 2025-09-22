@@ -704,37 +704,57 @@
         },
         {
           "group": null,
-          "type": "TME",
+          "type": "TD",
           "events": [
             {
               "uid": "429D015F-89D7-4BBA-B23F-266E4FCF2E21",
-              "summary": "UM5IN953-POSSO-TME",
-              "location": "Salle 14.15.501",
+              "summary": "UM5IN953-POSSO-TD",
+              "location": "Résa n° 676947",
               "start": "2025-09-22T11:45:00+00:00",
               "end": "2025-09-22T13:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251013T215959Z"
+              "rrule": "FREQ=WEEKLY;UNTIL=20250922T114500Z"
             },
             {
-              "uid": "E515122B-6437-4098-B95B-BB40B4F869EB",
-              "summary": "UM5IN953-POSSO-TME",
-              "location": "Salle 14.15.501",
-              "start": "2025-11-10T12:45:00+00:00",
-              "end": "2025-11-10T14:45:00+00:00",
-              "exdates": [
-                "2025-11-10T12:45:00+00:00"
-              ]
+              "uid": "429D015F-89D7-4BBA-B23F-266E4FCF2E21",
+              "summary": "UM5IN953-POSSO-TD",
+              "location": "Résa n° n° 676952",
+              "start": "2025-09-22T11:45:00+00:00",
+              "end": "2025-09-22T13:45:00+00:00",
+              "recurrence_id": "2025-09-22T11:45:00+00:00"
             },
             {
               "uid": "D5F5A1E1-F068-45DF-A144-44CDA2C54978",
-              "summary": "UM5IN953-POSSO-TME",
-              "location": "Salle 14.15.501",
+              "summary": "UM5IN953-POSSO-TD",
+              "location": "Résa n° 676954",
               "start": "2025-11-03T12:45:00+00:00",
               "end": "2025-11-03T14:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251117T225959Z",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251117T124500Z",
               "exdates": [
                 "2025-11-10T12:45:00+00:00"
               ]
             },
+            {
+              "uid": "A592DF6C-8724-410C-B2FD-6E09F6B754CC",
+              "summary": "UM5IN953-POSSO-TD",
+              "location": "Résa n° 676957",
+              "start": "2026-01-05T12:45:00+00:00",
+              "end": "2026-01-05T14:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260126T225959Z"
+            },
+            {
+              "uid": "84713755-A92C-43B3-926D-2604B9EF5462",
+              "summary": "UM5IN953-POSSO-TD",
+              "location": "Résa n° n° 676951",
+              "start": "2025-09-29T11:45:00+00:00",
+              "end": "2025-09-29T13:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251013T215959Z"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
             {
               "uid": "62963C06-AC22-417A-9D18-4539A399C0A1",
               "summary": "UM5IN953-POSSO-TME",
@@ -742,14 +762,6 @@
               "start": "2025-12-01T12:45:00+00:00",
               "end": "2025-12-01T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251215T225959Z"
-            },
-            {
-              "uid": "A592DF6C-8724-410C-B2FD-6E09F6B754CC",
-              "summary": "UM5IN953-POSSO-TME",
-              "location": "Salle 14.15.501",
-              "start": "2026-01-05T12:45:00+00:00",
-              "end": "2026-01-05T14:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260126T225959Z"
             }
           ]
         }
@@ -966,5 +978,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-18T06:49:59.325622444+00:00"
+  "updated_at": "2025-09-22T06:52:07.086535435+00:00"
 }
