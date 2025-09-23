@@ -538,7 +538,7 @@
             {
               "uid": "4ED84201-AAF9-4828-8D2C-8FFC6BDAD2D5",
               "summary": "UM4IN800-LRC-TD3",
-              "location": "n°667394",
+              "location": "Salle 23.24.112",
               "start": "2025-09-25T08:45:00+00:00",
               "end": "2025-09-25T10:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251106T225959Z",
@@ -582,7 +582,7 @@
             {
               "uid": "46BEE0C4-C3FE-4A31-8AA5-5B6AADFAB89C",
               "summary": "UM4IN800-LRC-TD4",
-              "location": "n°667393",
+              "location": "Salle 23.24.102",
               "start": "2025-09-25T08:45:00+00:00",
               "end": "2025-09-25T10:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251106T225959Z",
@@ -878,5 +878,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-22T06:51:44.721906154+00:00"
+  "updated_at": "2025-09-23T06:50:22.780363055+00:00"
 }
