@@ -645,10 +645,10 @@
             },
             {
               "uid": "D2B0FE52-36C4-4F0A-930B-AFE6227C9C1F",
-              "summary": "UM4IN104-SIGNAL-Cours",
-              "location": "Salle 24.34.201",
+              "summary": "UM4IN104-SIGNAL-Cours annulé",
+              "location": "Reporté ulterieurement",
               "start": "2025-09-26T08:45:00+00:00",
-              "end": "2025-09-26T10:45:00+00:00"
+              "end": "2025-09-26T09:00:00+00:00"
             },
             {
               "uid": "9F604FC1-D58D-4980-A3D1-81D8B245ECCA",
@@ -1343,5 +1343,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-23T06:50:29.412341755+00:00"
+  "updated_at": "2025-09-24T06:50:04.831433353+00:00"
 }

@@ -337,9 +337,17 @@
             {
               "uid": "1FDB17A5-C668-425A-9621-380150E23D97",
               "summary": "UM4IN901-MODEL-TME1",
-              "location": "En attente de salle",
+              "location": "Salle 14.15.509",
               "start": "2025-09-24T14:00:00+00:00",
               "end": "2025-09-24T16:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20250924T215959Z"
+            },
+            {
+              "uid": "6F1D61FE-EF3C-4817-9BDC-77071390E84F",
+              "summary": "UM4IN901-MODEL-TME1",
+              "location": "Salle 14.15.509",
+              "start": "2025-10-01T14:00:00+00:00",
+              "end": "2025-10-01T16:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251001T140000Z"
             },
             {
@@ -625,5 +633,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-23T06:50:30.704690911+00:00"
+  "updated_at": "2025-09-24T06:50:06.055371378+00:00"
 }
