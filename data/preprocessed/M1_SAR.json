@@ -116,7 +116,7 @@
             {
               "uid": "0BF739E4-19FE-4A6F-929C-DD15EC4A022D",
               "summary": "UM4IN401-NOYAU-ExamenR1",
-              "location": "reservation n° 676358",
+              "location": "AMPHI.A3 (reservation n° 676358)",
               "start": "2025-11-17T15:00:00+00:00",
               "end": "2025-11-17T17:00:00+00:00"
             }
@@ -140,7 +140,7 @@
             {
               "uid": "912ABA5C-23F8-4C91-8BC4-DBDBCD37C0DB",
               "summary": "UM4IN401-NOYAU-TD1",
-              "location": "reservation n° 666016",
+              "location": "salle 24.34.307 (reservation n° 666016)",
               "start": "2025-11-25T12:45:00+00:00",
               "end": "2025-11-25T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251216T225959Z"
@@ -160,7 +160,7 @@
             {
               "uid": "F336C961-F8E3-4E03-B609-A0972C51A3A5",
               "summary": "UM4IN401-NOYAU-TD1",
-              "location": "reservation n° 666008",
+              "location": "salle 23.24.107 (reservation n° 666008)",
               "start": "2025-11-04T12:45:00+00:00",
               "end": "2025-11-04T17:00:00+00:00",
               "recurrence_id": "2025-11-04T12:45:00+00:00"
@@ -197,7 +197,7 @@
             {
               "uid": "FC8D1999-4D21-4F4E-845E-A468598BDF21",
               "summary": "UM4IN401-NOYAU-TD2",
-              "location": "reservation n° 666025",
+              "location": "salle 23.24.205 (reservation n° 666025)",
               "start": "2025-11-04T12:45:00+00:00",
               "end": "2025-11-04T17:00:00+00:00",
               "recurrence_id": "2025-11-04T12:45:00+00:00"
@@ -205,7 +205,7 @@
             {
               "uid": "5B0DF82C-4775-4B91-8BFF-F9A8FD8093EB",
               "summary": "UM4IN401-NOYAU-TD2",
-              "location": "reservation n° 666029",
+              "location": "salle 24.34.105 (reservation n° 666029)",
               "start": "2025-11-25T12:45:00+00:00",
               "end": "2025-11-25T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251216T225959Z"
@@ -242,7 +242,7 @@
             {
               "uid": "1CB4C16B-CA67-4AFC-9AC8-D86D778CF47E",
               "summary": "UM4IN401-NOYAU-TD3",
-              "location": "reservation n° 666037",
+              "location": "salle 54.55.204 (reservation n° 666037)",
               "start": "2025-11-05T12:45:00+00:00",
               "end": "2025-11-05T17:00:00+00:00",
               "recurrence_id": "2025-11-05T12:45:00+00:00"
@@ -250,7 +250,7 @@
             {
               "uid": "54002E26-9A10-4C06-B9B5-9BD7573E1648",
               "summary": "UM4IN401-NOYAU-TD3",
-              "location": "reservation n° 666040",
+              "location": "salle 56.66.209 (reservation n° 666040)",
               "start": "2025-11-26T12:45:00+00:00",
               "end": "2025-11-26T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251217T225959Z"
@@ -354,7 +354,7 @@
             {
               "uid": "A3F75702-BC8E-4F57-B3A3-5CF29C5908C7",
               "summary": "UM4IN400-PSCR-TD1",
-              "location": "reservation n° 665983",
+              "location": "salle 23.24.205 (reservation n° 665983)",
               "start": "2025-11-05T07:30:00+00:00",
               "end": "2025-11-05T09:30:00+00:00",
               "recurrence_id": "2025-11-05T07:30:00+00:00"
@@ -362,7 +362,7 @@
             {
               "uid": "1F029776-378C-4395-BD84-7C9652159645",
               "summary": "UM4IN400-PSCR-TD1",
-              "location": "reservation n° 665984",
+              "location": "salle 24.25.107 (reservation n° 665984)",
               "start": "2025-11-26T07:30:00+00:00",
               "end": "2025-11-26T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251217T225959Z"
@@ -418,7 +418,7 @@
             {
               "uid": "07ED1694-BED2-4FCF-A6A9-925635784FFF",
               "summary": "UM4IN400-PSCR-TD2",
-              "location": "reservation n° 665988",
+              "location": "salle 23.24.102 (reservation n° 665988)",
               "start": "2025-11-05T12:45:00+00:00",
               "end": "2025-11-05T14:45:00+00:00",
               "recurrence_id": "2025-11-05T12:45:00+00:00"
@@ -426,7 +426,7 @@
             {
               "uid": "2B99D59C-6F35-42FC-AD66-552DBE84C221",
               "summary": "UM4IN400-PSCR-TD2",
-              "location": "reservation n° 665990",
+              "location": "salle 55.65.101 (reservation n° 665990)",
               "start": "2025-11-26T12:45:00+00:00",
               "end": "2025-11-26T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251217T225959Z"
@@ -593,5 +593,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-24T06:50:01.597127671+00:00"
+  "updated_at": "2025-09-25T06:50:46.373582486+00:00"
 }

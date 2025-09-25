@@ -785,8 +785,8 @@
           "events": [
             {
               "uid": "87C739D8-F9EF-4765-8DFC-F9FDECF93ACE",
-              "summary": "OIP-AI2D-OIP-TD1",
-              "location": null,
+              "summary": "OIP-AI2D-TD1",
+              "location": "Salle : 24.34.303",
               "start": "2025-09-29T06:30:00+00:00",
               "end": "2025-09-29T10:45:00+00:00"
             }
@@ -798,7 +798,7 @@
           "events": [
             {
               "uid": "67AFAFF1-FBA8-4FE1-9917-413EF8418BF2",
-              "summary": "UM5IN-OIPAI2D-OIP-Gr2",
+              "summary": "OIPAI2D-OIP-Gr2",
               "location": "Salle: 14.24.110",
               "start": "2025-10-03T11:45:00+00:00",
               "end": "2025-10-03T16:00:00+00:00",
@@ -810,7 +810,7 @@
             },
             {
               "uid": "EE6FD59E-8DBC-492C-A555-108FA6654D3E",
-              "summary": "UM5IN-OIPAI2D-OIP-Gr2",
+              "summary": "OIPAI2D-OIP-Gr2",
               "location": "Salle: 14.24.110",
               "start": "2025-11-07T12:45:00+00:00",
               "end": "2025-11-07T17:00:00+00:00",
@@ -824,7 +824,7 @@
           "events": [
             {
               "uid": "7DB9B143-1A0E-46DE-9FCD-F83B2AD14C91",
-              "summary": "UM5IN-OIPAI2D-OIP-Gr3",
+              "summary": "OIP-AI2D-Gr3",
               "location": null,
               "start": "2025-09-29T11:45:00+00:00",
               "end": "2025-09-29T16:00:00+00:00",
@@ -857,5 +857,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-24T06:50:07.807153020+00:00"
+  "updated_at": "2025-09-25T06:50:52.573417960+00:00"
 }
