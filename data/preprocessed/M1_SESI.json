@@ -646,7 +646,7 @@
             {
               "uid": "D2B0FE52-36C4-4F0A-930B-AFE6227C9C1F",
               "summary": "UM4IN104-SIGNAL-Cours annulé",
-              "location": "Reporté ulterieurement",
+              "location": "Reporté le 03/10",
               "start": "2025-09-26T08:45:00+00:00",
               "end": "2025-09-26T09:00:00+00:00"
             },
@@ -705,6 +705,13 @@
               "location": "Salle 24.34.201",
               "start": "2025-12-12T09:45:00+00:00",
               "end": "2025-12-12T11:45:00+00:00"
+            },
+            {
+              "uid": "605E4941-FB3C-4D8F-9A47-91779EF5A132",
+              "summary": "UM4IN104-SIGNAL-Cours (rattrapage du 26/09)",
+              "location": "Salle 14.24.101",
+              "start": "2025-10-03T06:30:00+00:00",
+              "end": "2025-10-03T08:30:00+00:00"
             }
           ]
         },
@@ -1343,5 +1350,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-25T06:50:49.601788717+00:00"
+  "updated_at": "2025-09-26T06:49:16.299586645+00:00"
 }

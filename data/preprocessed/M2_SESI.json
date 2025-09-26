@@ -250,7 +250,7 @@
             {
               "uid": "9771EC79-2CBA-4999-9785-0D806BF7887B",
               "summary": "UM5IN165-IMSE",
-              "location": "Salle SESI : 24.25.307",
+              "location": "Bâtiment Esclangon - Salle 229",
               "start": "2026-01-28T12:45:00+00:00",
               "end": "2026-01-28T17:00:00+00:00",
               "exdates": [
@@ -845,6 +845,20 @@
       "variants": [
         {
           "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "86F25E51-427B-4C10-8583-686A9CD1A312",
+              "summary": "UM5IN156-PBD-HLS-ANNULÉ",
+              "location": "Reporté ulterieurement",
+              "start": "2025-09-25T11:45:00+00:00",
+              "end": "2025-09-25T11:55:00+00:00",
+              "recurrence_id": "2025-09-25T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "CS",
           "events": [
             {
@@ -1034,5 +1048,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-25T06:51:03.414769363+00:00"
+  "updated_at": "2025-09-26T06:49:30.284790765+00:00"
 }
