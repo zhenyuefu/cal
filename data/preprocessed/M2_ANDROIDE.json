@@ -165,26 +165,6 @@
               "end": "2025-11-14T11:45:00+00:00"
             },
             {
-              "uid": "89DF261F-9677-45B0-B351-0AC3E4DC1FF8",
-              "summary": "UM5IN250-COCOMA-TME",
-              "location": "Salle : 1415-509",
-              "start": "2025-09-23T08:45:00+00:00",
-              "end": "2025-09-23T10:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251118T225959Z",
-              "exdates": [
-                "2025-10-28T09:45:00+00:00",
-                "2025-11-11T09:45:00+00:00"
-              ]
-            },
-            {
-              "uid": "89DF261F-9677-45B0-B351-0AC3E4DC1FF8",
-              "summary": "UM5IN250-COCOMA-TME",
-              "location": "TME annulé et reporté au 14 novembre",
-              "start": "2025-10-21T08:45:00+00:00",
-              "end": "2025-10-21T10:45:00+00:00",
-              "recurrence_id": "2025-10-21T08:45:00+00:00"
-            },
-            {
               "uid": "D5BC8248-6326-442F-9C01-5A3C4268F963",
               "summary": "UM5IN250-COCOMA-TME",
               "location": "Salle : 1415-509",
@@ -460,7 +440,7 @@
             {
               "uid": "E1327FD2-7B88-421A-A4D4-3E9C51BFB76C",
               "summary": "UM5IN253-MADI-CS (Rattrapage du 16 octobre)",
-              "location": null,
+              "location": "SALLE : 24.25.105",
               "start": "2025-10-20T06:30:00+00:00",
               "end": "2025-10-20T10:45:00+00:00"
             }
@@ -770,22 +750,22 @@
             {
               "uid": "CEE142A8-5810-41E4-9D05-6E83D720E82A",
               "summary": "UM5IN-OIPAI2D-OIP-Gr1",
-              "location": null,
+              "location": "Salle : 14.24.210",
               "start": "2025-11-17T07:30:00+00:00",
               "end": "2025-11-17T11:45:00+00:00"
             },
             {
               "uid": "131729AD-675B-4C59-BAAB-F5A079755C77",
               "summary": "UM5IN-OIPAI2D-OIP-Gr1",
-              "location": null,
+              "location": "Salle : 24.34.204",
               "start": "2025-12-01T07:30:00+00:00",
               "end": "2025-12-01T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251208T225959Z"
             },
             {
               "uid": "00180257-95CB-44B1-A412-8C61C946D26B",
-              "summary": "UM5IN-OIPAI2D-OIP-Gr1",
-              "location": null,
+              "summary": "OIP-AI2D-Gr1",
+              "location": "Salle :14.24.206",
               "start": "2025-11-03T07:30:00+00:00",
               "end": "2025-11-03T11:45:00+00:00"
             }
@@ -800,7 +780,8 @@
               "summary": "OIP-AI2D-TD1",
               "location": "Salle : 24.34.303",
               "start": "2025-09-29T06:30:00+00:00",
-              "end": "2025-09-29T10:45:00+00:00"
+              "end": "2025-09-29T10:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251013T215959Z"
             }
           ]
         },
@@ -810,7 +791,7 @@
           "events": [
             {
               "uid": "67AFAFF1-FBA8-4FE1-9917-413EF8418BF2",
-              "summary": "OIPAI2D-OIP-Gr2",
+              "summary": "OIP-AI2D-Gr2",
               "location": "Salle: 14.24.110",
               "start": "2025-10-03T11:45:00+00:00",
               "end": "2025-10-03T16:00:00+00:00",
@@ -822,11 +803,26 @@
             },
             {
               "uid": "EE6FD59E-8DBC-492C-A555-108FA6654D3E",
-              "summary": "OIPAI2D-OIP-Gr2",
+              "summary": "OIP-AI2D-Gr2",
               "location": "Salle: 14.24.110",
               "start": "2025-11-07T12:45:00+00:00",
               "end": "2025-11-07T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251107T225959Z"
+            },
+            {
+              "uid": "36C20715-0DAF-4505-B31A-6DC73646A16B",
+              "summary": "OIP-AI2D-Gr2",
+              "location": "Salle : 14.15.102",
+              "start": "2025-12-05T12:45:00+00:00",
+              "end": "2025-12-05T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251212T225959Z"
+            },
+            {
+              "uid": "D5EAEA06-106B-46C4-BEF7-76DE04253213",
+              "summary": "OIP-AI2D-Gr2",
+              "location": "Salle : 24.25.108",
+              "start": "2025-11-21T12:45:00+00:00",
+              "end": "2025-11-21T17:00:00+00:00"
             }
           ]
         },
@@ -837,37 +833,53 @@
             {
               "uid": "7DB9B143-1A0E-46DE-9FCD-F83B2AD14C91",
               "summary": "OIP-AI2D-Gr3",
-              "location": null,
+              "location": "Salle : 56.66.102",
               "start": "2025-09-29T11:45:00+00:00",
               "end": "2025-09-29T16:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251013T215959Z"
             },
             {
               "uid": "BF7B6800-BFF7-4A27-B1A3-98995E9C9734",
-              "summary": "UM5IN-OIPAI2D-OIP-Gr3",
-              "location": null,
+              "summary": "OIP-AI2D-Gr3",
+              "location": "24.34.203",
               "start": "2025-11-03T12:45:00+00:00",
               "end": "2025-11-03T16:55:00+00:00"
             },
             {
               "uid": "AC8FF4A6-35CD-4572-B687-0C01EB5C1F91",
-              "summary": "UM5IN-OIPAI2D-OIP-Gr3",
-              "location": null,
+              "summary": "OIP-AI2D-Gr3",
+              "location": "Salle 23.24.203",
               "start": "2025-11-17T12:45:00+00:00",
               "end": "2025-11-17T17:00:00+00:00"
             },
             {
               "uid": "47A0794A-17D2-4B04-9F9D-3AD6B12637D1",
               "summary": "UM5IN-OIPAI2D-OIP-Gr3",
-              "location": null,
+              "location": "Salle : 56.66.102",
               "start": "2025-12-01T12:45:00+00:00",
               "end": "2025-12-01T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251208T225959Z"
+            },
+            {
+              "uid": "47A0794A-17D2-4B04-9F9D-3AD6B12637D1",
+              "summary": "OIP-AI2D-Gr3",
+              "location": "Salle : 56.66.102",
+              "start": "2025-12-01T12:45:00+00:00",
+              "end": "2025-12-01T17:00:00+00:00",
+              "recurrence_id": "2025-12-01T12:45:00+00:00"
+            },
+            {
+              "uid": "47A0794A-17D2-4B04-9F9D-3AD6B12637D1",
+              "summary": "OIP-AI2D-Gr3",
+              "location": "Salle : 56.66.102",
+              "start": "2025-12-08T12:45:00+00:00",
+              "end": "2025-12-08T17:00:00+00:00",
+              "recurrence_id": "2025-12-08T12:45:00+00:00"
             }
           ]
         }
       ]
     }
   ],
-  "updated_at": "2025-09-26T06:49:19.297290821+00:00"
+  "updated_at": "2025-09-29T06:52:28.838641863+00:00"
 }

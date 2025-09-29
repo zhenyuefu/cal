@@ -94,12 +94,6 @@
       ],
       "source": "M1_STL"
     },
-    "509|M1_STL": {
-      "name": "LS",
-      "code": "509",
-      "groups": [],
-      "source": "M1_STL"
-    },
     "511|M1_STL": {
       "name": "OUV",
       "code": "511",

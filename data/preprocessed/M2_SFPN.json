@@ -725,7 +725,7 @@
             {
               "uid": "D5F5A1E1-F068-45DF-A144-44CDA2C54978",
               "summary": "UM5IN953-POSSO-TD",
-              "location": "Salle: 24.34.103",
+              "location": "Salle: 56.66.107",
               "start": "2025-11-03T12:45:00+00:00",
               "end": "2025-11-03T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251117T124500Z",
@@ -747,7 +747,33 @@
               "location": "Résa n° n° 676951",
               "start": "2025-09-29T11:45:00+00:00",
               "end": "2025-09-29T13:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20250929T215959Z"
+            },
+            {
+              "uid": "84713755-A92C-43B3-926D-2604B9EF5462",
+              "summary": "UM5IN953-POSSO-TD",
+              "location": "Salle: 24.34.103",
+              "start": "2025-09-29T11:45:00+00:00",
+              "end": "2025-09-29T13:45:00+00:00",
+              "recurrence_id": "2025-09-29T11:45:00+00:00"
+            },
+            {
+              "uid": "BD92FD05-9EBE-4400-B60F-5B5AD9E5004A",
+              "summary": "UM5IN953-POSSO-TD",
+              "location": "Salle: 24.34.103",
+              "start": "2025-10-06T11:45:00+00:00",
+              "end": "2025-10-06T13:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251013T215959Z"
+            },
+            {
+              "uid": "11DF5B86-8B3A-4754-9B7D-CE839DEE3050",
+              "summary": "UM5IN953-POSSO-TD",
+              "location": "Salle: 56.66.107",
+              "start": "2025-11-10T12:45:00+00:00",
+              "end": "2025-11-10T14:45:00+00:00",
+              "exdates": [
+                "2025-11-10T12:45:00+00:00"
+              ]
             }
           ]
         },
@@ -758,7 +784,7 @@
             {
               "uid": "62963C06-AC22-417A-9D18-4539A399C0A1",
               "summary": "UM5IN953-POSSO-TME",
-              "location": "Salle 14.15.501",
+              "location": "Salle: 56.66.104",
               "start": "2025-12-01T12:45:00+00:00",
               "end": "2025-12-01T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251215T225959Z"
@@ -978,5 +1004,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-24T06:50:20.872314734+00:00"
+  "updated_at": "2025-09-29T06:52:41.850582839+00:00"
 }
