@@ -286,42 +286,42 @@
             {
               "uid": "73316495-66A1-4BA9-A576-49CB896541DC",
               "summary": "MU5IN757-Meet-U-TME",
-              "location": "Salle en attente",
+              "location": "Salle 14.15.501",
               "start": "2025-10-16T07:00:00+00:00",
               "end": "2025-10-16T10:00:00+00:00"
             },
             {
               "uid": "57B78AD8-3FCE-48FE-88F9-ACE239B92B73",
               "summary": "MU5IN757-Meet-U-TME",
-              "location": "Salle en attente",
+              "location": "Salle 14.15.501",
               "start": "2025-10-23T07:00:00+00:00",
               "end": "2025-10-23T10:00:00+00:00"
             },
             {
               "uid": "FEB5FFF7-4441-4359-B45B-D2E3543BA8C3",
               "summary": "MU5IN757-Meet-U-TME",
-              "location": "Salle en attente",
+              "location": "Salle 14.15.501",
               "start": "2025-11-06T08:00:00+00:00",
               "end": "2025-11-06T11:00:00+00:00"
             },
             {
               "uid": "12160822-EFC6-4964-B1CD-E84C35A47A06",
               "summary": "MU5IN757-Meet-U-TME",
-              "location": "Salle en attente",
+              "location": "Salle 14.15.501",
               "start": "2025-11-20T08:00:00+00:00",
               "end": "2025-11-20T11:00:00+00:00"
             },
             {
               "uid": "EA59E8A2-8292-4692-8083-1A8C3DE2781E",
               "summary": "MU5IN757-Meet-U-TME",
-              "location": "Salle en attente",
+              "location": "Salle 14.15.501",
               "start": "2025-12-04T08:00:00+00:00",
               "end": "2025-12-04T11:00:00+00:00"
             },
             {
               "uid": "8E5504AC-A18C-4DE1-8802-0D247BABA778",
               "summary": "MU5IN757-Meet-U-TME",
-              "location": "Salle en attente",
+              "location": "Salle 14.15.501",
               "start": "2026-01-08T08:00:00+00:00",
               "end": "2026-01-08T11:00:00+00:00"
             }
@@ -870,5 +870,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-29T06:52:36.878013365+00:00"
+  "updated_at": "2025-09-30T06:51:08.584618+00:00"
 }
