@@ -29,40 +29,6 @@
       ]
     },
     {
-      "name": "COCOMA",
-      "code": "250",
-      "special": false,
-      "groups": [],
-      "variants": [
-        {
-          "group": null,
-          "type": "TME",
-          "events": [
-            {
-              "uid": "8ED23124-6E9D-49A8-9834-4C060DE83F54",
-              "summary": "UM5IN250-COCOMA-TME",
-              "location": "Salle : 1415-509",
-              "start": "2025-09-23T08:45:00+00:00",
-              "end": "2025-09-23T10:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251118T225959Z",
-              "exdates": [
-                "2025-10-28T09:45:00+00:00",
-                "2025-11-11T09:45:00+00:00"
-              ]
-            },
-            {
-              "uid": "8ED23124-6E9D-49A8-9834-4C060DE83F54",
-              "summary": "UM5IN250-COCOMA-TME",
-              "location": "TME annulé et reporté au 14 novembre",
-              "start": "2025-10-21T08:45:00+00:00",
-              "end": "2025-10-21T10:45:00+00:00",
-              "recurrence_id": "2025-10-21T08:45:00+00:00"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "IREC",
       "code": "211",
       "special": false,
@@ -481,5 +447,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-30T06:50:48.804675470+00:00"
+  "updated_at": "2025-10-01T06:50:13.509350321+00:00"
 }

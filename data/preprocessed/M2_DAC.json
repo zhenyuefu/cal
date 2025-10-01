@@ -1671,7 +1671,7 @@
             {
               "uid": "01B4CAF3-141E-4C3C-9C3E-90BF432BA024",
               "summary": "UM5IN868-XAI-Cours",
-              "location": "Salle 24.34.112",
+              "location": "Salle 56.66.201BIS",
               "start": "2025-11-04T12:45:00+00:00",
               "end": "2025-11-04T14:45:00+00:00"
             },
@@ -1685,56 +1685,56 @@
             {
               "uid": "B038E89F-B928-4875-B200-4496176E8995",
               "summary": "UM5IN868-Cours-XAI",
-              "location": "Salle 24.34.112",
+              "location": "Salle 56.66.201BIS",
               "start": "2025-12-09T12:45:00+00:00",
               "end": "2025-12-09T14:45:00+00:00"
             },
             {
               "uid": "F9C46484-779F-432E-B5D8-E76666574400",
               "summary": "UM5IN868-XAI-Cours",
-              "location": "Salle 24.34.112",
+              "location": "Salle 56.66.201BIS",
               "start": "2025-09-30T11:45:00+00:00",
               "end": "2025-09-30T13:45:00+00:00"
             },
             {
               "uid": "9DF59AEB-750D-49DE-9593-424B4439DCDB",
               "summary": "UM5IN868-XAI-Cours",
-              "location": "Salle 24.34.112",
+              "location": "Salle 56.66.201BIS",
               "start": "2025-10-07T11:45:00+00:00",
               "end": "2025-10-07T13:45:00+00:00"
             },
             {
               "uid": "8F84E496-70E1-409E-86FA-9FDFCE417C59",
               "summary": "UM5IN868-XAI-Cours",
-              "location": "Salle 24.34.112",
+              "location": "Salle 56.66.201BIS",
               "start": "2025-10-14T11:45:00+00:00",
               "end": "2025-10-14T13:45:00+00:00"
             },
             {
               "uid": "B68B30DF-DFFE-40EA-A1A9-0DE268F285AD",
               "summary": "UM5IN868-XAI-Cours",
-              "location": "Salle 24.34.112",
+              "location": "Salle 56.66.201BIS",
               "start": "2025-10-21T11:45:00+00:00",
               "end": "2025-10-21T13:45:00+00:00"
             },
             {
               "uid": "9FD79461-4C36-41AC-BD9A-B1B094756FC4",
               "summary": "UM5IN868-XAI-Cours",
-              "location": "Salle  24.34.112",
+              "location": "Salle 56.66.201BIS",
               "start": "2025-11-18T12:45:00+00:00",
               "end": "2025-11-18T14:45:00+00:00"
             },
             {
               "uid": "67BBF9E2-122E-487B-B618-ACAF4CE97CA6",
               "summary": "UM5IN868-XAI-Cours",
-              "location": "Salle 24.34.112",
+              "location": "Salle 56.66.201BIS",
               "start": "2025-11-25T12:45:00+00:00",
               "end": "2025-11-25T14:45:00+00:00"
             },
             {
               "uid": "E858A6B6-A509-4E13-B01B-A3EE6C42D281",
               "summary": "UM5IN868-Cours-XAI",
-              "location": "Salle 24.34.112",
+              "location": "Salle 56.66.201BIS",
               "start": "2025-12-02T12:45:00+00:00",
               "end": "2025-12-02T14:45:00+00:00"
             }
@@ -1816,28 +1816,28 @@
             {
               "uid": "97765B7B-C7FD-4FD1-B523-9BE5EF3E5A46",
               "summary": "UM5IN868-XAI-TME",
-              "location": "Salle 24.25.304",
+              "location": "Salle 24.25.302",
               "start": "2025-09-30T14:00:00+00:00",
               "end": "2025-09-30T16:00:00+00:00"
             },
             {
               "uid": "ACB05890-FF69-4215-AAAA-ED641FFBD95A",
               "summary": "UM5IN868-XAI-TME",
-              "location": "Salle 24.25.304",
+              "location": "Salle 24.25.302",
               "start": "2025-10-07T14:00:00+00:00",
               "end": "2025-10-07T16:00:00+00:00"
             },
             {
               "uid": "6975F311-5F3D-41F6-8897-EC6161E9CFFD",
               "summary": "UM5IN868-XAI-TME",
-              "location": "Salle 24.25.304",
+              "location": "Salle 24.25.302",
               "start": "2025-10-14T14:00:00+00:00",
               "end": "2025-10-14T16:00:00+00:00"
             },
             {
               "uid": "1DE0AF5B-215B-477A-B0EF-EA670631447E",
               "summary": "UM5IN868-XAI-TME",
-              "location": "Salle 24.25.304",
+              "location": "Salle 24.25.302",
               "start": "2025-10-21T14:00:00+00:00",
               "end": "2025-10-21T16:00:00+00:00"
             },
@@ -1860,5 +1860,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-30T06:51:04.315889116+00:00"
+  "updated_at": "2025-10-01T06:50:29.068526237+00:00"
 }

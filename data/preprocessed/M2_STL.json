@@ -132,6 +132,244 @@
       ]
     },
     {
+      "name": "ANNULE - UM5IN553-PPC-TME STL",
+      "code": "special",
+      "special": true,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "538C4A21-A9F4-411D-854A-7FD1C3DC6BF1",
+              "summary": "RéunionM2STL - Réunion de rentrée",
+              "location": "Salle 24.34.107",
+              "start": "2025-09-19T11:45:00+00:00",
+              "end": "2025-09-19T13:45:00+00:00"
+            },
+            {
+              "uid": "65AA28DC-EC30-4DCF-A7F2-A0F3F7CF0A19",
+              "summary": "Soutenance Stage Malenfant - BOUMESSAOUD",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-09-12T08:00:00+00:00",
+              "end": "2025-09-12T09:00:00+00:00"
+            },
+            {
+              "uid": "CC37D219-56CF-4483-9DF7-6D8F600D5D35",
+              "summary": "Soutenance Stage Malenfant - HYUNH",
+              "location": "Salle 55.65.105",
+              "start": "2025-09-05T13:00:00+00:00",
+              "end": "2025-09-05T14:00:00+00:00"
+            },
+            {
+              "uid": "E74A68B0-D36F-46F4-B953-231BC5880941",
+              "summary": "Soutenance Stage Genitrini/Peschanski - CARBONNEAU",
+              "location": "Salle STL (14.15.507)",
+              "start": "2025-09-02T08:10:00+00:00",
+              "end": "2025-09-02T08:50:00+00:00"
+            },
+            {
+              "uid": "2BB41EE0-900B-45D8-846C-F7D74D4AA71E",
+              "summary": "Soutenance Stage Genitrini/Peschanski - JAVAID",
+              "location": "Salle STL (14.15.507)",
+              "start": "2025-09-02T07:30:00+00:00",
+              "end": "2025-09-02T08:10:00+00:00"
+            },
+            {
+              "uid": "6CA962F2-3EA8-4ED8-9874-F0E0DEC0F442",
+              "summary": "Soutenance Stage Genitrini/Peschanski - FALL",
+              "location": "Salle STL (14.15.507)",
+              "start": "2025-09-02T09:00:00+00:00",
+              "end": "2025-09-02T09:40:00+00:00"
+            },
+            {
+              "uid": "E41D2A81-CF7D-406C-B178-4E77A2654869",
+              "summary": "Soutenance Stage Genitrini/Peschanski - PERLIN",
+              "location": "Salle STL (14.15.507)",
+              "start": "2025-09-02T09:40:00+00:00",
+              "end": "2025-09-02T10:20:00+00:00"
+            },
+            {
+              "uid": "98BC527E-3642-4023-B833-299FF637851A",
+              "summary": "Soutenance Stage Genitrini/Peschanski - MAHFOUZ",
+              "location": "Salle STL (14.15.507)",
+              "start": "2025-09-02T12:10:00+00:00",
+              "end": "2025-09-02T12:50:00+00:00"
+            },
+            {
+              "uid": "E4625B11-BD08-49FC-AAA6-EB364555FC73",
+              "summary": "Soutenance Stage Genitrini/Peschanski - XUE",
+              "location": "Salle STL (14.15.507)",
+              "start": "2025-09-02T13:30:00+00:00",
+              "end": "2025-09-02T14:10:00+00:00"
+            },
+            {
+              "uid": "F89BE71D-5DAC-4F70-B6D9-2BD6DE486261",
+              "summary": "Soutenance Stage Genitrini/Peschanski - ZUHAIR",
+              "location": "Salle 14.24.105",
+              "start": "2025-09-04T07:10:00+00:00",
+              "end": "2025-09-04T07:50:00+00:00"
+            },
+            {
+              "uid": "A15E3FC1-3032-4423-B6EC-352A3A814BC2",
+              "summary": "Soutenance Stage Genitrini/Peschanski - LUONG",
+              "location": "Salle 14.24.105",
+              "start": "2025-09-04T07:50:00+00:00",
+              "end": "2025-09-04T08:30:00+00:00"
+            },
+            {
+              "uid": "AB777EA9-25F2-4AC4-855C-CE55C15371E0",
+              "summary": "Soutenance Stage Genitrini/Peschanski - LI",
+              "location": "Salle 14.24.105",
+              "start": "2025-09-04T08:30:00+00:00",
+              "end": "2025-09-04T09:10:00+00:00"
+            },
+            {
+              "uid": "6C5AA0F4-BBB8-495A-9AEF-D9D5C173F976",
+              "summary": "Soutenance Stage Genitrini/Peschanski - GAUDIN",
+              "location": "Salle 14.24.105",
+              "start": "2025-09-04T09:10:00+00:00",
+              "end": "2025-09-04T09:50:00+00:00"
+            },
+            {
+              "uid": "27DC0223-D1F2-439A-882F-D879EC2675D7",
+              "summary": "Soutenance Stage Genitrini/Peschanski - NAHARI",
+              "location": "Salle 14.24.105",
+              "start": "2025-09-04T09:50:00+00:00",
+              "end": "2025-09-04T10:30:00+00:00"
+            },
+            {
+              "uid": "AB993C3E-57B0-4196-8773-9D161D54D964",
+              "summary": "Soutenance Stage Miné/Truchet - VICENTE",
+              "location": "Salle 14.24.103",
+              "start": "2025-09-03T07:00:00+00:00",
+              "end": "2025-09-03T07:45:00+00:00"
+            },
+            {
+              "uid": "85D3DF0B-57AC-486A-AF71-FF62E2D09F71",
+              "summary": "Soutenance Stage Miné/Truchet - GLASZIOU",
+              "location": "Salle 14.24.103",
+              "start": "2025-09-03T07:45:00+00:00",
+              "end": "2025-09-03T08:30:00+00:00"
+            },
+            {
+              "uid": "6B1A138B-8A39-49BF-9D74-BD3186587C68",
+              "summary": "Soutenance Stage Miné/Truchet -  FAN",
+              "location": "Salle 14.24.103",
+              "start": "2025-09-03T08:30:00+00:00",
+              "end": "2025-09-03T09:15:00+00:00"
+            },
+            {
+              "uid": "DD0EB1EC-352B-4FD6-8F1F-5F17161D9964",
+              "summary": "Soutenance Stage Miné/Truchet - HERNANDEZ-YEPES",
+              "location": "Salle 14.24.103",
+              "start": "2025-09-03T09:15:00+00:00",
+              "end": "2025-09-03T10:00:00+00:00"
+            },
+            {
+              "uid": "6508D01A-70E6-4FE4-9CEE-7A3FED865223",
+              "summary": "Soutenance Stage Miné/Truchet - RATTANAVAN",
+              "location": "Salle 14.24.103",
+              "start": "2025-09-03T11:30:00+00:00",
+              "end": "2025-09-03T12:15:00+00:00"
+            },
+            {
+              "uid": "72652D36-01C2-4DE9-902F-D861D73AEBAF",
+              "summary": "Soutenance Stage Miné/Truchet - UTHAYAKUMAR",
+              "location": "Salle 14.24.103",
+              "start": "2025-09-03T12:15:00+00:00",
+              "end": "2025-09-03T13:00:00+00:00"
+            },
+            {
+              "uid": "F375A6F4-2831-4AC9-90BF-F66C57AB67CE",
+              "summary": "Soutenance Stage Miné/Truchet - CAO",
+              "location": "Salle 14.24.103",
+              "start": "2025-09-03T13:00:00+00:00",
+              "end": "2025-09-03T13:45:00+00:00"
+            },
+            {
+              "uid": "4BBC810A-B5F0-4606-8B6E-C13F6E898394",
+              "summary": "Soutenance Stage Miné/Truchet - PHAM",
+              "location": "Salle 14.24.103",
+              "start": "2025-09-03T14:00:00+00:00",
+              "end": "2025-09-03T14:45:00+00:00"
+            },
+            {
+              "uid": "137D9505-94F2-4305-AED0-FD4BAFF88687",
+              "summary": "Soutenance Stage Miné/Truchet - BENSAID",
+              "location": "Salle 14.24.103",
+              "start": "2025-09-03T14:45:00+00:00",
+              "end": "2025-09-03T15:30:00+00:00"
+            },
+            {
+              "uid": "65EB483C-91B1-4C40-8D8D-3F07DD3C9E01",
+              "summary": "Soutenance Stage Miné - SANTONI",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-09-05T12:00:00+00:00",
+              "end": "2025-09-05T12:45:00+00:00"
+            },
+            {
+              "uid": "45081D8E-30DF-44B1-95DC-CD3FB9567669",
+              "summary": "Soutenance Stage Miné - EL ABBOUD",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-09-05T12:45:00+00:00",
+              "end": "2025-09-05T13:30:00+00:00"
+            },
+            {
+              "uid": "1F52DA55-C144-437C-8BBB-61BE487301AC",
+              "summary": "Soutenance Stage Miné - CHETOUANI",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-09-05T13:30:00+00:00",
+              "end": "2025-09-05T14:15:00+00:00"
+            },
+            {
+              "uid": "9C7E423B-E8A6-4AFB-BCAF-A602E1BF8484",
+              "summary": "Soutenance Stage Miné - DESMAZIERES",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-09-05T14:15:00+00:00",
+              "end": "2025-09-05T15:00:00+00:00"
+            },
+            {
+              "uid": "95D18B0D-DBCE-41BA-94C7-89924D327B8C",
+              "summary": "Soutenance Stage Naima - HONG",
+              "location": "Salle 14.24.108",
+              "start": "2025-09-04T07:00:00+00:00",
+              "end": "2025-09-04T07:45:00+00:00"
+            },
+            {
+              "uid": "252F71C2-1792-4AD5-8A6C-BFBCD8B1156B",
+              "summary": "Soutenance Stage Naima - ZEMALI",
+              "location": "Salle 14.24.108",
+              "start": "2025-09-04T08:30:00+00:00",
+              "end": "2025-09-04T09:15:00+00:00"
+            },
+            {
+              "uid": "DCE698CB-7BDC-4D5B-9604-091D02251B8C",
+              "summary": "Soutenance Stage Naima - ZHUANG",
+              "location": "Salle 14.24.108",
+              "start": "2025-09-04T09:15:00+00:00",
+              "end": "2025-09-04T10:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "3EB91373-E80E-4219-B7E5-E3B4CEEB9BF2",
+              "summary": "ANNULE - UM5IN553-PPC-TME STL",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2025-10-01T08:45:00+00:00",
+              "end": "2025-10-01T10:45:00+00:00",
+              "recurrence_id": "2025-10-01T08:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "DAAR",
       "code": "552",
       "special": false,
@@ -518,230 +756,13 @@
                 "2025-12-24T09:45:00+00:00",
                 "2025-12-31T09:45:00+00:00"
               ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "RéunionM2STL - Réunion de rentrée",
-      "code": "special",
-      "special": true,
-      "groups": [],
-      "variants": [
-        {
-          "group": null,
-          "type": null,
-          "events": [
-            {
-              "uid": "538C4A21-A9F4-411D-854A-7FD1C3DC6BF1",
-              "summary": "RéunionM2STL - Réunion de rentrée",
-              "location": "Salle 24.34.107",
-              "start": "2025-09-19T11:45:00+00:00",
-              "end": "2025-09-19T13:45:00+00:00"
             },
             {
-              "uid": "65AA28DC-EC30-4DCF-A7F2-A0F3F7CF0A19",
-              "summary": "Soutenance Stage Malenfant - BOUMESSAOUD",
+              "uid": "EC26F58E-E518-4D17-96EB-E567ABDFEC4F",
+              "summary": "UM5IN553-PPC-TME STL",
               "location": "Salle 14.15.507 (STL)",
-              "start": "2025-09-12T08:00:00+00:00",
-              "end": "2025-09-12T09:00:00+00:00"
-            },
-            {
-              "uid": "CC37D219-56CF-4483-9DF7-6D8F600D5D35",
-              "summary": "Soutenance Stage Malenfant - HYUNH",
-              "location": "Salle 55.65.105",
-              "start": "2025-09-05T13:00:00+00:00",
-              "end": "2025-09-05T14:00:00+00:00"
-            },
-            {
-              "uid": "E74A68B0-D36F-46F4-B953-231BC5880941",
-              "summary": "Soutenance Stage Genitrini/Peschanski - CARBONNEAU",
-              "location": "Salle STL (14.15.507)",
-              "start": "2025-09-02T08:10:00+00:00",
-              "end": "2025-09-02T08:50:00+00:00"
-            },
-            {
-              "uid": "2BB41EE0-900B-45D8-846C-F7D74D4AA71E",
-              "summary": "Soutenance Stage Genitrini/Peschanski - JAVAID",
-              "location": "Salle STL (14.15.507)",
-              "start": "2025-09-02T07:30:00+00:00",
-              "end": "2025-09-02T08:10:00+00:00"
-            },
-            {
-              "uid": "6CA962F2-3EA8-4ED8-9874-F0E0DEC0F442",
-              "summary": "Soutenance Stage Genitrini/Peschanski - FALL",
-              "location": "Salle STL (14.15.507)",
-              "start": "2025-09-02T09:00:00+00:00",
-              "end": "2025-09-02T09:40:00+00:00"
-            },
-            {
-              "uid": "E41D2A81-CF7D-406C-B178-4E77A2654869",
-              "summary": "Soutenance Stage Genitrini/Peschanski - PERLIN",
-              "location": "Salle STL (14.15.507)",
-              "start": "2025-09-02T09:40:00+00:00",
-              "end": "2025-09-02T10:20:00+00:00"
-            },
-            {
-              "uid": "98BC527E-3642-4023-B833-299FF637851A",
-              "summary": "Soutenance Stage Genitrini/Peschanski - MAHFOUZ",
-              "location": "Salle STL (14.15.507)",
-              "start": "2025-09-02T12:10:00+00:00",
-              "end": "2025-09-02T12:50:00+00:00"
-            },
-            {
-              "uid": "E4625B11-BD08-49FC-AAA6-EB364555FC73",
-              "summary": "Soutenance Stage Genitrini/Peschanski - XUE",
-              "location": "Salle STL (14.15.507)",
-              "start": "2025-09-02T13:30:00+00:00",
-              "end": "2025-09-02T14:10:00+00:00"
-            },
-            {
-              "uid": "F89BE71D-5DAC-4F70-B6D9-2BD6DE486261",
-              "summary": "Soutenance Stage Genitrini/Peschanski - ZUHAIR",
-              "location": "Salle 14.24.105",
-              "start": "2025-09-04T07:10:00+00:00",
-              "end": "2025-09-04T07:50:00+00:00"
-            },
-            {
-              "uid": "A15E3FC1-3032-4423-B6EC-352A3A814BC2",
-              "summary": "Soutenance Stage Genitrini/Peschanski - LUONG",
-              "location": "Salle 14.24.105",
-              "start": "2025-09-04T07:50:00+00:00",
-              "end": "2025-09-04T08:30:00+00:00"
-            },
-            {
-              "uid": "AB777EA9-25F2-4AC4-855C-CE55C15371E0",
-              "summary": "Soutenance Stage Genitrini/Peschanski - LI",
-              "location": "Salle 14.24.105",
-              "start": "2025-09-04T08:30:00+00:00",
-              "end": "2025-09-04T09:10:00+00:00"
-            },
-            {
-              "uid": "6C5AA0F4-BBB8-495A-9AEF-D9D5C173F976",
-              "summary": "Soutenance Stage Genitrini/Peschanski - GAUDIN",
-              "location": "Salle 14.24.105",
-              "start": "2025-09-04T09:10:00+00:00",
-              "end": "2025-09-04T09:50:00+00:00"
-            },
-            {
-              "uid": "27DC0223-D1F2-439A-882F-D879EC2675D7",
-              "summary": "Soutenance Stage Genitrini/Peschanski - NAHARI",
-              "location": "Salle 14.24.105",
-              "start": "2025-09-04T09:50:00+00:00",
-              "end": "2025-09-04T10:30:00+00:00"
-            },
-            {
-              "uid": "AB993C3E-57B0-4196-8773-9D161D54D964",
-              "summary": "Soutenance Stage Miné/Truchet - VICENTE",
-              "location": "Salle 14.24.103",
-              "start": "2025-09-03T07:00:00+00:00",
-              "end": "2025-09-03T07:45:00+00:00"
-            },
-            {
-              "uid": "85D3DF0B-57AC-486A-AF71-FF62E2D09F71",
-              "summary": "Soutenance Stage Miné/Truchet - GLASZIOU",
-              "location": "Salle 14.24.103",
-              "start": "2025-09-03T07:45:00+00:00",
-              "end": "2025-09-03T08:30:00+00:00"
-            },
-            {
-              "uid": "6B1A138B-8A39-49BF-9D74-BD3186587C68",
-              "summary": "Soutenance Stage Miné/Truchet -  FAN",
-              "location": "Salle 14.24.103",
-              "start": "2025-09-03T08:30:00+00:00",
-              "end": "2025-09-03T09:15:00+00:00"
-            },
-            {
-              "uid": "DD0EB1EC-352B-4FD6-8F1F-5F17161D9964",
-              "summary": "Soutenance Stage Miné/Truchet - HERNANDEZ-YEPES",
-              "location": "Salle 14.24.103",
-              "start": "2025-09-03T09:15:00+00:00",
-              "end": "2025-09-03T10:00:00+00:00"
-            },
-            {
-              "uid": "6508D01A-70E6-4FE4-9CEE-7A3FED865223",
-              "summary": "Soutenance Stage Miné/Truchet - RATTANAVAN",
-              "location": "Salle 14.24.103",
-              "start": "2025-09-03T11:30:00+00:00",
-              "end": "2025-09-03T12:15:00+00:00"
-            },
-            {
-              "uid": "72652D36-01C2-4DE9-902F-D861D73AEBAF",
-              "summary": "Soutenance Stage Miné/Truchet - UTHAYAKUMAR",
-              "location": "Salle 14.24.103",
-              "start": "2025-09-03T12:15:00+00:00",
-              "end": "2025-09-03T13:00:00+00:00"
-            },
-            {
-              "uid": "F375A6F4-2831-4AC9-90BF-F66C57AB67CE",
-              "summary": "Soutenance Stage Miné/Truchet - CAO",
-              "location": "Salle 14.24.103",
-              "start": "2025-09-03T13:00:00+00:00",
-              "end": "2025-09-03T13:45:00+00:00"
-            },
-            {
-              "uid": "4BBC810A-B5F0-4606-8B6E-C13F6E898394",
-              "summary": "Soutenance Stage Miné/Truchet - PHAM",
-              "location": "Salle 14.24.103",
-              "start": "2025-09-03T14:00:00+00:00",
-              "end": "2025-09-03T14:45:00+00:00"
-            },
-            {
-              "uid": "137D9505-94F2-4305-AED0-FD4BAFF88687",
-              "summary": "Soutenance Stage Miné/Truchet - BENSAID",
-              "location": "Salle 14.24.103",
-              "start": "2025-09-03T14:45:00+00:00",
-              "end": "2025-09-03T15:30:00+00:00"
-            },
-            {
-              "uid": "65EB483C-91B1-4C40-8D8D-3F07DD3C9E01",
-              "summary": "Soutenance Stage Miné - SANTONI",
-              "location": "Salle 14.15.507 (STL)",
-              "start": "2025-09-05T12:00:00+00:00",
-              "end": "2025-09-05T12:45:00+00:00"
-            },
-            {
-              "uid": "45081D8E-30DF-44B1-95DC-CD3FB9567669",
-              "summary": "Soutenance Stage Miné - EL ABBOUD",
-              "location": "Salle 14.15.507 (STL)",
-              "start": "2025-09-05T12:45:00+00:00",
-              "end": "2025-09-05T13:30:00+00:00"
-            },
-            {
-              "uid": "1F52DA55-C144-437C-8BBB-61BE487301AC",
-              "summary": "Soutenance Stage Miné - CHETOUANI",
-              "location": "Salle 14.15.507 (STL)",
-              "start": "2025-09-05T13:30:00+00:00",
-              "end": "2025-09-05T14:15:00+00:00"
-            },
-            {
-              "uid": "9C7E423B-E8A6-4AFB-BCAF-A602E1BF8484",
-              "summary": "Soutenance Stage Miné - DESMAZIERES",
-              "location": "Salle 14.15.507 (STL)",
-              "start": "2025-09-05T14:15:00+00:00",
-              "end": "2025-09-05T15:00:00+00:00"
-            },
-            {
-              "uid": "95D18B0D-DBCE-41BA-94C7-89924D327B8C",
-              "summary": "Soutenance Stage Naima - HONG",
-              "location": "Salle 14.24.108",
-              "start": "2025-09-04T07:00:00+00:00",
-              "end": "2025-09-04T07:45:00+00:00"
-            },
-            {
-              "uid": "252F71C2-1792-4AD5-8A6C-BFBCD8B1156B",
-              "summary": "Soutenance Stage Naima - ZEMALI",
-              "location": "Salle 14.24.108",
-              "start": "2025-09-04T08:30:00+00:00",
-              "end": "2025-09-04T09:15:00+00:00"
-            },
-            {
-              "uid": "DCE698CB-7BDC-4D5B-9604-091D02251B8C",
-              "summary": "Soutenance Stage Naima - ZHUANG",
-              "location": "Salle 14.24.108",
-              "start": "2025-09-04T09:15:00+00:00",
-              "end": "2025-09-04T10:00:00+00:00"
+              "start": "2025-10-07T06:30:00+00:00",
+              "end": "2025-10-07T08:30:00+00:00"
             }
           ]
         }
@@ -933,5 +954,5 @@
       ]
     }
   ],
-  "updated_at": "2025-09-30T06:51:06.258886700+00:00"
+  "updated_at": "2025-10-01T06:50:31.045199971+00:00"
 }
