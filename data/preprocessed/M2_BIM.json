@@ -177,6 +177,22 @@
               ]
             },
             {
+              "uid": "7022299B-FB2F-4372-AE73-C256434FF38D",
+              "summary": "UM5IN752-GPOP-Cours",
+              "location": "Annulé ce jour",
+              "start": "2025-10-01T11:45:00+00:00",
+              "end": "2025-10-01T13:45:00+00:00",
+              "recurrence_id": "2025-10-01T11:45:00+00:00"
+            },
+            {
+              "uid": "7022299B-FB2F-4372-AE73-C256434FF38D",
+              "summary": "UM5IN752-GPOP-Cours",
+              "location": "Annulé ce jour",
+              "start": "2025-10-08T11:45:00+00:00",
+              "end": "2025-10-08T13:45:00+00:00",
+              "recurrence_id": "2025-10-08T11:45:00+00:00"
+            },
+            {
               "uid": "FB334F08-F495-4218-858F-C63C00C570F1",
               "summary": "UM5IN752-GPOP-Cours",
               "location": "Salle 24.34.112",
@@ -203,7 +219,7 @@
             {
               "uid": "C0FF9836-2F39-4565-B2F6-3CFE7DE5C79A",
               "summary": "UM5IN752-GPOP-Cours",
-              "location": "Salle 24.34.112",
+              "location": "Annulé ce jour",
               "start": "2025-10-07T11:45:00+00:00",
               "end": "2025-10-07T13:45:00+00:00",
               "recurrence_id": "2025-10-07T11:45:00+00:00"
@@ -902,5 +918,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-01T06:50:33.444302453+00:00"
+  "updated_at": "2025-10-02T06:48:52.222677959+00:00"
 }

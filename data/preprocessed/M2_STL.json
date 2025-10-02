@@ -56,6 +56,19 @@
         },
         {
           "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "24746DBB-E9FE-4891-A40D-3E935EB2BCC9",
+              "summary": "UM5IN550-AAGA-ExamenR1",
+              "location": "Résa n°677855",
+              "start": "2025-11-28T12:45:00+00:00",
+              "end": "2025-11-28T14:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "TME",
           "events": [
             {
@@ -93,6 +106,27 @@
       "special": false,
       "groups": [],
       "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "F87C118A-DD42-42D3-9E4E-FBA55FEAF09F",
+              "summary": "UM5IN551-ALASCA-Soutenances",
+              "location": "Salle STL (14.15.507)",
+              "start": "2025-11-26T12:45:00+00:00",
+              "end": "2025-11-26T17:00:00+00:00",
+              "exdates": [
+                "2025-10-29T12:45:00+00:00",
+                "2025-11-12T12:45:00+00:00",
+                "2025-11-26T12:45:00+00:00",
+                "2025-12-24T12:45:00+00:00",
+                "2025-12-31T12:45:00+00:00",
+                "2026-01-14T12:45:00+00:00"
+              ]
+            }
+          ]
+        },
         {
           "group": null,
           "type": "TME",
@@ -472,6 +506,20 @@
       "variants": [
         {
           "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "8B558199-4827-4509-8EE6-17630C242703",
+              "summary": "UM5IN558-GPSTL-Soutenances",
+              "location": "Salle 14.15.503",
+              "start": "2026-01-30T08:00:00+00:00",
+              "end": "2026-01-30T11:00:00+00:00",
+              "recurrence_id": "2026-01-30T07:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "TME",
           "events": [
             {
@@ -740,6 +788,19 @@
         },
         {
           "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "A22BAD6F-3194-411C-B3EC-67ADF17697E6",
+              "summary": "UM5IN553-PPC-ExamenR1",
+              "location": "Résa n°677856",
+              "start": "2025-11-26T09:45:00+00:00",
+              "end": "2025-11-26T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "TME",
           "events": [
             {
@@ -932,6 +993,24 @@
       "variants": [
         {
           "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "B0A761F9-B79D-4D18-A28D-683E8766D95B",
+              "summary": "MU5IN562-TPEA-ExamenR1 - Clearsy",
+              "location": null,
+              "start": "2025-11-24T12:45:00+00:00",
+              "end": "2025-11-24T15:45:00+00:00",
+              "exdates": [
+                "2024-11-18T12:45:00+00:00",
+                "2024-12-23T12:45:00+00:00",
+                "2024-12-30T12:45:00+00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "TME",
           "events": [
             {
@@ -954,5 +1033,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-01T06:50:31.045199971+00:00"
+  "updated_at": "2025-10-02T06:48:49.777324863+00:00"
 }

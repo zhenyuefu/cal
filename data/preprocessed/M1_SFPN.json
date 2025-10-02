@@ -56,6 +56,19 @@
           ]
         },
         {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "1D9AB724-1340-4FB9-B4CD-E03A25AA6362",
+              "summary": "UM4IN900-COMPLEX-ExamenR1",
+              "location": null,
+              "start": "2025-11-20T09:45:00+00:00",
+              "end": "2025-11-20T11:45:00+00:00"
+            }
+          ]
+        },
+        {
           "group": "1",
           "type": "TD",
           "events": [
@@ -298,6 +311,19 @@
               "location": "Salle: 24.34.201",
               "start": "2025-11-07T07:30:00+00:00",
               "end": "2025-11-07T09:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "4BFBCBD3-D55E-4620-BDB6-FC816461D184",
+              "summary": "UM4IN901-MODEL-ExamenR1 (EN)",
+              "location": null,
+              "start": "2025-11-21T07:30:00+00:00",
+              "end": "2025-11-21T09:30:00+00:00"
             }
           ]
         },
@@ -574,6 +600,19 @@
           ]
         },
         {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "A842FB1A-40F9-4D69-8F57-2863456881F2",
+              "summary": "UM4IN905-SC-ExamenR1",
+              "location": "Salle 14.15.301/302",
+              "start": "2025-11-17T10:00:00+00:00",
+              "end": "2025-11-17T12:00:00+00:00"
+            }
+          ]
+        },
+        {
           "group": "2",
           "type": "TME",
           "events": [
@@ -633,5 +672,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-01T06:50:23.086417334+00:00"
+  "updated_at": "2025-10-02T06:48:41.617724929+00:00"
 }
