@@ -96,9 +96,9 @@
             {
               "uid": "F3B44575-F9F9-42EC-BFE6-773A1873047F",
               "summary": "UM4IN100-ARCHI-ER1",
-              "location": null,
-              "start": "2025-11-20T12:45:00+00:00",
-              "end": "2025-11-20T14:45:00+00:00"
+              "location": "Réservation : 677987",
+              "start": "2025-11-20T15:00:00+00:00",
+              "end": "2025-11-20T17:00:00+00:00"
             },
             {
               "uid": "BA39B353-1D7D-4A09-B8C2-5CDC0E3F716D",
@@ -525,7 +525,7 @@
             {
               "uid": "C749099B-6E6E-478B-9D03-35681DD7E790",
               "summary": "UM4IN103-MOBJ-ER1",
-              "location": "Réservation : 677628",
+              "location": "AMPHI.55A",
               "start": "2025-11-17T07:30:00+00:00",
               "end": "2025-11-17T09:30:00+00:00"
             },
@@ -708,10 +708,10 @@
             },
             {
               "uid": "605E4941-FB3C-4D8F-9A47-91779EF5A132",
-              "summary": "UM4IN104-SIGNAL-Cours (rattrapage du 26/09)",
-              "location": "Salle 14.24.101",
+              "summary": "UM4IN104-SIGNAL-Cours annulé",
+              "location": null,
               "start": "2025-10-03T06:30:00+00:00",
-              "end": "2025-10-03T08:30:00+00:00"
+              "end": "2025-10-03T06:45:00+00:00"
             }
           ]
         },
@@ -1217,9 +1217,9 @@
             {
               "uid": "254BA7A3-F49B-4CD7-94BF-3CECE3C7A117",
               "summary": "UM4IN101-VLSI-ER1",
-              "location": null,
-              "start": "2025-11-20T15:00:00+00:00",
-              "end": "2025-11-20T17:00:00+00:00"
+              "location": "Réservation : 677992",
+              "start": "2025-11-19T09:45:00+00:00",
+              "end": "2025-11-19T11:45:00+00:00"
             },
             {
               "uid": "9C7F1F8C-2FBB-4706-AE64-BD965E015822",
@@ -1350,5 +1350,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-02T06:48:40.281467394+00:00"
+  "updated_at": "2025-10-03T06:48:34.671775037+00:00"
 }

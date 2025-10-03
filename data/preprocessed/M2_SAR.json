@@ -43,7 +43,7 @@
             {
               "uid": "1237D5C3-AE25-4574-8EB3-9923AE86C30A",
               "summary": "UM5IN450-ARA-ExamenR1",
-              "location": "salle SAR(14.15.508)",
+              "location": null,
               "start": "2025-11-25T09:45:00+00:00",
               "end": "2025-11-25T11:45:00+00:00",
               "recurrence_id": "2025-11-25T09:45:00+00:00"
@@ -127,7 +127,7 @@
             {
               "uid": "A793D66D-6AC5-469E-A10C-5C9F5CDDE7AA",
               "summary": "UM5IN455-ASTRE-ExamenR1",
-              "location": "salle SAR(14.15.508)",
+              "location": null,
               "start": "2025-11-27T12:45:00+00:00",
               "end": "2025-11-27T14:45:00+00:00",
               "recurrence_id": "2025-11-27T12:45:00+00:00"
@@ -233,7 +233,7 @@
             {
               "uid": "0C797CBB-8F10-4A9C-B1FB-6333F213DEA7",
               "summary": "UM5IN451-DATACLOUD-ExamenR1",
-              "location": "salle SAR(14.15.508)",
+              "location": null,
               "start": "2025-11-25T12:45:00+00:00",
               "end": "2025-11-25T14:45:00+00:00",
               "recurrence_id": "2025-11-25T12:45:00+00:00"
@@ -463,5 +463,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-02T06:48:53.016825179+00:00"
+  "updated_at": "2025-10-03T06:48:47.624669355+00:00"
 }
