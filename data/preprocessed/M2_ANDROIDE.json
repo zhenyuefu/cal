@@ -538,6 +538,26 @@
       "variants": [
         {
           "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "F45A0161-EACA-48FB-8022-8711E53D950C",
+              "summary": "UM5IN251-MAOA-CS (reservation n° 678086)",
+              "location": null,
+              "start": "2025-11-14T12:45:00+00:00",
+              "end": "2025-11-14T14:45:00+00:00"
+            },
+            {
+              "uid": "E24477D0-8620-4FFC-A3F3-59F68A4C27C6",
+              "summary": "UM5IN251-MAOA-CS (reservation n° 678086)",
+              "location": null,
+              "start": "2025-11-14T15:00:00+00:00",
+              "end": "2025-11-14T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "TD",
           "events": [
             {
@@ -553,6 +573,14 @@
               ]
             },
             {
+              "uid": "DB9DE0FB-0144-489B-8364-5B7B6A35A169",
+              "summary": "UM5IN251-MAOA-TD ( n° 668745)",
+              "location": "Salle: 23.24.202",
+              "start": "2025-10-22T08:45:00+00:00",
+              "end": "2025-10-22T10:45:00+00:00",
+              "recurrence_id": "2025-10-22T06:30:00+00:00"
+            },
+            {
               "uid": "FA18D794-FAC6-44F4-A90E-3D97A54AEC0C",
               "summary": "UM5IN251-MAOA-TD (n° 668748)",
               "location": null,
@@ -562,6 +590,13 @@
               "exdates": [
                 "2025-11-26T07:30:00+00:00"
               ]
+            },
+            {
+              "uid": "624E3267-BFEA-492A-9537-FF413EC4E8C1",
+              "summary": "UM5IN251-MAOA-TD ( n° 668745)",
+              "location": "Salle 23-24-202",
+              "start": "2025-11-19T09:45:00+00:00",
+              "end": "2025-11-19T11:45:00+00:00"
             }
           ]
         }
@@ -599,7 +634,7 @@
               "location": "Salle: 24.25.108",
               "start": "2025-10-06T06:30:00+00:00",
               "end": "2025-10-06T08:30:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251110T225959Z",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251103T073000Z",
               "exdates": [
                 "2025-10-20T06:30:00+00:00",
                 "2025-10-27T07:30:00+00:00"
@@ -901,5 +936,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-03T06:48:37.921152507+00:00"
+  "updated_at": "2025-10-06T06:50:49.977051667+00:00"
 }

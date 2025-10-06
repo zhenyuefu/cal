@@ -497,6 +497,15 @@
       ],
       "source": "M2_BIM"
     },
+    "754|M2_DAC": {
+      "name": "RESYS",
+      "code": "754",
+      "groups": [
+        "1",
+        "2"
+      ],
+      "source": "M2_DAC"
+    },
     "755|M2_BIM": {
       "name": "STRUCT",
       "code": "755",

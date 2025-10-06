@@ -120,7 +120,7 @@
             {
               "uid": "86C69AF7-0560-4B66-8F41-B1ACF5AE135F",
               "summary": "UM4IN900-COMPLEX-TME1",
-              "location": "Salle 14.15.502",
+              "location": "1",
               "start": "2025-11-03T07:30:00+00:00",
               "end": "2025-11-03T09:30:00+00:00",
               "recurrence_id": "2025-11-03T07:30:00+00:00"
@@ -445,6 +445,14 @@
               "rrule": "FREQ=WEEKLY;UNTIL=20251110T225959Z"
             },
             {
+              "uid": "E354EB1D-E7B1-447D-AD00-B45CBEC6A3E3",
+              "summary": "UM4IN901-MODEL- (EN) TME2",
+              "location": "Salle 14.15.502",
+              "start": "2025-11-03T07:30:00+00:00",
+              "end": "2025-11-03T09:30:00+00:00",
+              "recurrence_id": "2025-11-03T07:30:00+00:00"
+            },
+            {
               "uid": "E42FBC0F-9B89-4793-9FD8-CDA815F1185A",
               "summary": "UM4IN901-MODEL- (EN) TME2",
               "location": "Salle 14.15.501",
@@ -665,5 +673,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-03T06:48:36.005164169+00:00"
+  "updated_at": "2025-10-06T06:50:48.029916410+00:00"
 }
