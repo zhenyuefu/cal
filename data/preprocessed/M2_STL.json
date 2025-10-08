@@ -61,7 +61,7 @@
             {
               "uid": "24746DBB-E9FE-4891-A40D-3E935EB2BCC9",
               "summary": "UM5IN550-AAGA-ExamenR1",
-              "location": "Résa n°677855",
+              "location": "Salle AMPHI 56B",
               "start": "2025-11-28T12:45:00+00:00",
               "end": "2025-11-28T14:45:00+00:00"
             }
@@ -800,7 +800,7 @@
             {
               "uid": "A22BAD6F-3194-411C-B3EC-67ADF17697E6",
               "summary": "UM5IN553-PPC-ExamenR1",
-              "location": "Résa n°677856",
+              "location": "AMPHI 34A",
               "start": "2025-11-26T09:45:00+00:00",
               "end": "2025-11-26T11:45:00+00:00"
             }
@@ -1005,7 +1005,7 @@
             {
               "uid": "B0A761F9-B79D-4D18-A28D-683E8766D95B",
               "summary": "MU5IN562-TPEA-ExamenR1 - Clearsy",
-              "location": "Résa n°677883",
+              "location": "Salle 24.34.201",
               "start": "2025-11-24T12:45:00+00:00",
               "end": "2025-11-24T15:45:00+00:00",
               "exdates": [
@@ -1040,5 +1040,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-07T06:50:03.056979517+00:00"
+  "updated_at": "2025-10-08T06:50:24.927911156+00:00"
 }
