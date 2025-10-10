@@ -8,8 +8,7 @@
       "special": false,
       "groups": [
         "1",
-        "2",
-        "3"
+        "2"
       ],
       "variants": [
         {
@@ -22,7 +21,7 @@
               "location": "Amphi 55A",
               "start": "2025-09-18T08:45:00+00:00",
               "end": "2025-09-18T10:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251009T215959Z"
+              "rrule": "FREQ=WEEKLY;UNTIL=20250925T215959Z"
             },
             {
               "uid": "7BFBC6C4-3C0A-4669-A1C9-B53995286C4A",
@@ -52,6 +51,30 @@
               "location": "Amphi 55A",
               "start": "2025-10-20T08:45:00+00:00",
               "end": "2025-10-20T10:45:00+00:00"
+            },
+            {
+              "uid": "42D892B0-AAAC-45A9-A337-BB26522FC193",
+              "summary": "UM4IN900-COMPLEX-Cours",
+              "location": "AMPHI.34A",
+              "start": "2025-10-02T08:45:00+00:00",
+              "end": "2025-10-02T10:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251009T215959Z"
+            },
+            {
+              "uid": "42D892B0-AAAC-45A9-A337-BB26522FC193",
+              "summary": "UM4IN900-COMPLEX-Cours",
+              "location": "Amphi 55A",
+              "start": "2025-10-02T08:45:00+00:00",
+              "end": "2025-10-02T10:45:00+00:00",
+              "recurrence_id": "2025-10-02T08:45:00+00:00"
+            },
+            {
+              "uid": "42D892B0-AAAC-45A9-A337-BB26522FC193",
+              "summary": "UM4IN900-COMPLEX-Cours",
+              "location": "AMPHI.34A",
+              "start": "2025-10-09T08:45:00+00:00",
+              "end": "2025-10-09T10:45:00+00:00",
+              "recurrence_id": "2025-10-09T08:45:00+00:00"
             }
           ]
         },
@@ -62,7 +85,7 @@
             {
               "uid": "1D9AB724-1340-4FB9-B4CD-E03A25AA6362",
               "summary": "UM4IN900-COMPLEX-ExamenR1",
-              "location": "Résa n° 678142",
+              "location": "AMPHI B1",
               "start": "2025-11-20T09:45:00+00:00",
               "end": "2025-11-20T11:45:00+00:00"
             }
@@ -91,10 +114,13 @@
             {
               "uid": "86C69AF7-0560-4B66-8F41-B1ACF5AE135F",
               "summary": "UM4IN900-COMPLEX-TD1",
-              "location": "Résa n° 667722",
+              "location": "Salle 55.65.102",
               "start": "2025-11-03T07:30:00+00:00",
               "end": "2025-11-03T09:30:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251103T225959Z"
+              "rrule": "FREQ=WEEKLY;UNTIL=20251103T225959Z",
+              "exdates": [
+                "2025-11-03T07:30:00+00:00"
+              ]
             },
             {
               "uid": "70A507E0-EF2B-4794-8B1A-BDA8E461D6D8",
@@ -103,6 +129,22 @@
               "start": "2025-11-24T07:30:00+00:00",
               "end": "2025-11-24T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251215T225959Z"
+            },
+            {
+              "uid": "6256FB57-6334-48E4-9857-D7896B82B09D",
+              "summary": "UM4IN900-COMPLEX-TD1",
+              "location": "Salle 55.65.102",
+              "start": "2025-11-10T07:30:00+00:00",
+              "end": "2025-11-10T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251110T225959Z"
+            },
+            {
+              "uid": "6256FB57-6334-48E4-9857-D7896B82B09D",
+              "summary": "UM4IN900-COMPLEX-TD1",
+              "location": "Salle 55.65.102",
+              "start": "2025-11-10T07:30:00+00:00",
+              "end": "2025-11-10T09:30:00+00:00",
+              "recurrence_id": "2025-11-10T07:30:00+00:00"
             }
           ]
         },
@@ -118,14 +160,6 @@
               "end": "2025-10-06T10:45:00+00:00"
             },
             {
-              "uid": "86C69AF7-0560-4B66-8F41-B1ACF5AE135F",
-              "summary": "UM4IN900-COMPLEX-TME1",
-              "location": "1",
-              "start": "2025-11-03T07:30:00+00:00",
-              "end": "2025-11-03T09:30:00+00:00",
-              "recurrence_id": "2025-11-03T07:30:00+00:00"
-            },
-            {
               "uid": "68DDCC5E-CA66-4291-AED2-116C7296ADD4",
               "summary": "UM4IN900-COMPLEX-TME1",
               "location": "En attente de salle",
@@ -139,6 +173,14 @@
               "start": "2025-11-03T09:45:00+00:00",
               "end": "2025-11-03T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251110T225959Z"
+            },
+            {
+              "uid": "551F1288-045A-45F1-B4AA-1195F16D66FC",
+              "summary": "UM4IN900-COMPLEX-TME1",
+              "location": "Salle 14.15.501",
+              "start": "2025-11-03T07:30:00+00:00",
+              "end": "2025-11-03T11:45:00+00:00",
+              "recurrence_id": "2025-11-03T09:45:00+00:00"
             },
             {
               "uid": "E5B1462C-1AA5-4DD7-81C9-3FD94DCA709A",
@@ -193,22 +235,6 @@
               "start": "2025-11-26T07:30:00+00:00",
               "end": "2025-11-26T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251217T225959Z"
-            },
-            {
-              "uid": "6256FB57-6334-48E4-9857-D7896B82B09D",
-              "summary": "UM4IN900-COMPLEX-TD2",
-              "location": "Résa n° 667722",
-              "start": "2025-11-10T07:30:00+00:00",
-              "end": "2025-11-10T09:30:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251110T225959Z"
-            },
-            {
-              "uid": "6256FB57-6334-48E4-9857-D7896B82B09D",
-              "summary": "UM4IN900-COMPLEX-TD2",
-              "location": "Salle 55.65.102",
-              "start": "2025-11-10T07:30:00+00:00",
-              "end": "2025-11-10T09:30:00+00:00",
-              "recurrence_id": "2025-11-10T07:30:00+00:00"
             }
           ]
         },
@@ -238,32 +264,6 @@
               "start": "2025-11-26T09:45:00+00:00",
               "end": "2025-11-26T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251217T225959Z"
-            }
-          ]
-        },
-        {
-          "group": "3",
-          "type": "TD",
-          "events": [
-            {
-              "uid": "4189AEFC-A5A6-461C-8DC8-B160D27972BB",
-              "summary": "UM4IN900-COMPLEX-TD3",
-              "location": "Salle 24.25.105",
-              "start": "2025-10-20T11:45:00+00:00",
-              "end": "2025-10-20T13:45:00+00:00"
-            }
-          ]
-        },
-        {
-          "group": "3",
-          "type": "TME",
-          "events": [
-            {
-              "uid": "4BC22A13-5A02-4BD0-B342-3F41D609CB21",
-              "summary": "UM4IN900-COMPLEX-TME3",
-              "location": "En attente de salle",
-              "start": "2025-10-20T14:00:00+00:00",
-              "end": "2025-10-20T16:00:00+00:00"
             }
           ]
         }
@@ -314,7 +314,7 @@
             {
               "uid": "4BFBCBD3-D55E-4620-BDB6-FC816461D184",
               "summary": "UM4IN901-MODEL-ExamenR1 (EN)",
-              "location": "Résa n° 678141",
+              "location": "AMPHI.34A",
               "start": "2025-11-21T07:30:00+00:00",
               "end": "2025-11-21T09:30:00+00:00"
             }
@@ -405,6 +405,14 @@
               "start": "2025-09-22T08:45:00+00:00",
               "end": "2025-09-22T10:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251013T215959Z"
+            },
+            {
+              "uid": "0EB2C6CE-B57B-45A5-A44C-822E6F361BDE",
+              "summary": "UM4IN901-MODEL- TD2",
+              "location": "Salle: 14.15.104",
+              "start": "2025-10-13T08:45:00+00:00",
+              "end": "2025-10-13T10:45:00+00:00",
+              "recurrence_id": "2025-10-13T08:45:00+00:00"
             },
             {
               "uid": "723902E4-1296-4516-9B75-2A591C209374",
@@ -673,5 +681,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-09T06:51:05.063341922+00:00"
+  "updated_at": "2025-10-10T06:51:01.093367445+00:00"
 }
