@@ -10,6 +10,19 @@
       "variants": [
         {
           "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "6A51717B-051C-47AF-9C12-EDE98EB1C81C",
+              "summary": "UM5IN258-AI-ADAPT-TME/TD",
+              "location": "Salle 23.24.203",
+              "start": "2025-10-13T11:45:00+00:00",
+              "end": "2025-10-13T16:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "TME",
           "events": [
             {
@@ -34,14 +47,6 @@
               "start": "2025-12-01T12:45:00+00:00",
               "end": "2025-12-01T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251215T225959Z"
-            },
-            {
-              "uid": "A7CB86EB-2D1B-40AB-B82A-E3E38E9E1F49",
-              "summary": "UM5IN258-AI-ADAPT-TME",
-              "location": "Salle : 2425-306",
-              "start": "2025-09-29T11:45:00+00:00",
-              "end": "2025-09-29T16:00:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251013T215959Z"
             },
             {
               "uid": "D310F160-D6F0-4775-94D7-536CCC0DDAE6",
@@ -410,14 +415,14 @@
             {
               "uid": "34322D9C-E7F8-4E78-B0A6-1B0C132AB438",
               "summary": "UM5IN259-IAR-TME2",
-              "location": null,
+              "location": "Salle : 1415-501",
               "start": "2025-11-07T12:45:00+00:00",
               "end": "2025-11-07T17:00:00+00:00"
             },
             {
               "uid": "C79B6E64-48B1-4B66-A68C-AA510CB67A74",
               "summary": "UM5IN259-IAR-TME2",
-              "location": null,
+              "location": "Salle : 1415-407",
               "start": "2025-12-12T12:45:00+00:00",
               "end": "2025-12-12T17:00:00+00:00"
             },
@@ -785,7 +790,7 @@
             },
             {
               "uid": "65A98193-21DF-41AC-A7E5-F962526FA3FA",
-              "summary": "UM5INSO2-Stage-Information",
+              "summary": "Stage-AI2D-Information",
               "location": "Salle : 24.25.101",
               "start": "2025-10-14T10:45:00+00:00",
               "end": "2025-10-14T11:45:00+00:00"
@@ -851,18 +856,6 @@
           "type": null,
           "events": [
             {
-              "uid": "67AFAFF1-FBA8-4FE1-9917-413EF8418BF2",
-              "summary": "OIP-AI2D-Gr2",
-              "location": "Salle: 14.24.110",
-              "start": "2025-10-03T11:45:00+00:00",
-              "end": "2025-10-03T16:00:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251031T225959Z",
-              "exdates": [
-                "2025-10-24T11:45:00+00:00",
-                "2025-10-31T12:45:00+00:00"
-              ]
-            },
-            {
               "uid": "EE6FD59E-8DBC-492C-A555-108FA6654D3E",
               "summary": "OIP-AI2D-Gr2",
               "location": "Salle: 14.24.110",
@@ -884,6 +877,26 @@
               "location": "Salle : 24.25.108",
               "start": "2025-11-21T12:45:00+00:00",
               "end": "2025-11-21T17:00:00+00:00"
+            },
+            {
+              "uid": "E427A95F-C93B-407C-ADA8-A0AD52FC358C",
+              "summary": "OIP-AI2D-Gr2",
+              "location": "Salle : 24.34.202",
+              "start": "2025-10-24T11:45:00+00:00",
+              "end": "2025-10-24T16:00:00+00:00"
+            },
+            {
+              "uid": "A3FDBA17-DC75-4ACE-89A3-1B77E7B22F5C",
+              "summary": "OIP-AI2D-Gr2",
+              "location": "Salle: 14.24.110",
+              "start": "2025-10-03T11:45:00+00:00",
+              "end": "2025-10-03T16:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251031T225959Z",
+              "exdates": [
+                "2025-10-17T11:45:00+00:00",
+                "2025-10-24T11:45:00+00:00",
+                "2025-10-31T12:45:00+00:00"
+              ]
             }
           ]
         },
@@ -942,5 +955,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-10T06:51:03.044025906+00:00"
+  "updated_at": "2025-10-13T06:52:35.432115596+00:00"
 }

@@ -209,7 +209,7 @@
             {
               "uid": "BC48DC46-FED9-4B2C-892C-D95ACBB281D9",
               "summary": "UM5IN951-CRYPTA-Cours",
-              "location": "Résa n° 676401",
+              "location": "Salle: 54.55.202",
               "start": "2025-11-21T07:30:00+00:00",
               "end": "2025-11-21T09:30:00+00:00"
             },
@@ -299,7 +299,7 @@
             {
               "uid": "66F7A837-1CB5-442E-A971-FBFF13235599",
               "summary": "UM5IN951-CRYPTA-TD",
-              "location": "Résa n° 676401",
+              "location": "Salle: 54.55.202",
               "start": "2025-11-21T09:45:00+00:00",
               "end": "2025-11-21T11:45:00+00:00"
             },
@@ -418,7 +418,7 @@
             {
               "uid": "1E38660C-C4C3-4186-8CCC-3D8B2AD8639A",
               "summary": "UM5IN952-HPCA-Cours",
-              "location": "Résa n°676402",
+              "location": "Salle 24.34.103",
               "start": "2025-10-20T11:45:00+00:00",
               "end": "2025-10-20T13:45:00+00:00"
             },
@@ -469,7 +469,7 @@
               "location": "Résa n° 670327",
               "start": "2025-12-04T12:45:00+00:00",
               "end": "2025-12-04T17:00:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251218T225959Z"
+              "rrule": "FREQ=WEEKLY;UNTIL=20251204T225959Z"
             },
             {
               "uid": "18754779-1093-4692-A59C-329F3C00B817",
@@ -484,6 +484,22 @@
               "location": "Résa n° 670332",
               "start": "2026-01-29T12:45:00+00:00",
               "end": "2026-01-29T17:00:00+00:00"
+            },
+            {
+              "uid": "2228CD84-71F0-4D73-A459-5082E24F5ACB",
+              "summary": "UM5IN952-HPCA-Cours",
+              "location": "Salle: 24.34.103",
+              "start": "2025-12-18T12:45:00+00:00",
+              "end": "2025-12-18T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251218T225959Z"
+            },
+            {
+              "uid": "948A0934-07CD-419D-BF7F-08B5E66D27D6",
+              "summary": "UM5IN952-HPCA-Cours",
+              "location": "Salle: 24.34.103",
+              "start": "2025-12-11T12:45:00+00:00",
+              "end": "2025-12-11T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251211T225959Z"
             }
           ]
         },
@@ -507,7 +523,7 @@
             {
               "uid": "4CA8D5CE-DB92-4AFE-BF2C-4E0C22B0E9AC",
               "summary": "UM5IN952-HPCA-TME",
-              "location": "En attente de salle",
+              "location": "Salle : 24.25.303",
               "start": "2025-10-20T14:00:00+00:00",
               "end": "2025-10-20T16:00:00+00:00",
               "exdates": [
@@ -622,7 +638,7 @@
             {
               "uid": "72449767-27CC-4ED6-80D0-DD698D8850A0",
               "summary": "UM5IN953-POSSO-Cours",
-              "location": "Résa n° 676399",
+              "location": "Salle: 24.34.302",
               "start": "2025-11-10T08:31:00+00:00",
               "end": "2025-11-10T11:46:00+00:00",
               "exdates": [
@@ -894,39 +910,39 @@
           "type": "TME",
           "events": [
             {
-              "uid": "44729AFB-7A32-4934-84CE-FC476129F672",
-              "summary": "UM5IN954-SCA-TME",
-              "location": "En attente de salle",
-              "start": "2025-10-24T14:00:00+00:00",
-              "end": "2025-10-24T16:00:00+00:00"
-            },
-            {
               "uid": "F934A87E-8081-4B88-AC0A-E48F23E06D22",
               "summary": "UM5IN954-SCA-TME",
-              "location": "En attente de salle",
+              "location": "Salle 14.15.501/502",
               "start": "2025-11-21T12:45:00+00:00",
               "end": "2025-11-21T17:00:00+00:00"
             },
             {
               "uid": "899AC167-860D-469B-ACE7-C9E86D34530E",
               "summary": "UM5IN954-SCA-TME",
-              "location": "En attente de salle",
+              "location": "Salle 14.15.501/502",
               "start": "2025-12-05T12:45:00+00:00",
               "end": "2025-12-05T17:00:00+00:00"
             },
             {
               "uid": "CAD02EE3-278E-4147-8A6E-C8D7DF1D9B40",
               "summary": "UM5IN954-SCA-TME",
-              "location": "En attente de salle",
+              "location": "Salle 14.15.502",
               "start": "2025-12-12T15:00:00+00:00",
               "end": "2025-12-12T17:00:00+00:00"
             },
             {
               "uid": "9105A2C5-A6A2-469A-8B34-E1C2E94F77E5",
               "summary": "UM5IN954-SCA-TME",
-              "location": "En attente de salle",
+              "location": "Salle 14.15.501/502",
               "start": "2025-12-19T12:45:00+00:00",
               "end": "2025-12-19T17:00:00+00:00"
+            },
+            {
+              "uid": "55272015-26AB-4161-944C-FCAC8BA697C6",
+              "summary": "UM5IN954-SCA-TME",
+              "location": "Salle 14.15.501/502",
+              "start": "2026-01-09T12:45:00+00:00",
+              "end": "2026-01-09T17:00:00+00:00"
             },
             {
               "uid": "365234CE-8733-4A14-9A56-80AE701E606D",
@@ -934,21 +950,29 @@
               "location": "Salle",
               "start": "2025-10-10T11:45:00+00:00",
               "end": "2025-10-10T16:00:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251017T215959Z"
-            },
-            {
-              "uid": "55272015-26AB-4161-944C-FCAC8BA697C6",
-              "summary": "UM5IN954-SCA-TME",
-              "location": "En attente de salle",
-              "start": "2026-01-09T12:45:00+00:00",
-              "end": "2026-01-09T17:00:00+00:00"
+              "rrule": "FREQ=WEEKLY;UNTIL=20251010T215959Z"
             },
             {
               "uid": "FFF37DA9-F880-4FDD-A086-42D36B77DC3D",
               "summary": "UM5IN954-SCA-TME",
-              "location": "En attente de salle",
+              "location": "Salle 14.15.501/502",
               "start": "2026-01-23T12:45:00+00:00",
               "end": "2026-01-23T17:00:00+00:00"
+            },
+            {
+              "uid": "A90374BD-BEC8-4211-BC96-647BD37CE67A",
+              "summary": "UM5IN954-SCA-TME",
+              "location": "Salle 14.15.501/502",
+              "start": "2025-10-17T11:45:00+00:00",
+              "end": "2025-10-17T16:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251017T215959Z"
+            },
+            {
+              "uid": "44729AFB-7A32-4934-84CE-FC476129F672",
+              "summary": "UM5IN954-SCA-TME",
+              "location": "Salle 14.15.502",
+              "start": "2025-10-24T14:00:00+00:00",
+              "end": "2025-10-24T16:00:00+00:00"
             }
           ]
         }
@@ -1004,5 +1028,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-03T06:48:51.983346929+00:00"
+  "updated_at": "2025-10-13T06:52:50.237634308+00:00"
 }

@@ -29,6 +29,34 @@
       ]
     },
     {
+      "name": "Atrium des METIERS",
+      "code": "special",
+      "special": true,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "CA1433ED-63B2-49CF-935D-24F1FE8F1239",
+              "summary": "RéunionM1AI2D-Réunion pédagogique",
+              "location": "Salle : 54.55.125",
+              "start": "2025-09-08T12:00:00+00:00",
+              "end": "2025-09-08T15:00:00+00:00"
+            },
+            {
+              "uid": "A3925476-AD5E-4B2D-AEC5-29ED2B33D025",
+              "summary": "Atrium des METIERS",
+              "location": null,
+              "start": "2025-10-16T06:30:00+00:00",
+              "end": "2025-10-16T14:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "IREC",
       "code": "211",
       "special": false,
@@ -278,6 +306,14 @@
               "recurrence_id": "2025-09-26T11:45:00+00:00"
             },
             {
+              "uid": "0C30D2D8-675D-415B-A3F8-44358EB15917",
+              "summary": "UM4IN200-MOGPL-TD3",
+              "location": "Salle : 24.34.210",
+              "start": "2025-10-17T11:45:00+00:00",
+              "end": "2025-10-17T13:45:00+00:00",
+              "recurrence_id": "2025-10-17T11:45:00+00:00"
+            },
+            {
               "uid": "6AB3AD0A-EE68-486E-B563-BC9A1E003A09",
               "summary": "UM4IN200-MOGPL-TD3",
               "location": "Salle: 56.66.209",
@@ -313,13 +349,6 @@
               "start": "2025-11-28T12:45:00+00:00",
               "end": "2025-11-28T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251212T225959Z"
-            },
-            {
-              "uid": "E85B6137-3004-4925-A8F6-4C3DA7076976",
-              "summary": "UM4IN200-MOGPL-TD3",
-              "location": null,
-              "start": "2025-10-17T11:45:00+00:00",
-              "end": "2025-10-17T13:45:00+00:00"
             }
           ]
         },
@@ -373,7 +402,7 @@
             {
               "uid": "AA1B481E-F5DC-4037-BDDB-5633A04B28BB",
               "summary": "UM4IN200-MOGPL-TD4",
-              "location": "Salle en attente",
+              "location": "SALLE : 54.55.202",
               "start": "2025-10-24T08:45:00+00:00",
               "end": "2025-10-24T10:45:00+00:00"
             },
@@ -437,28 +466,7 @@
           ]
         }
       ]
-    },
-    {
-      "name": "RéunionM1AI2D-Réunion pédagogique",
-      "code": "special",
-      "special": true,
-      "groups": [],
-      "variants": [
-        {
-          "group": null,
-          "type": null,
-          "events": [
-            {
-              "uid": "CA1433ED-63B2-49CF-935D-24F1FE8F1239",
-              "summary": "RéunionM1AI2D-Réunion pédagogique",
-              "location": "Salle : 54.55.125",
-              "start": "2025-09-08T12:00:00+00:00",
-              "end": "2025-09-08T15:00:00+00:00"
-            }
-          ]
-        }
-      ]
     }
   ],
-  "updated_at": "2025-10-10T06:50:51.330702953+00:00"
+  "updated_at": "2025-10-13T06:52:23.509137048+00:00"
 }
