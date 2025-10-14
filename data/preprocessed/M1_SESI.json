@@ -96,9 +96,9 @@
             {
               "uid": "F3B44575-F9F9-42EC-BFE6-773A1873047F",
               "summary": "UM4IN100-ARCHI-ER1",
-              "location": "Réservation : 677987",
-              "start": "2025-11-20T15:00:00+00:00",
-              "end": "2025-11-20T17:00:00+00:00"
+              "location": "Amphi A3*",
+              "start": "2025-11-21T12:45:00+00:00",
+              "end": "2025-11-21T14:45:00+00:00"
             },
             {
               "uid": "BA39B353-1D7D-4A09-B8C2-5CDC0E3F716D",
@@ -106,6 +106,13 @@
               "location": null,
               "start": "2026-01-08T12:45:00+00:00",
               "end": "2026-01-08T14:45:00+00:00"
+            },
+            {
+              "uid": "C3448401-DA80-4645-926B-7D98D11A7576",
+              "summary": "UM4IN100-ARCHI-ER1",
+              "location": "Amphi 24*",
+              "start": "2025-11-20T15:00:00+00:00",
+              "end": "2025-11-20T17:00:00+00:00"
             }
           ]
         },
@@ -523,13 +530,6 @@
           "type": "EXAM",
           "events": [
             {
-              "uid": "C749099B-6E6E-478B-9D03-35681DD7E790",
-              "summary": "UM4IN103-MOBJ-ER1",
-              "location": "AMPHI.55A",
-              "start": "2025-11-17T07:30:00+00:00",
-              "end": "2025-11-17T09:30:00+00:00"
-            },
-            {
               "uid": "F25E3817-1353-47AF-B98A-5A105AEACB6C",
               "summary": "UM4IN103-MOBJ-ER2",
               "location": null,
@@ -722,7 +722,7 @@
             {
               "uid": "5C035112-17CC-45F7-9AD2-E2E230B71751",
               "summary": "UM4IN104-SIGNAL-ER1",
-              "location": "Réservation : 677630",
+              "location": "Amphi 15*",
               "start": "2025-11-21T09:45:00+00:00",
               "end": "2025-11-21T11:45:00+00:00"
             },
@@ -1217,7 +1217,7 @@
             {
               "uid": "254BA7A3-F49B-4CD7-94BF-3CECE3C7A117",
               "summary": "UM4IN101-VLSI-ER1",
-              "location": "AMPHI.HERPIN",
+              "location": "AMPHI.HERPIN*",
               "start": "2025-11-19T09:45:00+00:00",
               "end": "2025-11-19T11:45:00+00:00"
             },
@@ -1350,5 +1350,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-13T06:52:32.041367113+00:00"
+  "updated_at": "2025-10-14T06:50:16.046408224+00:00"
 }

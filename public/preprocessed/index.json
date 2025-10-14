@@ -107,7 +107,6 @@
       "name": "BIMA",
       "code": "600",
       "groups": [
-        "2",
         "3"
       ],
       "source": "M1_IMA"
