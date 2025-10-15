@@ -473,6 +473,9 @@
               "end": "2025-11-10T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260126T225959Z",
               "exdates": [
+                "2025-11-10T12:45:00+00:00",
+                "2025-11-17T12:45:00+00:00",
+                "2025-11-24T12:45:00+00:00",
                 "2025-12-22T12:45:00+00:00",
                 "2025-12-29T12:45:00+00:00"
               ]
@@ -483,14 +486,6 @@
           "group": null,
           "type": "EXAM",
           "events": [
-            {
-              "uid": "E66F6144-91E1-4F23-AEBC-8E7F73D69088",
-              "summary": "UM5IN874-LMM-ER1",
-              "location": null,
-              "start": "2025-11-24T12:45:00+00:00",
-              "end": "2025-11-24T14:45:00+00:00",
-              "recurrence_id": "2025-11-24T12:45:00+00:00"
-            },
             {
               "uid": "FD8FDAEA-1D36-4A7E-A075-375834F91D7A",
               "summary": "UM5IN874-ER2-LMM",
@@ -553,6 +548,8 @@
               "end": "2025-11-10T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260126T225959Z",
               "exdates": [
+                "2025-11-10T15:00:00+00:00",
+                "2025-11-17T15:00:00+00:00",
                 "2025-11-24T15:00:00+00:00",
                 "2025-12-22T15:00:00+00:00",
                 "2025-12-29T15:00:00+00:00"
@@ -580,6 +577,8 @@
               "end": "2025-11-10T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260126T225959Z",
               "exdates": [
+                "2025-11-10T15:00:00+00:00",
+                "2025-11-17T15:00:00+00:00",
                 "2025-11-24T15:00:00+00:00",
                 "2025-12-22T15:00:00+00:00",
                 "2025-12-29T15:00:00+00:00"
@@ -1146,23 +1145,9 @@
             {
               "uid": "6ED48CE3-A7F3-4085-ADA5-976A564082F0",
               "summary": "OIPMIND-OIPMIND-Cours",
-              "location": null,
+              "location": "Salle 23.24.102",
               "start": "2025-12-04T15:00:00+00:00",
               "end": "2025-12-04T17:00:00+00:00"
-            },
-            {
-              "uid": "3C77EC61-8B48-49DF-947F-AAF1CAA00299",
-              "summary": "OIPMIND-OIPMIND-Cours",
-              "location": null,
-              "start": "2025-12-11T15:00:00+00:00",
-              "end": "2025-12-11T17:00:00+00:00"
-            },
-            {
-              "uid": "59F2BF42-8FAD-472A-AB20-9E7395160206",
-              "summary": "OIPMIND-OIPMIND-Cours",
-              "location": null,
-              "start": "2025-12-18T15:00:00+00:00",
-              "end": "2025-12-18T17:00:00+00:00"
             },
             {
               "uid": "20A84172-8312-478C-A2D7-39290D6563B9",
@@ -1197,7 +1182,7 @@
             {
               "uid": "D49FA858-A570-4EAF-AB9D-ABA3C3735654",
               "summary": "OIPMIND-OIPMIND-Cours",
-              "location": null,
+              "location": "Salle 23.24.102",
               "start": "2025-11-06T15:00:00+00:00",
               "end": "2025-11-06T17:00:00+00:00",
               "exdates": [
@@ -1250,9 +1235,16 @@
               ]
             },
             {
+              "uid": "E9EED486-9951-4553-BEEA-0D26F6DF8D6E",
+              "summary": "OIPMIND-OIPMIND-Cours",
+              "location": "Salle 23.24.102",
+              "start": "2025-11-20T15:00:00+00:00",
+              "end": "2025-11-20T17:00:00+00:00"
+            },
+            {
               "uid": "4A68CE0D-B6B9-4895-BD45-2DF0C6C36E8C",
               "summary": "OIPMIND-OIPMIND-Cours",
-              "location": null,
+              "location": "Salle 23.24.102",
               "start": "2025-10-23T14:00:00+00:00",
               "end": "2025-10-23T16:00:00+00:00",
               "exdates": [
@@ -1262,11 +1254,18 @@
               ]
             },
             {
-              "uid": "E9EED486-9951-4553-BEEA-0D26F6DF8D6E",
+              "uid": "3C77EC61-8B48-49DF-947F-AAF1CAA00299",
               "summary": "OIPMIND-OIPMIND-Cours",
-              "location": null,
-              "start": "2025-11-20T15:00:00+00:00",
-              "end": "2025-11-20T17:00:00+00:00"
+              "location": "Salle 23.24.102",
+              "start": "2025-12-11T15:00:00+00:00",
+              "end": "2025-12-11T17:00:00+00:00"
+            },
+            {
+              "uid": "59F2BF42-8FAD-472A-AB20-9E7395160206",
+              "summary": "OIPMIND-OIPMIND-Cours",
+              "location": "Salle 23.24.102",
+              "start": "2025-12-18T15:00:00+00:00",
+              "end": "2025-12-18T17:00:00+00:00"
             }
           ]
         }
@@ -1391,14 +1390,14 @@
             {
               "uid": "81797167-88DC-4D30-A80D-05AFECCABC5A",
               "summary": "UM5IN872-RL-TME",
-              "location": null,
+              "location": "Salle 14.15.509",
               "start": "2025-11-10T09:45:00+00:00",
               "end": "2025-11-10T11:45:00+00:00"
             },
             {
               "uid": "9D0E9C38-48BA-459B-98C1-07B0832ED70A",
               "summary": "UM5IN872-RL-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-11-03T09:45:00+00:00",
               "end": "2025-11-03T11:45:00+00:00"
             },
@@ -1412,70 +1411,70 @@
             {
               "uid": "4ADA058B-CD6F-4E73-9A32-BE3BA2E61492",
               "summary": "UM5IN872-RL-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-09-29T08:45:00+00:00",
               "end": "2025-09-29T10:45:00+00:00"
             },
             {
               "uid": "EF6E575E-68C0-4F45-B0C4-6B23B4DBEEE9",
               "summary": "UM5IN872-RL-TME",
-              "location": null,
+              "location": "Salle 14.15.509",
               "start": "2025-10-06T08:45:00+00:00",
               "end": "2025-10-06T10:45:00+00:00"
             },
             {
               "uid": "B8B86720-63D3-4EA5-BE54-E2911CF25A01",
               "summary": "UM5IN872-RL-TME",
-              "location": null,
+              "location": "Salle 14.15.509",
               "start": "2025-10-13T08:45:00+00:00",
               "end": "2025-10-13T10:45:00+00:00"
             },
             {
               "uid": "A14928E9-13FD-4BEB-B7E6-54045A01222C",
               "summary": "UM5IN872-RL-TME",
-              "location": null,
+              "location": "Salle 14.15.509",
               "start": "2025-11-03T09:45:00+00:00",
               "end": "2025-11-03T11:45:00+00:00"
             },
             {
               "uid": "583DAEAE-7DD2-4481-8D92-E1CD2B3194C3",
               "summary": "UM5IN872-RL-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-11-10T09:45:00+00:00",
               "end": "2025-11-10T11:45:00+00:00"
             },
             {
               "uid": "CA970A8F-D6F6-4E6D-810B-CA1ED429384D",
               "summary": "UM5IN872-RL-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-11-17T09:45:00+00:00",
               "end": "2025-11-17T11:45:00+00:00"
             },
             {
               "uid": "870B3AED-E6A8-44C7-A900-597912BF88D7",
               "summary": "UM5IN872-RL-TME",
-              "location": null,
+              "location": "Salle 14.15.509",
               "start": "2025-09-29T08:45:00+00:00",
               "end": "2025-09-29T10:45:00+00:00"
             },
             {
               "uid": "3CC6BDD1-5CFE-470E-821A-794B62D7D4D5",
               "summary": "UM5IN872-RL-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-10-06T08:45:00+00:00",
               "end": "2025-10-06T10:45:00+00:00"
             },
             {
               "uid": "AC35F249-E906-4737-AB58-DAAC374F8D53",
               "summary": "UM5IN872-RL-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-10-13T08:45:00+00:00",
               "end": "2025-10-13T10:45:00+00:00"
             },
             {
               "uid": "E38232B6-C6B7-4049-91BE-FBD345ECBA2B",
               "summary": "UM5IN872-RL-TME",
-              "location": null,
+              "location": "Salle 14.15.509",
               "start": "2025-11-17T09:45:00+00:00",
               "end": "2025-11-17T11:45:00+00:00"
             }
@@ -1928,5 +1927,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-14T06:50:23.510121450+00:00"
+  "updated_at": "2025-10-15T06:50:37.303751478+00:00"
 }

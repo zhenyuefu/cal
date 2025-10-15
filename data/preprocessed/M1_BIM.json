@@ -381,7 +381,7 @@
             {
               "uid": "D3FF165A-E104-40A0-AD7C-902FE11238CA",
               "summary": "UM4MIN704 - SDED - Cours",
-              "location": "Salle en attente n°677847",
+              "location": "Salle 14.24.210",
               "start": "2025-10-20T14:00:00+00:00",
               "end": "2025-10-20T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251215T225959Z",
@@ -503,5 +503,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-14T06:50:11.706758357+00:00"
+  "updated_at": "2025-10-15T06:50:25.034016432+00:00"
 }
