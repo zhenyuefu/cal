@@ -225,7 +225,7 @@
             {
               "uid": "A4261770-534F-4F72-B21F-D56B93442F66",
               "summary": "UM4IN700-AAGB-TME",
-              "location": null,
+              "location": "Salle 14.15.307",
               "start": "2025-12-19T15:00:00+00:00",
               "end": "2025-12-19T17:00:00+00:00",
               "exdates": [
@@ -406,7 +406,7 @@
             {
               "uid": "A016E7CD-537B-4EA0-A695-52F52A6D7BFF",
               "summary": "UM4MIN704 - SDED - TME",
-              "location": "Salle en attente",
+              "location": "n_678625",
               "start": "2025-10-22T08:45:00+00:00",
               "end": "2025-10-22T10:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251217T225959Z",
@@ -503,5 +503,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-15T06:50:25.034016432+00:00"
+  "updated_at": "2025-10-16T06:50:09.897179117+00:00"
 }

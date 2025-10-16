@@ -732,30 +732,30 @@
             {
               "uid": "3A4A5DCF-342B-4481-B589-C827FA2B762B",
               "summary": "UM5IN852-LSDA-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2026-01-09T09:45:00+00:00",
               "end": "2026-01-09T11:45:00+00:00"
             },
             {
               "uid": "4BE53975-9EDE-4CBC-82BB-DA2D12A5BD68",
               "summary": "UM5IN852-LSDA-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2026-01-16T09:45:00+00:00",
               "end": "2026-01-16T11:45:00+00:00"
             },
             {
-              "uid": "7D642495-5E70-4515-9A70-18BB8D47234A",
-              "summary": "UM5IN852-LSDA-TME",
-              "location": null,
-              "start": "2026-01-23T09:45:00+00:00",
-              "end": "2026-01-23T11:45:00+00:00"
-            },
-            {
               "uid": "F030E725-7EC4-45C0-B2AD-C373B63DA902",
               "summary": "UM5IN852-LSDA-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2026-01-30T09:45:00+00:00",
               "end": "2026-01-30T11:45:00+00:00"
+            },
+            {
+              "uid": "7D642495-5E70-4515-9A70-18BB8D47234A",
+              "summary": "UM5IN852-LSDA-TME",
+              "location": "Salle 14.15.407",
+              "start": "2026-01-23T09:45:00+00:00",
+              "end": "2026-01-23T11:45:00+00:00"
             },
             {
               "uid": "BFA3F08D-B57F-4736-9B75-F03AAC72D6BA",
@@ -876,7 +876,7 @@
             {
               "uid": "28FFF9B6-81AF-4626-A475-15C6BB49D428",
               "summary": "UM5IN863-MEDS-Cours (rattrapage du 16/10)",
-              "location": null,
+              "location": "AMPHI.DURAND",
               "start": "2025-10-20T08:45:00+00:00",
               "end": "2025-10-20T10:45:00+00:00"
             }
@@ -944,7 +944,7 @@
             {
               "uid": "DD686D25-A095-40EC-9B85-E13532E1728E",
               "summary": "UM5IN863-MEDS-TME(rattrapage du 16/10)",
-              "location": null,
+              "location": "Salle 14.15.509",
               "start": "2025-10-20T11:45:00+00:00",
               "end": "2025-10-20T13:45:00+00:00"
             },
@@ -958,7 +958,7 @@
             {
               "uid": "852779AF-4BFD-485C-98B7-2120EFD22EC8",
               "summary": "UM5IN863-MEDS-TME (rattapage du 16/10)",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2025-10-20T11:45:00+00:00",
               "end": "2025-10-20T13:45:00+00:00"
             },
@@ -1206,7 +1206,7 @@
             {
               "uid": "4BF20654-7A65-4D4B-BB54-AEC4F2216398",
               "summary": "OIPMIND-OIPMIND-Cours (rattrapage du 16/10)",
-              "location": null,
+              "location": "n°678580",
               "start": "2025-10-20T14:00:00+00:00",
               "end": "2025-10-20T16:00:00+00:00"
             },
@@ -1516,14 +1516,14 @@
             {
               "uid": "0410CAD5-C1A0-442B-B4ED-09690A549003",
               "summary": "UM5IN871-SACE-Cours",
-              "location": "n°671701",
+              "location": "Salle 54.55.202",
               "start": "2025-11-21T12:45:00+00:00",
               "end": "2025-11-21T14:45:00+00:00"
             },
             {
               "uid": "49AA248F-B439-4CD3-BC43-A586F9161D80",
               "summary": "UM5IN871-SACE-Cours",
-              "location": null,
+              "location": "Salle 54.55.202",
               "start": "2025-12-05T12:45:00+00:00",
               "end": "2025-12-05T14:45:00+00:00"
             },
@@ -1537,35 +1537,35 @@
             {
               "uid": "D6CBFE68-4A7C-4F1D-AF56-F5714B8F1561",
               "summary": "UM5IN871-SACE-Cours",
-              "location": null,
+              "location": "Salle 54.55.202",
               "start": "2025-12-19T12:45:00+00:00",
               "end": "2025-12-19T14:45:00+00:00"
             },
             {
               "uid": "21789918-4E6D-420E-AD22-027D7D4C0E94",
               "summary": "UM5IN871-SACE-Cours",
-              "location": null,
+              "location": "Salle 54.55.202",
               "start": "2026-01-09T12:45:00+00:00",
               "end": "2026-01-09T14:45:00+00:00"
             },
             {
               "uid": "326E98BE-6058-42D1-939F-78D550E24172",
               "summary": "UM5IN871-SACE-Cours",
-              "location": null,
+              "location": "Salle 54.55.202",
               "start": "2026-01-16T12:45:00+00:00",
               "end": "2026-01-16T14:45:00+00:00"
             },
             {
               "uid": "7F062A9C-F33B-4FB2-ABF3-8B2C04309EA2",
               "summary": "UM5IN871-SACE-Cours",
-              "location": null,
+              "location": "Salle 54.55.202",
               "start": "2026-01-23T12:45:00+00:00",
               "end": "2026-01-23T14:45:00+00:00"
             },
             {
               "uid": "676B31AC-6B46-46BD-A2BC-0DEF31F1ECA4",
               "summary": "UM5IN871-SACE-Cours",
-              "location": null,
+              "location": "Salle 54.55.202",
               "start": "2026-01-30T12:45:00+00:00",
               "end": "2026-01-30T14:45:00+00:00"
             }
@@ -1927,5 +1927,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-15T06:50:37.303751478+00:00"
+  "updated_at": "2025-10-16T06:50:22.269669249+00:00"
 }
