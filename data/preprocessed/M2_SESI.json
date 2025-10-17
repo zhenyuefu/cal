@@ -102,7 +102,7 @@
             {
               "uid": "7BB20563-80A4-4229-B385-93F195864269",
               "summary": "UM5IN164-COCCA-ER1",
-              "location": "Réservation : 678103",
+              "location": "Salle 56.66.104",
               "start": "2025-11-24T09:45:00+00:00",
               "end": "2025-11-24T11:45:00+00:00",
               "recurrence_id": "2025-11-24T07:30:00+00:00"
@@ -300,6 +300,14 @@
             {
               "uid": "0279A18C-B993-4FD5-8657-E1907B66F7DF",
               "summary": "UM5IN165-IMSE",
+              "location": "ESIEE PARIS",
+              "start": "2025-10-22T11:00:00+00:00",
+              "end": "2025-10-22T15:00:00+00:00",
+              "recurrence_id": "2025-10-22T11:45:00+00:00"
+            },
+            {
+              "uid": "0279A18C-B993-4FD5-8657-E1907B66F7DF",
+              "summary": "UM5IN165-IMSE",
               "location": "Salle SESI : 24.25.307",
               "start": "2025-12-03T12:45:00+00:00",
               "end": "2025-12-03T14:45:00+00:00",
@@ -325,7 +333,7 @@
             {
               "uid": "0279A18C-B993-4FD5-8657-E1907B66F7DF",
               "summary": "UM5IN165-IMSE-ER1",
-              "location": "Réservation : 678102",
+              "location": "Salle 55.65.103",
               "start": "2025-11-26T12:45:00+00:00",
               "end": "2025-11-26T14:45:00+00:00",
               "recurrence_id": "2025-11-26T12:45:00+00:00"
@@ -382,7 +390,7 @@
             {
               "uid": "228AABE1-B727-4A8F-BD44-CC502AB4185B",
               "summary": "UM5IN150-MASSOC- CS",
-              "location": "Réservation : 670528",
+              "location": "Salle 56.66.109",
               "start": "2026-01-06T07:30:00+00:00",
               "end": "2026-01-06T09:30:00+00:00",
               "exdates": [
@@ -393,7 +401,7 @@
             {
               "uid": "9D4812A0-3FF7-416D-B5F6-9674437AF99C",
               "summary": "UM5IN150-MASSOC- CS",
-              "location": null,
+              "location": "Salle 56.66.109",
               "start": "2026-01-13T07:30:00+00:00",
               "end": "2026-01-13T09:30:00+00:00",
               "exdates": [
@@ -404,7 +412,7 @@
             {
               "uid": "E000F251-2368-4050-94E2-B8EC01984F0B",
               "summary": "UM5IN150-MASSOC- CS",
-              "location": null,
+              "location": "Salle 56.66.109",
               "start": "2026-01-20T07:30:00+00:00",
               "end": "2026-01-20T09:30:00+00:00",
               "exdates": [
@@ -415,7 +423,7 @@
             {
               "uid": "E728E59E-CEDB-41B0-AE90-58D77F4C6FDD",
               "summary": "UM5IN150-MASSOC- CS",
-              "location": null,
+              "location": "Salle 56.66.109",
               "start": "2026-01-27T07:30:00+00:00",
               "end": "2026-01-27T09:30:00+00:00",
               "exdates": [
@@ -446,18 +454,26 @@
             {
               "uid": "9A193821-CEF0-4627-86A4-2388B6732EBC",
               "summary": "UM5IN150-MASSOC- CS",
-              "location": "Salle 24.25.107",
-              "start": "2025-09-23T06:30:00+00:00",
-              "end": "2025-09-23T10:45:00+00:00",
-              "recurrence_id": "2025-09-23T06:30:00+00:00"
-            },
-            {
-              "uid": "9A193821-CEF0-4627-86A4-2388B6732EBC",
-              "summary": "UM5IN150-MASSOC- CS",
               "location": "Salle 24.34.110",
               "start": "2025-09-30T06:30:00+00:00",
               "end": "2025-09-30T10:45:00+00:00",
               "recurrence_id": "2025-09-30T06:30:00+00:00"
+            },
+            {
+              "uid": "9A193821-CEF0-4627-86A4-2388B6732EBC",
+              "summary": "UM5IN150-MASSOC- CS",
+              "location": "Salle 24.34.103",
+              "start": "2025-11-18T07:30:00+00:00",
+              "end": "2025-11-18T11:45:00+00:00",
+              "recurrence_id": "2025-11-18T07:30:00+00:00"
+            },
+            {
+              "uid": "9A193821-CEF0-4627-86A4-2388B6732EBC",
+              "summary": "UM5IN150-MASSOC- CS",
+              "location": "Réservation : 678708",
+              "start": "2025-12-09T07:30:00+00:00",
+              "end": "2025-12-09T11:45:00+00:00",
+              "recurrence_id": "2025-12-09T07:30:00+00:00"
             },
             {
               "uid": "9A193821-CEF0-4627-86A4-2388B6732EBC",
@@ -470,10 +486,18 @@
             {
               "uid": "9A193821-CEF0-4627-86A4-2388B6732EBC",
               "summary": "UM5IN150-MASSOC- CS",
-              "location": "Salle 24.34.103",
-              "start": "2025-11-18T07:30:00+00:00",
-              "end": "2025-11-18T11:45:00+00:00",
-              "recurrence_id": "2025-11-18T07:30:00+00:00"
+              "location": "Réservation : 678707",
+              "start": "2025-12-16T07:30:00+00:00",
+              "end": "2025-12-16T11:45:00+00:00",
+              "recurrence_id": "2025-12-16T07:30:00+00:00"
+            },
+            {
+              "uid": "9A193821-CEF0-4627-86A4-2388B6732EBC",
+              "summary": "UM5IN150-MASSOC- CS",
+              "location": "Salle 24.25.107",
+              "start": "2025-09-23T06:30:00+00:00",
+              "end": "2025-09-23T10:45:00+00:00",
+              "recurrence_id": "2025-09-23T06:30:00+00:00"
             }
           ]
         },
@@ -495,7 +519,7 @@
             {
               "uid": "9A193821-CEF0-4627-86A4-2388B6732EBC",
               "summary": "UM5IN150-MASSOC- ER1",
-              "location": "Réservation : 678104",
+              "location": "Amphi 15",
               "start": "2025-11-25T09:45:00+00:00",
               "end": "2025-11-25T11:45:00+00:00",
               "recurrence_id": "2025-11-25T07:30:00+00:00"
@@ -554,9 +578,9 @@
               "uid": "9A193821-CEF0-4627-86A4-2388B6732EBC",
               "summary": "UM5IN150-MASSOC- TME",
               "location": "Salle SESI : 24.25.305",
-              "start": "2025-10-21T06:30:00+00:00",
-              "end": "2025-10-21T10:45:00+00:00",
-              "recurrence_id": "2025-10-21T06:30:00+00:00"
+              "start": "2025-10-07T06:30:00+00:00",
+              "end": "2025-10-07T10:45:00+00:00",
+              "recurrence_id": "2025-10-07T06:30:00+00:00"
             },
             {
               "uid": "9A193821-CEF0-4627-86A4-2388B6732EBC",
@@ -570,9 +594,9 @@
               "uid": "9A193821-CEF0-4627-86A4-2388B6732EBC",
               "summary": "UM5IN150-MASSOC- TME",
               "location": "Salle SESI : 24.25.305",
-              "start": "2025-10-07T06:30:00+00:00",
-              "end": "2025-10-07T10:45:00+00:00",
-              "recurrence_id": "2025-10-07T06:30:00+00:00"
+              "start": "2025-10-21T06:30:00+00:00",
+              "end": "2025-10-21T10:45:00+00:00",
+              "recurrence_id": "2025-10-21T06:30:00+00:00"
             }
           ]
         }
@@ -666,7 +690,7 @@
             {
               "uid": "FF2CDAB0-89F0-4789-8CF1-73D879376DCE",
               "summary": "UM5IN159-MOCCA-ER1",
-              "location": "Réservation : 678089",
+              "location": "Amphi 55A",
               "start": "2025-11-21T09:45:00+00:00",
               "end": "2025-11-21T11:45:00+00:00"
             }
@@ -694,7 +718,7 @@
             {
               "uid": "3B62E650-8384-45DF-8153-C8BC79D37ADA",
               "summary": "OIPSESI-CS-Gpe1",
-              "location": "Réservation : 674309",
+              "location": "Salle 54.55.204",
               "start": "2025-12-01T07:30:00+00:00",
               "end": "2025-12-01T11:45:00+00:00"
             },
@@ -722,14 +746,14 @@
             {
               "uid": "BFF4EA62-7AD1-4383-9B59-A309AECC67B4",
               "summary": "OIPSESI-CS-Gpe1",
-              "location": "Réservation : 668367",
+              "location": "Salle 54.55.204",
               "start": "2025-11-03T07:30:00+00:00",
               "end": "2025-11-03T11:45:00+00:00"
             },
             {
               "uid": "203967FA-6D58-4368-8D12-5001E616D8A6",
               "summary": "OIPSESI-CS-Gpe1",
-              "location": null,
+              "location": "Salle 54.55.204",
               "start": "2025-11-17T07:30:00+00:00",
               "end": "2025-11-17T11:45:00+00:00"
             },
@@ -792,7 +816,7 @@
             {
               "uid": "9B6093DE-50FD-4B70-AFD3-D334B5E30A7E",
               "summary": "UM5IN160-PACC-CS",
-              "location": null,
+              "location": "Salle 56.66.111",
               "start": "2026-01-26T12:45:00+00:00",
               "end": "2026-01-26T14:45:00+00:00",
               "exdates": [
@@ -821,7 +845,7 @@
             {
               "uid": "4C6BE0D2-C0B0-431B-B857-9D73B00D7EF8",
               "summary": "UM5IN160-PACC-CS",
-              "location": "Salle SESI 24.25.305 \\nRéservation : 678006",
+              "location": "Salle 24.34.207",
               "start": "2025-11-03T12:45:00+00:00",
               "end": "2025-11-03T14:45:00+00:00",
               "recurrence_id": "2025-11-03T12:45:00+00:00"
@@ -829,7 +853,7 @@
             {
               "uid": "4C6BE0D2-C0B0-431B-B857-9D73B00D7EF8",
               "summary": "UM5IN160-PACC-CS",
-              "location": "Salle SESI 24.25.305 Réservation : 678005",
+              "location": "Salle 14.24.109",
               "start": "2025-11-10T12:45:00+00:00",
               "end": "2025-11-10T14:45:00+00:00",
               "recurrence_id": "2025-11-10T12:45:00+00:00"
@@ -837,7 +861,23 @@
             {
               "uid": "4C6BE0D2-C0B0-431B-B857-9D73B00D7EF8",
               "summary": "UM5IN160-PACC-CS",
-              "location": "Salle SESI 24.25.305 Réservation : 678005",
+              "location": "Salle 24.34.103",
+              "start": "2025-12-08T12:45:00+00:00",
+              "end": "2025-12-08T14:45:00+00:00",
+              "recurrence_id": "2025-12-08T12:45:00+00:00"
+            },
+            {
+              "uid": "4C6BE0D2-C0B0-431B-B857-9D73B00D7EF8",
+              "summary": "UM5IN160-PACC-CS",
+              "location": "Salle 24.34.103",
+              "start": "2025-12-01T12:45:00+00:00",
+              "end": "2025-12-01T14:45:00+00:00",
+              "recurrence_id": "2025-12-01T12:45:00+00:00"
+            },
+            {
+              "uid": "4C6BE0D2-C0B0-431B-B857-9D73B00D7EF8",
+              "summary": "UM5IN160-PACC-CS",
+              "location": "Salle 24.25.101",
               "start": "2025-11-17T12:45:00+00:00",
               "end": "2025-11-17T14:45:00+00:00",
               "recurrence_id": "2025-11-17T12:45:00+00:00"
@@ -845,7 +885,7 @@
             {
               "uid": "ACCEB20C-3541-4E96-BC3F-7000D4C5842C",
               "summary": "UM5IN160-PACC-CS",
-              "location": null,
+              "location": "Salle 56.66.111",
               "start": "2026-01-19T12:45:00+00:00",
               "end": "2026-01-19T14:45:00+00:00",
               "exdates": [
@@ -856,7 +896,7 @@
             {
               "uid": "A35744AA-7522-4AD9-A216-F2C089B0EBEA",
               "summary": "UM5IN160-PACC-CS",
-              "location": null,
+              "location": "Salle 56.66.111",
               "start": "2026-01-12T12:45:00+00:00",
               "end": "2026-01-12T14:45:00+00:00",
               "exdates": [
@@ -867,7 +907,7 @@
             {
               "uid": "F9655402-74BA-4B5F-8D91-BD9FEA16E279",
               "summary": "UM5IN160-PACC-CS",
-              "location": null,
+              "location": "Salle 56.66.111",
               "start": "2026-01-05T12:45:00+00:00",
               "end": "2026-01-05T14:45:00+00:00",
               "exdates": [
@@ -943,10 +983,18 @@
             {
               "uid": "4C6BE0D2-C0B0-431B-B857-9D73B00D7EF8",
               "summary": "UM5IN160-PACC-TME",
-              "location": "Salle SESI 24.25.305 Réservation : 678007",
-              "start": "2025-12-01T12:45:00+00:00",
-              "end": "2025-12-01T14:45:00+00:00",
-              "recurrence_id": "2025-12-01T12:45:00+00:00"
+              "location": "Salle SESI 24.25.305 et 307",
+              "start": "2025-10-06T14:00:00+00:00",
+              "end": "2025-10-06T16:00:00+00:00",
+              "recurrence_id": "2025-10-06T11:45:00+00:00"
+            },
+            {
+              "uid": "4C6BE0D2-C0B0-431B-B857-9D73B00D7EF8",
+              "summary": "UM5IN160-PACC-TME",
+              "location": "Salle 24.34.103",
+              "start": "2025-12-15T12:45:00+00:00",
+              "end": "2025-12-15T14:45:00+00:00",
+              "recurrence_id": "2025-12-15T12:45:00+00:00"
             },
             {
               "uid": "4C6BE0D2-C0B0-431B-B857-9D73B00D7EF8",
@@ -955,14 +1003,6 @@
               "start": "2025-10-13T14:00:00+00:00",
               "end": "2025-10-13T16:00:00+00:00",
               "recurrence_id": "2025-10-13T11:45:00+00:00"
-            },
-            {
-              "uid": "4C6BE0D2-C0B0-431B-B857-9D73B00D7EF8",
-              "summary": "UM5IN160-PACC-TME",
-              "location": "Salle SESI 24.25.305 et 307",
-              "start": "2025-10-06T14:00:00+00:00",
-              "end": "2025-10-06T16:00:00+00:00",
-              "recurrence_id": "2025-10-06T11:45:00+00:00"
             },
             {
               "uid": "2F5FE01B-DFB2-4323-8AF1-B8C3865B1A9A",
@@ -1225,7 +1265,7 @@
             {
               "uid": "44B6E6D3-9FFC-4B44-8CD1-1EE1C8424DF4",
               "summary": "UM5IN162-SMC-ER1",
-              "location": "Réservation : 678090",
+              "location": "Amphi Astier",
               "start": "2025-11-21T12:45:00+00:00",
               "end": "2025-11-21T14:45:00+00:00"
             }
@@ -1234,5 +1274,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-16T06:50:30.470256578+00:00"
+  "updated_at": "2025-10-17T06:50:09.659272835+00:00"
 }

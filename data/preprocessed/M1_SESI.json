@@ -104,15 +104,8 @@
               "uid": "BA39B353-1D7D-4A09-B8C2-5CDC0E3F716D",
               "summary": "UM4IN100-ARCHI-ER2",
               "location": null,
-              "start": "2026-01-08T12:45:00+00:00",
-              "end": "2026-01-08T14:45:00+00:00"
-            },
-            {
-              "uid": "C3448401-DA80-4645-926B-7D98D11A7576",
-              "summary": "UM4IN100-ARCHI-ER1",
-              "location": "Amphi 24*",
-              "start": "2025-11-20T15:00:00+00:00",
-              "end": "2025-11-20T17:00:00+00:00"
+              "start": "2026-01-08T13:00:00+00:00",
+              "end": "2026-01-08T15:00:00+00:00"
             }
           ]
         },
@@ -186,9 +179,9 @@
             {
               "uid": "A39B8811-73A1-4A09-954C-1AEFB5682F5B",
               "summary": "UM4IN100-ARCHI1-TD1",
-              "location": "Salle 24.34.112",
+              "location": "Salle 56.66.104",
               "start": "2025-11-25T07:30:00+00:00",
-              "end": "2025-11-25T11:45:00+00:00"
+              "end": "2025-11-25T09:30:00+00:00"
             },
             {
               "uid": "74662F1C-2C26-4CAD-8A84-4DDE70F1F013",
@@ -438,6 +431,448 @@
               "location": "Salle 14.24.109",
               "start": "2025-12-11T09:45:00+00:00",
               "end": "2025-12-11T11:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ESA",
+      "code": "101",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "BF0D23F1-6EE8-4C25-929F-1961F0B95F3D",
+              "summary": "UM4IN101-VLSI-Cours",
+              "location": "Salle 23.24.101",
+              "start": "2025-09-18T14:00:00+00:00",
+              "end": "2025-09-18T16:00:00+00:00"
+            },
+            {
+              "uid": "7FEBBF87-BB85-4351-A656-64C099BE618D",
+              "summary": "UM4IN101-VLSI-Cours",
+              "location": "Salle 23.24.101",
+              "start": "2025-09-25T14:00:00+00:00",
+              "end": "2025-09-25T16:00:00+00:00"
+            },
+            {
+              "uid": "932FCD06-1C9F-4D5D-BCA4-65409B2F4374",
+              "summary": "UM4IN101-VLSI-Cours",
+              "location": "Salle 23.24.101",
+              "start": "2025-10-02T14:00:00+00:00",
+              "end": "2025-10-02T16:00:00+00:00"
+            },
+            {
+              "uid": "16921BD4-53F3-4980-819D-7D2923259BCA",
+              "summary": "UM4IN101-VLSI-Cours",
+              "location": "Salle 23.24.101",
+              "start": "2025-10-09T14:00:00+00:00",
+              "end": "2025-10-09T16:00:00+00:00"
+            },
+            {
+              "uid": "93D67898-7307-47F9-8A5D-030CF6CEF241",
+              "summary": "UM4IN101-VLSI-Cours",
+              "location": "Salle 14.24.101",
+              "start": "2025-10-20T14:00:00+00:00",
+              "end": "2025-10-20T16:00:00+00:00"
+            },
+            {
+              "uid": "1A5BCB53-9572-4017-A5E3-41385F40903B",
+              "summary": "UM4IN101-VLSI-Cours",
+              "location": "Salle 24.25.107",
+              "start": "2025-10-23T14:00:00+00:00",
+              "end": "2025-10-23T16:00:00+00:00"
+            },
+            {
+              "uid": "F5FD59D4-04AF-4561-A95E-27680AF35952",
+              "summary": "UM4IN101-VLSI-Cours",
+              "location": "Salle 24.25.107",
+              "start": "2025-11-06T15:00:00+00:00",
+              "end": "2025-11-06T17:00:00+00:00"
+            },
+            {
+              "uid": "F0E8C925-3E7D-431E-BFC3-6C63BF88882E",
+              "summary": "UM4IN101-VLSI-Cours",
+              "location": "Salle 14.15.107",
+              "start": "2025-11-27T15:00:00+00:00",
+              "end": "2025-11-27T17:00:00+00:00"
+            },
+            {
+              "uid": "6AB6D283-52CC-4A72-82FE-AC065632DFA7",
+              "summary": "UM4IN101-VLSI-Cours",
+              "location": "Salle 14.15.107",
+              "start": "2025-12-04T15:00:00+00:00",
+              "end": "2025-12-04T17:00:00+00:00"
+            },
+            {
+              "uid": "500C3E6B-0CDA-484C-812D-25B63A880B59",
+              "summary": "UM4IN101-VLSI-Cours",
+              "location": "Salle 14.15.107",
+              "start": "2025-12-11T15:00:00+00:00",
+              "end": "2025-12-11T17:00:00+00:00"
+            },
+            {
+              "uid": "1AD8794C-F9CC-481E-80D7-0B5A6E6A819B",
+              "summary": "UM4EE101-ESA-CS (FV)",
+              "location": "Salle 13.14.108",
+              "start": "2025-11-10T12:45:00+00:00",
+              "end": "2025-11-10T14:45:00+00:00"
+            },
+            {
+              "uid": "7A2B5990-63E6-4B29-AE9B-BC5A74BC2845",
+              "summary": "UM4EE101-ESA-CS (FV)",
+              "location": "Salle 24.34.203",
+              "start": "2025-11-07T12:45:00+00:00",
+              "end": "2025-11-07T14:45:00+00:00"
+            },
+            {
+              "uid": "81C7F62D-1470-46FF-B642-B9002380CFED",
+              "summary": "UM4EE101-ESA-CS (FV)",
+              "location": "Salle 14.24.208",
+              "start": "2025-11-14T12:45:00+00:00",
+              "end": "2025-11-14T14:45:00+00:00"
+            },
+            {
+              "uid": "4C568620-CA89-4B53-8ABA-DA21F4E9845B",
+              "summary": "UM4EE101-ESA-CS",
+              "location": "Salle 14.24.305",
+              "start": "2025-09-11T14:00:00+00:00",
+              "end": "2025-09-11T16:00:00+00:00"
+            },
+            {
+              "uid": "8BF3CB25-9855-4E6C-9E3A-E13E62E45035",
+              "summary": "UM4EE101-ESA-CS",
+              "location": "Salle 14.24.305",
+              "start": "2025-09-12T11:45:00+00:00",
+              "end": "2025-09-12T13:45:00+00:00"
+            },
+            {
+              "uid": "930D8868-6563-47E9-87B9-50FB9A7003FB",
+              "summary": "UM4EE101-ESA-CS",
+              "location": "Salle 14.24.305",
+              "start": "2025-09-26T11:45:00+00:00",
+              "end": "2025-09-26T13:45:00+00:00"
+            },
+            {
+              "uid": "330203D5-239B-4E6E-BF2D-AE161F67135A",
+              "summary": "UM4EE101-ESA-CS",
+              "location": "Salle 14.24.305",
+              "start": "2025-09-19T11:45:00+00:00",
+              "end": "2025-09-19T13:45:00+00:00"
+            },
+            {
+              "uid": "F8294E5D-2318-4D08-B4E2-AF89041BDCFD",
+              "summary": "UM4EE101-ESA-CS",
+              "location": "Salle 14.24.305",
+              "start": "2025-10-03T11:45:00+00:00",
+              "end": "2025-10-03T13:45:00+00:00"
+            },
+            {
+              "uid": "9A680292-06B3-4B71-94D4-DDCACFFAD74A",
+              "summary": "UM4EE101-ESA-CS",
+              "location": "Salle 14.24.305",
+              "start": "2025-10-10T11:45:00+00:00",
+              "end": "2025-10-10T13:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "254BA7A3-F49B-4CD7-94BF-3CECE3C7A117",
+              "summary": "UM4IN101-VLSI-ER1",
+              "location": "AMPHI.HERPIN*",
+              "start": "2025-11-19T07:30:00+00:00",
+              "end": "2025-11-19T09:30:00+00:00"
+            },
+            {
+              "uid": "9C7F1F8C-2FBB-4706-AE64-BD965E015822",
+              "summary": "UM4IN101-VLSI-ER2",
+              "location": null,
+              "start": "2026-01-08T15:30:00+00:00",
+              "end": "2026-01-08T17:30:00+00:00"
+            },
+            {
+              "uid": "B26012D0-F43D-463F-A455-0EBE3EB7BDA4",
+              "summary": "UM4EE101-ESA-ER1",
+              "location": "Amphi 24",
+              "start": "2025-10-24T11:45:00+00:00",
+              "end": "2025-10-24T13:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "7C4A4448-4BAF-49EB-B06C-BD6B65F9D8FA",
+              "summary": "UM4EE101-ESA-TD (FV)",
+              "location": "Salle 14.24.208",
+              "start": "2025-11-14T15:00:00+00:00",
+              "end": "2025-11-14T17:00:00+00:00"
+            },
+            {
+              "uid": "CA34C78D-F8F9-421F-BD5C-6AB9A4C0EBEC",
+              "summary": "UM4EE101-ESA-TD",
+              "location": "Salle 14.15.104",
+              "start": "2025-11-24T09:45:00+00:00",
+              "end": "2025-11-24T11:45:00+00:00"
+            },
+            {
+              "uid": "489CEFFC-F0AB-4FCE-9A7E-FC7E59C9E5F2",
+              "summary": "UM4EE101-ESA-TD",
+              "location": "Salle 14.15.104",
+              "start": "2025-12-01T09:45:00+00:00",
+              "end": "2025-12-01T11:45:00+00:00"
+            },
+            {
+              "uid": "35CA7AF0-8BA0-47A0-8C23-55C93D8B6908",
+              "summary": "UM4EE101-ESA-TD",
+              "location": "Salle 14.15.104",
+              "start": "2025-12-08T09:45:00+00:00",
+              "end": "2025-12-08T11:45:00+00:00"
+            },
+            {
+              "uid": "F38A78A9-A690-498D-8031-836FEC63B9BB",
+              "summary": "UM4EE101-ESA-TD",
+              "location": "Salle 14.15.104",
+              "start": "2025-12-15T09:45:00+00:00",
+              "end": "2025-12-15T11:45:00+00:00"
+            },
+            {
+              "uid": "6DE65A2E-9960-43A0-A89D-8787783EB2CE",
+              "summary": "UM4EE101-ESA-TD",
+              "location": "Salle 24.25.104",
+              "start": "2025-12-19T12:45:00+00:00",
+              "end": "2025-12-19T14:45:00+00:00"
+            },
+            {
+              "uid": "FE494063-BFF0-45A3-96FD-D8C09640D1D4",
+              "summary": "UM4EE101-ESA-TD",
+              "location": "Salle 24.25.104",
+              "start": "2025-12-12T12:45:00+00:00",
+              "end": "2025-12-12T14:45:00+00:00"
+            },
+            {
+              "uid": "0D96006F-D0EF-4F85-84D7-3840F756DE8B",
+              "summary": "UM4EE101-ESA-TD",
+              "location": "Salle 24.25.104",
+              "start": "2025-12-05T12:45:00+00:00",
+              "end": "2025-12-05T14:45:00+00:00"
+            },
+            {
+              "uid": "A9950157-E455-4EBD-93A2-18BB4008AB36",
+              "summary": "UM4EE101-ESA-TD",
+              "location": "Salle 24.25.104",
+              "start": "2025-11-28T12:45:00+00:00",
+              "end": "2025-11-28T14:45:00+00:00"
+            },
+            {
+              "uid": "3E84667B-B375-4D3F-BBCB-C8CC2338E976",
+              "summary": "UM4EE101-ESA-TD",
+              "location": "Salle 24.34.204",
+              "start": "2025-09-22T08:45:00+00:00",
+              "end": "2025-09-22T10:45:00+00:00"
+            },
+            {
+              "uid": "A82676CF-AF50-46EA-A390-854696718D8E",
+              "summary": "UM4EE101-ESA-TD",
+              "location": "Salle 24.34.210",
+              "start": "2025-10-06T08:45:00+00:00",
+              "end": "2025-10-06T10:45:00+00:00"
+            },
+            {
+              "uid": "5888A64C-3428-4D1D-BFF6-B99F4762899D",
+              "summary": "UM4EE101-ESA-TD",
+              "location": "Salle 24.34.210",
+              "start": "2025-10-13T08:45:00+00:00",
+              "end": "2025-10-13T10:45:00+00:00"
+            },
+            {
+              "uid": "877C86B6-54CA-4154-A43E-91700D13D9AA",
+              "summary": "UM4EE101-ESA-TD",
+              "location": "Salle 24.34.210",
+              "start": "2025-10-20T08:45:00+00:00",
+              "end": "2025-10-20T10:45:00+00:00"
+            },
+            {
+              "uid": "109F56C9-5E8C-4BC8-8877-B909A6319FE6",
+              "summary": "UM4EE101-ESA-TD",
+              "location": "Salle 24.25.104",
+              "start": "2025-11-03T09:45:00+00:00",
+              "end": "2025-11-03T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "DB40B85B-3432-45D9-933D-C44D1E781CDA",
+              "summary": "UM4IN101-VLSI1-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-10-01T06:30:00+00:00",
+              "end": "2025-10-01T10:45:00+00:00"
+            },
+            {
+              "uid": "4AAD6BAA-3914-40B0-AF0F-5EE6D256613E",
+              "summary": "UM4IN101-VLSI1-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-10-08T06:30:00+00:00",
+              "end": "2025-10-08T10:45:00+00:00"
+            },
+            {
+              "uid": "C5E856ED-33F2-4DAB-93C7-9638FA087398",
+              "summary": "UM4IN101-VLSI1-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-10-15T06:30:00+00:00",
+              "end": "2025-10-15T10:45:00+00:00"
+            },
+            {
+              "uid": "4F56DBE4-F53C-403C-871B-C11B44E6296C",
+              "summary": "UM4IN101-VLSI1-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-10-22T06:30:00+00:00",
+              "end": "2025-10-22T10:45:00+00:00"
+            },
+            {
+              "uid": "8725CA39-BC28-4E0E-996B-DA61E1C76711",
+              "summary": "UM4IN101-VLSI1-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-11-05T07:30:00+00:00",
+              "end": "2025-11-05T11:45:00+00:00"
+            },
+            {
+              "uid": "3375CEA6-9B47-4432-B6C8-9870A22C4FF1",
+              "summary": "UM4IN101-VLSI1-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-11-26T07:30:00+00:00",
+              "end": "2025-11-26T11:45:00+00:00"
+            },
+            {
+              "uid": "7F7E8EBD-1F6F-4856-A62B-050EE566F4F7",
+              "summary": "UM4IN101-VLSI1-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-12-03T07:30:00+00:00",
+              "end": "2025-12-03T11:45:00+00:00"
+            },
+            {
+              "uid": "AE7A6EE6-683F-4EF4-B31A-4FA287B556F3",
+              "summary": "UM4IN101-VLSI1-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-12-10T07:30:00+00:00",
+              "end": "2025-12-10T11:45:00+00:00"
+            },
+            {
+              "uid": "F37274C6-90ED-404E-A435-CF6A917D08D6",
+              "summary": "UM4IN101-VLSI1-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-12-17T07:30:00+00:00",
+              "end": "2025-12-17T11:45:00+00:00"
+            },
+            {
+              "uid": "FD919963-13E2-4223-AECB-462F77667EEE",
+              "summary": "UM4IN101-VLSI1-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2025-09-24T06:30:00+00:00",
+              "end": "2025-09-24T10:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TP",
+          "events": [
+            {
+              "uid": "C372D3E6-68A8-4F3D-86F1-4C4FDCAE86D9",
+              "summary": "UM4EE101-ESA-TP",
+              "location": "Salle SESI 24.25.305",
+              "start": "2025-11-24T12:45:00+00:00",
+              "end": "2025-11-24T17:00:00+00:00"
+            },
+            {
+              "uid": "8119F3CC-C7CF-43F6-8EF8-22AF94CD1828",
+              "summary": "UM4EE101-ESA-TP",
+              "location": "Salle SESI 24.25.307",
+              "start": "2025-12-08T12:45:00+00:00",
+              "end": "2025-12-08T17:00:00+00:00"
+            },
+            {
+              "uid": "F7A79B4C-7C0B-42AC-AD98-FB28D71B994C",
+              "summary": "UM4EE101-ESA-TP",
+              "location": "Salle SESI 24.25.307",
+              "start": "2025-12-15T12:45:00+00:00",
+              "end": "2025-12-15T17:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "M1 - Réunion rentrée générale (BIM\\, CCA\\, IMA\\, RES\\, SESI)",
+      "code": "special",
+      "special": true,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "996D6985-8523-4CEA-9727-CE9E204B0E48",
+              "summary": "RéunionM1SESI - Réunion de rentrée",
+              "location": "Salle 14.15.101",
+              "start": "2025-09-08T08:45:00+00:00",
+              "end": "2025-09-08T10:45:00+00:00"
+            },
+            {
+              "uid": "122A2288-C64A-4F48-AA95-F3EC14067240",
+              "summary": "M1 - Réunion rentrée générale (BIM\\, CCA\\, IMA\\, RES\\, SESI)",
+              "location": "AMPHI B2",
+              "start": "2025-09-08T07:00:00+00:00",
+              "end": "2025-09-08T08:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "8C6910BC-A22A-4EE2-878A-70510C5572A3",
+              "summary": "UM4EES05-ESA-ER2",
+              "location": "Amphi 56A",
+              "start": "2025-11-14T08:30:00+00:00",
+              "end": "2025-11-14T10:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TP",
+          "events": [
+            {
+              "uid": "20360540-0C8F-4B0F-B0FC-D4F3B27289F6",
+              "summary": "UM4EES05-ESA-TP (DG)",
+              "location": "Salle Esclangon 227",
+              "start": "2025-10-13T11:45:00+00:00",
+              "end": "2025-10-13T16:00:00+00:00"
+            },
+            {
+              "uid": "E3970452-FDA3-484E-B1B3-D3DFAA1C2925",
+              "summary": "UM4EES05-ESA-TP",
+              "location": "Salle Esclangon 227",
+              "start": "2025-11-03T12:45:00+00:00",
+              "end": "2025-11-03T17:00:00+00:00"
             }
           ]
         }
@@ -749,9 +1184,9 @@
             {
               "uid": "B18E1E42-B4CF-415A-9AD1-6FB9771C1B6B",
               "summary": "UM4IN104-SIGNAL-TD1",
-              "location": "Salle 56.66.104",
+              "location": "Salle 24.34.205",
               "start": "2025-11-25T07:30:00+00:00",
-              "end": "2025-11-25T09:30:00+00:00"
+              "end": "2025-11-25T11:45:00+00:00"
             },
             {
               "uid": "56192B77-2FC6-4FB7-B718-0CC735CDAC2A",
@@ -900,455 +1335,7 @@
           ]
         }
       ]
-    },
-    {
-      "name": "UM4EES05-ESA-TD",
-      "code": "special",
-      "special": true,
-      "groups": [],
-      "variants": [
-        {
-          "group": null,
-          "type": null,
-          "events": [
-            {
-              "uid": "996D6985-8523-4CEA-9727-CE9E204B0E48",
-              "summary": "RéunionM1SESI - Réunion de rentrée",
-              "location": "Salle 14.15.101",
-              "start": "2025-09-08T08:45:00+00:00",
-              "end": "2025-09-08T10:45:00+00:00"
-            },
-            {
-              "uid": "122A2288-C64A-4F48-AA95-F3EC14067240",
-              "summary": "M1 - Réunion rentrée générale (BIM\\, CCA\\, IMA\\, RES\\, SESI)",
-              "location": "AMPHI B2",
-              "start": "2025-09-08T07:00:00+00:00",
-              "end": "2025-09-08T08:30:00+00:00"
-            }
-          ]
-        },
-        {
-          "group": null,
-          "type": "CS",
-          "events": [
-            {
-              "uid": "1AD8794C-F9CC-481E-80D7-0B5A6E6A819B",
-              "summary": "UM4EES05-ESA-CS (FV)",
-              "location": "Salle 13.14.108",
-              "start": "2025-11-10T12:45:00+00:00",
-              "end": "2025-11-10T14:45:00+00:00"
-            },
-            {
-              "uid": "7A2B5990-63E6-4B29-AE9B-BC5A74BC2845",
-              "summary": "UM4EES05-ESA-CS (FV)",
-              "location": "Salle 24.34.203",
-              "start": "2025-11-07T12:45:00+00:00",
-              "end": "2025-11-07T14:45:00+00:00"
-            },
-            {
-              "uid": "81C7F62D-1470-46FF-B642-B9002380CFED",
-              "summary": "UM4EES05-ESA-CS (FV)",
-              "location": "Salle 14.24.208",
-              "start": "2025-11-14T12:45:00+00:00",
-              "end": "2025-11-14T14:45:00+00:00"
-            }
-          ]
-        },
-        {
-          "group": null,
-          "type": "EXAM",
-          "events": [
-            {
-              "uid": "8C6910BC-A22A-4EE2-878A-70510C5572A3",
-              "summary": "UM4EES05-ESA-ER2",
-              "location": null,
-              "start": "2025-11-14T08:30:00+00:00",
-              "end": "2025-11-14T10:30:00+00:00"
-            }
-          ]
-        },
-        {
-          "group": null,
-          "type": "TD",
-          "events": [
-            {
-              "uid": "7C4A4448-4BAF-49EB-B06C-BD6B65F9D8FA",
-              "summary": "UM4EES05-ESA-TD (FV)",
-              "location": "Salle 14.24.208",
-              "start": "2025-11-14T15:00:00+00:00",
-              "end": "2025-11-14T17:00:00+00:00"
-            },
-            {
-              "uid": "CA34C78D-F8F9-421F-BD5C-6AB9A4C0EBEC",
-              "summary": "UM4EES05-ESA-TD",
-              "location": "Salle 14.15.104",
-              "start": "2025-11-24T09:45:00+00:00",
-              "end": "2025-11-24T11:45:00+00:00"
-            },
-            {
-              "uid": "489CEFFC-F0AB-4FCE-9A7E-FC7E59C9E5F2",
-              "summary": "UM4EES05-ESA-TD",
-              "location": "Salle 14.15.104",
-              "start": "2025-12-01T09:45:00+00:00",
-              "end": "2025-12-01T11:45:00+00:00"
-            },
-            {
-              "uid": "35CA7AF0-8BA0-47A0-8C23-55C93D8B6908",
-              "summary": "UM4EES05-ESA-TD",
-              "location": "Salle 14.15.104",
-              "start": "2025-12-08T09:45:00+00:00",
-              "end": "2025-12-08T11:45:00+00:00"
-            },
-            {
-              "uid": "F38A78A9-A690-498D-8031-836FEC63B9BB",
-              "summary": "UM4EES05-ESA-TD",
-              "location": "Salle 14.15.104",
-              "start": "2025-12-15T09:45:00+00:00",
-              "end": "2025-12-15T11:45:00+00:00"
-            },
-            {
-              "uid": "6DE65A2E-9960-43A0-A89D-8787783EB2CE",
-              "summary": "UM4EES05-ESA-TD",
-              "location": null,
-              "start": "2025-12-19T12:45:00+00:00",
-              "end": "2025-12-19T14:45:00+00:00"
-            },
-            {
-              "uid": "FE494063-BFF0-45A3-96FD-D8C09640D1D4",
-              "summary": "UM4EES05-ESA-TD",
-              "location": null,
-              "start": "2025-12-12T12:45:00+00:00",
-              "end": "2025-12-12T14:45:00+00:00"
-            },
-            {
-              "uid": "0D96006F-D0EF-4F85-84D7-3840F756DE8B",
-              "summary": "UM4EES05-ESA-TD",
-              "location": null,
-              "start": "2025-12-05T12:45:00+00:00",
-              "end": "2025-12-05T14:45:00+00:00"
-            },
-            {
-              "uid": "A9950157-E455-4EBD-93A2-18BB4008AB36",
-              "summary": "UM4EES05-ESA-TD",
-              "location": "Réservation : 668284",
-              "start": "2025-11-28T12:45:00+00:00",
-              "end": "2025-11-28T14:45:00+00:00"
-            },
-            {
-              "uid": "109F56C9-5E8C-4BC8-8877-B909A6319FE6",
-              "summary": "UM4EES05-ESA-TD",
-              "location": null,
-              "start": "2025-11-03T09:45:00+00:00",
-              "end": "2025-11-03T11:45:00+00:00"
-            }
-          ]
-        },
-        {
-          "group": null,
-          "type": "TP",
-          "events": [
-            {
-              "uid": "20360540-0C8F-4B0F-B0FC-D4F3B27289F6",
-              "summary": "UM4EES05-ESA-TP (DG)",
-              "location": "Salle Esclangon 227",
-              "start": "2025-10-13T11:45:00+00:00",
-              "end": "2025-10-13T16:00:00+00:00"
-            },
-            {
-              "uid": "C372D3E6-68A8-4F3D-86F1-4C4FDCAE86D9",
-              "summary": "UM4EES05-ESA-TP",
-              "location": "Salle SESI 24.25.305",
-              "start": "2025-11-24T12:45:00+00:00",
-              "end": "2025-11-24T17:00:00+00:00"
-            },
-            {
-              "uid": "8119F3CC-C7CF-43F6-8EF8-22AF94CD1828",
-              "summary": "UM4EES05-ESA-TP",
-              "location": "Salle SESI 24.25.307",
-              "start": "2025-12-08T12:45:00+00:00",
-              "end": "2025-12-08T17:00:00+00:00"
-            },
-            {
-              "uid": "F7A79B4C-7C0B-42AC-AD98-FB28D71B994C",
-              "summary": "UM4EES05-ESA-TP",
-              "location": "Salle SESI 24.25.307",
-              "start": "2025-12-15T12:45:00+00:00",
-              "end": "2025-12-15T17:00:00+00:00"
-            },
-            {
-              "uid": "E3970452-FDA3-484E-B1B3-D3DFAA1C2925",
-              "summary": "UM4EES05-ESA-TP",
-              "location": "Salle Esclangon 227",
-              "start": "2025-11-03T12:45:00+00:00",
-              "end": "2025-11-03T17:00:00+00:00"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "VLSI",
-      "code": "101",
-      "special": false,
-      "groups": [],
-      "variants": [
-        {
-          "group": null,
-          "type": "CS",
-          "events": [
-            {
-              "uid": "BF0D23F1-6EE8-4C25-929F-1961F0B95F3D",
-              "summary": "UM4IN101-VLSI-Cours",
-              "location": "Salle 23.24.101",
-              "start": "2025-09-18T14:00:00+00:00",
-              "end": "2025-09-18T16:00:00+00:00"
-            },
-            {
-              "uid": "7FEBBF87-BB85-4351-A656-64C099BE618D",
-              "summary": "UM4IN101-VLSI-Cours",
-              "location": "Salle 23.24.101",
-              "start": "2025-09-25T14:00:00+00:00",
-              "end": "2025-09-25T16:00:00+00:00"
-            },
-            {
-              "uid": "932FCD06-1C9F-4D5D-BCA4-65409B2F4374",
-              "summary": "UM4IN101-VLSI-Cours",
-              "location": "Salle 23.24.101",
-              "start": "2025-10-02T14:00:00+00:00",
-              "end": "2025-10-02T16:00:00+00:00"
-            },
-            {
-              "uid": "16921BD4-53F3-4980-819D-7D2923259BCA",
-              "summary": "UM4IN101-VLSI-Cours",
-              "location": "Salle 23.24.101",
-              "start": "2025-10-09T14:00:00+00:00",
-              "end": "2025-10-09T16:00:00+00:00"
-            },
-            {
-              "uid": "93D67898-7307-47F9-8A5D-030CF6CEF241",
-              "summary": "UM4IN101-VLSI-Cours",
-              "location": "Salle 14.24.101",
-              "start": "2025-10-20T14:00:00+00:00",
-              "end": "2025-10-20T16:00:00+00:00"
-            },
-            {
-              "uid": "1A5BCB53-9572-4017-A5E3-41385F40903B",
-              "summary": "UM4IN101-VLSI-Cours",
-              "location": "Salle 24.25.107",
-              "start": "2025-10-23T14:00:00+00:00",
-              "end": "2025-10-23T16:00:00+00:00"
-            },
-            {
-              "uid": "F5FD59D4-04AF-4561-A95E-27680AF35952",
-              "summary": "UM4IN101-VLSI-Cours",
-              "location": "Salle 24.25.107",
-              "start": "2025-11-06T15:00:00+00:00",
-              "end": "2025-11-06T17:00:00+00:00"
-            },
-            {
-              "uid": "F0E8C925-3E7D-431E-BFC3-6C63BF88882E",
-              "summary": "UM4IN101-VLSI-Cours",
-              "location": "Salle 14.15.107",
-              "start": "2025-11-27T15:00:00+00:00",
-              "end": "2025-11-27T17:00:00+00:00"
-            },
-            {
-              "uid": "6AB6D283-52CC-4A72-82FE-AC065632DFA7",
-              "summary": "UM4IN101-VLSI-Cours",
-              "location": "Salle 14.15.107",
-              "start": "2025-12-04T15:00:00+00:00",
-              "end": "2025-12-04T17:00:00+00:00"
-            },
-            {
-              "uid": "500C3E6B-0CDA-484C-812D-25B63A880B59",
-              "summary": "UM4IN101-VLSI-Cours",
-              "location": "Salle 14.15.107",
-              "start": "2025-12-11T15:00:00+00:00",
-              "end": "2025-12-11T17:00:00+00:00"
-            },
-            {
-              "uid": "4C568620-CA89-4B53-8ABA-DA21F4E9845B",
-              "summary": "UM4EE101-ESA-CS",
-              "location": "Salle 14.24.305",
-              "start": "2025-09-11T14:00:00+00:00",
-              "end": "2025-09-11T16:00:00+00:00"
-            },
-            {
-              "uid": "8BF3CB25-9855-4E6C-9E3A-E13E62E45035",
-              "summary": "UM4EE101-ESA-CS",
-              "location": "Salle 14.24.305",
-              "start": "2025-09-12T11:45:00+00:00",
-              "end": "2025-09-12T13:45:00+00:00"
-            },
-            {
-              "uid": "930D8868-6563-47E9-87B9-50FB9A7003FB",
-              "summary": "UM4EE101-ESA-CS",
-              "location": "Salle 14.24.305",
-              "start": "2025-09-26T11:45:00+00:00",
-              "end": "2025-09-26T13:45:00+00:00"
-            },
-            {
-              "uid": "330203D5-239B-4E6E-BF2D-AE161F67135A",
-              "summary": "UM4EE101-ESA-CS",
-              "location": "Salle 14.24.305",
-              "start": "2025-09-19T11:45:00+00:00",
-              "end": "2025-09-19T13:45:00+00:00"
-            },
-            {
-              "uid": "F8294E5D-2318-4D08-B4E2-AF89041BDCFD",
-              "summary": "UM4EE101-ESA-CS",
-              "location": "Salle 14.24.305",
-              "start": "2025-10-03T11:45:00+00:00",
-              "end": "2025-10-03T13:45:00+00:00"
-            },
-            {
-              "uid": "9A680292-06B3-4B71-94D4-DDCACFFAD74A",
-              "summary": "UM4EE101-ESA-CS",
-              "location": "Salle 14.24.305",
-              "start": "2025-10-10T11:45:00+00:00",
-              "end": "2025-10-10T13:45:00+00:00"
-            }
-          ]
-        },
-        {
-          "group": null,
-          "type": "EXAM",
-          "events": [
-            {
-              "uid": "254BA7A3-F49B-4CD7-94BF-3CECE3C7A117",
-              "summary": "UM4IN101-VLSI-ER1",
-              "location": "AMPHI.HERPIN*",
-              "start": "2025-11-19T09:45:00+00:00",
-              "end": "2025-11-19T11:45:00+00:00"
-            },
-            {
-              "uid": "9C7F1F8C-2FBB-4706-AE64-BD965E015822",
-              "summary": "UM4IN101-VLSI-ER2",
-              "location": null,
-              "start": "2026-01-08T15:30:00+00:00",
-              "end": "2026-01-08T17:30:00+00:00"
-            },
-            {
-              "uid": "B26012D0-F43D-463F-A455-0EBE3EB7BDA4",
-              "summary": "UM4EE101-ESA-ER1",
-              "location": null,
-              "start": "2025-10-24T14:00:00+00:00",
-              "end": "2025-10-24T16:00:00+00:00"
-            }
-          ]
-        },
-        {
-          "group": null,
-          "type": "TD",
-          "events": [
-            {
-              "uid": "3E84667B-B375-4D3F-BBCB-C8CC2338E976",
-              "summary": "UM4EE101-ESA-TD",
-              "location": "Salle 24.34.204",
-              "start": "2025-09-22T08:45:00+00:00",
-              "end": "2025-09-22T10:45:00+00:00"
-            },
-            {
-              "uid": "A82676CF-AF50-46EA-A390-854696718D8E",
-              "summary": "UM4EE101-ESA-TD",
-              "location": "Salle 24.34.210",
-              "start": "2025-10-06T08:45:00+00:00",
-              "end": "2025-10-06T10:45:00+00:00"
-            },
-            {
-              "uid": "5888A64C-3428-4D1D-BFF6-B99F4762899D",
-              "summary": "UM4EE101-ESA-TD",
-              "location": "Salle 24.34.210",
-              "start": "2025-10-13T08:45:00+00:00",
-              "end": "2025-10-13T10:45:00+00:00"
-            },
-            {
-              "uid": "877C86B6-54CA-4154-A43E-91700D13D9AA",
-              "summary": "UM4EE101-ESA-TD",
-              "location": null,
-              "start": "2025-10-20T08:45:00+00:00",
-              "end": "2025-10-20T10:45:00+00:00"
-            }
-          ]
-        },
-        {
-          "group": null,
-          "type": "TME",
-          "events": [
-            {
-              "uid": "DB40B85B-3432-45D9-933D-C44D1E781CDA",
-              "summary": "UM4IN101-VLSI1-TME",
-              "location": "Salle SESI : 24.25.305",
-              "start": "2025-10-01T06:30:00+00:00",
-              "end": "2025-10-01T10:45:00+00:00"
-            },
-            {
-              "uid": "4AAD6BAA-3914-40B0-AF0F-5EE6D256613E",
-              "summary": "UM4IN101-VLSI1-TME",
-              "location": "Salle SESI : 24.25.305",
-              "start": "2025-10-08T06:30:00+00:00",
-              "end": "2025-10-08T10:45:00+00:00"
-            },
-            {
-              "uid": "C5E856ED-33F2-4DAB-93C7-9638FA087398",
-              "summary": "UM4IN101-VLSI1-TME",
-              "location": "Salle SESI : 24.25.305",
-              "start": "2025-10-15T06:30:00+00:00",
-              "end": "2025-10-15T10:45:00+00:00"
-            },
-            {
-              "uid": "4F56DBE4-F53C-403C-871B-C11B44E6296C",
-              "summary": "UM4IN101-VLSI1-TME",
-              "location": "Salle SESI : 24.25.305",
-              "start": "2025-10-22T06:30:00+00:00",
-              "end": "2025-10-22T10:45:00+00:00"
-            },
-            {
-              "uid": "8725CA39-BC28-4E0E-996B-DA61E1C76711",
-              "summary": "UM4IN101-VLSI1-TME",
-              "location": "Salle SESI : 24.25.305",
-              "start": "2025-11-05T07:30:00+00:00",
-              "end": "2025-11-05T11:45:00+00:00"
-            },
-            {
-              "uid": "3375CEA6-9B47-4432-B6C8-9870A22C4FF1",
-              "summary": "UM4IN101-VLSI1-TME",
-              "location": "Salle SESI : 24.25.305",
-              "start": "2025-11-26T07:30:00+00:00",
-              "end": "2025-11-26T11:45:00+00:00"
-            },
-            {
-              "uid": "7F7E8EBD-1F6F-4856-A62B-050EE566F4F7",
-              "summary": "UM4IN101-VLSI1-TME",
-              "location": "Salle SESI : 24.25.305",
-              "start": "2025-12-03T07:30:00+00:00",
-              "end": "2025-12-03T11:45:00+00:00"
-            },
-            {
-              "uid": "AE7A6EE6-683F-4EF4-B31A-4FA287B556F3",
-              "summary": "UM4IN101-VLSI1-TME",
-              "location": "Salle SESI : 24.25.305",
-              "start": "2025-12-10T07:30:00+00:00",
-              "end": "2025-12-10T11:45:00+00:00"
-            },
-            {
-              "uid": "F37274C6-90ED-404E-A435-CF6A917D08D6",
-              "summary": "UM4IN101-VLSI1-TME",
-              "location": "Salle SESI : 24.25.305",
-              "start": "2025-12-17T07:30:00+00:00",
-              "end": "2025-12-17T11:45:00+00:00"
-            },
-            {
-              "uid": "FD919963-13E2-4223-AECB-462F77667EEE",
-              "summary": "UM4IN101-VLSI1-TME",
-              "location": "Salle SESI : 24.25.305",
-              "start": "2025-09-24T06:30:00+00:00",
-              "end": "2025-09-24T10:45:00+00:00"
-            }
-          ]
-        }
-      ]
     }
   ],
-  "updated_at": "2025-10-16T06:50:14.261479025+00:00"
+  "updated_at": "2025-10-17T06:49:53.264022654+00:00"
 }
