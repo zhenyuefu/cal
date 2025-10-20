@@ -3,6 +3,27 @@
   "parcours": "ANDROIDE",
   "courses": [
     {
+      "name": "AI",
+      "code": "258",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "5D354F4E-C077-48BD-A2D6-F3DBD0A846BD",
+              "summary": "UM5IN258-AI-ADAPT-TME-TD",
+              "location": "salle : 23.24.103",
+              "start": "2025-12-15T12:45:00+00:00",
+              "end": "2025-12-15T17:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "AnglaisAI2D",
       "code": "Anglais",
       "special": false,
@@ -149,6 +170,13 @@
           "group": null,
           "type": "EXAM",
           "events": [
+            {
+              "uid": "9D7F6BFA-F47E-494B-88E5-3922DA809438",
+              "summary": "UM4IN200-MOGPL-ER2",
+              "location": null,
+              "start": "2026-01-09T07:30:00+00:00",
+              "end": "2026-01-09T09:30:00+00:00"
+            },
             {
               "uid": "5F59353F-FACD-4012-9442-998BE0267A7E",
               "summary": "UM4IN200-MOGPL-ER1",
@@ -323,14 +351,14 @@
             {
               "uid": "0C585BF1-DE67-4AE3-944E-631CFA52CCDD",
               "summary": "UM4IN200-MOGPL-TD3",
-              "location": null,
+              "location": "24.34.101",
               "start": "2025-11-07T09:45:00+00:00",
               "end": "2025-11-07T11:45:00+00:00"
             },
             {
               "uid": "01AF9A15-96DB-4184-AD35-F331D5DF49C7",
               "summary": "UM4IN200-MOGPL-TD3",
-              "location": null,
+              "location": "24.34.101",
               "start": "2025-11-07T12:45:00+00:00",
               "end": "2025-11-07T14:45:00+00:00"
             },
@@ -409,14 +437,14 @@
             {
               "uid": "547A1AD5-53CE-46D4-8388-022B7E79FEEE",
               "summary": "UM4IN200-MOGPL-TD4",
-              "location": null,
+              "location": "24.34.103",
               "start": "2025-11-07T09:45:00+00:00",
               "end": "2025-11-07T11:45:00+00:00"
             },
             {
               "uid": "C46BECFC-38E3-458A-BE7B-644B71D1BA95",
               "summary": "UM4IN200-MOGPL-TD4",
-              "location": null,
+              "location": "24.34.103",
               "start": "2025-11-07T12:45:00+00:00",
               "end": "2025-11-07T14:45:00+00:00"
             },
@@ -468,5 +496,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-17T06:49:44.669277585+00:00"
+  "updated_at": "2025-10-20T06:51:32.895380730+00:00"
 }

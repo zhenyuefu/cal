@@ -55,6 +55,12 @@
       "groups": [],
       "source": "M1_ANDROIDE"
     },
+    "258|M1_ANDROIDE": {
+      "name": "AI",
+      "code": "258",
+      "groups": [],
+      "source": "M1_ANDROIDE"
+    },
     "400|M1_SAR": {
       "name": "PSCR",
       "code": "400",
