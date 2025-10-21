@@ -534,7 +534,7 @@
             {
               "uid": "72E3ACD6-9F53-425E-BF8C-84B28FAC83DF",
               "summary": "UM5IN751-PHYG-Cours (rattrapage du 16/10)",
-              "location": null,
+              "location": "Salle 54.55.205",
               "start": "2025-10-20T11:45:00+00:00",
               "end": "2025-10-20T13:45:00+00:00"
             },
@@ -613,7 +613,7 @@
             {
               "uid": "AB8A1E5F-9FA6-474E-96E5-364B44A3B5FF",
               "summary": "UM5IN751-PHYG-TME (rattrapage du 16/10)",
-              "location": null,
+              "location": "Salle 14.15.503",
               "start": "2025-10-20T14:00:00+00:00",
               "end": "2025-10-20T16:00:00+00:00"
             }
@@ -918,5 +918,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-20T06:51:54.504846229+00:00"
+  "updated_at": "2025-10-21T06:50:41.472531619+00:00"
 }
