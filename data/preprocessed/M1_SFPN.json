@@ -572,26 +572,34 @@
           "events": [
             {
               "uid": "329E2E50-DFCA-41F0-98A3-9AA9F973274D",
-              "summary": "UM4IN903-PPAR-TME 2 (EN)",
+              "summary": "UM4IN903-PPAR-TME2 (EN)",
               "location": "Salle 24.25.306",
               "start": "2025-09-26T11:45:00+00:00",
               "end": "2025-09-26T16:00:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251024T215959Z"
+              "rrule": "FREQ=WEEKLY;UNTIL=20251003T215959Z"
             },
             {
               "uid": "38A9FE6A-D060-4CA9-BE94-861F8D55CB5E",
               "summary": "UM4IN903-PPAR-TME 2 (EN)",
-              "location": "En attente de salle",
+              "location": "Salle 24.25.306",
               "start": "2025-11-07T12:45:00+00:00",
               "end": "2025-11-07T17:00:00+00:00"
             },
             {
               "uid": "E587F625-2DA4-4F86-A28C-9DCB2C6AD57F",
               "summary": "UM4IN903-PPAR-TME 2 (EN)",
-              "location": "En attente de salle",
+              "location": "Salle 24.25.306",
               "start": "2025-11-28T12:45:00+00:00",
               "end": "2025-11-28T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251219T225959Z"
+            },
+            {
+              "uid": "AB53CD60-F6A4-4129-9ED4-587F6A9EFA5C",
+              "summary": "UM4IN903-PPAR-TME2 (EN)",
+              "location": "Salle 24.25.306",
+              "start": "2025-10-10T11:45:00+00:00",
+              "end": "2025-10-10T16:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251024T215959Z"
             }
           ]
         }
@@ -715,5 +723,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-22T06:52:00.537806257+00:00"
+  "updated_at": "2025-10-23T06:50:52.650038167+00:00"
 }
