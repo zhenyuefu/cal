@@ -219,6 +219,12 @@
       "groups": [],
       "source": "M1_ANDROIDE"
     },
+    "Anglais|M1_SESI": {
+      "name": "Anglais",
+      "code": "Anglais",
+      "groups": [],
+      "source": "M1_SESI"
+    },
     "Anglais|M1_STL": {
       "name": "AnglaisSTL",
       "code": "Anglais",
