@@ -42,6 +42,13 @@
           "type": "EXAM",
           "events": [
             {
+              "uid": "1CB5354A-ECEA-4E2B-9123-6CD46C83F95E",
+              "summary": "UM4IN500-ALGAV-ExamenR2",
+              "location": null,
+              "start": "2026-01-06T07:30:00+00:00",
+              "end": "2026-01-06T09:30:00+00:00"
+            },
+            {
               "uid": "44EE0FDA-0406-4D86-AB99-3012B4B5163E",
               "summary": "UM4IN500-ALGAV-ExamenR1",
               "location": "AMPHI A2",
@@ -240,6 +247,78 @@
       ]
     },
     {
+      "name": "APS",
+      "code": "503",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "59C46113-DE34-4234-9C6C-7A273FB1B37D",
+              "summary": "UM4IN503-APS-Cours",
+              "location": null,
+              "start": "2026-01-21T15:00:00+00:00",
+              "end": "2026-01-21T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
+            },
+            {
+              "uid": "9DC9C701-5643-42DB-9C2B-FA9CB8871234",
+              "summary": "UM4IN503-APS-Cours",
+              "location": null,
+              "start": "2026-03-18T15:00:00+00:00",
+              "end": "2026-03-18T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260410T215959Z"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "2B34C779-9AF1-459B-8566-3E329AF7226A",
+              "summary": "UM4IN503-APS-TME",
+              "location": null,
+              "start": "2026-01-26T07:30:00+00:00",
+              "end": "2026-01-26T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260126T225959Z"
+            },
+            {
+              "uid": "2B34C779-9AF1-459B-8566-3E329AF7226A",
+              "summary": "UM4IN503-APS-TME",
+              "location": null,
+              "start": "2026-01-28T07:30:00+00:00",
+              "end": "2026-01-28T11:45:00+00:00",
+              "recurrence_id": "2026-01-26T07:30:00+00:00"
+            },
+            {
+              "uid": "C49131A9-D361-47E4-8BB4-956C7E009C2D",
+              "summary": "UM4IN503-APS-TME",
+              "location": null,
+              "start": "2026-02-04T07:30:00+00:00",
+              "end": "2026-02-04T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260204T225959Z"
+            },
+            {
+              "uid": "0EAE8392-ED07-453B-A1E6-69285CB84900",
+              "summary": "UM4IN503-APS-TME",
+              "location": null,
+              "start": "2026-02-11T07:30:00+00:00",
+              "end": "2026-02-11T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260417T215959Z",
+              "exdates": [
+                "2026-03-04T07:30:00+00:00",
+                "2026-03-11T07:30:00+00:00"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "ATRIUM des Métiers",
       "code": "special",
       "special": true,
@@ -313,6 +392,176 @@
       ]
     },
     {
+      "name": "CA",
+      "code": "504",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "E9C8FB8D-86EE-4EC4-9808-913B352DD452",
+              "summary": "UM4IN504-CA-Cours",
+              "location": null,
+              "start": "2026-01-20T07:30:00+00:00",
+              "end": "2026-01-20T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
+            },
+            {
+              "uid": "EE5AF028-A256-4330-93ED-7EBAFB141374",
+              "summary": "UM4IN504-CA-Cours",
+              "location": null,
+              "start": "2026-03-17T07:30:00+00:00",
+              "end": "2026-03-17T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260410T215959Z"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "E98E5BE3-92B9-492B-8B5E-1C5F36D350D4",
+              "summary": "UM4IN504-CA-TD",
+              "location": null,
+              "start": "2026-01-26T07:30:00+00:00",
+              "end": "2026-01-26T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
+            },
+            {
+              "uid": "B78A76AC-2CF5-4072-90F0-9AE70E165245",
+              "summary": "UM4IN504-CA-TD",
+              "location": null,
+              "start": "2026-03-16T07:30:00+00:00",
+              "end": "2026-03-16T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260504T215959Z"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "07EB7AD2-F21B-45A7-B9E8-D24B55F17DEF",
+              "summary": "UM4IN504-CA-TME",
+              "location": null,
+              "start": "2026-01-26T09:45:00+00:00",
+              "end": "2026-01-26T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260504T215959Z",
+              "exdates": [
+                "2026-03-02T09:45:00+00:00",
+                "2026-03-09T09:45:00+00:00"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CPA",
+      "code": "505",
+      "special": false,
+      "groups": [
+        "1"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "8FF3AB84-0B0B-4EED-AC22-C750A8FC46C3",
+              "summary": "UM4IN505-CPA-Cours",
+              "location": null,
+              "start": "2026-01-23T09:45:00+00:00",
+              "end": "2026-01-23T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
+            },
+            {
+              "uid": "3729B937-A12F-42AA-98B3-8E3FC068B636",
+              "summary": "UM4IN505-CPA-Cours",
+              "location": null,
+              "start": "2026-03-20T09:45:00+00:00",
+              "end": "2026-03-20T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260410T215959Z"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "07A6D9F6-A627-4B8E-A59F-2BC1F6AB0F08",
+              "summary": "UM4IN505-CPA-TME1",
+              "location": null,
+              "start": "2026-01-23T12:45:00+00:00",
+              "end": "2026-01-23T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260417T215959Z",
+              "exdates": [
+                "2026-03-06T12:45:00+00:00",
+                "2026-03-13T12:45:00+00:00"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CPS",
+      "code": "506",
+      "special": false,
+      "groups": [
+        "1"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "5722A8DC-F3FB-4C55-B12E-E04C34B728F1",
+              "summary": "UM4IN506-CPS-Cours",
+              "location": null,
+              "start": "2026-01-20T15:00:00+00:00",
+              "end": "2026-01-20T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
+            },
+            {
+              "uid": "DF3233FC-0194-46BE-B4E1-B9B4417D0E98",
+              "summary": "UM4IN506-CPS-Cours",
+              "location": null,
+              "start": "2026-03-17T15:00:00+00:00",
+              "end": "2026-03-17T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260410T215959Z"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "8F26D67C-0E3E-4560-80C0-0A4CC03D7BC9",
+              "summary": "UM4IN506-CPS-TME1",
+              "location": null,
+              "start": "2026-01-26T12:45:00+00:00",
+              "end": "2026-01-26T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260504T215959Z",
+              "exdates": [
+                "2026-03-02T12:45:00+00:00",
+                "2026-03-09T12:45:00+00:00"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "DLP",
       "code": "501",
       "special": false,
@@ -360,6 +609,13 @@
           "group": null,
           "type": "EXAM",
           "events": [
+            {
+              "uid": "E3A017BE-8FB2-4C6D-86EC-7AE2459D85FF",
+              "summary": "UM4IN501-DLP-ExamenR2",
+              "location": null,
+              "start": "2026-01-06T10:00:00+00:00",
+              "end": "2026-01-06T12:00:00+00:00"
+            },
             {
               "uid": "23F399B1-0603-4B82-904B-C1753D449E89",
               "summary": "UM4IN501-DLP-ExamenR1",
@@ -543,7 +799,149 @@
           ]
         }
       ]
+    },
+    {
+      "name": "PAF",
+      "code": "510",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "68845292-BA76-4A25-A427-79610EE4125C",
+              "summary": "UM4IN510-PAF-Cours",
+              "location": null,
+              "start": "2026-01-20T09:45:00+00:00",
+              "end": "2026-01-20T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
+            },
+            {
+              "uid": "E698AB3E-CC83-46C3-90FF-73B616EA9A73",
+              "summary": "UM4IN510-PAF-Cours",
+              "location": null,
+              "start": "2026-03-17T09:45:00+00:00",
+              "end": "2026-03-17T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260410T215959Z"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "36A270DA-C174-4BDF-BB96-E370EF567ABC",
+              "summary": "UM4IN510-PAF-TD",
+              "location": null,
+              "start": "2026-01-29T12:45:00+00:00",
+              "end": "2026-01-29T14:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
+            },
+            {
+              "uid": "15DD5A66-06B7-4A9B-96AD-82EAE2964F20",
+              "summary": "UM4IN510-PAF-TD",
+              "location": null,
+              "start": "2026-03-19T12:45:00+00:00",
+              "end": "2026-03-19T14:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260417T215959Z"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "9074689D-C5DF-488F-8F50-6AC8B1398581",
+              "summary": "UM4IN510-PAF-TME",
+              "location": null,
+              "start": "2026-01-29T15:00:00+00:00",
+              "end": "2026-01-29T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260417T215959Z",
+              "exdates": [
+                "2026-03-05T15:00:00+00:00",
+                "2026-03-12T15:00:00+00:00"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PC2R",
+      "code": "507",
+      "special": false,
+      "groups": [
+        "1"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "4F4AD5DC-2987-480E-9FD3-0DAD4B98429C",
+              "summary": "UM4IN507-PC2R-Cours",
+              "location": null,
+              "start": "2026-01-21T12:45:00+00:00",
+              "end": "2026-01-21T14:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
+            },
+            {
+              "uid": "8C436CCB-6226-414D-A576-851E591C6337",
+              "summary": "UM4IN507-PC2R-Cours",
+              "location": null,
+              "start": "2026-03-18T12:45:00+00:00",
+              "end": "2026-03-18T14:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260410T215959Z"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "B977A9A6-3ADE-4DA0-8EBD-DD413599601B",
+              "summary": "UM4IN507-PC2R-TD1",
+              "location": null,
+              "start": "2026-01-29T07:30:00+00:00",
+              "end": "2026-01-29T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
+            },
+            {
+              "uid": "021CDBA4-FF58-4F43-BC78-7F0E748E9604",
+              "summary": "UM4IN507-PC2R-TD1",
+              "location": null,
+              "start": "2026-03-19T07:30:00+00:00",
+              "end": "2026-03-19T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260417T215959Z"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "676A3C8D-4BE3-4F2D-A384-1769254754BA",
+              "summary": "UM4IN507-PC2R-TME1",
+              "location": null,
+              "start": "2026-01-29T09:45:00+00:00",
+              "end": "2026-01-29T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260417T215959Z",
+              "exdates": [
+                "2026-03-05T09:45:00+00:00",
+                "2026-03-12T09:45:00+00:00"
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
-  "updated_at": "2025-10-27T06:54:40.842681619+00:00"
+  "updated_at": "2025-10-28T06:52:39.748072379+00:00"
 }

@@ -38,6 +38,34 @@
       ],
       "source": "M1_SESI"
     },
+    "106|M1_SESI": {
+      "name": "MULTI",
+      "code": "106",
+      "groups": [],
+      "source": "M1_SESI"
+    },
+    "108|M1_SESI": {
+      "name": "FPGA",
+      "code": "108",
+      "groups": [
+        "1",
+        "2",
+        "3"
+      ],
+      "source": "M1_SESI"
+    },
+    "109|M1_SESI": {
+      "name": "IOC",
+      "code": "109",
+      "groups": [],
+      "source": "M1_SESI"
+    },
+    "111|M1_SESI": {
+      "name": "PPSE",
+      "code": "111",
+      "groups": [],
+      "source": "M1_SESI"
+    },
     "200|M1_ANDROIDE": {
       "name": "MOGPL",
       "code": "200",
@@ -98,6 +126,48 @@
         "1",
         "2"
       ],
+      "source": "M1_STL"
+    },
+    "503|M1_STL": {
+      "name": "APS",
+      "code": "503",
+      "groups": [],
+      "source": "M1_STL"
+    },
+    "504|M1_STL": {
+      "name": "CA",
+      "code": "504",
+      "groups": [],
+      "source": "M1_STL"
+    },
+    "505|M1_STL": {
+      "name": "CPA",
+      "code": "505",
+      "groups": [
+        "1"
+      ],
+      "source": "M1_STL"
+    },
+    "506|M1_STL": {
+      "name": "CPS",
+      "code": "506",
+      "groups": [
+        "1"
+      ],
+      "source": "M1_STL"
+    },
+    "507|M1_STL": {
+      "name": "PC2R",
+      "code": "507",
+      "groups": [
+        "1"
+      ],
+      "source": "M1_STL"
+    },
+    "510|M1_STL": {
+      "name": "PAF",
+      "code": "510",
+      "groups": [],
       "source": "M1_STL"
     },
     "511|M1_STL": {

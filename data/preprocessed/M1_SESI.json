@@ -437,14 +437,205 @@
       "variants": [
         {
           "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "B62B9E81-BD1E-4183-BC78-D954739C3DEF",
+              "summary": "UM4LVAN2-ANGLAIS",
+              "location": "Salle en fonction du groupe\\, voir Moodle",
+              "start": "2026-01-28T13:00:00+00:00",
+              "end": "2026-01-28T16:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "CS",
           "events": [
+            {
+              "uid": "C3049583-65CD-484A-AEA7-73ACB94EAED7",
+              "summary": "UM4IN106-MULTI- Anglais-Cours",
+              "location": null,
+              "start": "2026-04-02T08:45:00+00:00",
+              "end": "2026-04-02T10:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
+            {
+              "uid": "EA546422-2F5B-4E0C-80E3-BBD0D5987AA3",
+              "summary": "UM4IN106-MULTI- Anglais-Cours",
+              "location": null,
+              "start": "2026-04-09T08:45:00+00:00",
+              "end": "2026-04-09T10:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
             {
               "uid": "8D7FEA60-C733-4C06-B8AB-D364FAB9F606",
               "summary": "UM4IN100-ARCHI-CoursAnglais",
               "location": "Salle 54.55.125",
               "start": "2025-10-09T08:45:00+00:00",
               "end": "2025-10-09T10:45:00+00:00"
+            },
+            {
+              "uid": "CE3B19E2-9469-48B8-965A-702AAB54974A",
+              "summary": "UM4IN106-MULTI- Anglais-Cours",
+              "location": null,
+              "start": "2026-01-22T09:45:00+00:00",
+              "end": "2026-01-22T11:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
+            {
+              "uid": "2968A717-013C-428A-AE9D-4959446E4E89",
+              "summary": "UM4IN106-MULTI- Anglais-Cours",
+              "location": null,
+              "start": "2026-01-29T09:45:00+00:00",
+              "end": "2026-01-29T11:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
+            {
+              "uid": "DABA2ED3-8738-4AC2-895C-A0A3A21E2463",
+              "summary": "UM4IN106-MULTI- Anglais-Cours",
+              "location": null,
+              "start": "2026-02-05T09:45:00+00:00",
+              "end": "2026-02-05T11:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
+            {
+              "uid": "6DD90AAD-5FA5-4B3D-9AB1-3EDF7B195245",
+              "summary": "UM4IN106-MULTI- Anglais-Cours",
+              "location": null,
+              "start": "2026-02-12T09:45:00+00:00",
+              "end": "2026-02-12T11:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
+            {
+              "uid": "98FF22FC-606E-45BD-88E2-1523F4A65E30",
+              "summary": "UM4IN106-MULTI- Anglais-Cours",
+              "location": null,
+              "start": "2026-02-19T09:45:00+00:00",
+              "end": "2026-02-19T11:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
+            {
+              "uid": "BAF9119B-D2BD-4EA6-9169-09F4364510A5",
+              "summary": "UM4IN106-MULTI- Anglais-Cours",
+              "location": null,
+              "start": "2026-02-26T09:45:00+00:00",
+              "end": "2026-02-26T11:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
+            {
+              "uid": "85E4B234-160D-48E5-957D-14F26ADC9CEC",
+              "summary": "UM4IN106-MULTI- Anglais-Cours",
+              "location": null,
+              "start": "2026-03-19T09:45:00+00:00",
+              "end": "2026-03-19T11:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
+            {
+              "uid": "079AE7F1-8B6E-42DE-A3E3-86387F5B0DAD",
+              "summary": "UM4IN106-MULTI- Anglais-Cours",
+              "location": null,
+              "start": "2026-03-26T09:45:00+00:00",
+              "end": "2026-03-26T11:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Conférence Métiers- OBLIGATOIRE",
+      "code": "special",
+      "special": true,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "996D6985-8523-4CEA-9727-CE9E204B0E48",
+              "summary": "RéunionM1SESI - Réunion de rentrée",
+              "location": "Salle 14.15.101",
+              "start": "2025-09-08T08:45:00+00:00",
+              "end": "2025-09-08T10:45:00+00:00"
+            },
+            {
+              "uid": "122A2288-C64A-4F48-AA95-F3EC14067240",
+              "summary": "M1 - Réunion rentrée générale (BIM\\, CCA\\, IMA\\, RES\\, SESI)",
+              "location": "AMPHI B2",
+              "start": "2025-09-08T07:00:00+00:00",
+              "end": "2025-09-08T08:30:00+00:00"
+            },
+            {
+              "uid": "A5972933-7C26-467C-9549-6E96046F2159",
+              "summary": "Conférence Métiers- OBLIGATOIRE",
+              "location": null,
+              "start": "2026-01-27T12:45:00+00:00",
+              "end": "2026-01-27T14:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "8C6910BC-A22A-4EE2-878A-70510C5572A3",
+              "summary": "UM4EES05-ESA-ER2",
+              "location": "Amphi 56A",
+              "start": "2025-11-14T08:30:00+00:00",
+              "end": "2025-11-14T10:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TP",
+          "events": [
+            {
+              "uid": "20360540-0C8F-4B0F-B0FC-D4F3B27289F6",
+              "summary": "UM4EES05-ESA-TP (DG)",
+              "location": "Salle Esclangon 227",
+              "start": "2025-10-13T11:45:00+00:00",
+              "end": "2025-10-13T16:00:00+00:00"
+            },
+            {
+              "uid": "E3970452-FDA3-484E-B1B3-D3DFAA1C2925",
+              "summary": "UM4EES05-ESA-TP",
+              "location": "Salle Esclangon 227",
+              "start": "2025-11-03T12:45:00+00:00",
+              "end": "2025-11-03T17:00:00+00:00"
             }
           ]
         }
@@ -832,28 +1023,138 @@
       ]
     },
     {
-      "name": "M1 - Réunion rentrée générale (BIM\\, CCA\\, IMA\\, RES\\, SESI)",
-      "code": "special",
-      "special": true,
-      "groups": [],
+      "name": "FPGA",
+      "code": "108",
+      "special": false,
+      "groups": [
+        "1",
+        "2",
+        "3"
+      ],
       "variants": [
         {
           "group": null,
-          "type": null,
+          "type": "CS",
           "events": [
             {
-              "uid": "996D6985-8523-4CEA-9727-CE9E204B0E48",
-              "summary": "RéunionM1SESI - Réunion de rentrée",
-              "location": "Salle 14.15.101",
-              "start": "2025-09-08T08:45:00+00:00",
-              "end": "2025-09-08T10:45:00+00:00"
+              "uid": "75B58DF3-FF9B-467F-AF44-0DA4F0E63D4C",
+              "summary": "UM4IN108-FPGA-Cours",
+              "location": null,
+              "start": "2026-03-31T14:00:00+00:00",
+              "end": "2026-03-31T16:00:00+00:00",
+              "exdates": [
+                "2022-02-01T15:00:00+00:00",
+                "2022-03-01T15:00:00+00:00",
+                "2022-04-19T14:00:00+00:00"
+              ]
             },
             {
-              "uid": "122A2288-C64A-4F48-AA95-F3EC14067240",
-              "summary": "M1 - Réunion rentrée générale (BIM\\, CCA\\, IMA\\, RES\\, SESI)",
-              "location": "AMPHI B2",
-              "start": "2025-09-08T07:00:00+00:00",
-              "end": "2025-09-08T08:30:00+00:00"
+              "uid": "4B47AFB1-2B44-47AF-97FE-FB9C3C04E483",
+              "summary": "UM4IN108-FPGA-Cours",
+              "location": null,
+              "start": "2026-04-07T14:00:00+00:00",
+              "end": "2026-04-07T16:00:00+00:00",
+              "exdates": [
+                "2022-02-01T15:00:00+00:00",
+                "2022-03-01T15:00:00+00:00",
+                "2022-04-19T14:00:00+00:00"
+              ]
+            },
+            {
+              "uid": "7CBE5F0D-D8E2-4B6F-93C6-E05ABE8C8BC1",
+              "summary": "UM4IN108-FPGA-Cours",
+              "location": null,
+              "start": "2026-01-20T15:00:00+00:00",
+              "end": "2026-01-20T17:00:00+00:00",
+              "exdates": [
+                "2022-02-01T15:00:00+00:00",
+                "2022-03-01T15:00:00+00:00",
+                "2022-04-19T14:00:00+00:00"
+              ]
+            },
+            {
+              "uid": "67E5E260-F839-43EC-B913-6B2B2AB8FC65",
+              "summary": "UM4IN108-FPGA-Cours",
+              "location": null,
+              "start": "2026-01-27T15:00:00+00:00",
+              "end": "2026-01-27T17:00:00+00:00",
+              "exdates": [
+                "2022-02-01T15:00:00+00:00",
+                "2022-03-01T15:00:00+00:00",
+                "2022-04-19T14:00:00+00:00"
+              ]
+            },
+            {
+              "uid": "3B4B556E-5D33-4D77-97ED-31A44306104D",
+              "summary": "UM4IN108-FPGA-Cours",
+              "location": null,
+              "start": "2026-02-03T15:00:00+00:00",
+              "end": "2026-02-03T17:00:00+00:00",
+              "exdates": [
+                "2022-02-01T15:00:00+00:00",
+                "2022-03-01T15:00:00+00:00",
+                "2022-04-19T14:00:00+00:00"
+              ]
+            },
+            {
+              "uid": "C9DE6ADF-4A68-4D4E-B5ED-176B84775CEC",
+              "summary": "UM4IN108-FPGA-Cours",
+              "location": null,
+              "start": "2026-02-10T15:00:00+00:00",
+              "end": "2026-02-10T17:00:00+00:00",
+              "exdates": [
+                "2022-02-01T15:00:00+00:00",
+                "2022-03-01T15:00:00+00:00",
+                "2022-04-19T14:00:00+00:00"
+              ]
+            },
+            {
+              "uid": "808FF58E-6748-4A42-A66A-76ECB30AA365",
+              "summary": "UM4IN108-FPGA-Cours",
+              "location": null,
+              "start": "2026-02-17T15:00:00+00:00",
+              "end": "2026-02-17T17:00:00+00:00",
+              "exdates": [
+                "2022-02-01T15:00:00+00:00",
+                "2022-03-01T15:00:00+00:00",
+                "2022-04-19T14:00:00+00:00"
+              ]
+            },
+            {
+              "uid": "7B4B42AD-D5D4-4A51-A57E-D4C2E566AF6F",
+              "summary": "UM4IN108-FPGA-Cours",
+              "location": null,
+              "start": "2026-02-24T15:00:00+00:00",
+              "end": "2026-02-24T17:00:00+00:00",
+              "exdates": [
+                "2022-02-01T15:00:00+00:00",
+                "2022-03-01T15:00:00+00:00",
+                "2022-04-19T14:00:00+00:00"
+              ]
+            },
+            {
+              "uid": "04CDB05B-1BE5-4263-8DB7-8460E0159770",
+              "summary": "UM4IN108-FPGA-Cours",
+              "location": null,
+              "start": "2026-03-17T15:00:00+00:00",
+              "end": "2026-03-17T17:00:00+00:00",
+              "exdates": [
+                "2022-02-01T15:00:00+00:00",
+                "2022-03-01T15:00:00+00:00",
+                "2022-04-19T14:00:00+00:00"
+              ]
+            },
+            {
+              "uid": "0AABD395-3947-4E13-9950-A311CCC89A31",
+              "summary": "UM4IN108-FPGA-Cours",
+              "location": null,
+              "start": "2026-03-24T15:00:00+00:00",
+              "end": "2026-03-24T17:00:00+00:00",
+              "exdates": [
+                "2022-02-01T15:00:00+00:00",
+                "2022-03-01T15:00:00+00:00",
+                "2022-04-19T14:00:00+00:00"
+              ]
             }
           ]
         },
@@ -862,31 +1163,503 @@
           "type": "EXAM",
           "events": [
             {
-              "uid": "8C6910BC-A22A-4EE2-878A-70510C5572A3",
-              "summary": "UM4EES05-ESA-ER2",
-              "location": "Amphi 56A",
-              "start": "2025-11-14T08:30:00+00:00",
-              "end": "2025-11-14T10:30:00+00:00"
+              "uid": "A1274EE8-024C-4E45-834F-E3633CAE9C2E",
+              "summary": "UM4IN108-FPGA-ER2",
+              "location": null,
+              "start": "2026-05-12T14:00:00+00:00",
+              "end": "2026-05-12T16:00:00+00:00",
+              "exdates": [
+                "2022-02-01T15:00:00+00:00",
+                "2022-03-01T15:00:00+00:00",
+                "2022-04-19T14:00:00+00:00"
+              ]
+            },
+            {
+              "uid": "74E28934-83C7-4D0E-9674-B0106C7FAE1D",
+              "summary": "UM4IN108-FPGA-ER1",
+              "location": null,
+              "start": "2026-03-10T15:00:00+00:00",
+              "end": "2026-03-10T17:00:00+00:00",
+              "exdates": [
+                "2022-02-01T15:00:00+00:00",
+                "2022-03-01T15:00:00+00:00",
+                "2022-04-19T14:00:00+00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TP",
+          "events": [
+            {
+              "uid": "7D47AF0F-0421-4C5D-BBF0-97D9958E3242",
+              "summary": "UM4IN108-FPGA-TP1",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-02-02T07:30:00+00:00",
+              "end": "2026-02-02T11:45:00+00:00"
+            },
+            {
+              "uid": "E84BB815-933A-4DF2-B324-B3AAA6DF26A9",
+              "summary": "UM4IN108-FPGA-TP1",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-02-09T07:30:00+00:00",
+              "end": "2026-02-09T11:45:00+00:00"
+            },
+            {
+              "uid": "86E2F696-A85F-4592-BC15-FC2555D985D6",
+              "summary": "UM4IN108-FPGA-TP1",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-02-16T07:30:00+00:00",
+              "end": "2026-02-16T11:45:00+00:00"
+            },
+            {
+              "uid": "E0296684-FFAD-49F9-80F3-7F4FDCC7CAAC",
+              "summary": "UM4IN108-FPGA-TP1",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-02-23T07:30:00+00:00",
+              "end": "2026-02-23T11:45:00+00:00"
+            },
+            {
+              "uid": "8B36DE46-3021-46B2-ABD6-21A529B21AB2",
+              "summary": "UM4IN108-FPGA-TP1",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-03-16T07:30:00+00:00",
+              "end": "2026-03-16T11:45:00+00:00"
+            },
+            {
+              "uid": "C66C23F6-C513-4BC1-B2FB-75A376168B8F",
+              "summary": "UM4IN108-FPGA-TP1",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-03-23T07:30:00+00:00",
+              "end": "2026-03-23T11:45:00+00:00"
+            },
+            {
+              "uid": "048B8DDA-89E7-4F90-B5DE-7C97F0050DFE",
+              "summary": "UM4IN108-FPGA-TP1",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-03-30T06:30:00+00:00",
+              "end": "2026-03-30T10:45:00+00:00"
+            },
+            {
+              "uid": "DF0F11D3-A4BD-4517-9201-91D90FE6880E",
+              "summary": "UM4IN108-FPGA-TP1",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-04-13T06:30:00+00:00",
+              "end": "2026-04-13T10:45:00+00:00"
+            },
+            {
+              "uid": "CBCC5BF2-9E43-4354-8078-5B66B8E6D836",
+              "summary": "UM4IN108-FPGA-TP1",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-05-04T06:30:00+00:00",
+              "end": "2026-05-04T10:45:00+00:00"
+            },
+            {
+              "uid": "04FA299A-BF34-4721-BE00-6931091E484E",
+              "summary": "UM4IN108-FPGA-TP1",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-01-26T07:30:00+00:00",
+              "end": "2026-01-26T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TP",
+          "events": [
+            {
+              "uid": "6B64281D-9924-446B-830D-99B6894AEF36",
+              "summary": "UM4IN108-FPGA-TP2",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-02-03T07:30:00+00:00",
+              "end": "2026-02-03T11:45:00+00:00"
+            },
+            {
+              "uid": "49865CCB-7A17-4B79-B8E1-4EB5526C0226",
+              "summary": "UM4IN108-FPGA-TP2",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-02-10T07:30:00+00:00",
+              "end": "2026-02-10T11:45:00+00:00"
+            },
+            {
+              "uid": "8CF2312F-30BF-4AB0-90AA-AD5E56472FC0",
+              "summary": "UM4IN108-FPGA-TP2",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-02-17T07:30:00+00:00",
+              "end": "2026-02-17T11:45:00+00:00"
+            },
+            {
+              "uid": "835EA2C6-40D6-4DC1-B3A8-5C9345BB3D41",
+              "summary": "UM4IN108-FPGA-TP2",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-02-24T07:30:00+00:00",
+              "end": "2026-02-24T11:45:00+00:00"
+            },
+            {
+              "uid": "1D7C3EBA-A7EA-4702-8F2C-971200427F6C",
+              "summary": "UM4IN108-FPGA-TP2",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-03-17T07:30:00+00:00",
+              "end": "2026-03-17T11:45:00+00:00"
+            },
+            {
+              "uid": "FED6527B-62EC-446E-89C8-EAB93387BE13",
+              "summary": "UM4IN108-FPGA-TP2",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-03-24T07:30:00+00:00",
+              "end": "2026-03-24T11:45:00+00:00"
+            },
+            {
+              "uid": "17AB0DBB-1ABC-4293-A457-D2F56E062148",
+              "summary": "UM4IN108-FPGA-TP2",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-03-31T06:30:00+00:00",
+              "end": "2026-03-31T10:45:00+00:00"
+            },
+            {
+              "uid": "F4293B2B-BC27-4019-A3D0-28FA7D90C5E7",
+              "summary": "UM4IN108-FPGA-TP2",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-04-07T06:30:00+00:00",
+              "end": "2026-04-07T10:45:00+00:00"
+            },
+            {
+              "uid": "F7EEDBC8-0B08-4D20-B303-41FF159CE121",
+              "summary": "UM4IN108-FPGA-TP2",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-04-14T06:30:00+00:00",
+              "end": "2026-04-14T10:45:00+00:00"
+            },
+            {
+              "uid": "37249F31-D755-456B-A9CE-6A8123D4EFA8",
+              "summary": "UM4IN108-FPGA-TP2",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-01-27T07:30:00+00:00",
+              "end": "2026-01-27T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "3",
+          "type": "TP",
+          "events": [
+            {
+              "uid": "B44F364A-9400-435F-BE38-F705A9301ACD",
+              "summary": "UM4IN108-FPGA-TP3",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-02-03T07:30:00+00:00",
+              "end": "2026-02-03T11:45:00+00:00"
+            },
+            {
+              "uid": "38CA4B6F-89F7-447B-A0F4-AE53F4B0B50D",
+              "summary": "UM4IN108-FPGA-TP3",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-02-10T07:30:00+00:00",
+              "end": "2026-02-10T11:45:00+00:00"
+            },
+            {
+              "uid": "2E3DBC45-4709-44A1-A984-08B2AB0623E6",
+              "summary": "UM4IN108-FPGA-TP3",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-02-17T07:30:00+00:00",
+              "end": "2026-02-17T11:45:00+00:00"
+            },
+            {
+              "uid": "9C3BA03E-7BDE-44B0-BBE9-3E426151070E",
+              "summary": "UM4IN108-FPGA-TP3",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-02-24T07:30:00+00:00",
+              "end": "2026-02-24T11:45:00+00:00"
+            },
+            {
+              "uid": "5C60B6F2-DE9B-42C9-8480-051E6F9B1C7C",
+              "summary": "UM4IN108-FPGA-TP3",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-03-17T07:30:00+00:00",
+              "end": "2026-03-17T11:45:00+00:00"
+            },
+            {
+              "uid": "49C7F1A5-80B4-4268-970A-D0B21879C703",
+              "summary": "UM4IN108-FPGA-TP3",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-03-24T07:30:00+00:00",
+              "end": "2026-03-24T11:45:00+00:00"
+            },
+            {
+              "uid": "34F4BE59-0DF7-4867-A49A-3547785858D3",
+              "summary": "UM4IN108-FPGA-TP3",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-03-31T06:30:00+00:00",
+              "end": "2026-03-31T10:45:00+00:00"
+            },
+            {
+              "uid": "02A9B26C-0A33-4D00-9ADB-52E39E0E765B",
+              "summary": "UM4IN108-FPGA-TP3",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-04-07T06:30:00+00:00",
+              "end": "2026-04-07T10:45:00+00:00"
+            },
+            {
+              "uid": "ABD8A591-F8A2-454E-A2E0-FBC1354814C0",
+              "summary": "UM4IN108-FPGA-TP3",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-04-14T06:30:00+00:00",
+              "end": "2026-04-14T10:45:00+00:00"
+            },
+            {
+              "uid": "5FC86557-24CE-40DF-AAC2-A1B0403DE599",
+              "summary": "UM4IN108-FPGA-TP3",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-01-27T07:30:00+00:00",
+              "end": "2026-01-27T11:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "IOC",
+      "code": "109",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "EA743A11-56F4-414B-8B8D-9CAF796E5CD6",
+              "summary": "UM4IN109-IOC-Cours",
+              "location": null,
+              "start": "2026-04-02T06:30:00+00:00",
+              "end": "2026-04-02T08:30:00+00:00",
+              "exdates": [
+                "2022-01-27T07:30:00+00:00",
+                "2022-03-03T07:30:00+00:00",
+                "2022-03-17T07:30:00+00:00"
+              ]
+            },
+            {
+              "uid": "0FC7DDD2-A645-4305-8751-5CA4C15452BF",
+              "summary": "UM4IN109-IOC-Cours",
+              "location": null,
+              "start": "2026-04-09T06:30:00+00:00",
+              "end": "2026-04-09T08:30:00+00:00",
+              "exdates": [
+                "2022-01-27T07:30:00+00:00",
+                "2022-03-03T07:30:00+00:00",
+                "2022-03-17T07:30:00+00:00"
+              ]
+            },
+            {
+              "uid": "193B65A4-38EB-4504-AA9A-9D3B66671E1F",
+              "summary": "UM4IN109-IOC-Cours",
+              "location": null,
+              "start": "2026-01-22T07:30:00+00:00",
+              "end": "2026-01-22T09:30:00+00:00",
+              "exdates": [
+                "2022-01-27T07:30:00+00:00",
+                "2022-03-03T07:30:00+00:00",
+                "2022-03-17T07:30:00+00:00"
+              ]
+            },
+            {
+              "uid": "04CC50A8-FE26-48D8-BC3F-915D092DF92B",
+              "summary": "UM4IN109-IOC-Cours",
+              "location": null,
+              "start": "2026-01-29T07:30:00+00:00",
+              "end": "2026-01-29T09:30:00+00:00",
+              "exdates": [
+                "2022-01-27T07:30:00+00:00",
+                "2022-03-03T07:30:00+00:00",
+                "2022-03-17T07:30:00+00:00"
+              ]
+            },
+            {
+              "uid": "3143213F-DBDC-42B5-96B6-DA7A92F9A623",
+              "summary": "UM4IN109-IOC-Cours",
+              "location": null,
+              "start": "2026-02-05T07:30:00+00:00",
+              "end": "2026-02-05T09:30:00+00:00",
+              "exdates": [
+                "2022-01-27T07:30:00+00:00",
+                "2022-03-03T07:30:00+00:00",
+                "2022-03-17T07:30:00+00:00"
+              ]
+            },
+            {
+              "uid": "E54B68DD-003D-46AB-950F-57E532997A3E",
+              "summary": "UM4IN109-IOC-Cours",
+              "location": null,
+              "start": "2026-02-12T07:30:00+00:00",
+              "end": "2026-02-12T09:30:00+00:00",
+              "exdates": [
+                "2022-01-27T07:30:00+00:00",
+                "2022-03-03T07:30:00+00:00",
+                "2022-03-17T07:30:00+00:00"
+              ]
+            },
+            {
+              "uid": "89F8C177-2A8E-481F-8ADD-4D434CC77ABF",
+              "summary": "UM4IN109-IOC-Cours",
+              "location": null,
+              "start": "2026-02-19T07:30:00+00:00",
+              "end": "2026-02-19T09:30:00+00:00",
+              "exdates": [
+                "2022-01-27T07:30:00+00:00",
+                "2022-03-03T07:30:00+00:00",
+                "2022-03-17T07:30:00+00:00"
+              ]
+            },
+            {
+              "uid": "73EB3B8A-9E58-4082-AD91-14BB894676E7",
+              "summary": "UM4IN109-IOC-Cours",
+              "location": null,
+              "start": "2026-02-26T07:30:00+00:00",
+              "end": "2026-02-26T09:30:00+00:00",
+              "exdates": [
+                "2022-01-27T07:30:00+00:00",
+                "2022-03-03T07:30:00+00:00",
+                "2022-03-17T07:30:00+00:00"
+              ]
+            },
+            {
+              "uid": "16AE7BD6-4BA9-4CF7-ABCD-71004383C2A7",
+              "summary": "UM4IN109-IOC-Cours",
+              "location": null,
+              "start": "2026-03-19T07:30:00+00:00",
+              "end": "2026-03-19T09:30:00+00:00",
+              "exdates": [
+                "2022-01-27T07:30:00+00:00",
+                "2022-03-03T07:30:00+00:00",
+                "2022-03-17T07:30:00+00:00"
+              ]
+            },
+            {
+              "uid": "5CACA903-A7DF-4FBB-86AA-B7DCB76748BA",
+              "summary": "UM4IN109-IOC-Cours",
+              "location": null,
+              "start": "2026-03-26T07:30:00+00:00",
+              "end": "2026-03-26T09:30:00+00:00",
+              "exdates": [
+                "2022-01-27T07:30:00+00:00",
+                "2022-03-03T07:30:00+00:00",
+                "2022-03-17T07:30:00+00:00"
+              ]
             }
           ]
         },
         {
           "group": null,
-          "type": "TP",
+          "type": "EXAM",
           "events": [
             {
-              "uid": "20360540-0C8F-4B0F-B0FC-D4F3B27289F6",
-              "summary": "UM4EES05-ESA-TP (DG)",
-              "location": "Salle Esclangon 227",
-              "start": "2025-10-13T11:45:00+00:00",
-              "end": "2025-10-13T16:00:00+00:00"
+              "uid": "332F8F12-940E-4391-91E3-E12D40F97E67",
+              "summary": "UM4IN109-IOC-ER2",
+              "location": null,
+              "start": "2026-05-15T08:30:00+00:00",
+              "end": "2026-05-15T10:30:00+00:00",
+              "exdates": [
+                "2022-01-27T07:30:00+00:00",
+                "2022-03-03T07:30:00+00:00",
+                "2022-03-17T07:30:00+00:00"
+              ]
             },
             {
-              "uid": "E3970452-FDA3-484E-B1B3-D3DFAA1C2925",
-              "summary": "UM4EES05-ESA-TP",
-              "location": "Salle Esclangon 227",
-              "start": "2025-11-03T12:45:00+00:00",
-              "end": "2025-11-03T17:00:00+00:00"
+              "uid": "F98AB760-4FF5-4FD6-B017-89513A846DB9",
+              "summary": "UM4IN109-IOC-ER1",
+              "location": null,
+              "start": "2026-03-12T07:30:00+00:00",
+              "end": "2026-03-12T09:30:00+00:00",
+              "exdates": [
+                "2022-01-27T07:30:00+00:00",
+                "2022-03-03T07:30:00+00:00",
+                "2022-03-17T07:30:00+00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "8F7C3B77-B91B-40C2-99A9-9D3A2CAA9ED9",
+              "summary": "UM4IN109-IOC-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2026-02-06T07:30:00+00:00",
+              "end": "2026-02-06T11:45:00+00:00"
+            },
+            {
+              "uid": "5CDE646F-90B0-4725-8CD2-889FAE8C57D5",
+              "summary": "UM4IN109-IOC-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2026-02-13T07:30:00+00:00",
+              "end": "2026-02-13T11:45:00+00:00"
+            },
+            {
+              "uid": "3E12710D-65CA-4C39-AC70-AFA236FBBB47",
+              "summary": "UM4IN109-IOC-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2026-02-20T07:30:00+00:00",
+              "end": "2026-02-20T11:45:00+00:00"
+            },
+            {
+              "uid": "29CB641B-D0B9-437F-A5B3-9E4C84BE06C6",
+              "summary": "UM4IN109-IOC-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2026-02-27T07:30:00+00:00",
+              "end": "2026-02-27T11:45:00+00:00"
+            },
+            {
+              "uid": "ACCC87FA-6A5B-4630-8BC7-C573630C412F",
+              "summary": "UM4IN109-IOC-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2026-03-20T07:30:00+00:00",
+              "end": "2026-03-20T11:45:00+00:00"
+            },
+            {
+              "uid": "796BAF9A-7B79-4F00-A68A-854226FF7331",
+              "summary": "UM4IN109-IOC-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2026-03-27T07:30:00+00:00",
+              "end": "2026-03-27T11:45:00+00:00"
+            },
+            {
+              "uid": "56F61135-99B5-4154-BABB-81E2C3C9BA7C",
+              "summary": "UM4IN109-IOC-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2026-04-03T06:30:00+00:00",
+              "end": "2026-04-03T10:45:00+00:00"
+            },
+            {
+              "uid": "5EA439A3-8D34-4779-A5B2-501DDBF93BCC",
+              "summary": "UM4IN109-IOC-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2026-04-10T06:30:00+00:00",
+              "end": "2026-04-10T10:45:00+00:00"
+            },
+            {
+              "uid": "0B412721-2C37-4A9D-AB54-54BBA0BB2826",
+              "summary": "UM4IN109-IOC-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2026-04-18T06:30:00+00:00",
+              "end": "2026-04-18T10:45:00+00:00"
+            },
+            {
+              "uid": "08BB2A2F-8B46-426C-BADF-BD3E24B84EA9",
+              "summary": "UM4IN109-IOC-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2026-01-23T07:30:00+00:00",
+              "end": "2026-01-23T11:45:00+00:00"
+            },
+            {
+              "uid": "AA079786-0CA5-42E4-94A5-E806405B7385",
+              "summary": "UM4IN109-IOC-TME",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2026-01-30T07:30:00+00:00",
+              "end": "2026-01-30T11:45:00+00:00"
             }
           ]
         }
@@ -1067,6 +1840,345 @@
               "location": "Salle SESI : 24.25.305",
               "start": "2025-09-17T11:45:00+00:00",
               "end": "2025-09-17T16:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "MULTI",
+      "code": "106",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "21DD578A-E2E4-49EE-8CE8-9396967BF4BB",
+              "summary": "UM4IN106-MULTI-Cours",
+              "location": null,
+              "start": "2026-03-25T09:45:00+00:00",
+              "end": "2026-03-25T11:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
+            {
+              "uid": "211FA1F9-C0BC-402C-8F9F-536D7052BC17",
+              "summary": "UM4IN106-MULTI-Cours",
+              "location": null,
+              "start": "2026-04-01T08:45:00+00:00",
+              "end": "2026-04-01T10:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
+            {
+              "uid": "F519B10C-897B-4B29-844F-F0A1ED409717",
+              "summary": "UM4IN106-MULTI-Cours",
+              "location": null,
+              "start": "2026-04-08T08:45:00+00:00",
+              "end": "2026-04-08T10:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
+            {
+              "uid": "614BAEE9-0175-4425-A63D-F111E039226D",
+              "summary": "UM4IN106-MULTI-Cours",
+              "location": null,
+              "start": "2026-01-21T09:45:00+00:00",
+              "end": "2026-01-21T11:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
+            {
+              "uid": "D443A885-ABDC-49DE-BC88-FC934EF61F47",
+              "summary": "UM4IN106-MULTI-Cours",
+              "location": null,
+              "start": "2026-01-28T09:45:00+00:00",
+              "end": "2026-01-28T11:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
+            {
+              "uid": "1B78ECDF-3CED-4E5B-9EF6-454366328C8D",
+              "summary": "UM4IN106-MULTI-Cours",
+              "location": null,
+              "start": "2026-02-04T09:45:00+00:00",
+              "end": "2026-02-04T11:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
+            {
+              "uid": "6A535C4A-6B74-49B2-85B5-3C163F39EDE0",
+              "summary": "UM4IN106-MULTI-Cours",
+              "location": null,
+              "start": "2026-02-11T09:45:00+00:00",
+              "end": "2026-02-11T11:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
+            {
+              "uid": "E7B64F49-6B38-47BC-B665-4EA66FC00EC9",
+              "summary": "UM4IN106-MULTI-Cours",
+              "location": null,
+              "start": "2026-02-18T09:45:00+00:00",
+              "end": "2026-02-18T11:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
+            {
+              "uid": "9483C2C0-370F-445A-9174-86C7D1330C23",
+              "summary": "UM4IN106-MULTI-Cours",
+              "location": null,
+              "start": "2026-02-25T09:45:00+00:00",
+              "end": "2026-02-25T11:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
+            {
+              "uid": "3F1B2E00-1AEA-4B29-AFA8-5E79C75B09AA",
+              "summary": "UM4IN106-MULTI-Cours",
+              "location": null,
+              "start": "2026-03-18T09:45:00+00:00",
+              "end": "2026-03-18T11:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "658554E1-1D72-4477-A479-8A78FDAC37CF",
+              "summary": "UM4IN106-MULTI-ER2",
+              "location": null,
+              "start": "2026-05-15T11:45:00+00:00",
+              "end": "2026-05-15T13:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
+            {
+              "uid": "A750BBD8-C54C-4EF7-AE27-A23634EE4618",
+              "summary": "UM4IN106-MULTI-ER1",
+              "location": null,
+              "start": "2026-03-13T12:45:00+00:00",
+              "end": "2026-03-13T14:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "9B4398EB-95D3-49C2-B973-65DBB12AC883",
+              "summary": "UM4IN106-MULTI-TME",
+              "location": "Salle SESI : 24.25.305 et 307",
+              "start": "2026-02-06T12:45:00+00:00",
+              "end": "2026-02-06T17:00:00+00:00"
+            },
+            {
+              "uid": "3D021D93-791F-46AD-8F32-475AB5C52118",
+              "summary": "UM4IN106-MULTI-TME",
+              "location": "Salle SESI : 24.25.305 et 307",
+              "start": "2026-02-13T12:45:00+00:00",
+              "end": "2026-02-13T17:00:00+00:00"
+            },
+            {
+              "uid": "BFF471B7-1CD6-4658-84A0-3754EC3AA4FA",
+              "summary": "UM4IN106-MULTI-TME",
+              "location": "Salle SESI : 24.25.305 et 307",
+              "start": "2026-02-20T12:45:00+00:00",
+              "end": "2026-02-20T17:00:00+00:00"
+            },
+            {
+              "uid": "0C287EDE-53E5-4548-BA97-EB97365B4E16",
+              "summary": "UM4IN106-MULTI-TME",
+              "location": "Salle SESI : 24.25.305 et 307",
+              "start": "2026-02-27T12:45:00+00:00",
+              "end": "2026-02-27T17:00:00+00:00"
+            },
+            {
+              "uid": "0AB4980C-DC67-412D-A8CE-44A333CE1D25",
+              "summary": "UM4IN106-MULTI-TME",
+              "location": "Salle SESI : 24.25.305 et 307",
+              "start": "2026-03-20T12:45:00+00:00",
+              "end": "2026-03-20T17:00:00+00:00"
+            },
+            {
+              "uid": "3A8506F1-11D9-462E-82E3-3EE418EA9B03",
+              "summary": "UM4IN106-MULTI-TME",
+              "location": "Salle SESI : 24.25.305 et 307",
+              "start": "2026-03-27T12:45:00+00:00",
+              "end": "2026-03-27T17:00:00+00:00"
+            },
+            {
+              "uid": "C28A8DF1-7392-4A6D-850A-D6E8E35782B8",
+              "summary": "UM4IN106-MULTI-TME",
+              "location": "Salle SESI : 24.25.305 et 307",
+              "start": "2026-04-03T11:45:00+00:00",
+              "end": "2026-04-03T16:00:00+00:00"
+            },
+            {
+              "uid": "D620820F-CEEC-44FE-8030-AFC95F39E021",
+              "summary": "UM4IN106-MULTI-TME",
+              "location": "Salle SESI : 24.25.305 et 307",
+              "start": "2026-04-10T11:45:00+00:00",
+              "end": "2026-04-10T16:00:00+00:00"
+            },
+            {
+              "uid": "927ED974-3E90-4EE0-8566-DA0B3D577E9F",
+              "summary": "UM4IN106-MULTI-TME",
+              "location": "Salle SESI : 24.25.305 et 307",
+              "start": "2026-04-18T11:45:00+00:00",
+              "end": "2026-04-18T16:00:00+00:00"
+            },
+            {
+              "uid": "00690944-7F7F-4767-8780-0E23720BAAFB",
+              "summary": "UM4IN106-MULTI-TME",
+              "location": "Salle SESI : 24.25.305 et 307",
+              "start": "2026-01-23T12:45:00+00:00",
+              "end": "2026-01-23T17:00:00+00:00"
+            },
+            {
+              "uid": "8DBC4432-72D6-4E28-BC62-1FCC34250D83",
+              "summary": "UM4IN106-MULTI-TME",
+              "location": "Salle SESI : 24.25.305 et 307",
+              "start": "2026-01-30T12:45:00+00:00",
+              "end": "2026-01-30T17:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "PPSE",
+      "code": "111",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "2E1E5804-9291-4ADC-818D-863C4C727BA7",
+              "summary": "UM4IN111-PPSE",
+              "location": "Salle SESI: 24.25.305",
+              "start": "2026-03-25T07:30:00+00:00",
+              "end": "2026-03-25T09:30:00+00:00"
+            },
+            {
+              "uid": "47767A16-DC45-4E75-8801-1EA34A0C9F32",
+              "summary": "UM4IN111-PPSE",
+              "location": "Salle SESI: 24.25.305",
+              "start": "2026-04-01T06:30:00+00:00",
+              "end": "2026-04-01T08:30:00+00:00"
+            },
+            {
+              "uid": "6ECA6E30-CD7F-485F-9D7D-4FFE3BDE935E",
+              "summary": "UM4IN111-PPSE",
+              "location": "Salle SESI: 24.25.305",
+              "start": "2026-04-08T06:30:00+00:00",
+              "end": "2026-04-08T08:30:00+00:00"
+            },
+            {
+              "uid": "13E5F11B-6E9C-4923-A7A7-1B4035AB44E4",
+              "summary": "UM4IN111-PPSE",
+              "location": "Salle SESI: 24.25.305",
+              "start": "2026-01-21T07:30:00+00:00",
+              "end": "2026-01-21T09:30:00+00:00"
+            },
+            {
+              "uid": "2C7A58E4-9531-4A55-983B-CDD5FF99053B",
+              "summary": "UM4IN111-PPSE",
+              "location": "Salle SESI: 24.25.305",
+              "start": "2026-01-28T07:30:00+00:00",
+              "end": "2026-01-28T09:30:00+00:00"
+            },
+            {
+              "uid": "3F21B6F0-59EB-4790-A9E2-4E50C297121C",
+              "summary": "UM4IN111-PPSE",
+              "location": "Salle SESI: 24.25.305",
+              "start": "2026-02-04T07:30:00+00:00",
+              "end": "2026-02-04T09:30:00+00:00"
+            },
+            {
+              "uid": "DF94E084-A04F-4696-9AE2-1E2689497D37",
+              "summary": "UM4IN111-PPSE",
+              "location": "Salle SESI: 24.25.305",
+              "start": "2026-02-11T07:30:00+00:00",
+              "end": "2026-02-11T09:30:00+00:00"
+            },
+            {
+              "uid": "3F61BF76-07CE-401F-8E30-75C6DD9261CB",
+              "summary": "UM4IN111-PPSE",
+              "location": "Salle SESI: 24.25.305",
+              "start": "2026-02-18T07:30:00+00:00",
+              "end": "2026-02-18T09:30:00+00:00"
+            },
+            {
+              "uid": "0D37D714-5176-400F-88D1-143E67514607",
+              "summary": "UM4IN111-PPSE",
+              "location": "Salle SESI: 24.25.305",
+              "start": "2026-02-25T07:30:00+00:00",
+              "end": "2026-02-25T09:30:00+00:00"
+            },
+            {
+              "uid": "4DC79542-9D08-43AA-802E-C68EF853B778",
+              "summary": "UM4IN111-PPSE",
+              "location": "Salle SESI: 24.25.305",
+              "start": "2026-03-18T07:30:00+00:00",
+              "end": "2026-03-18T09:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "27017F9E-742D-45E4-9C7D-020B8B9EC9DD",
+              "summary": "UM4IN111-PPSE-ER2",
+              "location": null,
+              "start": "2026-05-13T06:30:00+00:00",
+              "end": "2026-05-13T08:30:00+00:00"
+            },
+            {
+              "uid": "20688AC5-4FD0-4D64-A96D-C190AFF94FFC",
+              "summary": "UM4IN111-PPSE-ER1",
+              "location": null,
+              "start": "2026-03-11T07:30:00+00:00",
+              "end": "2026-03-11T09:30:00+00:00"
             }
           ]
         }
@@ -1351,5 +2463,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-27T06:54:47.111179868+00:00"
+  "updated_at": "2025-10-28T06:52:48.221535280+00:00"
 }
