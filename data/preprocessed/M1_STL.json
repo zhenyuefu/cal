@@ -44,7 +44,7 @@
             {
               "uid": "1CB5354A-ECEA-4E2B-9123-6CD46C83F95E",
               "summary": "UM4IN500-ALGAV-ExamenR2",
-              "location": null,
+              "location": "Résa n°679512",
               "start": "2026-01-06T07:30:00+00:00",
               "end": "2026-01-06T09:30:00+00:00"
             },
@@ -619,7 +619,7 @@
             {
               "uid": "23F399B1-0603-4B82-904B-C1753D449E89",
               "summary": "UM4IN501-DLP-ExamenR1",
-              "location": "PPTI",
+              "location": "Salles 14.15.305\\, 406\\, 407 et 408",
               "start": "2025-11-18T09:45:00+00:00",
               "end": "2025-11-18T11:45:00+00:00",
               "exdates": [
@@ -718,7 +718,7 @@
             {
               "uid": "3C314893-9D0C-4B71-A70A-EE77BC21EE0F",
               "summary": "UM4IN511-OUV-Soutenances",
-              "location": null,
+              "location": "Résa n°679513",
               "start": "2026-01-09T12:45:00+00:00",
               "end": "2026-01-09T17:00:00+00:00"
             }
@@ -943,5 +943,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-28T06:52:39.748072379+00:00"
+  "updated_at": "2025-10-29T06:52:57.825791815+00:00"
 }

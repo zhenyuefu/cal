@@ -71,7 +71,7 @@
             {
               "uid": "6DB7474F-F1F0-434C-8A9B-E902873F411C",
               "summary": "UM4IN814-DALAS-TD1",
-              "location": "n°667397",
+              "location": "Salle 23.24.112",
               "start": "2025-11-24T07:30:00+00:00",
               "end": "2025-11-24T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251215T225959Z"
@@ -114,7 +114,7 @@
             {
               "uid": "697863E7-D481-4E39-A380-6D0F90D31DB5",
               "summary": "UM4IN814-DALAS-TD2",
-              "location": "n°667400",
+              "location": "Salle 23.24.207",
               "start": "2025-11-25T07:30:00+00:00",
               "end": "2025-11-25T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251216T225959Z"
@@ -128,7 +128,7 @@
             {
               "uid": "F8D76E1F-57AB-45F1-A2F1-9AC86F80F0B4",
               "summary": "UM4IN814-DALAS-TD3",
-              "location": "667402",
+              "location": "ATRIUM 431",
               "start": "2025-11-26T07:30:00+00:00",
               "end": "2025-11-26T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251217T225959Z"
@@ -172,7 +172,7 @@
             {
               "uid": "64F79703-257B-4B7E-B9D5-183171BC8540",
               "summary": "UM4IN814-DALAS-TD4",
-              "location": "n_667403",
+              "location": "Salle 23.24.102",
               "start": "2025-11-27T07:30:00+00:00",
               "end": "2025-11-27T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251218T225959Z"
@@ -234,7 +234,7 @@
             {
               "uid": "99D80C7C-D4E9-45EA-9CE5-ADD82C83CE78",
               "summary": "UM4IN814-DALAS-TD5",
-              "location": "n°667407",
+              "location": "Salle 23.24.112",
               "start": "2025-11-27T12:45:00+00:00",
               "end": "2025-11-27T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251218T225959Z"
@@ -404,7 +404,7 @@
             {
               "uid": "E92A3D6F-74CE-4AE6-A2DA-DAD64144A4D6",
               "summary": "UM4IN800-LRC-Cours",
-              "location": "n°667383",
+              "location": "AMPHI 34A",
               "start": "2025-11-26T12:45:00+00:00",
               "end": "2025-11-26T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251210T225959Z"
@@ -418,7 +418,7 @@
             {
               "uid": "7A24BE34-D3D3-4799-9FD6-919A07C521E2",
               "summary": "UM4IN800-LRC-ER1",
-              "location": "n°678966",
+              "location": "AMPHI 34A et resa 679514",
               "start": "2025-11-19T12:45:00+00:00",
               "end": "2025-11-19T14:45:00+00:00"
             }
@@ -431,7 +431,7 @@
             {
               "uid": "DD5BE938-D44B-493C-9752-6408FD0E90E5",
               "summary": "UM4IN800-LRC-TD1",
-              "location": "n°667398",
+              "location": "Salle 23.24.102",
               "start": "2025-11-24T15:00:00+00:00",
               "end": "2025-11-24T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251215T225959Z"
@@ -562,7 +562,7 @@
             {
               "uid": "94FEF76B-1F52-4E52-8EDC-122D4A834C57",
               "summary": "UM4IN800-LRC-TD3",
-              "location": "n°667405",
+              "location": "Salle 23.24.102",
               "start": "2025-11-27T09:45:00+00:00",
               "end": "2025-11-27T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251218T225959Z"
@@ -630,7 +630,7 @@
             {
               "uid": "7CCC26F8-7623-4B79-B338-7171B84A9223",
               "summary": "UM4IN800-LRC-TD4",
-              "location": "n°667406",
+              "location": "Salle 23.24.112",
               "start": "2025-11-27T09:45:00+00:00",
               "end": "2025-11-27T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251218T225959Z"
@@ -729,15 +729,31 @@
             {
               "uid": "09A4F47A-3D55-4957-8B30-67D35710A821",
               "summary": "UM4IN801-MLBDA-Cours",
-              "location": "n°667382",
+              "location": "AMPHI B3",
               "start": "2025-11-26T15:00:00+00:00",
               "end": "2025-11-26T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251210T225959Z"
             },
             {
+              "uid": "09A4F47A-3D55-4957-8B30-67D35710A821",
+              "summary": "UM4IN801-MLBDA-Cours",
+              "location": "AMPHI A2",
+              "start": "2025-12-03T15:00:00+00:00",
+              "end": "2025-12-03T17:00:00+00:00",
+              "recurrence_id": "2025-12-03T15:00:00+00:00"
+            },
+            {
+              "uid": "09A4F47A-3D55-4957-8B30-67D35710A821",
+              "summary": "UM4IN801-MLBDA-Cours",
+              "location": "AMPHI 45A",
+              "start": "2025-12-10T15:00:00+00:00",
+              "end": "2025-12-10T17:00:00+00:00",
+              "recurrence_id": "2025-12-10T15:00:00+00:00"
+            },
+            {
               "uid": "B63CA54E-3356-45D7-A30F-E09BBA4E79CD",
               "summary": "UM4IN801-MLBDA-Cours ( report du 22/10",
-              "location": "675825",
+              "location": "AMPHI 34B",
               "start": "2025-11-12T15:00:00+00:00",
               "end": "2025-11-12T17:00:00+00:00"
             }
@@ -750,7 +766,7 @@
             {
               "uid": "D5605397-2257-4B77-825F-DD4CC30A87D7",
               "summary": "UM4IN801-MLBDA-ER1",
-              "location": "n°678967",
+              "location": "AMHPHI A1",
               "start": "2025-11-19T15:00:00+00:00",
               "end": "2025-11-19T17:00:00+00:00",
               "exdates": [
@@ -766,7 +782,7 @@
             {
               "uid": "40FAD7A3-6135-40CE-9DF2-D28A48A86F7B",
               "summary": "UM4IN801-MLBDA-TD1",
-              "location": "n°667396",
+              "location": "Salle 23.24.102",
               "start": "2025-11-24T07:30:00+00:00",
               "end": "2025-11-24T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251215T225959Z"
@@ -811,7 +827,7 @@
             {
               "uid": "1A8067A4-0AE8-402F-86E7-EC085C953CD1",
               "summary": "UM4IN801-MLBDA-TD2",
-              "location": "n°667401",
+              "location": "Salle 23.24.102",
               "start": "2025-11-26T07:30:00+00:00",
               "end": "2025-11-26T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251217T225959Z"
@@ -819,7 +835,7 @@
             {
               "uid": "FB1E7DF7-973C-4F91-8FD7-B10127725504",
               "summary": "UM4IN801-MLBDA-TD2 ( report du 22/10 )",
-              "location": "n°675807",
+              "location": "Salle 23.24.201",
               "start": "2025-11-12T07:30:00+00:00",
               "end": "2025-11-12T09:30:00+00:00"
             },
@@ -885,7 +901,7 @@
             {
               "uid": "646B3B82-12E0-44B5-84F2-41E1B88DB3D8",
               "summary": "UM4IN801-MLBDA-TD3",
-              "location": "n°667404",
+              "location": "Salle 23.24.112",
               "start": "2025-11-27T07:30:00+00:00",
               "end": "2025-11-27T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251218T225959Z"
@@ -893,7 +909,7 @@
             {
               "uid": "BB14D5CE-B056-4E66-B2FF-F435624A6177",
               "summary": "UM4IN801-MLBDA-TD3 ( report du 23/10 )",
-              "location": "n°675808",
+              "location": "Salle 23.24.107",
               "start": "2025-11-13T07:30:00+00:00",
               "end": "2025-11-13T09:30:00+00:00"
             },
@@ -1002,5 +1018,5 @@
       ]
     }
   ],
-  "updated_at": "2025-10-28T06:52:38.243376662+00:00"
+  "updated_at": "2025-10-29T06:52:56.309212810+00:00"
 }

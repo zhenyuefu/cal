@@ -266,6 +266,12 @@
       ],
       "source": "M1_SFPN"
     },
+    "902|M1_SFPN": {
+      "name": "FLAG",
+      "code": "902",
+      "groups": [],
+      "source": "M1_SFPN"
+    },
     "903|M1_SFPN": {
       "name": "PPAR",
       "code": "903",
@@ -275,12 +281,30 @@
       ],
       "source": "M1_SFPN"
     },
+    "904|M1_SFPN": {
+      "name": "CRYPTO1",
+      "code": "904",
+      "groups": [],
+      "source": "M1_SFPN"
+    },
     "905|M1_SFPN": {
       "name": "SC",
       "code": "905",
       "groups": [
         "2"
       ],
+      "source": "M1_SFPN"
+    },
+    "910|M1_SFPN": {
+      "name": "ANUM",
+      "code": "910",
+      "groups": [],
+      "source": "M1_SFPN"
+    },
+    "920|M1_SFPN": {
+      "name": "ANUM2",
+      "code": "920",
+      "groups": [],
       "source": "M1_SFPN"
     },
     "Anglais|M1_ANDROIDE": {
@@ -294,6 +318,12 @@
       "code": "Anglais",
       "groups": [],
       "source": "M1_SESI"
+    },
+    "Anglais|M1_SFPN": {
+      "name": "AnglaisCCA",
+      "code": "Anglais",
+      "groups": [],
+      "source": "M1_SFPN"
     },
     "Anglais|M1_STL": {
       "name": "AnglaisSTL",

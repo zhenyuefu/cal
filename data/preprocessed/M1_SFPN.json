@@ -3,6 +3,83 @@
   "parcours": "SFPN",
   "courses": [
     {
+      "name": "ANUM",
+      "code": "910",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "A104DE2C-10D7-4473-B4F7-4DA679697CFC",
+              "summary": "UM4IN910-ANum-Cours",
+              "location": "En attente de salle",
+              "start": "2026-01-21T07:30:00+00:00",
+              "end": "2026-01-21T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260225T225959Z"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "DAE33E4C-BC08-434B-811A-1DEF5C0BDA44",
+              "summary": "UM4IN910-ANUM-TD",
+              "location": "En attente de salle",
+              "start": "2026-01-28T09:45:00+00:00",
+              "end": "2026-01-28T11:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ANUM2",
+      "code": "920",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "A83B36D2-8BE5-4EC8-A6BE-EB5BA3A10BF9",
+              "summary": "MU4IN920-ANUM2-TME parcours HPC",
+              "location": "En attente de salle",
+              "start": "2026-01-28T12:45:00+00:00",
+              "end": "2026-01-28T14:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AnglaisCCA",
+      "code": "Anglais",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "E59CDED0-4B55-4B69-AEA4-DE57EFEB08D9",
+              "summary": "AnglaisCCA",
+              "location": "Salle en fonction du groupe\\, voir Moodle",
+              "start": "2026-01-21T13:00:00+00:00",
+              "end": "2026-01-21T16:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "COMPLEX",
       "code": "900",
       "special": false,
@@ -271,6 +348,138 @@
               "start": "2025-11-26T09:45:00+00:00",
               "end": "2025-11-26T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251217T225959Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CRYPTO1",
+      "code": "904",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "BF15FE26-567F-4050-BC81-EC011B6331C9",
+              "summary": "UM4IN904-CRYPTO1-Cours",
+              "location": "En attente de salle",
+              "start": "2026-01-22T07:30:00+00:00",
+              "end": "2026-01-22T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260226T225959Z"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "36CFB592-6D73-4D22-8A5F-3CC3C0A25021",
+              "summary": "UM4IN904-CRYPTO1-TD",
+              "location": "En attente de salle",
+              "start": "2026-01-29T12:45:00+00:00",
+              "end": "2026-01-29T14:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "87B5434C-C619-4E30-863D-76CDEE3E847B",
+              "summary": "UM4IN904-CRYPTO1-TME",
+              "location": "En attente de salle",
+              "start": "2026-01-29T15:00:00+00:00",
+              "end": "2026-01-29T17:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ConférencesCCA",
+      "code": "special",
+      "special": true,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "3E1D1861-7217-4110-B946-BF407D618232",
+              "summary": "ConférencesCCA",
+              "location": "En attente de salle",
+              "start": "2026-01-20T12:45:00+00:00",
+              "end": "2026-01-20T14:45:00+00:00"
+            },
+            {
+              "uid": "6A3EE624-AA7A-4048-8868-AE3A394DE91E",
+              "summary": "\\nRéunionM1CCA - Réunion de rentrée",
+              "location": "Salle: 14.24.109",
+              "start": "2025-09-09T12:00:00+00:00",
+              "end": "2025-09-09T13:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "FLAG",
+      "code": "902",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "DB0CAFB1-62B9-4E71-BE05-013C2BB8CB01",
+              "summary": "UM4IN902-FLAG-Cours",
+              "location": "En attente de salle",
+              "start": "2026-01-23T07:30:00+00:00",
+              "end": "2026-01-23T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260123T225959Z"
+            },
+            {
+              "uid": "65A36286-331E-46CD-9F00-4EB78E0F3AD7",
+              "summary": "UM4IN902-FLAG-Cours",
+              "location": "En attente de salle",
+              "start": "2026-01-30T07:30:00+00:00",
+              "end": "2026-01-30T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "DB543CA0-C80D-4433-8A5E-0FB055AF9541",
+              "summary": "UM4IN902-FLAG-TD",
+              "location": "En attente de salle",
+              "start": "2026-01-26T07:30:00+00:00",
+              "end": "2026-01-26T09:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "613B30C0-97E3-4450-A452-549BFA4C0349",
+              "summary": "UM4IN902-FLAG-TME",
+              "location": "En attente de salle",
+              "start": "2026-01-26T09:45:00+00:00",
+              "end": "2026-01-26T11:45:00+00:00"
             }
           ]
         }
@@ -724,28 +933,7 @@
           ]
         }
       ]
-    },
-    {
-      "name": "\\nRéunionM1CCA - Réunion de rentrée",
-      "code": "special",
-      "special": true,
-      "groups": [],
-      "variants": [
-        {
-          "group": null,
-          "type": null,
-          "events": [
-            {
-              "uid": "6A3EE624-AA7A-4048-8868-AE3A394DE91E",
-              "summary": "\\nRéunionM1CCA - Réunion de rentrée",
-              "location": "Salle: 14.24.109",
-              "start": "2025-09-09T12:00:00+00:00",
-              "end": "2025-09-09T13:00:00+00:00"
-            }
-          ]
-        }
-      ]
     }
   ],
-  "updated_at": "2025-10-28T06:52:49.786681696+00:00"
+  "updated_at": "2025-10-29T06:53:08.179197947+00:00"
 }
