@@ -3,6 +3,176 @@
   "parcours": "SAR",
   "courses": [
     {
+      "name": "AR",
+      "code": "403",
+      "special": false,
+      "groups": [
+        "10",
+        "9"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "6CD29945-1DEF-4ABC-A032-30D878D95AC3",
+              "summary": "UM4IN403-AR-Cours",
+              "location": null,
+              "start": "2026-01-20T09:45:00+00:00",
+              "end": "2026-01-20T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260428T215959Z",
+              "exdates": [
+                "2026-03-03T09:45:00+00:00",
+                "2026-04-14T08:45:00+00:00",
+                "2026-04-21T08:45:00+00:00",
+                "2026-04-28T08:45:00+00:00"
+              ]
+            },
+            {
+              "uid": "9641B476-19A4-4EC4-8EA8-BF792DC7D5D5",
+              "summary": "UM4IN403-SRCS-Cours",
+              "location": null,
+              "start": "2026-01-21T09:45:00+00:00",
+              "end": "2026-01-21T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260128T225959Z"
+            },
+            {
+              "uid": "37B45EB8-5DB0-48B6-95E9-D076BCA92D35",
+              "summary": "UM4IN403-SRCS-Cours",
+              "location": "salle SAR 14.15.508",
+              "start": "2026-02-04T09:45:00+00:00",
+              "end": "2026-02-04T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260408T215959Z",
+              "exdates": [
+                "2026-03-04T09:45:00+00:00"
+              ]
+            },
+            {
+              "uid": "37B45EB8-5DB0-48B6-95E9-D076BCA92D35",
+              "summary": "UM4IN403-SRCS-ExamenR1",
+              "location": "salle SAR 14.15.508",
+              "start": "2026-03-11T09:45:00+00:00",
+              "end": "2026-03-11T11:45:00+00:00",
+              "recurrence_id": "2026-03-11T09:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "6CD29945-1DEF-4ABC-A032-30D878D95AC3",
+              "summary": "UM4IN403-AR-ExamenR1",
+              "location": null,
+              "start": "2026-03-10T09:45:00+00:00",
+              "end": "2026-03-10T11:45:00+00:00",
+              "recurrence_id": "2026-03-10T09:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "3BCAB191-C14F-439E-A3BE-04E9020D9B1E",
+              "summary": "UM4IN403-AR-TD",
+              "location": null,
+              "start": "2026-01-26T12:45:00+00:00",
+              "end": "2026-01-26T14:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260504T215959Z",
+              "exdates": [
+                "2026-03-02T12:45:00+00:00",
+                "2026-03-09T12:45:00+00:00",
+                "2026-04-06T11:45:00+00:00",
+                "2026-04-20T11:45:00+00:00",
+                "2026-04-27T11:45:00+00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "E9D95358-0C43-4973-ADEA-AA260625E0EF",
+              "summary": "UM4IN403-AR-TME",
+              "location": null,
+              "start": "2026-01-26T15:00:00+00:00",
+              "end": "2026-01-26T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260504T215959Z",
+              "exdates": [
+                "2026-03-02T15:00:00+00:00",
+                "2026-03-09T15:00:00+00:00",
+                "2026-04-06T14:00:00+00:00",
+                "2026-04-20T14:00:00+00:00",
+                "2026-04-27T14:00:00+00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "10",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "3BCAB191-C14F-439E-A3BE-04E9020D9B1E",
+              "summary": "UM4IN403-AR-TD10",
+              "location": null,
+              "start": "2026-05-04T11:45:00+00:00",
+              "end": "2026-05-04T13:45:00+00:00",
+              "recurrence_id": "2026-05-04T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "10",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "E9D95358-0C43-4973-ADEA-AA260625E0EF",
+              "summary": "UM4IN403-AR-TME10",
+              "location": null,
+              "start": "2026-05-04T14:00:00+00:00",
+              "end": "2026-05-04T16:00:00+00:00",
+              "recurrence_id": "2026-05-04T14:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "9",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "3BCAB191-C14F-439E-A3BE-04E9020D9B1E",
+              "summary": "UM4IN403-AR-TD9",
+              "location": null,
+              "start": "2026-04-13T11:45:00+00:00",
+              "end": "2026-04-13T13:45:00+00:00",
+              "recurrence_id": "2026-04-13T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "9",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "E9D95358-0C43-4973-ADEA-AA260625E0EF",
+              "summary": "UM4IN403-AR-TME9",
+              "location": null,
+              "start": "2026-04-13T14:00:00+00:00",
+              "end": "2026-04-13T16:00:00+00:00",
+              "recurrence_id": "2026-04-13T14:00:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "ATRIUM DES MÉTIERS",
       "code": "special",
       "special": true,
@@ -25,6 +195,46 @@
               "location": "Salle: 14.24.209 (reservation n° 674721)",
               "start": "2025-09-08T12:00:00+00:00",
               "end": "2025-09-08T14:00:00+00:00"
+            },
+            {
+              "uid": "4737F76B-365B-4FA1-9DC5-063C3B87E9B1",
+              "summary": "Conférences métiers",
+              "location": null,
+              "start": "2026-01-27T12:45:00+00:00",
+              "end": "2026-01-27T14:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260407T215959Z",
+              "exdates": [
+                "2026-03-03T12:45:00+00:00",
+                "2026-03-10T12:45:00+00:00"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "AnglaisSAR",
+      "code": "Anglais",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "1AFD27F0-FC1A-4B0A-A504-EB0E5E0A072B",
+              "summary": "AnglaisSAR-Anglais-Cours",
+              "location": null,
+              "start": "2026-01-28T13:00:00+00:00",
+              "end": "2026-01-28T16:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260429T215959Z",
+              "exdates": [
+                "2026-03-04T13:00:00+00:00",
+                "2026-03-11T13:00:00+00:00",
+                "2026-04-22T12:00:00+00:00",
+                "2026-04-29T12:00:00+00:00"
+              ]
             }
           ]
         }
@@ -267,6 +477,167 @@
       ]
     },
     {
+      "name": "PNL",
+      "code": "402",
+      "special": false,
+      "groups": [
+        "1",
+        "10",
+        "2"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "B4C0572D-07D5-4466-B748-46AD07EB9138",
+              "summary": "UM4IN402-PNL-Cours",
+              "location": null,
+              "start": "2026-01-20T07:30:00+00:00",
+              "end": "2026-01-20T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260127T225959Z"
+            },
+            {
+              "uid": "1998682F-1CBF-4351-A30D-A118251B7C82",
+              "summary": "UM4IN402-PNL-Cours",
+              "location": "Salle SAR 14.15.508",
+              "start": "2026-02-03T07:30:00+00:00",
+              "end": "2026-02-03T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260428T215959Z",
+              "exdates": [
+                "2026-03-03T07:30:00+00:00",
+                "2026-03-10T07:30:00+00:00",
+                "2026-04-14T06:30:00+00:00",
+                "2026-04-21T06:30:00+00:00",
+                "2026-04-28T06:30:00+00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "51781AA0-E00C-465E-8378-918E4FEFD18B",
+              "summary": "UM4IN402-PNL-TME",
+              "location": null,
+              "start": "2026-01-29T15:00:00+00:00",
+              "end": "2026-01-29T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260129T225959Z"
+            },
+            {
+              "uid": "1C5C5082-C431-4142-963F-71F89C1CDFBB",
+              "summary": "UM4IN402-PNL-TME",
+              "location": "salle SAR 14.15.508",
+              "start": "2026-02-05T15:00:00+00:00",
+              "end": "2026-02-05T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260430T215959Z",
+              "exdates": [
+                "2026-03-05T15:00:00+00:00",
+                "2026-03-12T15:00:00+00:00",
+                "2026-04-23T14:00:00+00:00",
+                "2026-04-30T14:00:00+00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "FF6A0E9B-8AF2-4F3A-9D67-E941306434A4",
+              "summary": "UM4IN402-PNL-TD1",
+              "location": null,
+              "start": "2026-01-29T12:45:00+00:00",
+              "end": "2026-01-29T14:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260129T225959Z"
+            },
+            {
+              "uid": "6B571A88-51BC-4F90-B2AB-0811BF4F1999",
+              "summary": "UM4IN402-PNL-TD1",
+              "location": "salle SAR 14.15.508",
+              "start": "2026-02-05T12:45:00+00:00",
+              "end": "2026-02-05T14:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260430T215959Z",
+              "exdates": [
+                "2026-03-05T12:45:00+00:00",
+                "2026-03-12T12:45:00+00:00",
+                "2026-04-23T11:45:00+00:00",
+                "2026-04-30T11:45:00+00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "10",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "5CB3CE1A-9835-44BF-B6EF-06905DFBF982",
+              "summary": "UM4IN402-PNL-TD10",
+              "location": "salle SAR 14.15.508",
+              "start": "2026-04-16T11:45:00+00:00",
+              "end": "2026-04-16T13:45:00+00:00",
+              "recurrence_id": "2026-04-16T11:45:00+00:00"
+            },
+            {
+              "uid": "6B571A88-51BC-4F90-B2AB-0811BF4F1999",
+              "summary": "UM4IN402-PNL-TD10",
+              "location": "salle SAR 14.15.508",
+              "start": "2026-04-16T11:45:00+00:00",
+              "end": "2026-04-16T13:45:00+00:00",
+              "recurrence_id": "2026-04-16T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "10",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "1C5C5082-C431-4142-963F-71F89C1CDFBB",
+              "summary": "UM4IN402-PNL-TME10",
+              "location": "salle SAR 14.15.508",
+              "start": "2026-04-16T14:00:00+00:00",
+              "end": "2026-04-16T16:00:00+00:00",
+              "recurrence_id": "2026-04-16T14:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "5D007EA5-0CB9-4D05-AECE-05FDBD13BF4A",
+              "summary": "UM4IN402-PNL-TD2",
+              "location": null,
+              "start": "2026-01-29T12:45:00+00:00",
+              "end": "2026-01-29T14:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260129T225959Z"
+            },
+            {
+              "uid": "5CB3CE1A-9835-44BF-B6EF-06905DFBF982",
+              "summary": "UM4IN402-PNL-TD2",
+              "location": "salle SAR 14.15.508",
+              "start": "2026-02-05T12:45:00+00:00",
+              "end": "2026-02-05T14:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260430T215959Z",
+              "exdates": [
+                "2026-03-05T12:45:00+00:00",
+                "2026-03-12T12:45:00+00:00",
+                "2026-04-23T11:45:00+00:00",
+                "2026-04-30T11:45:00+00:00"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "PSCR",
       "code": "400",
       "special": false,
@@ -294,7 +665,7 @@
             {
               "uid": "E82E9A81-B1C7-4217-B78B-12C1EF9AAD2C",
               "summary": "UM4IN400-PSCR-Cours",
-              "location": "Amphi.34B(reservation n° 665960)",
+              "location": "Amphi.34A(reservation n° 665960)",
               "start": "2025-11-03T12:45:00+00:00",
               "end": "2025-11-03T14:45:00+00:00",
               "recurrence_id": "2025-11-03T12:45:00+00:00"
@@ -302,7 +673,7 @@
             {
               "uid": "E82E9A81-B1C7-4217-B78B-12C1EF9AAD2C",
               "summary": "UM4IN400-PSCR-Cours",
-              "location": "Amphi.34B (reservation n° 665960)",
+              "location": "Amphi.34A(reservation n° 665960)",
               "start": "2025-11-10T12:45:00+00:00",
               "end": "2025-11-10T14:45:00+00:00",
               "recurrence_id": "2025-11-10T12:45:00+00:00"
@@ -605,7 +976,311 @@
           ]
         }
       ]
+    },
+    {
+      "name": "SAS",
+      "code": "405",
+      "special": false,
+      "groups": [
+        "10",
+        "9"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "FCC09276-E16E-4752-84C3-E30546061D5D",
+              "summary": "UM4IN405-SAS-TD",
+              "location": "salle SAR 14.15.508",
+              "start": "2026-01-26T07:30:00+00:00",
+              "end": "2026-01-26T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260504T215959Z",
+              "exdates": [
+                "2026-03-02T07:30:00+00:00",
+                "2026-03-09T07:30:00+00:00",
+                "2026-04-06T06:30:00+00:00",
+                "2026-04-20T06:30:00+00:00",
+                "2026-04-27T06:30:00+00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "AB9AFCA1-DCB7-4248-A883-9E67DBBBF710",
+              "summary": "UM4IN405-SAS-TME",
+              "location": "salle SAR 14.15.508",
+              "start": "2026-01-26T09:45:00+00:00",
+              "end": "2026-01-26T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260504T215959Z",
+              "exdates": [
+                "2026-03-02T09:45:00+00:00",
+                "2026-03-09T09:45:00+00:00",
+                "2026-04-06T08:45:00+00:00",
+                "2026-04-20T08:45:00+00:00",
+                "2026-04-27T08:45:00+00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "10",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "FCC09276-E16E-4752-84C3-E30546061D5D",
+              "summary": "UM4IN405-SAS-TD10",
+              "location": "salle SAR 14.15.508",
+              "start": "2026-05-04T06:30:00+00:00",
+              "end": "2026-05-04T08:30:00+00:00",
+              "recurrence_id": "2026-05-04T06:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "10",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "AB9AFCA1-DCB7-4248-A883-9E67DBBBF710",
+              "summary": "UM4IN405-SAS-TME10",
+              "location": "salle SAR 14.15.508",
+              "start": "2026-05-04T08:45:00+00:00",
+              "end": "2026-05-04T10:45:00+00:00",
+              "recurrence_id": "2026-05-04T08:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "9",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "FCC09276-E16E-4752-84C3-E30546061D5D",
+              "summary": "UM4IN405-SAS-TD9",
+              "location": "salle SAR 14.15.508",
+              "start": "2026-04-13T06:30:00+00:00",
+              "end": "2026-04-13T08:30:00+00:00",
+              "recurrence_id": "2026-04-13T06:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "9",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "AB9AFCA1-DCB7-4248-A883-9E67DBBBF710",
+              "summary": "UM4IN405-SAS-TME9",
+              "location": "salle SAR 14.15.508",
+              "start": "2026-04-13T08:45:00+00:00",
+              "end": "2026-04-13T10:45:00+00:00",
+              "recurrence_id": "2026-04-13T08:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SFTR",
+      "code": "407",
+      "special": false,
+      "groups": [
+        "10"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "2D277CAE-7CE3-4CD2-8C0E-8881937DB364",
+              "summary": "UM4IN407-SFTR-Cours",
+              "location": null,
+              "start": "2026-01-21T07:30:00+00:00",
+              "end": "2026-01-21T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260128T225959Z"
+            },
+            {
+              "uid": "BAF20EC7-E5EE-4030-A395-F4B2AE509B8D",
+              "summary": "UM4IN407-SFTR-Cours",
+              "location": "salle SAR 14.15.508",
+              "start": "2026-02-04T07:30:00+00:00",
+              "end": "2026-02-04T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260408T215959Z",
+              "exdates": [
+                "2026-03-04T07:30:00+00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "BAF20EC7-E5EE-4030-A395-F4B2AE509B8D",
+              "summary": "UM4IN407-SFTR-ExamenR1",
+              "location": "salle SAR 14.15.508",
+              "start": "2026-03-11T07:30:00+00:00",
+              "end": "2026-03-11T09:30:00+00:00",
+              "recurrence_id": "2026-03-11T07:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "EAE33A4D-0E15-4D92-84B2-781F0474658F",
+              "summary": "UM4IN407-SFTR-TD",
+              "location": "salle SAR 14.15.508",
+              "start": "2026-01-29T07:30:00+00:00",
+              "end": "2026-01-29T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260430T215959Z",
+              "exdates": [
+                "2026-03-05T07:30:00+00:00",
+                "2026-03-12T07:30:00+00:00",
+                "2026-04-23T06:30:00+00:00",
+                "2026-04-30T06:30:00+00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "80E8CB55-242D-471C-A6E6-C6E95D15064B",
+              "summary": "UM4IN407-SFTR-TME",
+              "location": "salle SAR 14.15.508",
+              "start": "2026-01-29T09:45:00+00:00",
+              "end": "2026-01-29T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260430T215959Z",
+              "exdates": [
+                "2026-03-05T09:45:00+00:00",
+                "2026-03-12T09:45:00+00:00",
+                "2026-04-23T08:45:00+00:00",
+                "2026-04-30T08:45:00+00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "10",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "EAE33A4D-0E15-4D92-84B2-781F0474658F",
+              "summary": "UM4IN407-SFTR-TD10",
+              "location": "salle SAR 14.15.508",
+              "start": "2026-04-16T06:30:00+00:00",
+              "end": "2026-04-16T08:30:00+00:00",
+              "recurrence_id": "2026-04-16T06:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "10",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "80E8CB55-242D-471C-A6E6-C6E95D15064B",
+              "summary": "UM4IN407-SFTR-TME10",
+              "location": "salle SAR 14.15.508",
+              "start": "2026-04-16T08:45:00+00:00",
+              "end": "2026-04-16T10:45:00+00:00",
+              "recurrence_id": "2026-04-16T08:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "SRCS",
+      "code": "404",
+      "special": false,
+      "groups": [
+        "10"
+      ],
+      "variants": [
+        {
+          "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "334522EA-18FA-42F2-880A-4AA0D83494FD",
+              "summary": "UM4IN404-SRCS-TD",
+              "location": "salle 14.15.508",
+              "start": "2026-01-30T12:45:00+00:00",
+              "end": "2026-01-30T14:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260501T215959Z",
+              "exdates": [
+                "2026-03-06T12:45:00+00:00",
+                "2026-03-13T12:45:00+00:00",
+                "2026-04-24T11:45:00+00:00",
+                "2026-05-01T11:45:00+00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "B4BD4B7F-F27B-4143-8CF1-1B7056D94643",
+              "summary": "UM4IN404-SRCS-TME",
+              "location": "salle 14.15.508",
+              "start": "2026-01-30T15:00:00+00:00",
+              "end": "2026-01-30T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260501T215959Z",
+              "exdates": [
+                "2026-03-06T15:00:00+00:00",
+                "2026-03-13T15:00:00+00:00",
+                "2026-04-24T14:00:00+00:00",
+                "2026-05-01T14:00:00+00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "10",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "334522EA-18FA-42F2-880A-4AA0D83494FD",
+              "summary": "UM4IN404-SRCS-TD10",
+              "location": "salle 14.15.508",
+              "start": "2026-04-17T11:45:00+00:00",
+              "end": "2026-04-17T13:45:00+00:00",
+              "recurrence_id": "2026-04-17T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "10",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "B4BD4B7F-F27B-4143-8CF1-1B7056D94643",
+              "summary": "UM4IN404-SRCS-TME10",
+              "location": "salle 14.15.508",
+              "start": "2026-04-17T14:00:00+00:00",
+              "end": "2026-04-17T16:00:00+00:00",
+              "recurrence_id": "2026-04-17T14:00:00+00:00"
+            }
+          ]
+        }
+      ]
     }
   ],
-  "updated_at": "2025-11-03T06:53:11.402937622+00:00"
+  "updated_at": "2025-11-04T06:52:57.007291196+00:00"
 }

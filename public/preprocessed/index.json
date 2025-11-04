@@ -77,6 +77,18 @@
       ],
       "source": "M1_ANDROIDE"
     },
+    "202|M1_ANDROIDE": {
+      "name": "FoSyMa",
+      "code": "202",
+      "groups": [],
+      "source": "M1_ANDROIDE"
+    },
+    "204|M1_ANDROIDE": {
+      "name": "DJ",
+      "code": "204",
+      "groups": [],
+      "source": "M1_ANDROIDE"
+    },
     "211|M1_ANDROIDE": {
       "name": "IREC",
       "code": "211",
@@ -106,6 +118,50 @@
         "1",
         "2",
         "3"
+      ],
+      "source": "M1_SAR"
+    },
+    "402|M1_SAR": {
+      "name": "PNL",
+      "code": "402",
+      "groups": [
+        "1",
+        "10",
+        "2"
+      ],
+      "source": "M1_SAR"
+    },
+    "403|M1_SAR": {
+      "name": "AR",
+      "code": "403",
+      "groups": [
+        "10",
+        "9"
+      ],
+      "source": "M1_SAR"
+    },
+    "404|M1_SAR": {
+      "name": "SRCS",
+      "code": "404",
+      "groups": [
+        "10"
+      ],
+      "source": "M1_SAR"
+    },
+    "405|M1_SAR": {
+      "name": "SAS",
+      "code": "405",
+      "groups": [
+        "10",
+        "9"
+      ],
+      "source": "M1_SAR"
+    },
+    "407|M1_SAR": {
+      "name": "SFTR",
+      "code": "407",
+      "groups": [
+        "10"
       ],
       "source": "M1_SAR"
     },
@@ -312,6 +368,12 @@
       "code": "Anglais",
       "groups": [],
       "source": "M1_ANDROIDE"
+    },
+    "Anglais|M1_SAR": {
+      "name": "AnglaisSAR",
+      "code": "Anglais",
+      "groups": [],
+      "source": "M1_SAR"
     },
     "Anglais|M1_SESI": {
       "name": "Anglais",
