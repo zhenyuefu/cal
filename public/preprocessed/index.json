@@ -49,8 +49,7 @@
       "code": "108",
       "groups": [
         "1",
-        "2",
-        "3"
+        "2"
       ],
       "source": "M1_SESI"
     },
@@ -77,9 +76,23 @@
       ],
       "source": "M1_ANDROIDE"
     },
+    "201|M1_ANDROIDE": {
+      "name": "RP",
+      "code": "201",
+      "groups": [],
+      "source": "M1_ANDROIDE"
+    },
     "202|M1_ANDROIDE": {
       "name": "FoSyMa",
       "code": "202",
+      "groups": [
+        "1"
+      ],
+      "source": "M1_ANDROIDE"
+    },
+    "203|M1_ANDROIDE": {
+      "name": "IHM",
+      "code": "203",
       "groups": [],
       "source": "M1_ANDROIDE"
     },
@@ -87,6 +100,15 @@
       "name": "DJ",
       "code": "204",
       "groups": [],
+      "source": "M1_ANDROIDE"
+    },
+    "207|M1_ANDROIDE": {
+      "name": "AROB",
+      "code": "207",
+      "groups": [
+        "1",
+        "2"
+      ],
       "source": "M1_ANDROIDE"
     },
     "211|M1_ANDROIDE": {

@@ -78,8 +78,8 @@
               "uid": "C75D2A6A-D7ED-4436-8578-AE0750194547",
               "summary": "UM4IN700-AAGB-ER1",
               "location": "n°678963",
-              "start": "2025-11-17T09:45:00+00:00",
-              "end": "2025-11-17T11:45:00+00:00",
+              "start": "2025-11-17T09:46:00+00:00",
+              "end": "2025-11-17T11:46:00+00:00",
               "exdates": [
                 "2025-10-27T09:45:00+00:00",
                 "2025-11-17T09:45:00+00:00"
@@ -91,6 +91,14 @@
           "group": null,
           "type": "TD",
           "events": [
+            {
+              "uid": "6FE98F06-5236-477E-B640-1394E148FC21",
+              "summary": "UM4IN700-AAGB-TD",
+              "location": "n°679764",
+              "start": "2025-11-26T15:00:00+00:00",
+              "end": "2025-11-26T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251217T225959Z"
+            },
             {
               "uid": "BE755844-D476-42EB-B7BA-E990C1C5E73C",
               "summary": "UM4IN700-AAGB-TD",
@@ -418,15 +426,37 @@
         },
         {
           "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "A016E7CD-537B-4EA0-A695-52F52A6D7BFF",
+              "summary": "UM4MIN704 - SDED - TD",
+              "location": "Salle 24.25.105",
+              "start": "2025-11-05T09:45:00+00:00",
+              "end": "2025-11-05T11:45:00+00:00",
+              "recurrence_id": "2025-11-05T09:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "TME",
           "events": [
+            {
+              "uid": "D4A7C06C-3BA6-47B0-878C-642B936127E5",
+              "summary": "UM4MIN704 - SDED - TME",
+              "location": "Salle 24.25.105",
+              "start": "2025-11-26T09:45:00+00:00",
+              "end": "2025-11-26T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251217T225959Z"
+            },
             {
               "uid": "A016E7CD-537B-4EA0-A695-52F52A6D7BFF",
               "summary": "UM4MIN704 - SDED - TME",
               "location": "n_678625",
               "start": "2025-10-22T08:45:00+00:00",
               "end": "2025-10-22T10:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251217T225959Z",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251119T225959Z",
               "exdates": [
                 "2025-10-29T09:45:00+00:00",
                 "2025-11-12T09:45:00+00:00",
@@ -528,5 +558,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-04T06:52:55.118091514+00:00"
+  "updated_at": "2025-11-05T06:52:16.260983866+00:00"
 }
