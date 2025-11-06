@@ -221,9 +221,7 @@
     "505|M1_STL": {
       "name": "CPA",
       "code": "505",
-      "groups": [
-        "1"
-      ],
+      "groups": [],
       "source": "M1_STL"
     },
     "506|M1_STL": {
@@ -235,7 +233,7 @@
       "source": "M1_STL"
     },
     "507|M1_STL": {
-      "name": "PC2R",
+      "name": "PC3R",
       "code": "507",
       "groups": [
         "1"
@@ -277,9 +275,27 @@
       ],
       "source": "M1_IMA"
     },
+    "602|M1_IMA": {
+      "name": "IG3D",
+      "code": "602",
+      "groups": [],
+      "source": "M1_IMA"
+    },
     "700|M1_BIM": {
       "name": "AAGB",
       "code": "700",
+      "groups": [],
+      "source": "M1_BIM"
+    },
+    "701|M1_BIM": {
+      "name": "SBAS",
+      "code": "701",
+      "groups": [],
+      "source": "M1_BIM"
+    },
+    "702|M1_BIM": {
+      "name": "MMCN",
+      "code": "702",
       "groups": [],
       "source": "M1_BIM"
     },
@@ -291,6 +307,12 @@
         "2",
         "3"
       ],
+      "source": "M1_BIM"
+    },
+    "705|M1_BIM": {
+      "name": "DeepLife",
+      "code": "705",
+      "groups": [],
       "source": "M1_BIM"
     },
     "800|M1_DAC": {
@@ -390,6 +412,12 @@
       "code": "Anglais",
       "groups": [],
       "source": "M1_ANDROIDE"
+    },
+    "Anglais|M1_BIM": {
+      "name": "Anglais",
+      "code": "Anglais",
+      "groups": [],
+      "source": "M1_BIM"
     },
     "Anglais|M1_SAR": {
       "name": "AnglaisSAR",

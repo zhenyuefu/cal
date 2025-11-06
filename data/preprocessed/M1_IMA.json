@@ -208,6 +208,58 @@
       ]
     },
     {
+      "name": "IG3D",
+      "code": "602",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "0EC8B767-2F6D-4768-BA1D-C7FD84566D62",
+              "summary": "UM4IN602-IG3D-Cours",
+              "location": "Résa n° 679902",
+              "start": "2026-01-20T15:00:00+00:00",
+              "end": "2026-01-20T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260224T225959Z"
+            },
+            {
+              "uid": "31A63558-DE09-4815-AA1C-0521CDEDAAF6",
+              "summary": "UM4IN602-IG3D-Cours",
+              "location": "Résa n° 669903",
+              "start": "2026-03-17T15:00:00+00:00",
+              "end": "2026-03-17T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260407T215959Z"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "E3EE9FD3-44F7-4A51-B9E9-C91D26C68E54",
+              "summary": "UM4IN602-IG3D-TME",
+              "location": null,
+              "start": "2026-01-29T12:45:00+00:00",
+              "end": "2026-01-29T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260226T225959Z"
+            },
+            {
+              "uid": "08B83FE4-2B8B-460D-A357-6134C37629F7",
+              "summary": "UM4IN602-IG3D-TME",
+              "location": null,
+              "start": "2026-03-19T12:45:00+00:00",
+              "end": "2026-03-19T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260417T215959Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "MAPSI",
       "code": "601",
       "special": false,
@@ -496,5 +548,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-05T06:52:15.269764809+00:00"
+  "updated_at": "2025-11-06T06:52:52.171745232+00:00"
 }
