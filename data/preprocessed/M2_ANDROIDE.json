@@ -740,8 +740,8 @@
               "uid": "5E18E0A1-FC5D-4233-B3EE-4E68337F983C",
               "summary": "um5in251-MAOA-ER1",
               "location": "Salle : AMPHI.HERPIN",
-              "start": "2025-11-26T07:30:00+00:00",
-              "end": "2025-11-26T09:30:00+00:00"
+              "start": "2025-11-26T09:00:00+00:00",
+              "end": "2025-11-26T11:00:00+00:00"
             }
           ]
         },
@@ -772,7 +772,7 @@
             {
               "uid": "FA18D794-FAC6-44F4-A90E-3D97A54AEC0C",
               "summary": "UM5IN251-MAOA-TD (n° 668748)",
-              "location": null,
+              "location": "Salle : 14.24.109",
               "start": "2025-11-26T07:30:00+00:00",
               "end": "2025-11-26T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251217T225959Z",
@@ -781,12 +781,28 @@
               ]
             },
             {
+              "uid": "FA18D794-FAC6-44F4-A90E-3D97A54AEC0C",
+              "summary": "UM5IN251-MAOA-TD (n° 668748)",
+              "location": "Salle : 14.24.109",
+              "start": "2025-12-10T09:45:00+00:00",
+              "end": "2025-12-10T11:45:00+00:00",
+              "recurrence_id": "2025-12-10T07:30:00+00:00"
+            },
+            {
               "uid": "4ACFD0F8-4F65-47B0-8C29-F7110301BC2F",
               "summary": "UM5IN251-MAOA-TD",
               "location": null,
               "start": "2026-01-21T07:30:00+00:00",
               "end": "2026-01-21T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260128T225959Z"
+            },
+            {
+              "uid": "1F0CAB94-E019-48B7-BA57-79D1707854CC",
+              "summary": "UM5IN251-MAOA-TD",
+              "location": null,
+              "start": "2026-01-14T07:30:00+00:00",
+              "end": "2026-01-14T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260114T225959Z"
             },
             {
               "uid": "624E3267-BFEA-492A-9537-FF413EC4E8C1",
@@ -801,7 +817,35 @@
               "location": null,
               "start": "2026-01-07T07:30:00+00:00",
               "end": "2026-01-07T11:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260114T225959Z"
+              "rrule": "FREQ=WEEKLY;UNTIL=20260107T225959Z"
+            },
+            {
+              "uid": "94937616-31D2-4D0E-9645-24A2B1E24A1F",
+              "summary": "UM5IN251-MAOA-TD",
+              "location": null,
+              "start": "2026-01-07T09:45:00+00:00",
+              "end": "2026-01-07T11:45:00+00:00",
+              "recurrence_id": "2026-01-07T07:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "9392DD8C-AD96-4D60-9D94-01BA8C6D5550",
+              "summary": "UM5IN251-MAOA-TME",
+              "location": null,
+              "start": "2026-01-07T07:30:00+00:00",
+              "end": "2026-01-07T09:30:00+00:00"
+            },
+            {
+              "uid": "F310538B-B5B9-4808-A881-AB0B75C54FF7",
+              "summary": "UM5IN251-MAOA-TME",
+              "location": null,
+              "start": "2025-12-10T07:30:00+00:00",
+              "end": "2025-12-10T09:30:00+00:00"
             }
           ]
         }
@@ -1157,5 +1201,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-06T06:53:05.618914181+00:00"
+  "updated_at": "2025-11-07T06:52:28.037212302+00:00"
 }
