@@ -37,20 +37,20 @@
           "type": "CS",
           "events": [
             {
-              "uid": "6E6ECE35-45F8-48CC-87FF-03D05E8D1A96",
-              "summary": "UM4IN207-AROB-CS",
-              "location": null,
-              "start": "2026-01-23T15:00:00+00:00",
-              "end": "2026-01-23T17:00:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
-            },
-            {
               "uid": "E779FEBC-B37B-4E6F-8AC9-4976C21F9C90",
               "summary": "UM4IN207-AROB-CS",
-              "location": null,
+              "location": "680030",
               "start": "2026-03-20T15:00:00+00:00",
               "end": "2026-03-20T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260410T215959Z"
+            },
+            {
+              "uid": "6E6ECE35-45F8-48CC-87FF-03D05E8D1A96",
+              "summary": "UM4IN207-AROB-CS",
+              "location": "680029",
+              "start": "2026-01-23T15:00:00+00:00",
+              "end": "2026-01-23T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
             }
           ]
         },
@@ -190,20 +190,20 @@
           "type": "TD",
           "events": [
             {
-              "uid": "2256A8E4-BCB1-4C89-A58E-C68FC2F5AD73",
-              "summary": "UM4IN204-DJ-TD",
-              "location": null,
-              "start": "2026-01-30T07:30:00+00:00",
-              "end": "2026-01-30T11:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
-            },
-            {
               "uid": "3B537EB6-70B8-44A5-804D-D12AF85CCE48",
               "summary": "UM4IN204-DJ-TD",
-              "location": null,
+              "location": "680061",
               "start": "2026-03-20T07:30:00+00:00",
               "end": "2026-03-20T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260417T215959Z"
+            },
+            {
+              "uid": "2256A8E4-BCB1-4C89-A58E-C68FC2F5AD73",
+              "summary": "UM4IN204-DJ-TD",
+              "location": "680058",
+              "start": "2026-01-30T07:30:00+00:00",
+              "end": "2026-01-30T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
             }
           ]
         }
@@ -224,7 +224,7 @@
             {
               "uid": "B24F32B3-2971-4494-831F-29B72944662F",
               "summary": "UM4IN202-FoSyMa-CS",
-              "location": null,
+              "location": " 679960",
               "start": "2026-01-19T15:00:00+00:00",
               "end": "2026-01-19T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260223T225959Z"
@@ -232,7 +232,7 @@
             {
               "uid": "5F1B22DA-D298-420E-AE6D-621563C35F2E",
               "summary": "UM4IN202-FoSyMa-CS",
-              "location": null,
+              "location": "679961",
               "start": "2026-03-16T15:00:00+00:00",
               "end": "2026-03-16T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260413T215959Z",
@@ -249,14 +249,14 @@
             {
               "uid": "F97D4FD9-1037-4AAE-9C69-16BAB403E4F5",
               "summary": "UM4IN202-FoSyMA-TD",
-              "location": null,
+              "location": "680078",
               "start": "2026-01-27T07:30:00+00:00",
               "end": "2026-01-27T11:45:00+00:00"
             },
             {
               "uid": "4538E5AF-25B4-4685-A080-0442BD3B715B",
               "summary": "UM4IN202-FoSyMa-TD",
-              "location": null,
+              "location": " 680085",
               "start": "2026-02-17T07:30:00+00:00",
               "end": "2026-02-17T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260224T225959Z"
@@ -264,7 +264,7 @@
             {
               "uid": "D9885C75-D4BE-4D14-8145-8E0B6AD925FC",
               "summary": "UM4IN202-FoSyMa-TD",
-              "location": null,
+              "location": " 680089",
               "start": "2026-03-17T07:30:00+00:00",
               "end": "2026-03-17T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260407T215959Z"
@@ -329,7 +329,7 @@
             {
               "uid": "143D13F5-C379-445B-B767-9BBD76C7A001",
               "summary": "UM4IN203-IHM-CS",
-              "location": null,
+              "location": "680097",
               "start": "2026-01-20T15:00:00+00:00",
               "end": "2026-01-20T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260224T225959Z"
@@ -337,17 +337,10 @@
             {
               "uid": "B30ADBA6-E716-4C6C-817D-1348BA532836",
               "summary": "UM4IN203-IHM-CS",
-              "location": null,
+              "location": "680096",
               "start": "2026-03-17T15:00:00+00:00",
               "end": "2026-03-17T17:00:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260324T225959Z"
-            },
-            {
-              "uid": "CD8A4C9D-736D-4C5A-9D11-E8A83BF9648D",
-              "summary": "UM4IN203-IHM-CS",
-              "location": null,
-              "start": "2026-04-07T14:00:00+00:00",
-              "end": "2026-04-07T16:00:00+00:00"
+              "rrule": "FREQ=WEEKLY;UNTIL=20260407T215959Z"
             }
           ]
         },
@@ -358,7 +351,7 @@
             {
               "uid": "6FA0A0BE-7B4B-4CF1-926A-D173C2B833D2",
               "summary": "UM4IN203-IHM-TD",
-              "location": null,
+              "location": " 680098",
               "start": "2026-01-26T07:30:00+00:00",
               "end": "2026-01-26T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260216T225959Z"
@@ -366,7 +359,7 @@
             {
               "uid": "38E04744-ACD7-4F56-A9DF-8704FB0A4D6C",
               "summary": "UM4IN203-IHM-TD",
-              "location": null,
+              "location": "680099",
               "start": "2026-03-16T07:30:00+00:00",
               "end": "2026-03-16T11:45:00+00:00"
             }
@@ -848,7 +841,7 @@
             {
               "uid": "291E2AB1-6B2E-4A20-B38D-C4118B8E6D88",
               "summary": "UM4IN201-RP-CS",
-              "location": null,
+              "location": "679964",
               "start": "2026-01-23T12:45:00+00:00",
               "end": "2026-01-23T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
@@ -856,7 +849,7 @@
             {
               "uid": "D7D876DC-C325-4CAA-B17D-43E57E62D002",
               "summary": "UM4IN201-RP-CS",
-              "location": null,
+              "location": "679973",
               "start": "2026-03-20T12:45:00+00:00",
               "end": "2026-03-20T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260410T215959Z"
@@ -868,17 +861,9 @@
           "type": "TD",
           "events": [
             {
-              "uid": "8AB6D1FC-9006-46E8-A655-BDE643B943FF",
-              "summary": "UM4IN201-RP-TD",
-              "location": null,
-              "start": "2026-01-29T07:30:00+00:00",
-              "end": "2026-01-29T09:30:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260212T225959Z"
-            },
-            {
               "uid": "9AADE584-50E6-41EC-8D8B-6D05A9D5B3D7",
               "summary": "UM4IN201-RP-TD",
-              "location": null,
+              "location": " 680051",
               "start": "2026-02-19T07:30:00+00:00",
               "end": "2026-02-19T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260226T225959Z"
@@ -886,10 +871,18 @@
             {
               "uid": "809D412B-8CBD-45B2-96BF-7572A1EFCCF4",
               "summary": "UM4IN201-RP-TD",
-              "location": null,
+              "location": " 680049",
               "start": "2026-03-19T07:30:00+00:00",
               "end": "2026-03-19T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260409T215959Z"
+            },
+            {
+              "uid": "8AB6D1FC-9006-46E8-A655-BDE643B943FF",
+              "summary": "UM4IN201-RP-TD",
+              "location": "680047",
+              "start": "2026-01-29T07:30:00+00:00",
+              "end": "2026-01-29T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260212T225959Z"
             }
           ]
         },
@@ -917,5 +910,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-07T06:52:09.341834274+00:00"
+  "updated_at": "2025-11-10T06:53:22.059170025+00:00"
 }

@@ -558,7 +558,7 @@
             {
               "uid": "CE3B19E2-9469-48B8-965A-702AAB54974A",
               "summary": "UM4IN106-MULTI- Anglais-Cours",
-              "location": null,
+              "location": "Réservation : 680018",
               "start": "2026-01-22T09:45:00+00:00",
               "end": "2026-01-22T11:45:00+00:00",
               "exdates": [
@@ -613,7 +613,7 @@
             {
               "uid": "85E4B234-160D-48E5-957D-14F26ADC9CEC",
               "summary": "UM4IN106-MULTI- Anglais-Cours",
-              "location": null,
+              "location": "Réservation : 680022",
               "start": "2026-03-19T09:45:00+00:00",
               "end": "2026-03-19T11:45:00+00:00",
               "exdates": [
@@ -1309,7 +1309,7 @@
             {
               "uid": "1BB3F94C-5113-4339-A6B7-0013395F6A8A",
               "summary": "UM4IN108-FPGA-Cours",
-              "location": null,
+              "location": "Réservation : 680010",
               "start": "2026-01-28T07:30:00+00:00",
               "end": "2026-01-28T09:30:00+00:00",
               "exdates": [
@@ -1369,7 +1369,7 @@
             {
               "uid": "3692EC8D-DEF2-443C-A26F-0A7596AF8ECC",
               "summary": "UM4IN108-FPGA-Cours",
-              "location": null,
+              "location": "Réservation : 680013",
               "start": "2026-03-18T07:30:00+00:00",
               "end": "2026-03-18T09:30:00+00:00",
               "exdates": [
@@ -1436,8 +1436,8 @@
               "uid": "A1274EE8-024C-4E45-834F-E3633CAE9C2E",
               "summary": "UM4IN108-FPGA-ExamenR2",
               "location": null,
-              "start": "2026-05-12T14:00:00+00:00",
-              "end": "2026-05-12T16:00:00+00:00",
+              "start": "2026-05-13T06:30:00+00:00",
+              "end": "2026-05-13T08:30:00+00:00",
               "exdates": [
                 "2022-02-01T15:00:00+00:00",
                 "2022-03-01T15:00:00+00:00",
@@ -1489,6 +1489,13 @@
               "location": "Bâtiment Esclangon\\, salle",
               "start": "2026-03-23T07:30:00+00:00",
               "end": "2026-03-23T11:45:00+00:00"
+            },
+            {
+              "uid": "7A11A38F-FCC6-494F-BC55-B49B78B786FE",
+              "summary": "UM4IN108-FPGA-TME1",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-05-05T06:30:00+00:00",
+              "end": "2026-05-05T10:45:00+00:00"
             },
             {
               "uid": "DF0F11D3-A4BD-4517-9201-91D90FE6880E",
@@ -1574,13 +1581,6 @@
               "end": "2026-03-31T10:45:00+00:00"
             },
             {
-              "uid": "7A11A38F-FCC6-494F-BC55-B49B78B786FE",
-              "summary": "UM4IN108-FPGA-TME2",
-              "location": "Bâtiment Esclangon\\, salle",
-              "start": "2026-05-05T06:30:00+00:00",
-              "end": "2026-05-05T10:45:00+00:00"
-            },
-            {
               "uid": "F4293B2B-BC27-4019-A3D0-28FA7D90C5E7",
               "summary": "UM4IN108-FPGA-TME2",
               "location": "Bâtiment Esclangon\\, salle",
@@ -1600,6 +1600,13 @@
               "location": "Bâtiment Esclangon\\, salle",
               "start": "2026-03-17T07:30:00+00:00",
               "end": "2026-03-17T11:45:00+00:00"
+            },
+            {
+              "uid": "D1666367-B32B-4965-9AA3-1F550F577DDD",
+              "summary": "UM4IN108-FPGA-TME2",
+              "location": "Bâtiment Esclangon\\, salle",
+              "start": "2026-05-05T06:30:00+00:00",
+              "end": "2026-05-05T10:45:00+00:00"
             }
           ]
         }
@@ -1642,7 +1649,7 @@
             {
               "uid": "9F3BD8D5-00CB-45C0-89A4-A24325F2F33C",
               "summary": "UM4IN109-IOC-Cours",
-              "location": null,
+              "location": "Réservation : 680024",
               "start": "2026-01-22T07:30:00+00:00",
               "end": "2026-01-22T09:30:00+00:00",
               "exdates": [
@@ -1714,7 +1721,7 @@
             {
               "uid": "16AE7BD6-4BA9-4CF7-ABCD-71004383C2A7",
               "summary": "UM4IN109-IOC-Cours",
-              "location": null,
+              "location": "Réservation : 680025",
               "start": "2026-03-19T07:30:00+00:00",
               "end": "2026-03-19T09:30:00+00:00",
               "exdates": [
@@ -2080,17 +2087,6 @@
               ]
             },
             {
-              "uid": "614BAEE9-0175-4425-A63D-F111E039226D",
-              "summary": "UM4IN106-MULTI-Cours",
-              "location": null,
-              "start": "2026-01-21T09:45:00+00:00",
-              "end": "2026-01-21T11:45:00+00:00",
-              "exdates": [
-                "2022-03-02T09:45:00+00:00",
-                "2022-03-09T09:45:00+00:00"
-              ]
-            },
-            {
               "uid": "D443A885-ABDC-49DE-BC88-FC934EF61F47",
               "summary": "UM4IN106-MULTI-Cours",
               "location": null,
@@ -2135,9 +2131,20 @@
               ]
             },
             {
+              "uid": "614BAEE9-0175-4425-A63D-F111E039226D",
+              "summary": "UM4IN106-MULTI-Cours",
+              "location": "Réservation : 680016",
+              "start": "2026-01-21T09:45:00+00:00",
+              "end": "2026-01-21T11:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
+            {
               "uid": "3F1B2E00-1AEA-4B29-AFA8-5E79C75B09AA",
               "summary": "UM4IN106-MULTI-Cours",
-              "location": null,
+              "location": "Réservation : 680017",
               "start": "2026-03-18T09:45:00+00:00",
               "end": "2026-03-18T11:45:00+00:00",
               "exdates": [
@@ -2357,8 +2364,8 @@
               "uid": "27017F9E-742D-45E4-9C7D-020B8B9EC9DD",
               "summary": "UM4IN111-PPSE-ExamenR2",
               "location": null,
-              "start": "2026-05-13T06:30:00+00:00",
-              "end": "2026-05-13T08:30:00+00:00"
+              "start": "2026-05-12T14:00:00+00:00",
+              "end": "2026-05-12T16:00:00+00:00"
             },
             {
               "uid": "20688AC5-4FD0-4D64-A96D-C190AFF94FFC",
@@ -2650,5 +2657,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-07T06:52:23.369324022+00:00"
+  "updated_at": "2025-11-10T06:53:36.198884464+00:00"
 }
