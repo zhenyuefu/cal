@@ -336,6 +336,44 @@
       ],
       "source": "M1_DAC"
     },
+    "803|M1_DAC": {
+      "name": "SAM",
+      "code": "803",
+      "groups": [],
+      "source": "M1_DAC"
+    },
+    "806|M1_DAC": {
+      "name": "IAMSI",
+      "code": "806",
+      "groups": [
+        "1",
+        "2"
+      ],
+      "source": "M1_DAC"
+    },
+    "811|M1_DAC": {
+      "name": "ML",
+      "code": "811",
+      "groups": [
+        "1",
+        "2"
+      ],
+      "source": "M1_DAC"
+    },
+    "812|M1_DAC": {
+      "name": "MLL",
+      "code": "812",
+      "groups": [
+        "2"
+      ],
+      "source": "M1_DAC"
+    },
+    "813|M1_DAC": {
+      "name": "RITAL",
+      "code": "813",
+      "groups": [],
+      "source": "M1_DAC"
+    },
     "814|M1_DAC": {
       "name": "DALAS",
       "code": "814",
@@ -346,6 +384,12 @@
         "4",
         "5"
       ],
+      "source": "M1_DAC"
+    },
+    "815|M1_DAC": {
+      "name": "IDLE",
+      "code": "815",
+      "groups": [],
       "source": "M1_DAC"
     },
     "900|M1_SFPN": {
@@ -418,6 +462,12 @@
       "code": "Anglais",
       "groups": [],
       "source": "M1_BIM"
+    },
+    "Anglais|M1_DAC": {
+      "name": "Anglais",
+      "code": "Anglais",
+      "groups": [],
+      "source": "M1_DAC"
     },
     "Anglais|M1_SAR": {
       "name": "AnglaisSAR",
