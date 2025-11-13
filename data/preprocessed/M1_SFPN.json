@@ -234,6 +234,13 @@
           "type": "TD",
           "events": [
             {
+              "uid": "D5A555D5-8686-4278-9B47-EB5F62D2E5A1",
+              "summary": "UM4IN900-COMPLEX-TD1",
+              "location": "Salle 14.15.501",
+              "start": "2025-11-03T07:30:00+00:00",
+              "end": "2025-11-03T09:30:00+00:00"
+            },
+            {
               "uid": "19CEDC86-2067-4F2C-B5CA-9A8055A7F50F",
               "summary": "UM4IN900-COMPLEX-TD1",
               "location": "Salle 24.34.112",
@@ -287,7 +294,7 @@
             {
               "uid": "6256FB57-6334-48E4-9857-D7896B82B09D",
               "summary": "UM4IN900-COMPLEX-TD1",
-              "location": "Salle 55.65.102",
+              "location": "Salle 14.15.502",
               "start": "2025-11-10T07:30:00+00:00",
               "end": "2025-11-10T09:30:00+00:00",
               "recurrence_id": "2025-11-10T07:30:00+00:00"
@@ -321,19 +328,20 @@
               "rrule": "FREQ=WEEKLY;UNTIL=20251110T225959Z"
             },
             {
+              "uid": "551F1288-045A-45F1-B4AA-1195F16D66FC",
+              "summary": "UM4IN900-COMPLEX-TME1",
+              "location": "Salle 14.15.502",
+              "start": "2025-11-10T09:45:00+00:00",
+              "end": "2025-11-10T11:45:00+00:00",
+              "recurrence_id": "2025-11-10T09:45:00+00:00"
+            },
+            {
               "uid": "E5B1462C-1AA5-4DD7-81C9-3FD94DCA709A",
               "summary": "UM4IN900-COMPLEX-TME1",
               "location": "Salle 14.15.501",
               "start": "2025-11-24T09:45:00+00:00",
               "end": "2025-11-24T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251215T225959Z"
-            },
-            {
-              "uid": "D5A555D5-8686-4278-9B47-EB5F62D2E5A1",
-              "summary": "UM4IN900-COMPLEX-TME1",
-              "location": "Salle 14.15.501",
-              "start": "2025-11-03T07:30:00+00:00",
-              "end": "2025-11-03T09:30:00+00:00"
             }
           ]
         },
@@ -884,7 +892,7 @@
             {
               "uid": "E354EB1D-E7B1-447D-AD00-B45CBEC6A3E3",
               "summary": "UM4IN901-MODEL- (EN) TME2",
-              "location": "Salle 14.15.502",
+              "location": "Salle 14.15.501",
               "start": "2025-11-10T07:30:00+00:00",
               "end": "2025-11-10T09:30:00+00:00",
               "recurrence_id": "2025-11-10T07:30:00+00:00"
@@ -1141,5 +1149,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-12T06:53:07.530862721+00:00"
+  "updated_at": "2025-11-13T06:52:57.257493515+00:00"
 }
