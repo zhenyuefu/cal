@@ -1175,130 +1175,137 @@
           "type": null,
           "events": [
             {
-              "uid": "73DE9E6D-A020-459A-B76C-5F75963215CB",
-              "summary": "UM4IN108-FPGA-Groupe CIMES",
-              "location": "Bâtiment Esclangon\\, salle",
-              "start": "2026-02-06T07:30:00+00:00",
-              "end": "2026-02-06T11:45:00+00:00"
+              "uid": "960EE719-24F6-4AF2-97DF-2F1E34AFC822",
+              "summary": "UM4IN108-FPGA-Groupe SYSCOM",
+              "location": "Bâtiment Esclangon\\, salle 229",
+              "start": "2026-01-30T12:45:00+00:00",
+              "end": "2026-01-30T17:00:00+00:00"
+            },
+            {
+              "uid": "C6D5D3AB-C1B6-42B0-929E-F9D5F3D67CDC",
+              "summary": "UM4IN108-FPGA-Groupe SYSCOM",
+              "location": "Bâtiment Esclangon\\, salle 229",
+              "start": "2026-02-06T12:45:00+00:00",
+              "end": "2026-02-06T17:00:00+00:00"
             },
             {
               "uid": "0D0DFD80-6AAC-42DE-8E39-236B24D5F6C0",
               "summary": "UM4IN108-FPGA-Groupe CIMES",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 228",
               "start": "2026-02-13T07:30:00+00:00",
               "end": "2026-02-13T11:45:00+00:00"
             },
             {
-              "uid": "4B7F8361-F7A1-401E-9C65-D54AD7472FAD",
-              "summary": "UM4IN108-FPGA-Groupe CIMES",
-              "location": "Bâtiment Esclangon\\, salle",
-              "start": "2026-02-20T07:30:00+00:00",
-              "end": "2026-02-20T11:45:00+00:00"
+              "uid": "4C11034E-4DC6-4F5B-B662-100045CA5844",
+              "summary": "UM4IN108-FPGA-Groupe SYSCOM",
+              "location": "Bâtiment Esclangon\\, salle 229",
+              "start": "2026-02-20T12:45:00+00:00",
+              "end": "2026-02-20T17:00:00+00:00"
             },
             {
-              "uid": "76363C0E-E56F-4BAD-81DC-9ED7BCD22501",
-              "summary": "UM4IN108-FPGA-Groupe CIMES",
-              "location": "Bâtiment Esclangon\\, salle",
-              "start": "2026-02-27T07:30:00+00:00",
-              "end": "2026-02-27T11:45:00+00:00"
-            },
-            {
-              "uid": "CD7E155A-3287-49EE-B692-5FDD0E25A421",
-              "summary": "UM4IN108-FPGA-Groupe CIMES",
-              "location": "Bâtiment Esclangon\\, salle",
-              "start": "2026-03-20T07:30:00+00:00",
-              "end": "2026-03-20T11:45:00+00:00"
-            },
-            {
-              "uid": "44E464BB-773C-4F26-B048-0BC37F8931CA",
-              "summary": "UM4IN108-FPGA-Groupe CIMES",
-              "location": "Bâtiment Esclangon\\, salle",
-              "start": "2026-03-27T07:30:00+00:00",
-              "end": "2026-03-27T11:45:00+00:00"
+              "uid": "A2B288E3-CBC7-4D9A-B3C9-0B599880AC45",
+              "summary": "UM4IN108-FPGA-Groupe SYSCOM",
+              "location": "Bâtiment Esclangon\\, salle 229",
+              "start": "2026-02-27T12:45:00+00:00",
+              "end": "2026-02-27T17:00:00+00:00"
             },
             {
               "uid": "29CD01D2-03E2-4759-9E56-4E16C28850AF",
               "summary": "UM4IN108-FPGA-Groupe CIMES",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 228",
               "start": "2026-04-03T06:30:00+00:00",
               "end": "2026-04-03T10:45:00+00:00"
             },
             {
               "uid": "38E7A045-B0BC-4EE7-BCA6-FA44D2A53CCE",
               "summary": "UM4IN108-FPGA-Groupe CIMES",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 228",
               "start": "2026-04-10T06:30:00+00:00",
               "end": "2026-04-10T10:45:00+00:00"
             },
             {
+              "uid": "73DE9E6D-A020-459A-B76C-5F75963215CB",
+              "summary": "UM4IN108-FPGA-Groupe CIMES",
+              "location": "Bâtiment Esclangon\\, salle 228",
+              "start": "2026-02-06T07:30:00+00:00",
+              "end": "2026-02-06T11:45:00+00:00"
+            },
+            {
+              "uid": "4B7F8361-F7A1-401E-9C65-D54AD7472FAD",
+              "summary": "UM4IN108-FPGA-Groupe CIMES",
+              "location": "Bâtiment Esclangon\\, salle 228",
+              "start": "2026-02-20T07:30:00+00:00",
+              "end": "2026-02-20T11:45:00+00:00"
+            },
+            {
+              "uid": "76363C0E-E56F-4BAD-81DC-9ED7BCD22501",
+              "summary": "UM4IN108-FPGA-Groupe CIMES",
+              "location": "Bâtiment Esclangon\\, salle 228",
+              "start": "2026-02-27T07:30:00+00:00",
+              "end": "2026-02-27T11:45:00+00:00"
+            },
+            {
+              "uid": "CD7E155A-3287-49EE-B692-5FDD0E25A421",
+              "summary": "UM4IN108-FPGA-Groupe CIMES",
+              "location": "Bâtiment Esclangon\\, salle 228",
+              "start": "2026-03-20T07:30:00+00:00",
+              "end": "2026-03-20T11:45:00+00:00"
+            },
+            {
+              "uid": "44E464BB-773C-4F26-B048-0BC37F8931CA",
+              "summary": "UM4IN108-FPGA-Groupe CIMES",
+              "location": "Bâtiment Esclangon\\, salle 228",
+              "start": "2026-03-27T07:30:00+00:00",
+              "end": "2026-03-27T11:45:00+00:00"
+            },
+            {
               "uid": "B3F73833-CA0D-4F93-BACA-ACAD0869FDF3",
               "summary": "UM4IN108-FPGA-Groupe CIMES",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 228",
               "start": "2026-04-17T06:30:00+00:00",
               "end": "2026-04-17T10:45:00+00:00"
             },
             {
               "uid": "375C0AC3-476D-4C44-800A-DB0A218744EB",
               "summary": "UM4IN108-FPGA-Groupe SYSCOM",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 229",
               "start": "2026-04-17T11:45:00+00:00",
               "end": "2026-04-17T16:00:00+00:00"
             },
             {
               "uid": "99D1C1F1-4085-4AF4-9800-6E4493AFC7DE",
               "summary": "UM4IN108-FPGA-Groupe SYSCOM",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 229",
               "start": "2026-04-10T11:45:00+00:00",
               "end": "2026-04-10T16:00:00+00:00"
             },
             {
               "uid": "7C03C6A1-E7A2-4BAC-9901-518B4B9ECEA4",
               "summary": "UM4IN108-FPGA-Groupe SYSCOM",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 229",
               "start": "2026-04-03T11:45:00+00:00",
               "end": "2026-04-03T16:00:00+00:00"
             },
             {
               "uid": "2483C2F2-6467-43C2-8489-AD8AFD96EC72",
               "summary": "UM4IN108-FPGA-Groupe SYSCOM",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 229",
               "start": "2026-03-27T12:45:00+00:00",
               "end": "2026-03-27T17:00:00+00:00"
             },
             {
               "uid": "61A0A1B6-DEF8-4E27-9F99-73DA45EDF829",
               "summary": "UM4IN108-FPGA-Groupe SYSCOM",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 229",
               "start": "2026-03-20T12:45:00+00:00",
               "end": "2026-03-20T17:00:00+00:00"
             },
             {
-              "uid": "A2B288E3-CBC7-4D9A-B3C9-0B599880AC45",
-              "summary": "UM4IN108-FPGA-Groupe SYSCOM",
-              "location": "Bâtiment Esclangon\\, salle",
-              "start": "2026-02-27T12:45:00+00:00",
-              "end": "2026-02-27T17:00:00+00:00"
-            },
-            {
-              "uid": "4C11034E-4DC6-4F5B-B662-100045CA5844",
-              "summary": "UM4IN108-FPGA-Groupe SYSCOM",
-              "location": "Bâtiment Esclangon\\, salle",
-              "start": "2026-02-20T12:45:00+00:00",
-              "end": "2026-02-20T17:00:00+00:00"
-            },
-            {
               "uid": "AE614F73-B541-4F33-8471-2048E1408245",
               "summary": "UM4IN108-FPGA-Groupe SYSCOM",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 229",
               "start": "2026-02-13T12:45:00+00:00",
               "end": "2026-02-13T17:00:00+00:00"
-            },
-            {
-              "uid": "C6D5D3AB-C1B6-42B0-929E-F9D5F3D67CDC",
-              "summary": "UM4IN108-FPGA-Groupe SYSCOM",
-              "location": "Bâtiment Esclangon\\, salle",
-              "start": "2026-02-06T12:45:00+00:00",
-              "end": "2026-02-06T17:00:00+00:00"
             }
           ]
         },
@@ -1465,72 +1472,72 @@
             {
               "uid": "7D47AF0F-0421-4C5D-BBF0-97D9958E3242",
               "summary": "UM4IN108-FPGA-TME1",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 226",
               "start": "2026-02-02T07:30:00+00:00",
               "end": "2026-02-02T11:45:00+00:00"
             },
             {
               "uid": "86E2F696-A85F-4592-BC15-FC2555D985D6",
               "summary": "UM4IN108-FPGA-TME1",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 226",
               "start": "2026-02-16T07:30:00+00:00",
               "end": "2026-02-16T11:45:00+00:00"
             },
             {
-              "uid": "8B36DE46-3021-46B2-ABD6-21A529B21AB2",
-              "summary": "UM4IN108-FPGA-TME1",
-              "location": "Bâtiment Esclangon\\, salle",
-              "start": "2026-03-16T07:30:00+00:00",
-              "end": "2026-03-16T11:45:00+00:00"
-            },
-            {
-              "uid": "C66C23F6-C513-4BC1-B2FB-75A376168B8F",
-              "summary": "UM4IN108-FPGA-TME1",
-              "location": "Bâtiment Esclangon\\, salle",
-              "start": "2026-03-23T07:30:00+00:00",
-              "end": "2026-03-23T11:45:00+00:00"
-            },
-            {
-              "uid": "7A11A38F-FCC6-494F-BC55-B49B78B786FE",
-              "summary": "UM4IN108-FPGA-TME1",
-              "location": "Bâtiment Esclangon\\, salle",
-              "start": "2026-05-05T06:30:00+00:00",
-              "end": "2026-05-05T10:45:00+00:00"
-            },
-            {
-              "uid": "DF0F11D3-A4BD-4517-9201-91D90FE6880E",
-              "summary": "UM4IN108-FPGA-TME1",
-              "location": "Bâtiment Esclangon\\, salle",
-              "start": "2026-04-13T06:30:00+00:00",
-              "end": "2026-04-13T10:45:00+00:00"
-            },
-            {
-              "uid": "CBCC5BF2-9E43-4354-8078-5B66B8E6D836",
-              "summary": "UM4IN108-FPGA-TME1",
-              "location": "Bâtiment Esclangon\\, salle",
-              "start": "2026-05-04T06:30:00+00:00",
-              "end": "2026-05-04T10:45:00+00:00"
-            },
-            {
-              "uid": "E84BB815-933A-4DF2-B324-B3AAA6DF26A9",
-              "summary": "UM4IN108-FPGA-TME1",
-              "location": "Bâtiment Esclangon\\, salle",
-              "start": "2026-02-09T07:30:00+00:00",
-              "end": "2026-02-09T11:45:00+00:00"
-            },
-            {
               "uid": "E0296684-FFAD-49F9-80F3-7F4FDCC7CAAC",
               "summary": "UM4IN108-FPGA-TME1",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 226",
               "start": "2026-02-23T07:30:00+00:00",
               "end": "2026-02-23T11:45:00+00:00"
             },
             {
               "uid": "048B8DDA-89E7-4F90-B5DE-7C97F0050DFE",
               "summary": "UM4IN108-FPGA-TME1",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 226",
               "start": "2026-03-30T06:30:00+00:00",
               "end": "2026-03-30T10:45:00+00:00"
+            },
+            {
+              "uid": "8B36DE46-3021-46B2-ABD6-21A529B21AB2",
+              "summary": "UM4IN108-FPGA-TME1",
+              "location": "Bâtiment Esclangon\\, salle 226",
+              "start": "2026-03-16T07:30:00+00:00",
+              "end": "2026-03-16T11:45:00+00:00"
+            },
+            {
+              "uid": "C66C23F6-C513-4BC1-B2FB-75A376168B8F",
+              "summary": "UM4IN108-FPGA-TME1",
+              "location": "Bâtiment Esclangon\\, salle 226",
+              "start": "2026-03-23T07:30:00+00:00",
+              "end": "2026-03-23T11:45:00+00:00"
+            },
+            {
+              "uid": "7A11A38F-FCC6-494F-BC55-B49B78B786FE",
+              "summary": "UM4IN108-FPGA-TME1",
+              "location": "Bâtiment Esclangon\\, salle 226",
+              "start": "2026-05-05T06:30:00+00:00",
+              "end": "2026-05-05T10:45:00+00:00"
+            },
+            {
+              "uid": "DF0F11D3-A4BD-4517-9201-91D90FE6880E",
+              "summary": "UM4IN108-FPGA-TME1",
+              "location": "Bâtiment Esclangon\\, salle 226",
+              "start": "2026-04-13T06:30:00+00:00",
+              "end": "2026-04-13T10:45:00+00:00"
+            },
+            {
+              "uid": "CBCC5BF2-9E43-4354-8078-5B66B8E6D836",
+              "summary": "UM4IN108-FPGA-TME1",
+              "location": "Bâtiment Esclangon\\, salle 226",
+              "start": "2026-05-04T06:30:00+00:00",
+              "end": "2026-05-04T10:45:00+00:00"
+            },
+            {
+              "uid": "E84BB815-933A-4DF2-B324-B3AAA6DF26A9",
+              "summary": "UM4IN108-FPGA-TME1",
+              "location": "Bâtiment Esclangon\\, salle 226",
+              "start": "2026-02-09T07:30:00+00:00",
+              "end": "2026-02-09T11:45:00+00:00"
             }
           ]
         },
@@ -1539,72 +1546,72 @@
           "type": "TME",
           "events": [
             {
-              "uid": "6B64281D-9924-446B-830D-99B6894AEF36",
-              "summary": "UM4IN108-FPGA-TME2",
-              "location": "Bâtiment Esclangon\\, salle",
-              "start": "2026-02-03T07:30:00+00:00",
-              "end": "2026-02-03T11:45:00+00:00"
-            },
-            {
               "uid": "49865CCB-7A17-4B79-B8E1-4EB5526C0226",
               "summary": "UM4IN108-FPGA-TME2",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 227",
               "start": "2026-02-10T07:30:00+00:00",
               "end": "2026-02-10T11:45:00+00:00"
             },
             {
               "uid": "8CF2312F-30BF-4AB0-90AA-AD5E56472FC0",
               "summary": "UM4IN108-FPGA-TME2",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 227",
               "start": "2026-02-17T07:30:00+00:00",
               "end": "2026-02-17T11:45:00+00:00"
             },
             {
+              "uid": "6B64281D-9924-446B-830D-99B6894AEF36",
+              "summary": "UM4IN108-FPGA-TME2",
+              "location": "Bâtiment Esclangon\\, salle 227",
+              "start": "2026-02-03T07:30:00+00:00",
+              "end": "2026-02-03T11:45:00+00:00"
+            },
+            {
               "uid": "835EA2C6-40D6-4DC1-B3A8-5C9345BB3D41",
               "summary": "UM4IN108-FPGA-TME2",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 227",
               "start": "2026-02-24T07:30:00+00:00",
               "end": "2026-02-24T11:45:00+00:00"
             },
             {
               "uid": "FED6527B-62EC-446E-89C8-EAB93387BE13",
               "summary": "UM4IN108-FPGA-TME2",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 227",
               "start": "2026-03-24T07:30:00+00:00",
               "end": "2026-03-24T11:45:00+00:00"
             },
             {
               "uid": "17AB0DBB-1ABC-4293-A457-D2F56E062148",
               "summary": "UM4IN108-FPGA-TME2",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 227",
               "start": "2026-03-31T06:30:00+00:00",
               "end": "2026-03-31T10:45:00+00:00"
             },
             {
               "uid": "F4293B2B-BC27-4019-A3D0-28FA7D90C5E7",
               "summary": "UM4IN108-FPGA-TME2",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 227",
               "start": "2026-04-07T06:30:00+00:00",
               "end": "2026-04-07T10:45:00+00:00"
             },
             {
               "uid": "F7EEDBC8-0B08-4D20-B303-41FF159CE121",
               "summary": "UM4IN108-FPGA-TME2",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 227",
               "start": "2026-04-14T06:30:00+00:00",
               "end": "2026-04-14T10:45:00+00:00"
             },
             {
               "uid": "1D7C3EBA-A7EA-4702-8F2C-971200427F6C",
               "summary": "UM4IN108-FPGA-TME2",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 227",
               "start": "2026-03-17T07:30:00+00:00",
               "end": "2026-03-17T11:45:00+00:00"
             },
             {
               "uid": "D1666367-B32B-4965-9AA3-1F550F577DDD",
               "summary": "UM4IN108-FPGA-TME2",
-              "location": "Bâtiment Esclangon\\, salle",
+              "location": "Bâtiment Esclangon\\, salle 227",
               "start": "2026-05-05T06:30:00+00:00",
               "end": "2026-05-05T10:45:00+00:00"
             }
@@ -2657,5 +2664,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-13T06:52:54.887705330+00:00"
+  "updated_at": "2025-11-14T06:52:53.096097179+00:00"
 }

@@ -187,6 +187,19 @@
         },
         {
           "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "238CDE04-F276-46DD-A934-732C0CCBC6FB",
+              "summary": "UM4IN204-DJ-ER1",
+              "location": null,
+              "start": "2026-03-09T13:00:00+00:00",
+              "end": "2026-03-09T15:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "TD",
           "events": [
             {
@@ -341,6 +354,19 @@
               "start": "2026-03-17T15:00:00+00:00",
               "end": "2026-03-17T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260407T215959Z"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "AF60A5BB-6E7E-4D18-BA35-CEAEB81B99DB",
+              "summary": "UM4IN203-IHM-ER1",
+              "location": null,
+              "start": "2026-03-10T15:00:00+00:00",
+              "end": "2026-03-10T17:00:00+00:00"
             }
           ]
         },
@@ -858,6 +884,19 @@
         },
         {
           "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "6D9B93DA-3465-4CB7-A436-F5C06F0FB1A2",
+              "summary": "UM4IN201-RP-ER1",
+              "location": null,
+              "start": "2026-03-13T13:00:00+00:00",
+              "end": "2026-03-13T15:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "TD",
           "events": [
             {
@@ -910,5 +949,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-13T06:52:39.427227869+00:00"
+  "updated_at": "2025-11-14T06:52:37.566102541+00:00"
 }
