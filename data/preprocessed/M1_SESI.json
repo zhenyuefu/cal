@@ -1224,6 +1224,13 @@
               "end": "2026-04-10T10:45:00+00:00"
             },
             {
+              "uid": "774CEA7A-D2BF-4FC3-8867-FCFA30E44EA7",
+              "summary": "UM4IN108-FPGA-Groupe CIMES",
+              "location": "Bâtiment Esclangon\\, salle 228",
+              "start": "2026-01-30T07:30:00+00:00",
+              "end": "2026-01-30T11:45:00+00:00"
+            },
+            {
               "uid": "73DE9E6D-A020-459A-B76C-5F75963215CB",
               "summary": "UM4IN108-FPGA-Groupe CIMES",
               "location": "Bâtiment Esclangon\\, salle 228",
@@ -2664,5 +2671,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-14T06:52:53.096097179+00:00"
+  "updated_at": "2025-11-17T06:53:00.761081130+00:00"
 }
