@@ -491,7 +491,7 @@
           "events": [
             {
               "uid": "FE42EF36-7173-4DED-925A-4A9A21C4831F",
-              "summary": "UMIN815-IDLE-Cours",
+              "summary": "UM4IN815-IDLE-Cours",
               "location": "n°680158",
               "start": "2026-01-20T07:30:00+00:00",
               "end": "2026-01-20T09:30:00+00:00",
@@ -639,7 +639,7 @@
             {
               "uid": "7A24BE34-D3D3-4799-9FD6-919A07C521E2",
               "summary": "UM4IN800-LRC-ER1",
-              "location": "AMPHI 34A et resa 679514",
+              "location": "AMPHI 34A et AMPHI 34B",
               "start": "2025-11-19T12:45:00+00:00",
               "end": "2025-11-19T14:45:00+00:00"
             }
@@ -929,7 +929,7 @@
           "events": [
             {
               "uid": "C4CF1764-5152-44BF-87AD-0EA0FFC653E0",
-              "summary": "UMIN811-ML-Cours",
+              "summary": "UM4IN811-ML-Cours",
               "location": "n)680161",
               "start": "2026-01-22T07:30:00+00:00",
               "end": "2026-01-22T09:30:00+00:00",
@@ -1492,7 +1492,7 @@
           "events": [
             {
               "uid": "C6172107-28E5-4E9B-9535-547775732996",
-              "summary": "UMIN803-SAM-Cours",
+              "summary": "UM4IN803-SAM-Cours",
               "location": "n°680160",
               "start": "2026-01-20T15:00:00+00:00",
               "end": "2026-01-20T17:00:00+00:00",
@@ -1512,6 +1512,13 @@
           "group": null,
           "type": "TD",
           "events": [
+            {
+              "uid": "6FF93C7C-03A5-4F1C-9C5F-2A4BA341D448",
+              "summary": "UM4IN803-SAM-TD",
+              "location": "n°681674",
+              "start": "2026-01-23T09:45:00+00:00",
+              "end": "2026-01-23T11:45:00+00:00"
+            },
             {
               "uid": "1EEB6F7A-3709-41F7-B1B9-D3AA2C08C88B",
               "summary": "UMIN803-SAM-TD",
@@ -1535,6 +1542,13 @@
           "type": "TME",
           "events": [
             {
+              "uid": "381A6AF0-9483-42E3-9C43-EC6681EC7F81",
+              "summary": "UM4IN803-SAM-TME",
+              "location": null,
+              "start": "2026-01-23T07:30:00+00:00",
+              "end": "2026-01-23T09:30:00+00:00"
+            },
+            {
               "uid": "C86E07C0-5D4A-4A5F-8A74-8914A581341E",
               "summary": "UMIN803-SAM-TME",
               "location": null,
@@ -1555,5 +1569,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-17T06:52:47.828151970+00:00"
+  "updated_at": "2025-11-18T06:51:59.984904203+00:00"
 }

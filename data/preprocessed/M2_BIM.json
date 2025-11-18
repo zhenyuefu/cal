@@ -49,28 +49,28 @@
             {
               "uid": "E25030E7-10FE-46A5-95D0-36D1F61A780F",
               "summary": "UM5BM733-GENOM-Cours",
-              "location": "Reservation BMC",
+              "location": "SAlle 33.34.119",
               "start": "2025-11-18T12:45:00+00:00",
               "end": "2025-11-18T14:45:00+00:00"
             },
             {
               "uid": "940B8044-4E42-4D31-B3AC-212881CAFD38",
               "summary": "UM5BM733-GENOM-Cours",
-              "location": "Réservation BMC en attente",
+              "location": "Salle 33.34.114",
               "start": "2025-11-18T15:00:00+00:00",
               "end": "2025-11-18T17:00:00+00:00"
             },
             {
               "uid": "CD76B7BA-88A7-446E-8BF4-665E2D1F9021",
               "summary": "UM5BM733-GENOM-Cours",
-              "location": "Reservation BMC",
+              "location": "Salle 14.24.105",
               "start": "2025-11-19T12:45:00+00:00",
               "end": "2025-11-19T14:45:00+00:00"
             },
             {
               "uid": "19CBF3D5-D3C4-4E15-8D4D-8C84BA27BD63",
               "summary": "UM5BM733-GENOM-Cours",
-              "location": "Réservation BMC en attente",
+              "location": "Salle 23.24.203",
               "start": "2025-11-19T15:00:00+00:00",
               "end": "2025-11-19T17:00:00+00:00"
             },
@@ -324,9 +324,16 @@
           "type": "EXAM",
           "events": [
             {
+              "uid": "37E1835D-73E6-42F7-AC78-8F67A20C7886",
+              "summary": "UM5IN752-GPOP-Examen",
+              "location": "Salle 24.34.304",
+              "start": "2025-12-15T07:30:00+00:00",
+              "end": "2025-12-15T17:30:00+00:00"
+            },
+            {
               "uid": "78C36A20-B05D-43B4-9CAB-FB4AAC7C7E11",
               "summary": "UM5IN752-GROP-ER1",
-              "location": "n°672094",
+              "location": "Salle 24.34.103",
               "start": "2025-11-26T12:45:00+00:00",
               "end": "2025-11-26T14:45:00+00:00"
             }
@@ -577,7 +584,7 @@
             {
               "uid": "A2A8BAB7-2A0A-4946-A0E7-1BED0D09112A",
               "summary": "UM5IN751-PHYG-ER1",
-              "location": null,
+              "location": "AMPHI 15",
               "start": "2025-11-27T12:45:00+00:00",
               "end": "2025-11-27T14:45:00+00:00",
               "recurrence_id": "2025-11-27T12:45:00+00:00"
@@ -699,7 +706,7 @@
             {
               "uid": "17179FFB-38EB-48B5-AF5B-D74C551DCB5C",
               "summary": "UM5IN754-RESYS-ER1",
-              "location": "678592",
+              "location": "Salle 23.24.105",
               "start": "2025-11-24T12:45:00+00:00",
               "end": "2025-11-24T17:00:00+00:00",
               "recurrence_id": "2025-11-24T12:45:00+00:00"
@@ -809,7 +816,7 @@
             {
               "uid": "3ABFA53B-F734-48B2-B82B-AEAC962FE55D",
               "summary": "UM5IN753-SPLEX-ER1",
-              "location": "n°671469",
+              "location": "n°681850",
               "start": "2025-11-28T07:30:00+00:00",
               "end": "2025-11-28T09:30:00+00:00",
               "recurrence_id": "2025-11-28T07:30:00+00:00"
@@ -968,5 +975,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-17T06:53:14.699360449+00:00"
+  "updated_at": "2025-11-18T06:52:27.128698619+00:00"
 }
