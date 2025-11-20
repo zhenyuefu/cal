@@ -576,7 +576,7 @@
             {
               "uid": "B7A1C3C9-40B4-429A-BC2F-E1B69A4E1E8A",
               "summary": "UM5IN556-GRAPA-Cours/TME",
-              "location": "Résa n°665926",
+              "location": "Salle 14.15.409",
               "start": "2025-12-05T07:30:00+00:00",
               "end": "2025-12-05T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260123T225959Z",
@@ -592,6 +592,14 @@
               "start": "2026-01-30T07:30:00+00:00",
               "end": "2026-01-30T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260130T225959Z"
+            },
+            {
+              "uid": "E27EFCA6-5C8E-4FA7-9C52-37B6825DAA9E",
+              "summary": "UM5IN556-GRAPA-Cours/TME",
+              "location": "Salle 14.15.409",
+              "start": "2026-01-30T07:30:00+00:00",
+              "end": "2026-01-30T11:45:00+00:00",
+              "recurrence_id": "2026-01-30T07:30:00+00:00"
             },
             {
               "uid": "FAEED3D3-EB9F-4F41-9DB3-55125532C009",
@@ -1088,5 +1096,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-19T06:52:19.892852696+00:00"
+  "updated_at": "2025-11-20T06:52:03.344271601+00:00"
 }
