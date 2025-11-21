@@ -162,6 +162,26 @@
       "variants": [
         {
           "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "56345675-01B3-41F1-BCEE-1EB073035971",
+              "summary": "UM5IN752-GPOP-Soutenance",
+              "location": "n°682241",
+              "start": "2025-12-17T07:30:00+00:00",
+              "end": "2025-12-17T11:45:00+00:00"
+            },
+            {
+              "uid": "731BEFDA-FE1D-4F0A-B603-D5F97C40472D",
+              "summary": "UM5IN752-GPOP-Soutenance",
+              "location": "n°682242",
+              "start": "2025-12-18T07:30:00+00:00",
+              "end": "2025-12-18T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "CS",
           "events": [
             {
@@ -975,5 +995,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-20T06:52:06.299184387+00:00"
+  "updated_at": "2025-11-21T06:53:56.855451089+00:00"
 }

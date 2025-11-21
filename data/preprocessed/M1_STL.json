@@ -89,7 +89,7 @@
               ]
             },
             {
-              "uid": "D6C18D30-FB61-41D3-AC73-D2F79C180127",
+              "uid": "DF09C2CC-36E1-4198-8F41-77C5C270DA1C",
               "summary": "UM4IN500-ALGAV-TD1",
               "location": "Salle 23.24.107",
               "start": "2025-11-24T12:45:00+00:00",
@@ -110,16 +110,9 @@
           "type": "TME",
           "events": [
             {
-              "uid": "39FCCE7B-5D95-4C8D-B861-8B409E403E10",
-              "summary": "UM4IN500-ALGAV-TME1",
-              "location": "Salle 14.15.406",
-              "start": "2025-12-15T12:45:00+00:00",
-              "end": "2025-12-15T17:00:00+00:00"
-            },
-            {
               "uid": "F7E79801-4A23-4A18-B1B0-134294370E63",
               "summary": "UM4IN500-ALGAV-TME1",
-              "location": null,
+              "location": "Salle 24.25.306",
               "start": "2025-12-08T12:45:00+00:00",
               "end": "2025-12-08T17:00:00+00:00"
             }
@@ -173,16 +166,9 @@
           "type": "TME",
           "events": [
             {
-              "uid": "091745B8-2104-4E4F-81C2-EAE69E45DACC",
-              "summary": "UM4IN500-ALGAV-TME2",
-              "location": "Salle 14.15.501",
-              "start": "2025-12-18T07:30:00+00:00",
-              "end": "2025-12-18T11:45:00+00:00"
-            },
-            {
               "uid": "68C0EE67-C538-45C8-AF74-25D57245DBBF",
               "summary": "UM4IN500-ALGAV-TME2 et 3",
-              "location": null,
+              "location": "Salle 14.15.501",
               "start": "2025-12-11T07:30:00+00:00",
               "end": "2025-12-11T11:45:00+00:00"
             }
@@ -226,19 +212,6 @@
               "uid": "C682B629-679C-44AC-82E3-1E94D68349B8",
               "summary": "UM4IN500-ALGAV-TD3",
               "location": "Salle 14.15.108",
-              "start": "2025-12-18T07:30:00+00:00",
-              "end": "2025-12-18T11:45:00+00:00"
-            }
-          ]
-        },
-        {
-          "group": "3",
-          "type": "TME",
-          "events": [
-            {
-              "uid": "664FB053-6B54-49FB-9B6B-F5448AA99958",
-              "summary": "UM4IN500-ALGAV-TME3",
-              "location": "Salle 14.15.509",
               "start": "2025-12-18T07:30:00+00:00",
               "end": "2025-12-18T11:45:00+00:00"
             }
@@ -984,5 +957,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-20T06:51:40.567142673+00:00"
+  "updated_at": "2025-11-21T06:53:31.055091688+00:00"
 }

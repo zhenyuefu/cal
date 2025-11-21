@@ -169,7 +169,7 @@
       ]
     },
     {
-      "name": "CRYPTA",
+      "name": "CRYPTO2",
       "code": "951",
       "special": false,
       "groups": [],
@@ -180,49 +180,42 @@
           "events": [
             {
               "uid": "6B68A361-5610-4BD5-A589-570704AF4431",
-              "summary": "UM5IN951-CRYPTA-Cours",
+              "summary": "UM5IN951-CRYPTO2-Cours",
               "location": "AMPHI 55A",
               "start": "2025-09-26T06:30:00+00:00",
               "end": "2025-09-26T08:30:00+00:00"
             },
             {
               "uid": "F2AA9634-772B-400C-90A9-67272D72277E",
-              "summary": "UM5IN951-CRYPTA-Cours",
+              "summary": "UM5IN951-CRYPTO2-Cours",
               "location": "Salle 14.24.101",
               "start": "2025-10-03T08:45:00+00:00",
               "end": "2025-10-03T10:45:00+00:00"
             },
             {
               "uid": "0C5C85B5-E6C9-4157-B99F-49B2DE3CB437",
-              "summary": "UM5IN951-CRYPTA-Cours",
+              "summary": "UM5IN951-CRYPTO2-Cours",
               "location": "Salle: 24.34.105",
               "start": "2025-10-24T08:45:00+00:00",
               "end": "2025-10-24T10:45:00+00:00"
             },
             {
               "uid": "28DF5BE6-6747-4492-BA9C-6899776187A9",
-              "summary": "UM5IN951-CRYPTA-Cours",
+              "summary": "UM5IN951-CRYPTO2-Cours",
               "location": "Salle: 14.24.107",
               "start": "2025-10-17T06:30:00+00:00",
               "end": "2025-10-17T08:30:00+00:00"
             },
             {
-              "uid": "BC48DC46-FED9-4B2C-892C-D95ACBB281D9",
-              "summary": "UM5IN951-CRYPTA-Cours",
-              "location": "Salle: 54.55.202",
-              "start": "2025-11-21T07:30:00+00:00",
-              "end": "2025-11-21T09:30:00+00:00"
-            },
-            {
               "uid": "D34803C1-F6C3-4F70-AF51-90A5322D0916",
-              "summary": "UM5IN951-CRYPTA-Cours",
+              "summary": "UM5IN951-CRYPT02-Cours",
               "location": "Salle: 14.24.109",
               "start": "2025-12-05T09:45:00+00:00",
               "end": "2025-12-05T11:45:00+00:00"
             },
             {
               "uid": "32A7C4F3-56EF-4170-878A-DF29B8FFA6FE",
-              "summary": "UM5IN951-CRYPTA-Cours",
+              "summary": "UM5IN951-CRYPT02-Cours",
               "location": "Salle: 14.24.209",
               "start": "2025-12-19T07:30:00+00:00",
               "end": "2025-12-19T09:30:00+00:00"
@@ -234,6 +227,13 @@
               "start": "2026-01-23T07:30:00+00:00",
               "end": "2026-01-23T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260130T225959Z"
+            },
+            {
+              "uid": "BC48DC46-FED9-4B2C-892C-D95ACBB281D9",
+              "summary": "UM5IN951-CRYPTO2-Cours",
+              "location": "Salle: 54.55.202",
+              "start": "2025-11-21T07:30:00+00:00",
+              "end": "2025-11-21T09:30:00+00:00"
             }
           ]
         },
@@ -243,7 +243,7 @@
           "events": [
             {
               "uid": "B8E456A3-FDC9-4590-B3C1-934F569F00FF",
-              "summary": "UM5IN951-CRYPTA-ExamenR1",
+              "summary": "UM5IN951-CRYPTO2-ExamenR1",
               "location": "Amphi 15",
               "start": "2025-11-28T09:45:00+00:00",
               "end": "2025-11-28T11:45:00+00:00"
@@ -270,74 +270,74 @@
           "events": [
             {
               "uid": "20BE770D-B65B-4B7C-BC04-88C37B9B0E63",
-              "summary": "UM5IN951-CRYPTA-TD",
+              "summary": "UM5IN951-CRYPTO2-TD",
               "location": "AMPHI 55A",
               "start": "2025-09-26T08:45:00+00:00",
               "end": "2025-09-26T10:45:00+00:00"
             },
             {
               "uid": "0D9844E4-2E99-4A92-8BCD-33341576FA33",
-              "summary": "UM5IN951-CRYPTA-TD",
+              "summary": "UM5IN951-CRYPTO2-TD",
               "location": "Salle 24.34.103",
               "start": "2025-10-10T06:30:00+00:00",
               "end": "2025-10-10T08:30:00+00:00"
             },
             {
               "uid": "785F9739-3AA3-402F-880F-F3512A5428E2",
-              "summary": "UM5IN951-CRYPTA-TD",
+              "summary": "UM5IN951-CRYPTO2-TD",
               "location": "Salle: 14.24.107",
               "start": "2025-10-17T08:45:00+00:00",
               "end": "2025-10-17T10:45:00+00:00"
             },
             {
               "uid": "C2CC4D62-5743-436D-9F94-32893DC705DF",
-              "summary": "UM5IN951-CRYPTA-TD",
+              "summary": "UM5IN951-CRYPTO2-TD",
               "location": "Salle: 23.24.101",
               "start": "2025-11-07T07:30:00+00:00",
               "end": "2025-11-07T09:30:00+00:00"
             },
             {
-              "uid": "66F7A837-1CB5-442E-A971-FBFF13235599",
-              "summary": "UM5IN951-CRYPTA-TD",
-              "location": "Salle: 54.55.202",
-              "start": "2025-11-21T09:45:00+00:00",
-              "end": "2025-11-21T11:45:00+00:00"
-            },
-            {
               "uid": "0569EDA5-B686-4A0E-8888-44F40895234F",
-              "summary": "UM5IN951-CRYPTA-TD",
+              "summary": "UM5IN951-CRYPTO2-TD",
               "location": "Salle: 14.24.109",
               "start": "2025-12-12T07:30:00+00:00",
               "end": "2025-12-12T09:30:00+00:00"
             },
             {
               "uid": "B04D05D9-88DB-427B-B521-2B106B69B29E",
-              "summary": "UM5IN951-CRYPTA-TD",
+              "summary": "UM5IN951-CRYPTO2-TD",
               "location": "Salle: 14.24.209",
               "start": "2025-12-19T09:45:00+00:00",
               "end": "2025-12-19T11:45:00+00:00"
             },
             {
               "uid": "F1A7A82C-D0C0-42D8-990D-9A543BE21713",
-              "summary": "UM5IN951-CRYPTA-TD",
+              "summary": "UM5IN951-CRYPTO2-TD",
               "location": "Résa n° 668468",
               "start": "2026-01-09T09:45:00+00:00",
               "end": "2026-01-09T11:45:00+00:00"
             },
             {
               "uid": "833671E5-4566-4B5A-A637-183F0B566C4A",
-              "summary": "UM5IN951-CRYPTA-TD",
+              "summary": "UM5IN951-CRYPTO2-TD",
               "location": "Résa n° 668469",
               "start": "2026-01-16T07:30:00+00:00",
               "end": "2026-01-16T09:30:00+00:00"
             },
             {
               "uid": "EABF3C6C-BB4A-4ABE-8FBA-1A3A70D7844D",
-              "summary": "UM5IN951-CRYPTA-TD",
+              "summary": "UM5IN951-CRYPTO2-TD",
               "location": "Résa n° 668470",
               "start": "2026-01-23T09:45:00+00:00",
               "end": "2026-01-23T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260130T225959Z"
+            },
+            {
+              "uid": "66F7A837-1CB5-442E-A971-FBFF13235599",
+              "summary": "UM5IN951-CRYPTO2-TD",
+              "location": "Salle: 54.55.202",
+              "start": "2025-11-21T09:45:00+00:00",
+              "end": "2025-11-21T11:45:00+00:00"
             }
           ]
         },
@@ -347,59 +347,59 @@
           "events": [
             {
               "uid": "5D9219DD-94EB-4F4B-9556-45C0F1338112",
-              "summary": "UM5IN951-CRYPTA-TME",
+              "summary": "UM5IN951-CRYPTO2-TME",
               "location": "Salle 14.15.502",
               "start": "2025-10-03T06:30:00+00:00",
               "end": "2025-10-03T08:30:00+00:00"
             },
             {
               "uid": "9A613A86-267E-41B6-9A05-11AF502B6F5B",
-              "summary": "UM5IN951-CRYPTA-TME",
+              "summary": "UM5IN951-CRYPTO2-TME",
               "location": "Salle 14.15.502",
               "start": "2025-10-10T08:45:00+00:00",
               "end": "2025-10-10T10:45:00+00:00"
             },
             {
               "uid": "320299A1-EA85-492D-A26E-DF53E82B8919",
-              "summary": "UM5IN951-CRYPTA-TME",
+              "summary": "UM5IN951-CRYPTO2-TME",
               "location": "Salle 14.15.502",
               "start": "2025-10-24T06:30:00+00:00",
               "end": "2025-10-24T08:30:00+00:00"
             },
             {
               "uid": "FF1681C0-325C-4EF5-8F3E-4363A47041C4",
-              "summary": "UM5IN951-CRYPTA-TME",
+              "summary": "UM5IN951-CRYPTO2-TME",
               "location": "Salle 14.15.502",
               "start": "2025-11-07T09:45:00+00:00",
               "end": "2025-11-07T11:45:00+00:00"
             },
             {
               "uid": "D4F6877D-BC9C-4BC1-AF9C-15A766DE6817",
-              "summary": "UM5IN951-CRYPTA-TME",
+              "summary": "UM5IN951-CRYPTO2-TME",
               "location": "Salle 14.15.502",
               "start": "2025-12-05T07:30:00+00:00",
               "end": "2025-12-05T09:30:00+00:00"
             },
             {
+              "uid": "88B3ECB1-E265-4542-B181-118C3789409C",
+              "summary": "UM5IN951-CRYPTO2-TME",
+              "location": "Salle 14.15.502",
+              "start": "2026-01-16T09:45:00+00:00",
+              "end": "2026-01-16T11:45:00+00:00"
+            },
+            {
               "uid": "3ABCA55A-C801-43A6-9C3C-901B79909E59",
-              "summary": "UM5IN951-CRYPTA-TME",
+              "summary": "UM5IN951-CRYPT02-TME",
               "location": "Salle 14.15.502",
               "start": "2025-12-12T09:45:00+00:00",
               "end": "2025-12-12T11:45:00+00:00"
             },
             {
               "uid": "ADCF02EE-23AF-4695-AAC0-DA8456996FA7",
-              "summary": "UM5IN951-CRYPTA-TME",
+              "summary": "UM5IN951-CRYPTO2-TME",
               "location": "Salle 14.15.502",
               "start": "2026-01-09T07:30:00+00:00",
               "end": "2026-01-09T09:30:00+00:00"
-            },
-            {
-              "uid": "88B3ECB1-E265-4542-B181-118C3789409C",
-              "summary": "UM5IN951-CRYPTA-TME",
-              "location": "Salle 14.15.502",
-              "start": "2026-01-16T09:45:00+00:00",
-              "end": "2026-01-16T11:45:00+00:00"
             }
           ]
         }
@@ -1077,5 +1077,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-19T06:52:28.894358119+00:00"
+  "updated_at": "2025-11-21T06:54:02.854610629+00:00"
 }

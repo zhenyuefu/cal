@@ -1484,13 +1484,6 @@
           "type": "CS",
           "events": [
             {
-              "uid": "0410CAD5-C1A0-442B-B4ED-09690A549003",
-              "summary": "UM5IN871-SACE-Cours",
-              "location": "Salle 54.55.202",
-              "start": "2025-11-21T12:45:00+00:00",
-              "end": "2025-11-21T14:45:00+00:00"
-            },
-            {
               "uid": "49AA248F-B439-4CD3-BC43-A586F9161D80",
               "summary": "UM5IN871-SACE-Cours",
               "location": "Salle 54.55.202",
@@ -1545,13 +1538,6 @@
           "group": null,
           "type": "TME",
           "events": [
-            {
-              "uid": "13B3950D-724B-4FEA-961E-7947C4A52B55",
-              "summary": "UM5IN871-SACE-TME",
-              "location": "PAS DE SALLE",
-              "start": "2025-11-21T15:00:00+00:00",
-              "end": "2025-11-21T17:00:00+00:00"
-            },
             {
               "uid": "8AB8F41B-69D7-465F-BB3B-46B503B19AA1",
               "summary": "UM5IN871-SACE-TME",
@@ -1884,5 +1870,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-20T06:52:01.052792097+00:00"
+  "updated_at": "2025-11-21T06:53:51.538924745+00:00"
 }
