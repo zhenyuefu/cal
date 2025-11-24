@@ -1536,15 +1536,21 @@
         },
         {
           "group": null,
-          "type": "TME",
+          "type": "TD",
           "events": [
             {
               "uid": "8AB8F41B-69D7-465F-BB3B-46B503B19AA1",
-              "summary": "UM5IN871-SACE-TME",
-              "location": null,
+              "summary": "UM5IN871-SACE-TD",
+              "location": "n°682319",
               "start": "2025-12-05T15:00:00+00:00",
               "end": "2025-12-05T17:00:00+00:00"
-            },
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
             {
               "uid": "B14DFED7-8039-4DC3-A974-9FD30651F301",
               "summary": "UM5IN871-SACE-TME",
@@ -1870,5 +1876,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-21T06:53:51.538924745+00:00"
+  "updated_at": "2025-11-24T06:53:26.234219023+00:00"
 }

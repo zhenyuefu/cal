@@ -724,6 +724,13 @@
               "end": "2026-04-14T13:45:00+00:00"
             },
             {
+              "uid": "2B3F4D5E-D630-48A2-B56A-462599404336",
+              "summary": "RéunionM1SESI - Réunion semestre 2",
+              "location": "Salle 24.34.101",
+              "start": "2025-12-09T11:30:00+00:00",
+              "end": "2025-12-09T12:30:00+00:00"
+            },
+            {
               "uid": "122A2288-C64A-4F48-AA95-F3EC14067240",
               "summary": "M1 - Réunion rentrée générale (BIM\\, CCA\\, IMA\\, RES\\, SESI)",
               "location": "AMPHI B2",
@@ -2671,5 +2678,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-21T06:53:42.658523674+00:00"
+  "updated_at": "2025-11-24T06:53:17.398104475+00:00"
 }

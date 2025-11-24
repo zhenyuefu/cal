@@ -181,7 +181,7 @@
             {
               "uid": "2E25F07F-6774-494F-BCB2-324C5F79C812",
               "summary": "UM5IN250-COCOMA-CS",
-              "location": null,
+              "location": "Salle : 24.34.202",
               "start": "2025-12-02T07:30:00+00:00",
               "end": "2025-12-02T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251216T225959Z"
@@ -572,7 +572,7 @@
             {
               "uid": "B7FBD988-5CBB-42A2-A5B0-68CB294826E4",
               "summary": "UM5IN253-MADI-CS (n° 669027 )",
-              "location": null,
+              "location": "23.24.203",
               "start": "2025-12-04T07:30:00+00:00",
               "end": "2025-12-04T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251218T225959Z"
@@ -622,7 +622,7 @@
             {
               "uid": "3E68E2E8-9EBC-46FF-B103-698CDE9DE2F3",
               "summary": "UM5255-MADMC-CS (reservation n° 668741)",
-              "location": null,
+              "location": "Salle : 24.34.110",
               "start": "2025-12-02T12:45:00+00:00",
               "end": "2025-12-02T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251216T225959Z"
@@ -1201,5 +1201,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-21T06:53:47.548991495+00:00"
+  "updated_at": "2025-11-24T06:53:22.274663596+00:00"
 }
