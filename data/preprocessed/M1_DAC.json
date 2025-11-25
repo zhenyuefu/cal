@@ -69,6 +69,14 @@
               "rrule": "FREQ=WEEKLY;UNTIL=20251124T225959Z"
             },
             {
+              "uid": "23C828D3-280C-4966-BCB1-D8F95C9AF7E4",
+              "summary": "UM4IN814-DALAS-Cours",
+              "location": "Salle 24.34.103",
+              "start": "2025-11-24T12:45:00+00:00",
+              "end": "2025-11-24T14:45:00+00:00",
+              "recurrence_id": "2025-11-24T12:45:00+00:00"
+            },
+            {
               "uid": "6478BA27-DE2A-42FA-8F08-385FB89FFE32",
               "summary": "UM4IN814-DALAS-Cours",
               "location": "AMPHI 44",
@@ -1569,5 +1577,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-24T06:53:04.359514988+00:00"
+  "updated_at": "2025-11-25T06:54:45.023502834+00:00"
 }

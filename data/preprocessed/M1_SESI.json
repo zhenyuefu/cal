@@ -782,6 +782,117 @@
       ]
     },
     {
+      "name": "EACN",
+      "code": "201",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CM",
+          "events": [
+            {
+              "uid": "F8654536-7037-4E71-B361-D72F406C38B7",
+              "summary": "UM4EE201-EACN-CM",
+              "location": null,
+              "start": "2026-01-29T09:45:00+00:00",
+              "end": "2026-01-29T11:45:00+00:00"
+            },
+            {
+              "uid": "545B51CE-2FDB-4400-8D6F-D56D5F1B9378",
+              "summary": "UM4EE201-EACN-CM",
+              "location": null,
+              "start": "2026-01-29T12:45:00+00:00",
+              "end": "2026-01-29T14:45:00+00:00"
+            },
+            {
+              "uid": "7D84356E-A01A-4779-BA78-23B6DA3B6CF8",
+              "summary": "UM4EE201-EACN-CM",
+              "location": null,
+              "start": "2026-02-05T12:45:00+00:00",
+              "end": "2026-02-05T14:45:00+00:00"
+            },
+            {
+              "uid": "C8484384-52E2-4F9F-A734-40A5EBD533DB",
+              "summary": "UM4EE201-EACN-CM",
+              "location": null,
+              "start": "2026-02-05T09:45:00+00:00",
+              "end": "2026-02-05T11:45:00+00:00"
+            },
+            {
+              "uid": "0537F7E6-E462-4570-B97A-EE6A1781A64D",
+              "summary": "UM4EE201-EACN-CM",
+              "location": null,
+              "start": "2026-02-12T09:45:00+00:00",
+              "end": "2026-02-12T11:45:00+00:00"
+            },
+            {
+              "uid": "A3823A5D-DF83-40CE-A799-FD9CA93E8FE2",
+              "summary": "UM4EE201-EACN-CM",
+              "location": null,
+              "start": "2026-02-12T12:45:00+00:00",
+              "end": "2026-02-12T14:45:00+00:00"
+            },
+            {
+              "uid": "08CB8E94-4FB3-4F57-AE5E-879FA4B95DBF",
+              "summary": "UM4EE201-EACN-CM",
+              "location": null,
+              "start": "2026-02-19T12:45:00+00:00",
+              "end": "2026-02-19T14:45:00+00:00"
+            },
+            {
+              "uid": "21BEA109-6AC1-48AE-A3B3-6DD3C8C7C431",
+              "summary": "UM4EE201-EACN-CM",
+              "location": null,
+              "start": "2026-02-26T09:45:00+00:00",
+              "end": "2026-02-26T11:45:00+00:00"
+            },
+            {
+              "uid": "3570653D-826B-4ED2-B244-782B408365D3",
+              "summary": "UM4EE201-EACN-CM",
+              "location": null,
+              "start": "2026-03-19T09:45:00+00:00",
+              "end": "2026-03-19T11:45:00+00:00"
+            },
+            {
+              "uid": "87433520-CDD9-480E-8A2B-07AFD0AD801C",
+              "summary": "UM4EE201-EACN-CM",
+              "location": null,
+              "start": "2026-03-26T09:45:00+00:00",
+              "end": "2026-03-26T11:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "674A224D-05CC-4B39-BC8F-7D57B976A5CE",
+              "summary": "UM4EE201-EACN-TD",
+              "location": null,
+              "start": "2026-02-19T09:45:00+00:00",
+              "end": "2026-02-19T11:45:00+00:00"
+            },
+            {
+              "uid": "CF3647CB-D26E-420F-AB5B-B8C7CCD01C39",
+              "summary": "UM4EE201-EACN-TD",
+              "location": null,
+              "start": "2026-02-26T12:45:00+00:00",
+              "end": "2026-02-26T14:45:00+00:00"
+            },
+            {
+              "uid": "0EA768FF-24E6-4CD6-86AA-0D1418709B83",
+              "summary": "UM4EE201-EACN-TD",
+              "location": null,
+              "start": "2026-04-09T08:45:00+00:00",
+              "end": "2026-04-09T10:45:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "ESA",
       "code": "101",
       "special": false,
@@ -2678,5 +2789,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-24T06:53:17.398104475+00:00"
+  "updated_at": "2025-11-25T06:54:58.395319256+00:00"
 }

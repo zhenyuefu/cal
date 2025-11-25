@@ -82,6 +82,12 @@
       "groups": [],
       "source": "M1_ANDROIDE"
     },
+    "201|M1_SESI": {
+      "name": "EACN",
+      "code": "201",
+      "groups": [],
+      "source": "M1_SESI"
+    },
     "202|M1_ANDROIDE": {
       "name": "FoSyMa",
       "code": "202",
