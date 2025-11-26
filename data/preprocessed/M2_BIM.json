@@ -15,30 +15,16 @@
             {
               "uid": "B3D45983-4A24-4564-812C-59E47A979A88",
               "summary": "UM5BM733-GENOM-Soutenance orale des projets",
-              "location": "Reservation BMC",
-              "start": "2026-01-13T12:45:00+00:00",
+              "location": "Salle 56.66.107",
+              "start": "2026-01-13T12:00:00+00:00",
               "end": "2026-01-13T16:30:00+00:00"
             },
             {
               "uid": "B8E96986-3803-4241-AC18-1420B4627ACF",
               "summary": "UM5BM733-GENOM-Projets",
-              "location": "Réservation BMC en attente",
+              "location": "Salle 14.24.105",
               "start": "2025-12-03T12:45:00+00:00",
               "end": "2025-12-03T14:45:00+00:00"
-            },
-            {
-              "uid": "B5ECC793-EEEC-448E-B273-9E3BA001E844",
-              "summary": "UM5BM733-GENOM-Projets",
-              "location": "Réservation BMC en attente",
-              "start": "2025-12-10T12:45:00+00:00",
-              "end": "2025-12-10T14:45:00+00:00"
-            },
-            {
-              "uid": "CF496DEF-9CB1-49D0-9FF0-1A24B9317BDB",
-              "summary": "UM5BM733-GENOM-Projets",
-              "location": "Réservation BMC en attente",
-              "start": "2025-12-17T12:45:00+00:00",
-              "end": "2025-12-17T14:45:00+00:00"
             }
           ]
         },
@@ -77,63 +63,63 @@
             {
               "uid": "F5C7EA44-95ED-4457-BFCA-6D4F3D5AAB9D",
               "summary": "UM5BM733-GENOM-Cours",
-              "location": "Réservation BMC en attente",
+              "location": "Salle 24.34.303",
               "start": "2025-12-02T15:00:00+00:00",
               "end": "2025-12-02T17:00:00+00:00"
             },
             {
-              "uid": "82DBC436-EDA7-4678-88AD-26731544A23D",
-              "summary": "UM5BM733-GENOM-Cours",
-              "location": "Reservation BMC",
-              "start": "2025-12-02T12:45:00+00:00",
-              "end": "2025-12-02T14:45:00+00:00"
-            },
-            {
               "uid": "CAC3805B-4A2C-4A31-88A5-F0C9540B8E23",
               "summary": "UM5BM733-GENOM-Cours",
-              "location": "Reservation BMC",
+              "location": "Salle 14.15.102",
               "start": "2025-12-09T12:45:00+00:00",
               "end": "2025-12-09T14:45:00+00:00"
             },
             {
               "uid": "CB572AF1-D56D-48BE-A8D4-448BB4B89232",
               "summary": "UM5BM733-GENOM-Cours",
-              "location": "Réservation BMC en attente",
+              "location": "Salle46.56.104",
               "start": "2025-12-09T15:00:00+00:00",
               "end": "2025-12-09T17:00:00+00:00"
             },
             {
               "uid": "FEDC76AA-F87A-4AB4-A5F0-B36A476E440D",
               "summary": "UM5BM733-GENOM-Cours",
-              "location": "Réservation BMC en attente",
+              "location": "Salle 46.56.104",
               "start": "2025-12-16T15:00:00+00:00",
               "end": "2025-12-16T17:00:00+00:00"
             },
             {
               "uid": "F1B46D51-8634-44A8-B0BA-32DD9D2C9399",
               "summary": "UM5BM733-GENOM-Cours",
-              "location": "Reservation BMC",
+              "location": "Salle 33.34.119",
               "start": "2025-12-16T12:45:00+00:00",
               "end": "2025-12-16T14:45:00+00:00"
             },
             {
+              "uid": "82DBC436-EDA7-4678-88AD-26731544A23D",
+              "summary": "UM5BM733-GENOM-Cours",
+              "location": "Salle 56.66.201BIS",
+              "start": "2025-12-02T12:45:00+00:00",
+              "end": "2025-12-02T14:45:00+00:00"
+            },
+            {
               "uid": "7A1ED953-DBC6-48E0-8488-80B7CDF683E9",
               "summary": "UM5BM733-GENOM-CS",
-              "location": "Réservation BMC en attente",
+              "location": "Salle 14.15.105",
               "start": "2025-12-03T15:00:00+00:00",
               "end": "2025-12-03T17:00:00+00:00"
             },
             {
               "uid": "1F107E20-4058-4922-82A7-B5A519135A90",
               "summary": "UM5BM733-GENOM-CS",
-              "location": "Réservation BMC en attente",
+              "location": "Salle 23.24.203",
               "start": "2025-12-10T15:00:00+00:00",
               "end": "2025-12-10T17:00:00+00:00"
             },
             {
               "uid": "5A55288F-4D67-45CB-B283-6212465F2821",
               "summary": "UM5BM733-GENOM-CS",
-              "location": "Réservation BMC en attente",
+              "location": "Salle 14.15.106",
               "start": "2025-12-17T15:00:00+00:00",
               "end": "2025-12-17T17:00:00+00:00"
             }
@@ -167,14 +153,14 @@
             {
               "uid": "56345675-01B3-41F1-BCEE-1EB073035971",
               "summary": "UM5IN752-GPOP-Soutenance",
-              "location": "n°682241",
+              "location": "Salle 14.24.203",
               "start": "2025-12-17T07:30:00+00:00",
               "end": "2025-12-17T11:45:00+00:00"
             },
             {
               "uid": "731BEFDA-FE1D-4F0A-B603-D5F97C40472D",
               "summary": "UM5IN752-GPOP-Soutenance",
-              "location": "n°682242",
+              "location": "Salle 14.24.212",
               "start": "2025-12-18T07:30:00+00:00",
               "end": "2025-12-18T11:45:00+00:00"
             }
@@ -709,6 +695,19 @@
                 "2025-11-03T12:45:00+00:00",
                 "2025-12-01T12:45:00+00:00"
               ]
+            },
+            {
+              "uid": "EDECC084-5BB2-4FD6-BCC4-FF4DCDAA8F3E",
+              "summary": "UM5IN754-RESYS-Cours",
+              "location": "Salle 54.55.205",
+              "start": "2025-12-01T12:45:00+00:00",
+              "end": "2025-12-01T14:45:00+00:00",
+              "exdates": [
+                "2025-10-20T11:45:00+00:00",
+                "2025-10-27T12:45:00+00:00",
+                "2025-11-03T12:45:00+00:00",
+                "2025-12-01T12:45:00+00:00"
+              ]
             }
           ]
         },
@@ -750,6 +749,19 @@
                 "2025-11-24T15:00:00+00:00",
                 "2025-12-01T15:00:00+00:00"
               ]
+            },
+            {
+              "uid": "C9487486-BABE-4789-B412-65E1BEC2727A",
+              "summary": "UM5IN754-RESYS-TME 1",
+              "location": "Salle 14.15.501",
+              "start": "2025-12-01T15:00:00+00:00",
+              "end": "2025-12-01T17:00:00+00:00",
+              "exdates": [
+                "2025-10-20T14:00:00+00:00",
+                "2025-10-27T15:00:00+00:00",
+                "2025-11-24T15:00:00+00:00",
+                "2025-12-01T15:00:00+00:00"
+              ]
             }
           ]
         },
@@ -764,6 +776,19 @@
               "start": "2025-09-22T14:00:00+00:00",
               "end": "2025-09-22T16:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20251201T225959Z",
+              "exdates": [
+                "2025-10-20T14:00:00+00:00",
+                "2025-10-27T15:00:00+00:00",
+                "2025-11-24T15:00:00+00:00",
+                "2025-12-01T15:00:00+00:00"
+              ]
+            },
+            {
+              "uid": "029DD0B9-9FBD-4F39-A46E-4930855DB899",
+              "summary": "UM5IN754-RESYS-TME 2",
+              "location": "Salle 14.15.502",
+              "start": "2025-12-01T15:00:00+00:00",
+              "end": "2025-12-01T17:00:00+00:00",
               "exdates": [
                 "2025-10-20T14:00:00+00:00",
                 "2025-10-27T15:00:00+00:00",
@@ -995,5 +1020,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-25T06:55:12.569619357+00:00"
+  "updated_at": "2025-11-26T06:54:09.190272648+00:00"
 }
