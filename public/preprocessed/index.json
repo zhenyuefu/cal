@@ -233,9 +233,7 @@
     "506|M1_STL": {
       "name": "CPS",
       "code": "506",
-      "groups": [
-        "1"
-      ],
+      "groups": [],
       "source": "M1_STL"
     },
     "507|M1_STL": {

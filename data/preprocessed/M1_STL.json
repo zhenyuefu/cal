@@ -509,9 +509,7 @@
       "name": "CPS",
       "code": "506",
       "special": false,
-      "groups": [
-        "1"
-      ],
+      "groups": [],
       "variants": [
         {
           "group": null,
@@ -536,12 +534,12 @@
           ]
         },
         {
-          "group": "1",
+          "group": null,
           "type": "TME",
           "events": [
             {
               "uid": "8F26D67C-0E3E-4560-80C0-0A4CC03D7BC9",
-              "summary": "UM4IN506-CPS-TME1",
+              "summary": "UM4IN506-CPS-TME",
               "location": null,
               "start": "2026-01-26T12:45:00+00:00",
               "end": "2026-01-26T17:00:00+00:00",
@@ -906,17 +904,45 @@
           ]
         },
         {
-          "group": "1",
+          "group": null,
           "type": "TD",
           "events": [
             {
               "uid": "B977A9A6-3ADE-4DA0-8EBD-DD413599601B",
-              "summary": "UM4IN507-PC3R-TD1",
+              "summary": "UM4IN507-PC3R-TD",
               "location": "Résa n°679817",
               "start": "2026-01-29T07:30:00+00:00",
               "end": "2026-01-29T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "676A3C8D-4BE3-4F2D-A384-1769254754BA",
+              "summary": "UM4IN507-PC3R-TME",
+              "location": null,
+              "start": "2026-01-29T09:45:00+00:00",
+              "end": "2026-01-29T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260129T225959Z"
             },
+            {
+              "uid": "676A3C8D-4BE3-4F2D-A384-1769254754BA",
+              "summary": "UM4IN507-PC3R-TME",
+              "location": null,
+              "start": "2026-01-29T09:45:00+00:00",
+              "end": "2026-01-29T11:45:00+00:00",
+              "recurrence_id": "2026-01-29T09:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": "1",
+          "type": "TD",
+          "events": [
             {
               "uid": "021CDBA4-FF58-4F43-BC78-7F0E748E9604",
               "summary": "UM4IN507-PC2R-TD1",
@@ -931,22 +957,6 @@
           "group": "1",
           "type": "TME",
           "events": [
-            {
-              "uid": "676A3C8D-4BE3-4F2D-A384-1769254754BA",
-              "summary": "UM4IN507-PC2R-TME1",
-              "location": null,
-              "start": "2026-01-29T09:45:00+00:00",
-              "end": "2026-01-29T11:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260129T225959Z"
-            },
-            {
-              "uid": "676A3C8D-4BE3-4F2D-A384-1769254754BA",
-              "summary": "UM4IN507-PC3R-TME1",
-              "location": null,
-              "start": "2026-01-29T09:45:00+00:00",
-              "end": "2026-01-29T11:45:00+00:00",
-              "recurrence_id": "2026-01-29T09:45:00+00:00"
-            },
             {
               "uid": "EEC472D4-6D0A-48D4-8D10-C00B48C9101F",
               "summary": "UM4IN507-PC3R-TME1",
@@ -964,5 +974,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-26T06:53:43.386328801+00:00"
+  "updated_at": "2025-11-27T06:54:17.641414950+00:00"
 }
