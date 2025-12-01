@@ -656,6 +656,19 @@
           "type": "CS",
           "events": [
             {
+              "uid": "8A5B6F94-3AE4-4BAB-844C-F331A2059BA7",
+              "summary": "UM4IN402-PNL-Cours",
+              "location": "Salle SAR 14.15.508 si changement résa 683971",
+              "start": "2026-03-17T07:30:00+00:00",
+              "end": "2026-03-17T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260428T215959Z",
+              "exdates": [
+                "2026-04-14T06:30:00+00:00",
+                "2026-04-21T06:30:00+00:00",
+                "2026-04-28T06:30:00+00:00"
+              ]
+            },
+            {
               "uid": "B4C0572D-07D5-4466-B748-46AD07EB9138",
               "summary": "UM4IN402-PNL-Cours",
               "location": null,
@@ -685,14 +698,43 @@
               "location": "Salle SAR 14.15.508",
               "start": "2026-02-03T07:30:00+00:00",
               "end": "2026-02-03T09:30:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260428T215959Z",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260310T225959Z",
               "exdates": [
                 "2026-03-03T07:30:00+00:00",
-                "2026-03-10T07:30:00+00:00",
-                "2026-04-14T06:30:00+00:00",
-                "2026-04-21T06:30:00+00:00",
-                "2026-04-28T06:30:00+00:00"
+                "2026-03-10T07:30:00+00:00"
               ]
+            },
+            {
+              "uid": "1998682F-1CBF-4351-A30D-A118251B7C82",
+              "summary": "UM4IN402-PNL-Cours",
+              "location": "Salle SAR 14.15.508 si changement résa 679954",
+              "start": "2026-02-10T07:30:00+00:00",
+              "end": "2026-02-10T09:30:00+00:00",
+              "recurrence_id": "2026-02-10T07:30:00+00:00"
+            },
+            {
+              "uid": "1998682F-1CBF-4351-A30D-A118251B7C82",
+              "summary": "UM4IN402-PNL-Cours",
+              "location": "Salle SAR 14.15.508 si changement résa 679954",
+              "start": "2026-02-03T07:30:00+00:00",
+              "end": "2026-02-03T09:30:00+00:00",
+              "recurrence_id": "2026-02-03T07:30:00+00:00"
+            },
+            {
+              "uid": "1998682F-1CBF-4351-A30D-A118251B7C82",
+              "summary": "UM4IN402-PNL-Cours",
+              "location": "Salle SAR 14.15.508 si changement résa 679954",
+              "start": "2026-02-17T07:30:00+00:00",
+              "end": "2026-02-17T09:30:00+00:00",
+              "recurrence_id": "2026-02-17T07:30:00+00:00"
+            },
+            {
+              "uid": "1998682F-1CBF-4351-A30D-A118251B7C82",
+              "summary": "UM4IN402-PNL-Cours",
+              "location": "Salle SAR 14.15.508 si changement résa 679954",
+              "start": "2026-02-24T07:30:00+00:00",
+              "end": "2026-02-24T09:30:00+00:00",
+              "recurrence_id": "2026-02-24T07:30:00+00:00"
             }
           ]
         },
@@ -901,6 +943,13 @@
           "group": null,
           "type": "EXAM",
           "events": [
+            {
+              "uid": "165755CA-45B4-4704-9A10-E17B7BBAB787",
+              "summary": "UM4IN400-PSCR-ExamenR2",
+              "location": "reservation n° 683970",
+              "start": "2026-01-07T10:00:00+00:00",
+              "end": "2026-01-07T12:00:00+00:00"
+            },
             {
               "uid": "4EC132A3-9AF8-43CF-9FC8-7FBC5AAA1062",
               "summary": "UM4IN400-PSCR-ExamenR1",
@@ -1196,9 +1245,57 @@
               "rrule": "FREQ=WEEKLY;UNTIL=20260225T225959Z"
             },
             {
+              "uid": "1C702B21-4442-4656-B212-D33011718C98",
+              "summary": "UM4IN405-SAS-Cours ???",
+              "location": "reservation n° 683972",
+              "start": "2026-01-28T16:15:00+00:00",
+              "end": "2026-01-28T18:15:00+00:00",
+              "recurrence_id": "2026-01-28T16:15:00+00:00"
+            },
+            {
+              "uid": "1C702B21-4442-4656-B212-D33011718C98",
+              "summary": "UM4IN405-SAS-Cours ???",
+              "location": "reservation n° 683972",
+              "start": "2026-01-21T16:15:00+00:00",
+              "end": "2026-01-21T18:15:00+00:00",
+              "recurrence_id": "2026-01-21T16:15:00+00:00"
+            },
+            {
+              "uid": "1C702B21-4442-4656-B212-D33011718C98",
+              "summary": "UM4IN405-SAS-Cours ???",
+              "location": "reservation n° 683972",
+              "start": "2026-02-04T16:15:00+00:00",
+              "end": "2026-02-04T18:15:00+00:00",
+              "recurrence_id": "2026-02-04T16:15:00+00:00"
+            },
+            {
+              "uid": "1C702B21-4442-4656-B212-D33011718C98",
+              "summary": "UM4IN405-SAS-Cours ???",
+              "location": "reservation n° 683972",
+              "start": "2026-02-18T16:15:00+00:00",
+              "end": "2026-02-18T18:15:00+00:00",
+              "recurrence_id": "2026-02-18T16:15:00+00:00"
+            },
+            {
+              "uid": "1C702B21-4442-4656-B212-D33011718C98",
+              "summary": "UM4IN405-SAS-Cours ???",
+              "location": "reservation n° 683972",
+              "start": "2026-02-11T16:15:00+00:00",
+              "end": "2026-02-11T18:15:00+00:00",
+              "recurrence_id": "2026-02-11T16:15:00+00:00"
+            },
+            {
+              "uid": "1C702B21-4442-4656-B212-D33011718C98",
+              "summary": "UM4IN405-SAS-Cours ???",
+              "location": "reservation n° 683972",
+              "start": "2026-02-25T16:15:00+00:00",
+              "end": "2026-02-25T18:15:00+00:00",
+              "recurrence_id": "2026-02-25T16:15:00+00:00"
+            },
+            {
               "uid": "33ECCDBC-0236-4A44-AACE-ACF2DF595933",
               "summary": "UM4IN405-SAS-Cours ???",
-              "location": null,
+              "location": "reservation n° 683973",
               "start": "2026-03-18T16:15:00+00:00",
               "end": "2026-03-18T18:15:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260408T215959Z"
@@ -1519,5 +1616,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-28T06:53:48.369793861+00:00"
+  "updated_at": "2025-12-01T06:56:39.046834371+00:00"
 }

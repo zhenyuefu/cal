@@ -44,7 +44,7 @@
             {
               "uid": "1CB5354A-ECEA-4E2B-9123-6CD46C83F95E",
               "summary": "UM4IN500-ALGAV-ExamenR2",
-              "location": "Résa n°679512",
+              "location": "AMPHI 15",
               "start": "2026-01-06T07:30:00+00:00",
               "end": "2026-01-06T09:30:00+00:00"
             },
@@ -94,7 +94,7 @@
               "location": "Salle 23.24.107",
               "start": "2025-11-24T12:45:00+00:00",
               "end": "2025-11-24T17:00:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251212T225959Z"
+              "rrule": "FREQ=WEEKLY;UNTIL=20251201T124500Z"
             },
             {
               "uid": "F7954BD8-8926-48C5-A442-3FAA42FA110B",
@@ -150,7 +150,7 @@
               "location": "Salle 55.65.105",
               "start": "2025-11-27T07:30:00+00:00",
               "end": "2025-11-27T11:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251212T225959Z"
+              "rrule": "FREQ=WEEKLY;UNTIL=20251204T073000Z"
             },
             {
               "uid": "AF572CE3-B4CA-43A2-81C3-973C1D47EE49",
@@ -206,7 +206,7 @@
               "location": "Salle 56.66.201BIS",
               "start": "2025-11-27T07:30:00+00:00",
               "end": "2025-11-27T11:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20251212T225959Z"
+              "rrule": "FREQ=WEEKLY;UNTIL=20251204T073000Z"
             },
             {
               "uid": "C682B629-679C-44AC-82E3-1E94D68349B8",
@@ -318,7 +318,7 @@
             {
               "uid": "055B6BDE-2FD4-4FDE-A9C4-34F13E42D727",
               "summary": "Réunion Présentation S2",
-              "location": "Résa n°682495",
+              "location": "Salle 14.24.209",
               "start": "2025-12-08T11:45:00+00:00",
               "end": "2025-12-08T12:45:00+00:00"
             }
@@ -974,5 +974,5 @@
       ]
     }
   ],
-  "updated_at": "2025-11-28T06:53:43.414905096+00:00"
+  "updated_at": "2025-12-01T06:56:33.810082088+00:00"
 }
