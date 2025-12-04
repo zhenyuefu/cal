@@ -1360,13 +1360,44 @@
       "code": "812",
       "special": false,
       "groups": [
+        "1",
         "2"
       ],
       "variants": [
         {
+          "group": "1",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "B4A31A12-5367-40D9-9B13-90B54E30870C",
+              "summary": "UM4IN812-MLL-TD1",
+              "location": null,
+              "start": "2026-01-28T12:45:00+00:00",
+              "end": "2026-01-28T14:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260311T225959Z",
+              "exdates": [
+                "2026-03-04T12:45:00+00:00",
+                "2026-03-11T12:45:00+00:00"
+              ]
+            }
+          ]
+        },
+        {
           "group": "2",
           "type": "TD",
           "events": [
+            {
+              "uid": "336A39ED-263B-4BCD-B562-2CF6A9D5E052",
+              "summary": "UM4IN812-MLL-TD2",
+              "location": null,
+              "start": "2026-01-29T12:45:00+00:00",
+              "end": "2026-01-29T14:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260312T225959Z",
+              "exdates": [
+                "2026-03-05T12:45:00+00:00",
+                "2026-03-12T12:45:00+00:00"
+              ]
+            },
             {
               "uid": "D4AAEF2D-F2CF-4CFC-8BB4-DAEBCDC10E2A",
               "summary": "UMIN812-MLL-TD2",
@@ -1587,5 +1618,5 @@
       ]
     }
   ],
-  "updated_at": "2025-12-03T06:54:56.554919959+00:00"
+  "updated_at": "2025-12-04T06:54:53.404640550+00:00"
 }
