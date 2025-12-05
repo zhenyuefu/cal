@@ -849,6 +849,13 @@
           "type": "TME",
           "events": [
             {
+              "uid": "FE9C04BA-E860-4106-A586-14EDD0055EAE",
+              "summary": "UM5IN863-MEDS-TME1",
+              "location": "Salle 24.25.302",
+              "start": "2025-12-04T12:45:00+00:00",
+              "end": "2025-12-04T14:45:00+00:00"
+            },
+            {
               "uid": "62016FFA-C3AC-4049-A086-F400F3834B2E",
               "summary": "UM5IN863-MEDS-TME1",
               "location": "Salle 24.25.302",
@@ -938,6 +945,13 @@
           "group": "2",
           "type": "TME",
           "events": [
+            {
+              "uid": "BBD29323-9F6B-493E-9467-670E808E2125",
+              "summary": "UM5IN863-MEDS-TME2",
+              "location": "Salle 24.25.304",
+              "start": "2025-12-04T12:45:00+00:00",
+              "end": "2025-12-04T14:45:00+00:00"
+            },
             {
               "uid": "FC3D9F50-71AC-4812-9478-22A409C73F50",
               "summary": "UM5IN863-MEDS-TME2",
@@ -1713,5 +1727,5 @@
       ]
     }
   ],
-  "updated_at": "2025-12-04T06:55:16.111882059+00:00"
+  "updated_at": "2025-12-05T06:54:48.844102673+00:00"
 }
