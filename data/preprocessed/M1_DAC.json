@@ -398,7 +398,7 @@
             {
               "uid": "B9A326C6-4027-4CF0-B523-C9CD171F6FBB",
               "summary": "UM4IN806-IAMSI-Cours",
-              "location": "n°680159",
+              "location": "Salle 54.55.205\\n",
               "start": "2026-01-20T09:45:00+00:00",
               "end": "2026-01-20T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260224T225959Z"
@@ -508,7 +508,7 @@
             {
               "uid": "FE42EF36-7173-4DED-925A-4A9A21C4831F",
               "summary": "UM4IN815-IDLE-Cours",
-              "location": "n°680158",
+              "location": "Salle 24.34.303\\n",
               "start": "2026-01-20T07:30:00+00:00",
               "end": "2026-01-20T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260224T225959Z"
@@ -1550,7 +1550,7 @@
             {
               "uid": "C6172107-28E5-4E9B-9535-547775732996",
               "summary": "UM4IN803-SAM-Cours",
-              "location": "n°680160",
+              "location": "Salle 56.66.209\\n",
               "start": "2026-01-20T15:00:00+00:00",
               "end": "2026-01-20T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260224T225959Z"
@@ -1572,14 +1572,14 @@
             {
               "uid": "6FF93C7C-03A5-4F1C-9C5F-2A4BA341D448",
               "summary": "UM4IN803-SAM-TD",
-              "location": "n°681674",
+              "location": "Salle 55.65.103\\n",
               "start": "2026-01-23T09:45:00+00:00",
               "end": "2026-01-23T11:45:00+00:00"
             },
             {
               "uid": "1EEB6F7A-3709-41F7-B1B9-D3AA2C08C88B",
               "summary": "UM4IN803-SAM-TD",
-              "location": "n°680163",
+              "location": "Salle 23.24.202\\n",
               "start": "2026-01-30T09:45:00+00:00",
               "end": "2026-01-30T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
@@ -1626,5 +1626,5 @@
       ]
     }
   ],
-  "updated_at": "2025-12-08T06:57:55.123128913+00:00"
+  "updated_at": "2025-12-09T06:55:34.377620270+00:00"
 }
