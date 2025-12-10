@@ -404,7 +404,7 @@
             {
               "uid": "3855E785-DC33-489C-B854-489266736E53",
               "summary": "UM4IN702-MMCN-Cours",
-              "location": "n°679874",
+              "location": "Salle 14.24.210\\n",
               "start": "2026-01-22T09:45:00+00:00",
               "end": "2026-01-22T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260226T225959Z"
@@ -412,7 +412,7 @@
             {
               "uid": "3855E785-DC33-489C-B854-489266736E53",
               "summary": "UM4IN702-MMCN-Cours (reporté le 16/04)",
-              "location": null,
+              "location": "Salle 14.24.210\\n",
               "start": "2026-02-26T09:45:00+00:00",
               "end": "2026-02-26T11:45:00+00:00",
               "recurrence_id": "2026-02-26T09:45:00+00:00"
@@ -450,7 +450,7 @@
             {
               "uid": "F5D15A1B-324C-40AA-8DD8-ADC46B1CF6FC",
               "summary": "UM4IN702-MMCN-TD",
-              "location": "n°680306",
+              "location": "Salle 14.24.208\\n",
               "start": "2026-03-20T07:30:00+00:00",
               "end": "2026-03-20T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260417T215959Z"
@@ -888,5 +888,5 @@
       ]
     }
   ],
-  "updated_at": "2025-12-09T06:55:37.563486263+00:00"
+  "updated_at": "2025-12-10T06:55:56.372996991+00:00"
 }

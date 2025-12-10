@@ -121,7 +121,7 @@
             {
               "uid": "41AC7946-8EAE-4CEF-A9C5-D317216B97DE",
               "summary": "UM4IN814-DALAS-ER2",
-              "location": "n°679884 n°679885",
+              "location": "De A à K : AMPHI 15                          De L à Z : AMPHI 25",
               "start": "2026-01-05T12:45:00+00:00",
               "end": "2026-01-05T14:45:00+00:00"
             }
@@ -522,7 +522,7 @@
             {
               "uid": "FC9AFA48-FEE4-4979-926B-8171B7FE97E2",
               "summary": "UM4IN815-IDLE-TD",
-              "location": "n°680164",
+              "location": "Salle 14.24.112\\n",
               "start": "2026-01-28T07:30:00+00:00",
               "end": "2026-01-28T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260225T225959Z"
@@ -648,7 +648,7 @@
             {
               "uid": "DBF43240-B7A5-4C47-992C-6B8A36E13103",
               "summary": "UM4IN800-LRC-ER2",
-              "location": "n°679889 et 679890",
+              "location": "De A à K : AMPHI B2                               De L à Z : AMPHI B3",
               "start": "2026-01-07T13:00:00+00:00",
               "end": "2026-01-07T15:00:00+00:00"
             },
@@ -978,7 +978,7 @@
             {
               "uid": "4B5CE90F-E759-470C-8D47-56D9C8F1FDAC",
               "summary": "UM4IN811-ML-TD1",
-              "location": "n°680165",
+              "location": "Salle 14.24.210\\n",
               "start": "2026-01-28T12:45:00+00:00",
               "end": "2026-01-28T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260225T225959Z"
@@ -1126,7 +1126,7 @@
             {
               "uid": "F5D1315B-58CA-40C1-8140-73000BFAD83C",
               "summary": "UM4IN801-MLBDA-ER2",
-              "location": "n°679891",
+              "location": "AMPHI B2",
               "start": "2026-01-07T15:30:00+00:00",
               "end": "2026-01-07T17:30:00+00:00"
             },
@@ -1587,7 +1587,7 @@
             {
               "uid": "5DDADABE-39FE-46E1-B69E-9D8610E700A9",
               "summary": "UMIN803-SAM-TD",
-              "location": "n°680246",
+              "location": "Salle 23.24.202\\n",
               "start": "2026-03-20T09:45:00+00:00",
               "end": "2026-03-20T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260417T215959Z"
@@ -1626,5 +1626,5 @@
       ]
     }
   ],
-  "updated_at": "2025-12-09T06:55:34.377620270+00:00"
+  "updated_at": "2025-12-10T06:55:52.381519548+00:00"
 }

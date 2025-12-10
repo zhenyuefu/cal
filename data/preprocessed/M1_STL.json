@@ -232,7 +232,7 @@
             {
               "uid": "59C46113-DE34-4234-9C6C-7A273FB1B37D",
               "summary": "UM4IN503-APS-Cours",
-              "location": "Résa n°679814",
+              "location": "Salle 13.14.108",
               "start": "2026-01-21T15:00:00+00:00",
               "end": "2026-01-21T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
@@ -414,7 +414,7 @@
             {
               "uid": "E98E5BE3-92B9-492B-8B5E-1C5F36D350D4",
               "summary": "UM4IN504-CA-TD",
-              "location": "Résa n°679816",
+              "location": "Salle 24.25.102",
               "start": "2026-01-26T07:30:00+00:00",
               "end": "2026-01-26T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
@@ -838,7 +838,7 @@
             {
               "uid": "36A270DA-C174-4BDF-BB96-E370EF567ABC",
               "summary": "UM4IN510-PAF-TD",
-              "location": "Résa n°679818",
+              "location": "Salle 24.34.112",
               "start": "2026-01-29T12:45:00+00:00",
               "end": "2026-01-29T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
@@ -888,7 +888,7 @@
             {
               "uid": "4F4AD5DC-2987-480E-9FD3-0DAD4B98429C",
               "summary": "UM4IN507-PC3R-Cours",
-              "location": "Résa n°679813",
+              "location": "Salle 13.14.102",
               "start": "2026-01-21T12:45:00+00:00",
               "end": "2026-01-21T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
@@ -910,7 +910,7 @@
             {
               "uid": "B977A9A6-3ADE-4DA0-8EBD-DD413599601B",
               "summary": "UM4IN507-PC3R-TD",
-              "location": "Résa n°679817",
+              "location": "Salle 24.25.103",
               "start": "2026-01-29T07:30:00+00:00",
               "end": "2026-01-29T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
@@ -974,5 +974,5 @@
       ]
     }
   ],
-  "updated_at": "2025-12-09T06:55:35.604745430+00:00"
+  "updated_at": "2025-12-10T06:55:53.915322472+00:00"
 }

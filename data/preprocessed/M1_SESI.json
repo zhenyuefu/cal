@@ -556,20 +556,9 @@
               ]
             },
             {
-              "uid": "CE3B19E2-9469-48B8-965A-702AAB54974A",
-              "summary": "UM4IN106-MULTI- Anglais-Cours",
-              "location": "Réservation : 680018",
-              "start": "2026-01-22T09:45:00+00:00",
-              "end": "2026-01-22T11:45:00+00:00",
-              "exdates": [
-                "2022-03-02T09:45:00+00:00",
-                "2022-03-09T09:45:00+00:00"
-              ]
-            },
-            {
               "uid": "2968A717-013C-428A-AE9D-4959446E4E89",
               "summary": "UM4IN106-MULTI- Anglais-Cours",
-              "location": null,
+              "location": "Salle 23.24.101",
               "start": "2026-01-29T09:45:00+00:00",
               "end": "2026-01-29T11:45:00+00:00",
               "exdates": [
@@ -578,9 +567,20 @@
               ]
             },
             {
+              "uid": "CE3B19E2-9469-48B8-965A-702AAB54974A",
+              "summary": "UM4IN106-MULTI- Anglais-Cours",
+              "location": "Salle 23.24.101",
+              "start": "2026-01-22T09:45:00+00:00",
+              "end": "2026-01-22T11:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
+            {
               "uid": "DABA2ED3-8738-4AC2-895C-A0A3A21E2463",
               "summary": "UM4IN106-MULTI- Anglais-Cours",
-              "location": null,
+              "location": "Salle 23.24.101",
               "start": "2026-02-05T09:45:00+00:00",
               "end": "2026-02-05T11:45:00+00:00",
               "exdates": [
@@ -591,7 +591,7 @@
             {
               "uid": "6DD90AAD-5FA5-4B3D-9AB1-3EDF7B195245",
               "summary": "UM4IN106-MULTI- Anglais-Cours",
-              "location": null,
+              "location": "Salle 23.24.101",
               "start": "2026-02-12T09:45:00+00:00",
               "end": "2026-02-12T11:45:00+00:00",
               "exdates": [
@@ -602,7 +602,7 @@
             {
               "uid": "98FF22FC-606E-45BD-88E2-1523F4A65E30",
               "summary": "UM4IN106-MULTI- Anglais-Cours",
-              "location": null,
+              "location": "Salle 23.24.101",
               "start": "2026-02-19T09:45:00+00:00",
               "end": "2026-02-19T11:45:00+00:00",
               "exdates": [
@@ -1110,6 +1110,13 @@
               "end": "2026-01-07T10:15:00+00:00"
             },
             {
+              "uid": "C7F15666-47F8-4F28-888F-9798FEC407C0",
+              "summary": "UM4EE101-ESA-ER2",
+              "location": "Réservation : 687578",
+              "start": "2026-01-05T10:00:00+00:00",
+              "end": "2026-01-05T12:00:00+00:00"
+            },
+            {
               "uid": "B26012D0-F43D-463F-A455-0EBE3EB7BDA4",
               "summary": "UM4EE101-ESA-ER1",
               "location": "Amphi 24",
@@ -1461,7 +1468,7 @@
             {
               "uid": "1BB3F94C-5113-4339-A6B7-0013395F6A8A",
               "summary": "UM4IN108-FPGA-Cours",
-              "location": "Réservation : 680010",
+              "location": "Salle 24.34.207",
               "start": "2026-01-28T07:30:00+00:00",
               "end": "2026-01-28T09:30:00+00:00",
               "exdates": [
@@ -1473,7 +1480,7 @@
             {
               "uid": "A8024DAD-4DB2-441A-B272-F352C05EDAA2",
               "summary": "UM4IN108-FPGA-Cours",
-              "location": null,
+              "location": "Salle 24.34.207",
               "start": "2026-02-04T07:30:00+00:00",
               "end": "2026-02-04T09:30:00+00:00",
               "exdates": [
@@ -1485,7 +1492,7 @@
             {
               "uid": "5E50DF08-D466-496F-9FE0-C62A5EDB9AB8",
               "summary": "UM4IN108-FPGA-Cours",
-              "location": null,
+              "location": "Salle 24.34.207",
               "start": "2026-02-11T07:30:00+00:00",
               "end": "2026-02-11T09:30:00+00:00",
               "exdates": [
@@ -1497,7 +1504,7 @@
             {
               "uid": "52D2EEA6-2625-4E85-A0ED-3D5A048FA1EF",
               "summary": "UM4IN108-FPGA-Cours",
-              "location": null,
+              "location": "Salle 24.34.207",
               "start": "2026-02-18T07:30:00+00:00",
               "end": "2026-02-18T09:30:00+00:00",
               "exdates": [
@@ -1509,7 +1516,7 @@
             {
               "uid": "5AA22013-7ED8-4052-8826-0DDE7064E568",
               "summary": "UM4IN108-FPGA-Cours",
-              "location": null,
+              "location": "Salle 24.34.207",
               "start": "2026-02-25T07:30:00+00:00",
               "end": "2026-02-25T09:30:00+00:00",
               "exdates": [
@@ -1801,7 +1808,7 @@
             {
               "uid": "9F3BD8D5-00CB-45C0-89A4-A24325F2F33C",
               "summary": "UM4IN109-IOC-Cours",
-              "location": "Réservation : 680024",
+              "location": "Salle 56.66.111",
               "start": "2026-01-22T07:30:00+00:00",
               "end": "2026-01-22T09:30:00+00:00",
               "exdates": [
@@ -1813,7 +1820,7 @@
             {
               "uid": "04CC50A8-FE26-48D8-BC3F-915D092DF92B",
               "summary": "UM4IN109-IOC-Cours",
-              "location": null,
+              "location": "Salle 56.66.111",
               "start": "2026-01-29T07:30:00+00:00",
               "end": "2026-01-29T09:30:00+00:00",
               "exdates": [
@@ -1825,7 +1832,7 @@
             {
               "uid": "3143213F-DBDC-42B5-96B6-DA7A92F9A623",
               "summary": "UM4IN109-IOC-Cours",
-              "location": null,
+              "location": "Salle 56.66.111",
               "start": "2026-02-05T07:30:00+00:00",
               "end": "2026-02-05T09:30:00+00:00",
               "exdates": [
@@ -1837,7 +1844,7 @@
             {
               "uid": "E54B68DD-003D-46AB-950F-57E532997A3E",
               "summary": "UM4IN109-IOC-Cours",
-              "location": null,
+              "location": "Salle 56.66.111",
               "start": "2026-02-12T07:30:00+00:00",
               "end": "2026-02-12T09:30:00+00:00",
               "exdates": [
@@ -1849,7 +1856,7 @@
             {
               "uid": "89F8C177-2A8E-481F-8ADD-4D434CC77ABF",
               "summary": "UM4IN109-IOC-Cours",
-              "location": null,
+              "location": "Salle 56.66.111",
               "start": "2026-02-19T07:30:00+00:00",
               "end": "2026-02-19T09:30:00+00:00",
               "exdates": [
@@ -1861,7 +1868,7 @@
             {
               "uid": "73EB3B8A-9E58-4082-AD91-14BB894676E7",
               "summary": "UM4IN109-IOC-Cours",
-              "location": null,
+              "location": "Salle 56.66.111",
               "start": "2026-02-26T07:30:00+00:00",
               "end": "2026-02-26T09:30:00+00:00",
               "exdates": [
@@ -2092,10 +2099,17 @@
           "events": [
             {
               "uid": "F25E3817-1353-47AF-B98A-5A105AEACB6C",
-              "summary": "UM4IN103-MOBJ-ER2*",
+              "summary": "UM4IN103-MOBJ-ER2* (A suppr)",
               "location": "Amphi Astier",
               "start": "2026-01-05T07:30:00+00:00",
-              "end": "2026-01-05T09:30:00+00:00"
+              "end": "2026-01-05T07:45:00+00:00"
+            },
+            {
+              "uid": "A02B5FF1-5072-4DFD-8610-A281169F2C9F",
+              "summary": "UM4IN103-MOBJ-ER2*",
+              "location": "Amphi 45A",
+              "start": "2026-01-08T07:30:00+00:00",
+              "end": "2026-01-08T09:30:00+00:00"
             }
           ]
         },
@@ -2241,7 +2255,7 @@
             {
               "uid": "D443A885-ABDC-49DE-BC88-FC934EF61F47",
               "summary": "UM4IN106-MULTI-Cours",
-              "location": null,
+              "location": "Salle 13.14.101",
               "start": "2026-01-28T09:45:00+00:00",
               "end": "2026-01-28T11:45:00+00:00",
               "exdates": [
@@ -2252,7 +2266,7 @@
             {
               "uid": "1B78ECDF-3CED-4E5B-9EF6-454366328C8D",
               "summary": "UM4IN106-MULTI-Cours",
-              "location": null,
+              "location": "Salle 13.14.101",
               "start": "2026-02-04T09:45:00+00:00",
               "end": "2026-02-04T11:45:00+00:00",
               "exdates": [
@@ -2263,7 +2277,7 @@
             {
               "uid": "6A535C4A-6B74-49B2-85B5-3C163F39EDE0",
               "summary": "UM4IN106-MULTI-Cours",
-              "location": null,
+              "location": "Salle 13.14.101",
               "start": "2026-02-11T09:45:00+00:00",
               "end": "2026-02-11T11:45:00+00:00",
               "exdates": [
@@ -2274,7 +2288,7 @@
             {
               "uid": "E7B64F49-6B38-47BC-B665-4EA66FC00EC9",
               "summary": "UM4IN106-MULTI-Cours",
-              "location": null,
+              "location": "Salle 13.14.101",
               "start": "2026-02-18T09:45:00+00:00",
               "end": "2026-02-18T11:45:00+00:00",
               "exdates": [
@@ -2285,7 +2299,7 @@
             {
               "uid": "614BAEE9-0175-4425-A63D-F111E039226D",
               "summary": "UM4IN106-MULTI-Cours",
-              "location": "Réservation : 680016",
+              "location": "Salle 13.14.101",
               "start": "2026-01-21T09:45:00+00:00",
               "end": "2026-01-21T11:45:00+00:00",
               "exdates": [
@@ -2809,5 +2823,5 @@
       ]
     }
   ],
-  "updated_at": "2025-12-09T06:55:45.140521338+00:00"
+  "updated_at": "2025-12-10T06:56:05.949126638+00:00"
 }
