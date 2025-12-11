@@ -368,6 +368,19 @@
         },
         {
           "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "B5124DDC-0A82-470D-A48C-3C859E917371",
+              "summary": "MU5IN757-Meet-U-Cs\\n",
+              "location": "AMPHI DURAND",
+              "start": "2026-02-02T07:30:00+00:00",
+              "end": "2026-02-02T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "TME",
           "events": [
             {
@@ -415,16 +428,9 @@
             {
               "uid": "AD692A16-D081-4E19-8B13-5882B5AA0838",
               "summary": "MU5IN757-Meet-U-TME",
-              "location": "n°687540",
+              "location": null,
               "start": "2025-12-19T12:30:00+00:00",
               "end": "2025-12-19T16:00:00+00:00"
-            },
-            {
-              "uid": "B5124DDC-0A82-470D-A48C-3C859E917371",
-              "summary": "MU5IN757-Meet-U-TME\\n",
-              "location": "AMPHI DURAND",
-              "start": "2026-02-02T07:30:00+00:00",
-              "end": "2026-02-02T17:00:00+00:00"
             }
           ]
         }
@@ -612,7 +618,7 @@
             {
               "uid": "8A66D03F-244D-46C1-BFE9-25131D6E3D6C",
               "summary": "UM5IN751-PHYG-ER2",
-              "location": null,
+              "location": "n°687632",
               "start": "2026-02-12T12:45:00+00:00",
               "end": "2026-02-12T14:45:00+00:00",
               "exdates": [
@@ -750,6 +756,13 @@
               "start": "2025-11-24T12:45:00+00:00",
               "end": "2025-11-24T17:00:00+00:00",
               "recurrence_id": "2025-11-24T12:45:00+00:00"
+            },
+            {
+              "uid": "91E146A1-3037-462B-8F99-70867E3F6EA1",
+              "summary": "UM5IN754-RESYS-ER2",
+              "location": "n°687634",
+              "start": "2026-02-09T12:45:00+00:00",
+              "end": "2026-02-09T14:45:00+00:00"
             }
           ]
         },
@@ -897,7 +910,7 @@
             {
               "uid": "6FEFD80D-DDB8-4E30-B49C-F6422F2F707D",
               "summary": "UM5IN753-SPLEX-ER2",
-              "location": null,
+              "location": "N°687633",
               "start": "2026-02-13T07:30:00+00:00",
               "end": "2026-02-13T09:30:00+00:00",
               "exdates": [
@@ -981,7 +994,7 @@
             {
               "uid": "332B7369-7E73-445E-98B8-39FCD6FCFF15",
               "summary": "UM5IN755-STRUCT-ER2",
-              "location": "faire demande de salle",
+              "location": "N°687631",
               "start": "2026-02-10T07:30:00+00:00",
               "end": "2026-02-10T09:30:00+00:00",
               "exdates": [
@@ -1041,5 +1054,5 @@
       ]
     }
   ],
-  "updated_at": "2025-12-10T06:56:19.945006906+00:00"
+  "updated_at": "2025-12-11T06:58:04.545657112+00:00"
 }

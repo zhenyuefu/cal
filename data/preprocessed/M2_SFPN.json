@@ -103,7 +103,7 @@
             {
               "uid": "3EAA235E-0EF4-4BA4-A975-09B84B6C44A0",
               "summary": "UM5IN950-AFAE-ExamenR2",
-              "location": null,
+              "location": "Résa n° 687750",
               "start": "2026-02-10T10:00:00+00:00",
               "end": "2026-02-10T12:00:00+00:00"
             }
@@ -258,7 +258,7 @@
             {
               "uid": "2AEC6A1C-C63B-4518-AE7B-F24D2FF329F9",
               "summary": "UM5IN951-CRYPTA-ExamenR2",
-              "location": null,
+              "location": "Résa n° 687754",
               "start": "2026-02-13T10:00:00+00:00",
               "end": "2026-02-13T12:00:00+00:00"
             }
@@ -525,7 +525,7 @@
             {
               "uid": "8B921934-4E1F-4C96-AFD4-FEEA54A4D6ED",
               "summary": "UM5IN952-HPCA-ExamenR2",
-              "location": null,
+              "location": "Résa n° 687753",
               "start": "2026-02-12T12:00:00+00:00",
               "end": "2026-02-12T14:00:00+00:00"
             }
@@ -747,7 +747,7 @@
             {
               "uid": "75E90334-C5D3-4A32-83C9-6098203D6351",
               "summary": "UM5IN953-POSSO-ExamenR2",
-              "location": null,
+              "location": "Résa n° 687749",
               "start": "2026-02-09T10:00:00+00:00",
               "end": "2026-02-09T12:00:00+00:00"
             },
@@ -1085,5 +1085,5 @@
       ]
     }
   ],
-  "updated_at": "2025-12-03T06:55:30.037293378+00:00"
+  "updated_at": "2025-12-11T06:58:10.703577135+00:00"
 }

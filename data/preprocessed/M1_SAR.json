@@ -98,7 +98,7 @@
             {
               "uid": "9641B476-19A4-4EC4-8EA8-BF792DC7D5D5",
               "summary": "UM4IN403-SRCS-Cours",
-              "location": "Résa n°679952",
+              "location": "Salle: 54.55.202 Résa n°679952",
               "start": "2026-01-28T09:45:00+00:00",
               "end": "2026-01-28T11:45:00+00:00",
               "recurrence_id": "2026-01-28T09:45:00+00:00"
@@ -106,7 +106,7 @@
             {
               "uid": "9641B476-19A4-4EC4-8EA8-BF792DC7D5D5",
               "summary": "UM4IN403-SRCS-Cours",
-              "location": "Résa n°679952",
+              "location": "Salle: 54.55.202 Résa n°679952",
               "start": "2026-01-21T09:45:00+00:00",
               "end": "2026-01-21T11:45:00+00:00",
               "recurrence_id": "2026-01-21T09:45:00+00:00"
@@ -753,7 +753,7 @@
             {
               "uid": "51781AA0-E00C-465E-8378-918E4FEFD18B",
               "summary": "UM4IN402-PNL-TME",
-              "location": "Résa n°679955",
+              "location": "Salle: 54.55.204 Résa n°679955",
               "start": "2026-01-29T15:00:00+00:00",
               "end": "2026-01-29T17:00:00+00:00",
               "recurrence_id": "2026-01-29T15:00:00+00:00"
@@ -853,7 +853,7 @@
             {
               "uid": "5D007EA5-0CB9-4D05-AECE-05FDBD13BF4A",
               "summary": "UM4IN402-PNL-TD2",
-              "location": "Résa n°679955",
+              "location": "Salle: 54.55.204 Résa n°679955",
               "start": "2026-01-29T12:45:00+00:00",
               "end": "2026-01-29T14:45:00+00:00",
               "recurrence_id": "2026-01-29T12:45:00+00:00"
@@ -1238,7 +1238,7 @@
           "events": [
             {
               "uid": "1C702B21-4442-4656-B212-D33011718C98",
-              "summary": "UM4IN405-SAS-Cours ???",
+              "summary": "UM4IN405-SAS-Cours",
               "location": null,
               "start": "2026-01-21T16:15:00+00:00",
               "end": "2026-01-21T18:15:00+00:00",
@@ -1246,55 +1246,55 @@
             },
             {
               "uid": "1C702B21-4442-4656-B212-D33011718C98",
-              "summary": "UM4IN405-SAS-Cours ???",
-              "location": "reservation n° 683972",
-              "start": "2026-01-28T16:15:00+00:00",
-              "end": "2026-01-28T18:15:00+00:00",
-              "recurrence_id": "2026-01-28T16:15:00+00:00"
-            },
-            {
-              "uid": "1C702B21-4442-4656-B212-D33011718C98",
-              "summary": "UM4IN405-SAS-Cours ???",
-              "location": "reservation n° 683972",
-              "start": "2026-01-21T16:15:00+00:00",
-              "end": "2026-01-21T18:15:00+00:00",
-              "recurrence_id": "2026-01-21T16:15:00+00:00"
-            },
-            {
-              "uid": "1C702B21-4442-4656-B212-D33011718C98",
-              "summary": "UM4IN405-SAS-Cours ???",
-              "location": "reservation n° 683972",
+              "summary": "UM4IN405-SAS-Cours",
+              "location": "Salle: 54.55.202\\nreservation n° 683972",
               "start": "2026-02-04T16:15:00+00:00",
               "end": "2026-02-04T18:15:00+00:00",
               "recurrence_id": "2026-02-04T16:15:00+00:00"
             },
             {
               "uid": "1C702B21-4442-4656-B212-D33011718C98",
-              "summary": "UM4IN405-SAS-Cours ???",
-              "location": "reservation n° 683972",
-              "start": "2026-02-18T16:15:00+00:00",
-              "end": "2026-02-18T18:15:00+00:00",
-              "recurrence_id": "2026-02-18T16:15:00+00:00"
-            },
-            {
-              "uid": "1C702B21-4442-4656-B212-D33011718C98",
-              "summary": "UM4IN405-SAS-Cours ???",
-              "location": "reservation n° 683972",
+              "summary": "UM4IN405-SAS-Cours",
+              "location": "Salle: 54.55.202\\nreservation n° 683972",
               "start": "2026-02-11T16:15:00+00:00",
               "end": "2026-02-11T18:15:00+00:00",
               "recurrence_id": "2026-02-11T16:15:00+00:00"
             },
             {
               "uid": "1C702B21-4442-4656-B212-D33011718C98",
-              "summary": "UM4IN405-SAS-Cours ???",
-              "location": "reservation n° 683972",
+              "summary": "UM4IN405-SAS-Cours",
+              "location": "Salle: 54.55.202\\nreservation n° 683972",
               "start": "2026-02-25T16:15:00+00:00",
               "end": "2026-02-25T18:15:00+00:00",
               "recurrence_id": "2026-02-25T16:15:00+00:00"
             },
             {
+              "uid": "1C702B21-4442-4656-B212-D33011718C98",
+              "summary": "UM4IN405-SAS-Cours",
+              "location": "Salle: 54.55.202\\nreservation n° 683972",
+              "start": "2026-01-28T16:15:00+00:00",
+              "end": "2026-01-28T18:15:00+00:00",
+              "recurrence_id": "2026-01-28T16:15:00+00:00"
+            },
+            {
+              "uid": "1C702B21-4442-4656-B212-D33011718C98",
+              "summary": "UM4IN405-SAS-Cours",
+              "location": "Salle: 54.55.202\\n reservation n° 683972",
+              "start": "2026-01-21T16:15:00+00:00",
+              "end": "2026-01-21T18:15:00+00:00",
+              "recurrence_id": "2026-01-21T16:15:00+00:00"
+            },
+            {
+              "uid": "1C702B21-4442-4656-B212-D33011718C98",
+              "summary": "UM4IN405-SAS-Cours",
+              "location": "Salle: 54.55.202\\nreservation n° 683972",
+              "start": "2026-02-18T16:15:00+00:00",
+              "end": "2026-02-18T18:15:00+00:00",
+              "recurrence_id": "2026-02-18T16:15:00+00:00"
+            },
+            {
               "uid": "33ECCDBC-0236-4A44-AACE-ACF2DF595933",
-              "summary": "UM4IN405-SAS-Cours ???",
+              "summary": "UM4IN405-SAS-Cours",
               "location": "reservation n° 683973",
               "start": "2026-03-18T16:15:00+00:00",
               "end": "2026-03-18T18:15:00+00:00",
@@ -1616,5 +1616,5 @@
       ]
     }
   ],
-  "updated_at": "2025-12-10T06:55:59.076707409+00:00"
+  "updated_at": "2025-12-11T06:57:43.379323783+00:00"
 }
