@@ -115,7 +115,7 @@
             {
               "uid": "0798974C-F0F4-46E2-B6A2-913ADB7E5A29",
               "summary": "UM5IN164-COCCA-Examen Réparti 2",
-              "location": null,
+              "location": "Réservation : 688051",
               "start": "2026-02-09T09:45:00+00:00",
               "end": "2026-02-09T11:45:00+00:00",
               "exdates": [
@@ -148,9 +148,9 @@
             {
               "uid": "98E1EE5E-E995-4B10-A30F-46AA2BFA6691",
               "summary": "UM5IN166-HOTOP-Soutenances",
-              "location": null,
+              "location": "Salle 23.24.112",
               "start": "2026-02-10T12:45:00+00:00",
-              "end": "2026-02-10T16:45:00+00:00",
+              "end": "2026-02-10T17:00:00+00:00",
               "exdates": [
                 "2025-10-28T12:45:00+00:00",
                 "2025-11-11T12:45:00+00:00",
@@ -375,9 +375,9 @@
             {
               "uid": "9CAA5035-559D-4594-A012-2FDCE0DA23D9",
               "summary": "UM5IN165-IMSE-Examen Réparti 2",
-              "location": null,
-              "start": "2026-02-11T12:46:00+00:00",
-              "end": "2026-02-11T14:46:00+00:00",
+              "location": "Réservation : 688058",
+              "start": "2026-02-11T12:45:00+00:00",
+              "end": "2026-02-11T14:45:00+00:00",
               "exdates": [
                 "2025-10-29T12:45:00+00:00",
                 "2025-11-12T12:45:00+00:00"
@@ -578,8 +578,8 @@
             },
             {
               "uid": "A03CDC71-AAF9-4864-B87F-27B45E4B9810",
-              "summary": "UM5IN150-MASSOC- Examen Réparti 2",
-              "location": null,
+              "summary": "UM5IN150-MASSOC- Examen Réparti 2*",
+              "location": "Réservation : 688054",
               "start": "2026-02-10T08:00:00+00:00",
               "end": "2026-02-10T10:00:00+00:00",
               "exdates": [
@@ -739,17 +739,6 @@
               ]
             },
             {
-              "uid": "89D1C372-5E50-4168-A0AE-B08C38A20DAA",
-              "summary": "UM5IN159-MOCCA-Soutenances",
-              "location": null,
-              "start": "2026-02-13T07:30:00+00:00",
-              "end": "2026-02-13T11:45:00+00:00",
-              "exdates": [
-                "2025-10-31T07:30:00+00:00",
-                "2025-11-14T07:30:00+00:00"
-              ]
-            },
-            {
               "uid": "5C9AB4CB-E5DB-4CAB-9038-2066E66AA3F2",
               "summary": "UM5IN159-MOCCA",
               "location": "Salle SESI : 24.25.307",
@@ -761,6 +750,17 @@
                 "2025-11-14T07:30:00+00:00",
                 "2025-11-21T07:30:00+00:00",
                 "2025-11-28T07:30:00+00:00"
+              ]
+            },
+            {
+              "uid": "89D1C372-5E50-4168-A0AE-B08C38A20DAA",
+              "summary": "UM5IN159-MOCCA-Soutenances",
+              "location": "Salle SESI : 24.25.307",
+              "start": "2026-02-13T07:30:00+00:00",
+              "end": "2026-02-13T11:45:00+00:00",
+              "exdates": [
+                "2025-10-31T07:30:00+00:00",
+                "2025-11-14T07:30:00+00:00"
               ]
             }
           ]
@@ -1177,9 +1177,9 @@
             {
               "uid": "D4410488-B654-419E-9C77-B1C3762BE58C",
               "summary": "UM5IN156-PBD-HLS-Soutenances",
-              "location": null,
+              "location": "Réservation : 688063",
               "start": "2026-02-12T12:45:00+00:00",
-              "end": "2026-02-12T16:45:00+00:00",
+              "end": "2026-02-12T17:00:00+00:00",
               "exdates": [
                 "2025-10-16T11:45:00+00:00",
                 "2025-10-30T12:45:00+00:00",
@@ -1412,8 +1412,8 @@
             },
             {
               "uid": "8CC3F016-042E-4B22-96AA-CDD78D80DC69",
-              "summary": "UM5IN162-SMC-Examen Réparti 2",
-              "location": null,
+              "summary": "UM5IN162-SMC-Examen Réparti 2*",
+              "location": "Réservation : 688082",
               "start": "2026-02-13T12:45:00+00:00",
               "end": "2026-02-13T14:45:00+00:00",
               "exdates": [
@@ -1426,5 +1426,5 @@
       ]
     }
   ],
-  "updated_at": "2025-12-12T06:57:21.046645981+00:00"
+  "updated_at": "2025-12-15T06:58:42.873700707+00:00"
 }
