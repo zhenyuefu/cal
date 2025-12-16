@@ -144,6 +144,19 @@
       "variants": [
         {
           "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "4A932ED8-49C7-47B6-87FB-FBADB35B9E20",
+              "summary": "UM4IN900-COMPLEX-Consulation de copies",
+              "location": "Résa n° 688194",
+              "start": "2025-12-18T09:45:00+00:00",
+              "end": "2025-12-18T10:15:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "CS",
           "events": [
             {
@@ -1173,5 +1186,5 @@
       ]
     }
   ],
-  "updated_at": "2025-12-15T06:58:27.941347189+00:00"
+  "updated_at": "2025-12-16T06:57:52.177541299+00:00"
 }
