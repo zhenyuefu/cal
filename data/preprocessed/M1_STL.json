@@ -392,7 +392,7 @@
             {
               "uid": "EE5AF028-A256-4330-93ED-7EBAFB141374",
               "summary": "UM4IN504-CA-Cours",
-              "location": "Résa n°679820",
+              "location": "Salle 14.24.103",
               "start": "2026-03-17T07:30:00+00:00",
               "end": "2026-03-17T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260331T215959Z"
@@ -400,7 +400,7 @@
             {
               "uid": "93B4AF29-0847-4D2B-9DB9-740024A61988",
               "summary": "UM4IN504-CA-Cours",
-              "location": "Résa n°679820",
+              "location": "Salle 14.24.103",
               "start": "2026-04-07T06:30:00+00:00",
               "end": "2026-04-07T08:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260410T215959Z"
@@ -422,7 +422,7 @@
             {
               "uid": "B78A76AC-2CF5-4072-90F0-9AE70E165245",
               "summary": "UM4IN504-CA-TD",
-              "location": "Résa n°679827",
+              "location": "Salle 23.24.203",
               "start": "2026-03-16T07:30:00+00:00",
               "end": "2026-03-16T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260504T215959Z",
@@ -526,7 +526,7 @@
             {
               "uid": "DF3233FC-0194-46BE-B4E1-B9B4417D0E98",
               "summary": "UM4IN506-CPS-Cours",
-              "location": "Résa n°679822",
+              "location": "Salle 14.24.212",
               "start": "2026-03-17T15:00:00+00:00",
               "end": "2026-03-17T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260410T215959Z"
@@ -816,7 +816,7 @@
             {
               "uid": "E698AB3E-CC83-46C3-90FF-73B616EA9A73",
               "summary": "UM4IN510-PAF-Cours",
-              "location": "Résa n°679821",
+              "location": "Salle 24.25.102",
               "start": "2026-03-17T09:45:00+00:00",
               "end": "2026-03-17T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260410T215959Z"
@@ -846,7 +846,7 @@
             {
               "uid": "15DD5A66-06B7-4A9B-96AD-82EAE2964F20",
               "summary": "UM4IN510-PAF-TD",
-              "location": "Résa n°679832",
+              "location": "Salle 24.34.104",
               "start": "2026-03-19T12:45:00+00:00",
               "end": "2026-03-19T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260417T215959Z"
@@ -895,7 +895,7 @@
             },
             {
               "uid": "8C436CCB-6226-414D-A576-851E591C6337",
-              "summary": "UM4IN507-PC2R-Cours",
+              "summary": "UM4IN507-PC3R-Cours",
               "location": "Résa n°679823",
               "start": "2026-03-18T12:45:00+00:00",
               "end": "2026-03-18T14:45:00+00:00",
@@ -945,8 +945,8 @@
           "events": [
             {
               "uid": "021CDBA4-FF58-4F43-BC78-7F0E748E9604",
-              "summary": "UM4IN507-PC2R-TD1",
-              "location": "Résa n°679830",
+              "summary": "UM4IN507-PC3R-TD1",
+              "location": "Salle 24.25.108",
               "start": "2026-03-19T07:30:00+00:00",
               "end": "2026-03-19T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260417T215959Z"
@@ -974,5 +974,5 @@
       ]
     }
   ],
-  "updated_at": "2025-12-16T06:57:37.850419765+00:00"
+  "updated_at": "2025-12-17T06:56:31.984479293+00:00"
 }

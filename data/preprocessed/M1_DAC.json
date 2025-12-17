@@ -42,6 +42,54 @@
       "variants": [
         {
           "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "8732F25E-5F47-419E-AB25-0E39FC0161D7",
+              "summary": "UM4IN814-DALAS-soutenance",
+              "location": "688309",
+              "start": "2026-01-15T07:30:00+00:00",
+              "end": "2026-01-15T11:00:00+00:00"
+            },
+            {
+              "uid": "272E792C-36AF-4D62-87C1-CA8421453F65",
+              "summary": "UM4IN814-DALAS-soutenance",
+              "location": "688308",
+              "start": "2026-01-15T07:30:00+00:00",
+              "end": "2026-01-15T11:00:00+00:00"
+            },
+            {
+              "uid": "BDAA9053-BD90-4A54-9C94-5F975FD3D779",
+              "summary": "UM4IN814-DALAS-soutenance",
+              "location": "688311",
+              "start": "2026-01-15T12:00:00+00:00",
+              "end": "2026-01-15T15:00:00+00:00"
+            },
+            {
+              "uid": "3184DD3A-99EE-4D7A-849C-C22A4288B3B4",
+              "summary": "UM4IN814-DALAS-soutenance",
+              "location": "688310",
+              "start": "2026-01-15T12:00:00+00:00",
+              "end": "2026-01-15T15:00:00+00:00"
+            },
+            {
+              "uid": "4AB30DF3-205D-4A94-ABD8-8DF8402D7A2C",
+              "summary": "UM4IN814-DALAS-soutenance",
+              "location": "ATRIUM.261\\n",
+              "start": "2026-01-14T07:30:00+00:00",
+              "end": "2026-01-14T11:00:00+00:00"
+            },
+            {
+              "uid": "30B3C47A-B36F-458D-AA4D-D5503D0C3DF9",
+              "summary": "UM4IN814-DALAS-soutenance",
+              "location": "ATRIUM.259\\n",
+              "start": "2026-01-14T07:30:00+00:00",
+              "end": "2026-01-14T11:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "CS",
           "events": [
             {
@@ -414,7 +462,7 @@
             {
               "uid": "1A87EDAB-2712-479A-8B2D-9F51075AA8EC",
               "summary": "UM4IN806-IAMSI-Cours",
-              "location": "n°680237",
+              "location": "Salle 54.55.205\\n",
               "start": "2026-03-17T09:45:00+00:00",
               "end": "2026-03-17T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260407T215959Z"
@@ -476,7 +524,7 @@
             {
               "uid": "027C30E6-7655-4FE8-9398-85FD38C88821",
               "summary": "UM4IN806-IAMSI-TD2",
-              "location": "n°680242",
+              "location": "Salle 55.65.105\\n",
               "start": "2026-03-19T12:45:00+00:00",
               "end": "2026-03-19T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260416T215959Z"
@@ -1059,7 +1107,7 @@
             {
               "uid": "938CEE4E-A8E4-48AA-AA3B-4388643EEE5F",
               "summary": "UMIN811-ML-TD2",
-              "location": "n°680241",
+              "location": "Salle 54.55.204\\n",
               "start": "2026-03-19T12:45:00+00:00",
               "end": "2026-03-19T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260416T215959Z"
@@ -1099,7 +1147,7 @@
             {
               "uid": "AEE4BD85-8E53-4017-9A7F-3590EAF9EC92",
               "summary": "UM4IN811-ML-TD3",
-              "location": "n°687867",
+              "location": "Salle 54.55.202\\n",
               "start": "2026-03-16T07:30:00+00:00",
               "end": "2026-03-16T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260413T215959Z"
@@ -1648,7 +1696,7 @@
             {
               "uid": "75EB4F08-EE2C-47F4-9DD7-353EB9B04249",
               "summary": "UMIN803-SAM-Cours",
-              "location": "n°680247",
+              "location": "Salle 55.65.101\\n",
               "start": "2026-03-17T15:00:00+00:00",
               "end": "2026-03-17T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260407T215959Z"
@@ -1716,5 +1764,5 @@
       ]
     }
   ],
-  "updated_at": "2025-12-16T06:57:36.330890940+00:00"
+  "updated_at": "2025-12-17T06:56:30.492848149+00:00"
 }

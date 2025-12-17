@@ -357,7 +357,7 @@
             {
               "uid": "8E6100AC-1E24-4D1C-B343-3B30162FF227",
               "summary": "UM4IN705-DeepLife-Cours",
-              "location": "n°679828",
+              "location": "Salle 24.34.202\\n",
               "start": "2026-03-16T15:00:00+00:00",
               "end": "2026-03-16T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260413T215959Z"
@@ -420,7 +420,7 @@
             {
               "uid": "353B64EE-97BC-4218-872B-4CD1F0B9951A",
               "summary": "UM4IN702-MMCN-Cours",
-              "location": "n°679875",
+              "location": "Salle 14.24.210\\n",
               "start": "2026-03-19T09:45:00+00:00",
               "end": "2026-03-19T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260409T215959Z"
@@ -549,6 +549,20 @@
           "type": "CS",
           "events": [
             {
+              "uid": "92FA0C41-3AEB-435A-B7D3-0509592CA0FA",
+              "summary": "UM4IN701-SBAS-Cours",
+              "location": "Salle 56.66.201BIS\\n",
+              "start": "2026-01-19T12:30:00+00:00",
+              "end": "2026-01-19T14:30:00+00:00"
+            },
+            {
+              "uid": "7B094542-B2E3-405E-A169-0304BE6F4F77",
+              "summary": "UM4IN701-SBAS-Cours",
+              "location": "688313",
+              "start": "2026-01-22T07:30:00+00:00",
+              "end": "2026-01-22T09:30:00+00:00"
+            },
+            {
               "uid": "B2807A01-23AA-4E94-B28F-6647EA1A492B",
               "summary": "UM4IN701-SBAS-Cours",
               "location": "Salle 13.14.102\\n",
@@ -559,7 +573,7 @@
             {
               "uid": "708A1735-B9C8-49FA-ADBE-F2DE2F6DCA3B",
               "summary": "UM4IN701-SBAS-Cours",
-              "location": "n°679839",
+              "location": "Salle 33.34.119\\n",
               "start": "2026-03-17T09:45:00+00:00",
               "end": "2026-03-17T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260407T215959Z"
@@ -581,7 +595,7 @@
             {
               "uid": "0917088D-7AE8-4D85-8280-2928DC3ECBB6",
               "summary": "UM4IN701-SBAS-TD",
-              "location": "n°680305",
+              "location": "Salle 13.14.102\\n",
               "start": "2026-03-16T12:45:00+00:00",
               "end": "2026-03-16T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260413T215959Z"
@@ -737,7 +751,7 @@
             {
               "uid": "FA291BBD-4B73-431F-A384-CA34CF47DECB",
               "summary": "UM4MIN704 - SDED - ER2",
-              "location": "Demande envoyée le 26/11 Salle TME",
+              "location": "Salle 14.15.307 et 14.15.308",
               "start": "2026-01-05T15:30:00+00:00",
               "end": "2026-01-05T17:30:00+00:00",
               "exdates": [
@@ -888,5 +902,5 @@
       ]
     }
   ],
-  "updated_at": "2025-12-16T06:57:40.312644330+00:00"
+  "updated_at": "2025-12-17T06:56:34.465038238+00:00"
 }
