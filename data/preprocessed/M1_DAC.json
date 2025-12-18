@@ -47,28 +47,28 @@
             {
               "uid": "8732F25E-5F47-419E-AB25-0E39FC0161D7",
               "summary": "UM4IN814-DALAS-soutenance",
-              "location": "688309",
+              "location": "Salle 14.15.104\\n",
               "start": "2026-01-15T07:30:00+00:00",
               "end": "2026-01-15T11:00:00+00:00"
             },
             {
               "uid": "272E792C-36AF-4D62-87C1-CA8421453F65",
               "summary": "UM4IN814-DALAS-soutenance",
-              "location": "688308",
+              "location": "Salle 14.15.102\\n",
               "start": "2026-01-15T07:30:00+00:00",
               "end": "2026-01-15T11:00:00+00:00"
             },
             {
               "uid": "BDAA9053-BD90-4A54-9C94-5F975FD3D779",
               "summary": "UM4IN814-DALAS-soutenance",
-              "location": "688311",
+              "location": "Salle: 14.15.104\\n",
               "start": "2026-01-15T12:00:00+00:00",
               "end": "2026-01-15T15:00:00+00:00"
             },
             {
               "uid": "3184DD3A-99EE-4D7A-849C-C22A4288B3B4",
               "summary": "UM4IN814-DALAS-soutenance",
-              "location": "688310",
+              "location": "Salle 14.15.102\\n",
               "start": "2026-01-15T12:00:00+00:00",
               "end": "2026-01-15T15:00:00+00:00"
             },
@@ -484,7 +484,7 @@
             {
               "uid": "44B396A2-0322-4AC8-B4DA-C5B8C4C16039",
               "summary": "UM4IN806-IAMSI-TD1",
-              "location": "n°680244",
+              "location": "Salle 24.34.202\\n",
               "start": "2026-03-18T12:45:00+00:00",
               "end": "2026-03-18T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260415T215959Z"
@@ -1041,20 +1041,20 @@
           "type": "TD",
           "events": [
             {
+              "uid": "48BA2648-8CC7-4FFA-85A2-554B3D70271D",
+              "summary": "UMIN811-ML-TD1",
+              "location": "Salle 24.25.106\\n",
+              "start": "2026-03-18T12:45:00+00:00",
+              "end": "2026-03-18T14:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260415T215959Z"
+            },
+            {
               "uid": "4B5CE90F-E759-470C-8D47-56D9C8F1FDAC",
               "summary": "UM4IN811-ML-TD1",
               "location": "Salle 24.25.105\\n",
               "start": "2026-01-28T12:45:00+00:00",
               "end": "2026-01-28T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260225T225959Z"
-            },
-            {
-              "uid": "48BA2648-8CC7-4FFA-85A2-554B3D70271D",
-              "summary": "UMIN811-ML-TD1",
-              "location": "n°680243",
-              "start": "2026-03-18T12:45:00+00:00",
-              "end": "2026-03-18T14:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260415T215959Z"
             }
           ]
         },
@@ -1764,5 +1764,5 @@
       ]
     }
   ],
-  "updated_at": "2025-12-17T06:56:30.492848149+00:00"
+  "updated_at": "2025-12-18T06:56:23.781202880+00:00"
 }

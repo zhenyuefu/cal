@@ -240,7 +240,7 @@
             {
               "uid": "9DC9C701-5643-42DB-9C2B-FA9CB8871234",
               "summary": "UM4IN503-APS-Cours",
-              "location": "Résa n°679824",
+              "location": "Salle 13.14.108",
               "start": "2026-03-18T15:00:00+00:00",
               "end": "2026-03-18T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260410T215959Z"
@@ -896,7 +896,7 @@
             {
               "uid": "8C436CCB-6226-414D-A576-851E591C6337",
               "summary": "UM4IN507-PC3R-Cours",
-              "location": "Résa n°679823",
+              "location": "Salle 13.14.108",
               "start": "2026-03-18T12:45:00+00:00",
               "end": "2026-03-18T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260410T215959Z"
@@ -974,5 +974,5 @@
       ]
     }
   ],
-  "updated_at": "2025-12-17T06:56:31.984479293+00:00"
+  "updated_at": "2025-12-18T06:56:25.287695595+00:00"
 }
