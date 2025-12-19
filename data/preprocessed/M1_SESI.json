@@ -1466,6 +1466,18 @@
           "type": "CS",
           "events": [
             {
+              "uid": "E044442C-13D0-470F-97E4-1B74584C714C",
+              "summary": "UM4IN108-FPGA-Cours",
+              "location": "Salle 24.34.201",
+              "start": "2026-03-25T07:30:00+00:00",
+              "end": "2026-03-25T09:30:00+00:00",
+              "exdates": [
+                "2022-02-01T15:00:00+00:00",
+                "2022-03-01T15:00:00+00:00",
+                "2022-04-19T14:00:00+00:00"
+              ]
+            },
+            {
               "uid": "1BB3F94C-5113-4339-A6B7-0013395F6A8A",
               "summary": "UM4IN108-FPGA-Cours",
               "location": "Salle 24.34.207",
@@ -1528,7 +1540,7 @@
             {
               "uid": "3692EC8D-DEF2-443C-A26F-0A7596AF8ECC",
               "summary": "UM4IN108-FPGA-Cours",
-              "location": "Réservation : 680013",
+              "location": "Salle 24.34.201",
               "start": "2026-03-18T07:30:00+00:00",
               "end": "2026-03-18T09:30:00+00:00",
               "exdates": [
@@ -1538,21 +1550,9 @@
               ]
             },
             {
-              "uid": "E044442C-13D0-470F-97E4-1B74584C714C",
-              "summary": "UM4IN108-FPGA-Cours",
-              "location": null,
-              "start": "2026-03-25T07:30:00+00:00",
-              "end": "2026-03-25T09:30:00+00:00",
-              "exdates": [
-                "2022-02-01T15:00:00+00:00",
-                "2022-03-01T15:00:00+00:00",
-                "2022-04-19T14:00:00+00:00"
-              ]
-            },
-            {
               "uid": "9D562EED-2CBF-4D4F-9D4C-7C4453E18169",
               "summary": "UM4IN108-FPGA-Cours",
-              "location": null,
+              "location": "Salle 24.34.201",
               "start": "2026-04-01T06:30:00+00:00",
               "end": "2026-04-01T08:30:00+00:00",
               "exdates": [
@@ -1564,7 +1564,7 @@
             {
               "uid": "AB8C7736-C25E-45B0-9C20-2FD45EDAC61A",
               "summary": "UM4IN108-FPGA-Cours",
-              "location": null,
+              "location": "Salle 24.34.201",
               "start": "2026-04-08T06:30:00+00:00",
               "end": "2026-04-08T08:30:00+00:00",
               "exdates": [
@@ -1576,7 +1576,7 @@
             {
               "uid": "B6F1DB2C-4805-4D63-A0B3-9E773AA20ECC",
               "summary": "UM4IN108-FPGA-Cours",
-              "location": null,
+              "location": "Salle 24.34.201",
               "start": "2026-04-15T06:30:00+00:00",
               "end": "2026-04-15T08:30:00+00:00",
               "exdates": [
@@ -2209,20 +2209,9 @@
           "type": "CS",
           "events": [
             {
-              "uid": "21DD578A-E2E4-49EE-8CE8-9396967BF4BB",
-              "summary": "UM4IN106-MULTI-Cours",
-              "location": null,
-              "start": "2026-03-25T09:45:00+00:00",
-              "end": "2026-03-25T11:45:00+00:00",
-              "exdates": [
-                "2022-03-02T09:45:00+00:00",
-                "2022-03-09T09:45:00+00:00"
-              ]
-            },
-            {
               "uid": "211FA1F9-C0BC-402C-8F9F-536D7052BC17",
               "summary": "UM4IN106-MULTI-Cours",
-              "location": null,
+              "location": "Salle 24.34.309",
               "start": "2026-04-01T08:45:00+00:00",
               "end": "2026-04-01T10:45:00+00:00",
               "exdates": [
@@ -2233,7 +2222,7 @@
             {
               "uid": "F519B10C-897B-4B29-844F-F0A1ED409717",
               "summary": "UM4IN106-MULTI-Cours",
-              "location": null,
+              "location": "Salle 24.34.309",
               "start": "2026-04-08T08:45:00+00:00",
               "end": "2026-04-08T10:45:00+00:00",
               "exdates": [
@@ -2242,9 +2231,20 @@
               ]
             },
             {
+              "uid": "21DD578A-E2E4-49EE-8CE8-9396967BF4BB",
+              "summary": "UM4IN106-MULTI-Cours",
+              "location": "Salle 24.34.309",
+              "start": "2026-03-25T09:45:00+00:00",
+              "end": "2026-03-25T11:45:00+00:00",
+              "exdates": [
+                "2022-03-02T09:45:00+00:00",
+                "2022-03-09T09:45:00+00:00"
+              ]
+            },
+            {
               "uid": "13DF28C8-4835-4A48-9F03-40029922E9FA",
               "summary": "UM4IN106-MULTI-Cours",
-              "location": null,
+              "location": "Salle:24.34.309",
               "start": "2026-04-15T08:45:00+00:00",
               "end": "2026-04-15T10:45:00+00:00",
               "exdates": [
@@ -2310,7 +2310,7 @@
             {
               "uid": "3F1B2E00-1AEA-4B29-AFA8-5E79C75B09AA",
               "summary": "UM4IN106-MULTI-Cours",
-              "location": "Réservation : 680017",
+              "location": "Salle 24.34.309",
               "start": "2026-03-18T09:45:00+00:00",
               "end": "2026-03-18T11:45:00+00:00",
               "exdates": [
@@ -2823,5 +2823,5 @@
       ]
     }
   ],
-  "updated_at": "2025-12-18T06:56:37.280400421+00:00"
+  "updated_at": "2025-12-19T06:55:22.561028317+00:00"
 }

@@ -475,6 +475,12 @@
       "groups": [],
       "source": "M1_DAC"
     },
+    "Anglais|M1_IMA": {
+      "name": "Anglais",
+      "code": "Anglais",
+      "groups": [],
+      "source": "M1_IMA"
+    },
     "Anglais|M1_SAR": {
       "name": "AnglaisSAR",
       "code": "Anglais",

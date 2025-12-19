@@ -607,7 +607,7 @@
             {
               "uid": "E3A017BE-8FB2-4C6D-86EC-7AE2459D85FF",
               "summary": "UM4IN501-DLP-ExamenR2",
-              "location": null,
+              "location": "Salles 14.15.301\\, 14.15.302\\, 14.15.303 et 14.15.307",
               "start": "2026-01-06T10:00:00+00:00",
               "end": "2026-01-06T12:00:00+00:00"
             },
@@ -688,6 +688,13 @@
           "group": null,
           "type": null,
           "events": [
+            {
+              "uid": "4801BF97-4EDC-46EB-B48A-9D25075B8F9E",
+              "summary": "UM4IN511-OUV-Soutenances",
+              "location": "Résa n°688455",
+              "start": "2026-01-09T08:00:00+00:00",
+              "end": "2026-01-09T11:00:00+00:00"
+            },
             {
               "uid": "49782D28-F9B3-4C92-8D42-F4B39809FAC1",
               "summary": "UM4IN511-OUV-TM2",
@@ -974,5 +981,5 @@
       ]
     }
   ],
-  "updated_at": "2025-12-18T06:56:25.287695595+00:00"
+  "updated_at": "2025-12-19T06:55:10.730120534+00:00"
 }

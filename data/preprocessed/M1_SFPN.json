@@ -123,6 +123,69 @@
           "type": null,
           "events": [
             {
+              "uid": "C51BC99B-19FF-4C8A-8C35-0CE78E7C278C",
+              "summary": "AnglaisCCA",
+              "location": "Salle en fonction du groupe\\, voir Moodle",
+              "start": "2026-01-28T13:00:00+00:00",
+              "end": "2026-01-28T16:00:00+00:00"
+            },
+            {
+              "uid": "82CEA117-A172-48B5-9058-2B5397D6DB26",
+              "summary": "AnglaisCCA",
+              "location": "Salle en fonction du groupe\\, voir Moodle",
+              "start": "2026-02-04T13:00:00+00:00",
+              "end": "2026-02-04T16:00:00+00:00"
+            },
+            {
+              "uid": "4705E74F-1E6F-4665-A079-DE69ACB5F628",
+              "summary": "AnglaisCCA",
+              "location": "Salle en fonction du groupe\\, voir Moodle",
+              "start": "2026-02-11T13:00:00+00:00",
+              "end": "2026-02-11T16:00:00+00:00"
+            },
+            {
+              "uid": "6FC804E2-77AD-40AC-98FF-195C6C7662CB",
+              "summary": "AnglaisCCA",
+              "location": "Salle en fonction du groupe\\, voir Moodle",
+              "start": "2026-02-18T13:00:00+00:00",
+              "end": "2026-02-18T16:00:00+00:00"
+            },
+            {
+              "uid": "48E3F0DD-64FE-4FAF-8ADE-8D4D5DD612C4",
+              "summary": "AnglaisCCA",
+              "location": "Salle en fonction du groupe\\, voir Moodle",
+              "start": "2026-02-25T13:00:00+00:00",
+              "end": "2026-02-25T16:00:00+00:00"
+            },
+            {
+              "uid": "95E74DFA-47F5-470F-B819-A88758D6F55C",
+              "summary": "AnglaisCCA",
+              "location": "Salle en fonction du groupe\\, voir Moodle",
+              "start": "2026-03-18T13:00:00+00:00",
+              "end": "2026-03-18T16:00:00+00:00"
+            },
+            {
+              "uid": "E7F8240D-AA0B-4689-976C-53E261D19377",
+              "summary": "AnglaisCCA",
+              "location": "Salle en fonction du groupe\\, voir Moodle",
+              "start": "2026-03-25T13:00:00+00:00",
+              "end": "2026-03-25T16:00:00+00:00"
+            },
+            {
+              "uid": "569F3506-7479-4EC3-9FA2-2B76F5E609BC",
+              "summary": "AnglaisCCA",
+              "location": "Salle en fonction du groupe\\, voir Moodle",
+              "start": "2026-04-01T12:00:00+00:00",
+              "end": "2026-04-01T15:00:00+00:00"
+            },
+            {
+              "uid": "466168D0-096A-49AA-838D-D8A43A2C542C",
+              "summary": "AnglaisCCA",
+              "location": "Salle en fonction du groupe\\, voir Moodle",
+              "start": "2026-04-08T12:00:00+00:00",
+              "end": "2026-04-08T15:00:00+00:00"
+            },
+            {
               "uid": "E59CDED0-4B55-4B69-AEA4-DE57EFEB08D9",
               "summary": "AnglaisCCA",
               "location": "Salle en fonction du groupe\\, voir Moodle",
@@ -1186,5 +1249,5 @@
       ]
     }
   ],
-  "updated_at": "2025-12-18T06:56:39.634470693+00:00"
+  "updated_at": "2025-12-19T06:55:25.103418219+00:00"
 }

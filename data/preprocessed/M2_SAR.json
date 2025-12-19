@@ -51,7 +51,7 @@
             {
               "uid": "945920FB-253A-4F5F-8F67-0895EEB20845",
               "summary": "UM5IN450-ARA-ExamenR2",
-              "location": "reservation n° 687566",
+              "location": "Salle: 23.24.201 reservation n° 687566",
               "start": "2026-02-10T09:00:00+00:00",
               "end": "2026-02-10T11:00:00+00:00"
             }
@@ -241,7 +241,7 @@
             {
               "uid": "E3D8BEEA-5506-40D2-B958-41329D392694",
               "summary": "UM5IN451-DATACLOUD-ExamenR2",
-              "location": "reservation n° 687567",
+              "location": "Salle: 24.25.107 reservation n° 687567",
               "start": "2026-02-10T13:00:00+00:00",
               "end": "2026-02-10T15:00:00+00:00"
             },
@@ -318,7 +318,7 @@
             {
               "uid": "C5CE5131-E409-47B9-AED2-27C41E2CE4EB",
               "summary": "UM5IN453-NMV-ExamenR2",
-              "location": "reservation n° 687568",
+              "location": "Salle: AMPHI.A3 reservation n° 687568",
               "start": "2026-02-11T09:00:00+00:00",
               "end": "2026-02-11T11:00:00+00:00"
             }
@@ -471,5 +471,5 @@
       ]
     }
   ],
-  "updated_at": "2025-12-18T06:56:51.971449417+00:00"
+  "updated_at": "2025-12-19T06:55:37.417389023+00:00"
 }
