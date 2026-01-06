@@ -510,7 +510,7 @@
             {
               "uid": "D460ED18-8BD4-431D-A888-0EDA7B7826BB",
               "summary": "UM4IN401-NOYAU-ExamenR2",
-              "location": "Amphi.25 et salle 24.34.207\\nrésa n°678978",
+              "location": "Amphi.25 de A à Penot sauf tiers-temps et  salle 24.34.207 de Perenne à Z plus tiers-temps\\n",
               "start": "2026-01-05T15:30:00+00:00",
               "end": "2026-01-05T17:30:00+00:00"
             }
@@ -1635,5 +1635,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-05T07:03:22.661060175+00:00"
+  "updated_at": "2026-01-06T06:59:26.464185969+00:00"
 }

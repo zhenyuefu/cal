@@ -556,19 +556,29 @@
       "name": "IDLE",
       "code": "815",
       "special": false,
-      "groups": [],
+      "groups": [
+        "2"
+      ],
       "variants": [
         {
           "group": null,
           "type": "CS",
           "events": [
             {
+              "uid": "221488B1-5C2B-4C7A-823C-6A8C31070376",
+              "summary": "UM4IN815-IDLE-Cours",
+              "location": "Salle 24.34.305\\n",
+              "start": "2026-01-27T07:30:00+00:00",
+              "end": "2026-01-27T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260224T225959Z"
+            },
+            {
               "uid": "FE42EF36-7173-4DED-925A-4A9A21C4831F",
               "summary": "UM4IN815-IDLE-Cours",
-              "location": "Salle 24.34.303\\n",
+              "location": " Salle: 14.24.209",
               "start": "2026-01-20T07:30:00+00:00",
               "end": "2026-01-20T09:30:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260224T225959Z"
+              "rrule": "FREQ=WEEKLY;UNTIL=20260120T225959Z"
             }
           ]
         },
@@ -597,6 +607,38 @@
               "start": "2026-01-28T09:45:00+00:00",
               "end": "2026-01-28T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260311T094500Z",
+              "exdates": [
+                "2026-03-04T09:45:00+00:00",
+                "2026-03-11T09:45:00+00:00"
+              ]
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TD",
+          "events": [
+            {
+              "uid": "4B0792B1-E83C-4463-BF87-D77BD21E2159",
+              "summary": "UM4IN815-IDLE-TD2",
+              "location": "Salle 24.34.305\\n",
+              "start": "2026-01-28T07:30:00+00:00",
+              "end": "2026-01-28T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260225T225959Z"
+            }
+          ]
+        },
+        {
+          "group": "2",
+          "type": "TME",
+          "events": [
+            {
+              "uid": "F09E0D06-7EF6-45DC-9FE6-25D02820F666",
+              "summary": "UM4IN815-IDLE-TME2",
+              "location": null,
+              "start": "2026-01-28T09:45:00+00:00",
+              "end": "2026-01-28T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260225T225959Z",
               "exdates": [
                 "2026-03-04T09:45:00+00:00",
                 "2026-03-11T09:45:00+00:00"
@@ -1023,7 +1065,7 @@
             {
               "uid": "C6468B6F-2AC1-4645-AFE7-9F87D9184C5E",
               "summary": "UMIN811-ML-Cours",
-              "location": "n°680239",
+              "location": "AMPHI.45B\\n",
               "start": "2026-03-19T07:30:00+00:00",
               "end": "2026-03-19T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260409T215959Z"
@@ -1608,7 +1650,7 @@
             {
               "uid": "CB5A1C18-C7A0-480E-846B-C3D75538055C",
               "summary": "UM4IN813-RITAL-Cours",
-              "location": "n°680238",
+              "location": "Salle 54.55.205\\n",
               "start": "2026-03-19T09:45:00+00:00",
               "end": "2026-03-19T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260409T215959Z"
@@ -1765,5 +1807,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-05T07:03:16.048313454+00:00"
+  "updated_at": "2026-01-06T06:59:19.742390553+00:00"
 }

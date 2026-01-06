@@ -395,7 +395,9 @@
     "815|M1_DAC": {
       "name": "IDLE",
       "code": "815",
-      "groups": [],
+      "groups": [
+        "2"
+      ],
       "source": "M1_DAC"
     },
     "900|M1_SFPN": {

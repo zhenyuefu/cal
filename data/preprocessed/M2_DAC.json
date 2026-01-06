@@ -15,12 +15,20 @@
           "type": "CS",
           "events": [
             {
+              "uid": "FE39BDF7-3D96-4004-AF99-35D813C01510",
+              "summary": "\\nUM5IN873-ADL-Cours",
+              "location": "Salle 54.55.205",
+              "start": "2026-01-05T07:30:00+00:00",
+              "end": "2026-01-05T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260126T225959Z"
+            },
+            {
               "uid": "A89F9D7C-D8A2-40EB-8AAE-C528A64A26FB",
               "summary": "\\nUM5IN873-ADL-Cours",
               "location": "Salle 14.24.305",
               "start": "2025-12-01T07:30:00+00:00",
               "end": "2025-12-01T09:30:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260126T225959Z",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251229T225959Z",
               "exdates": [
                 "2025-12-22T07:30:00+00:00",
                 "2025-12-29T07:30:00+00:00"
@@ -363,7 +371,7 @@
               "location": "Salle 24.34.207",
               "start": "2025-11-10T12:45:00+00:00",
               "end": "2025-11-10T14:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260126T225959Z",
+              "rrule": "FREQ=WEEKLY;UNTIL=20251229T225959Z",
               "exdates": [
                 "2025-11-10T12:45:00+00:00",
                 "2025-11-17T12:45:00+00:00",
@@ -371,6 +379,14 @@
                 "2025-12-22T12:45:00+00:00",
                 "2025-12-29T12:45:00+00:00"
               ]
+            },
+            {
+              "uid": "BCACB8CC-A078-4B17-AA82-37FF29B908D4",
+              "summary": "UM5IN874-LMM-Cours",
+              "location": "Salle 14.24.305",
+              "start": "2026-01-05T12:45:00+00:00",
+              "end": "2026-01-05T14:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260126T225959Z"
             }
           ]
         },
@@ -1611,21 +1627,21 @@
             {
               "uid": "2E5533BB-8B1D-4DE2-BF4B-28AB52284462",
               "summary": "UM5IN868-XAI-Cours",
-              "location": "Salle 56.66.201BIS",
+              "location": "Salle 56.66.209",
               "start": "2026-01-06T12:45:00+00:00",
               "end": "2026-01-06T14:45:00+00:00"
             },
             {
               "uid": "A880AE14-0423-4776-A11C-C8E0AC11BA7C",
               "summary": "UM5IN868-XAI-Cours",
-              "location": "Salle 56.66.201BIS",
+              "location": "Salle 56.66.209",
               "start": "2026-01-13T12:45:00+00:00",
               "end": "2026-01-13T14:45:00+00:00"
             },
             {
               "uid": "E66E6C6D-64C4-4D78-8BCE-244BDEC48093",
               "summary": "UM5IN868-XAI-Cours",
-              "location": "Salle 56.66.201BIS",
+              "location": "Salle 56.66.209",
               "start": "2026-01-20T12:45:00+00:00",
               "end": "2026-01-20T14:45:00+00:00"
             },
@@ -1639,7 +1655,7 @@
             {
               "uid": "C548CA84-9FBB-4F80-B527-CB193F5EEF83",
               "summary": "UM5IN868-XAI-Cours",
-              "location": "Salle 56.66.201BIS",
+              "location": "Salle 56.66.209",
               "start": "2026-01-27T12:45:00+00:00",
               "end": "2026-01-27T14:45:00+00:00"
             }
@@ -1662,6 +1678,33 @@
               "location": "AMPHI ASTIER",
               "start": "2025-11-25T12:45:00+00:00",
               "end": "2025-11-25T14:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "10CDFE3A-9FDF-4ED6-8452-2B845F926B20",
+              "summary": "UM5IN868-XAI-TD",
+              "location": "Salle 23.24.205\\n",
+              "start": "2026-01-13T15:01:00+00:00",
+              "end": "2026-01-13T17:01:00+00:00"
+            },
+            {
+              "uid": "502EA209-EC54-4302-9F75-BDF67D7F6C3A",
+              "summary": "UM5IN868-XAI-TD",
+              "location": "Salle 23.24.105\\n",
+              "start": "2026-01-20T15:01:00+00:00",
+              "end": "2026-01-20T17:01:00+00:00"
+            },
+            {
+              "uid": "88E1E5CA-C46B-4923-9C5E-BDC2308471BF",
+              "summary": "UM5IN868-XAI-TD",
+              "location": "Salle 24.34.105\\n",
+              "start": "2026-01-27T15:01:00+00:00",
+              "end": "2026-01-27T17:01:00+00:00"
             }
           ]
         },
@@ -1740,27 +1783,6 @@
               "end": "2026-01-06T17:01:00+00:00"
             },
             {
-              "uid": "10CDFE3A-9FDF-4ED6-8452-2B845F926B20",
-              "summary": "UM5IN868-XAI-TME",
-              "location": "Salle 24.25.304",
-              "start": "2026-01-13T15:01:00+00:00",
-              "end": "2026-01-13T17:01:00+00:00"
-            },
-            {
-              "uid": "502EA209-EC54-4302-9F75-BDF67D7F6C3A",
-              "summary": "UM5IN868-XAI-TME",
-              "location": "Salle 24.25.304",
-              "start": "2026-01-20T15:01:00+00:00",
-              "end": "2026-01-20T17:01:00+00:00"
-            },
-            {
-              "uid": "88E1E5CA-C46B-4923-9C5E-BDC2308471BF",
-              "summary": "UM5IN868-XAI-TME",
-              "location": "Salle 24.25.304",
-              "start": "2026-01-27T15:01:00+00:00",
-              "end": "2026-01-27T17:01:00+00:00"
-            },
-            {
               "uid": "1F686EDF-FA47-41C3-AE54-3AA128AC4B38",
               "summary": "UM5IN868-XAI-TME",
               "location": "Salle 24.25.304",
@@ -1772,5 +1794,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-05T07:03:37.758458486+00:00"
+  "updated_at": "2026-01-06T06:59:41.553521504+00:00"
 }
