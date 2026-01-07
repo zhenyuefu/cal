@@ -771,9 +771,31 @@
               "recurrence_id": "2025-12-09T12:45:00+00:00"
             }
           ]
+        },
+        {
+          "group": null,
+          "type": "TME",
+          "events": [
+            {
+              "uid": "E7003F26-FE6F-44F5-BECE-F4086AA73BCD",
+              "summary": "UM5IN651-VISION-TME",
+              "location": "14.15.408",
+              "start": "2026-01-06T12:45:00+00:00",
+              "end": "2026-01-06T17:00:00+00:00",
+              "recurrence_id": "2026-01-06T12:45:00+00:00"
+            },
+            {
+              "uid": "E7003F26-FE6F-44F5-BECE-F4086AA73BCD",
+              "summary": "UM5IN651-VISION-TME",
+              "location": "En attente salle PPTI",
+              "start": "2026-01-20T12:45:00+00:00",
+              "end": "2026-01-20T16:00:00+00:00",
+              "recurrence_id": "2026-01-20T12:45:00+00:00"
+            }
+          ]
         }
       ]
     }
   ],
-  "updated_at": "2026-01-06T06:59:45.354304549+00:00"
+  "updated_at": "2026-01-07T06:58:34.964730881+00:00"
 }
