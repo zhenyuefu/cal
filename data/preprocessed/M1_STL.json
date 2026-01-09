@@ -42,13 +42,6 @@
           "type": "EXAM",
           "events": [
             {
-              "uid": "1CB5354A-ECEA-4E2B-9123-6CD46C83F95E",
-              "summary": "UM4IN500-ALGAV-ExamenR2",
-              "location": "AMPHI 15",
-              "start": "2026-01-06T07:30:00+00:00",
-              "end": "2026-01-06T09:30:00+00:00"
-            },
-            {
               "uid": "44EE0FDA-0406-4D86-AB99-3012B4B5163E",
               "summary": "UM4IN500-ALGAV-ExamenR1",
               "location": "AMPHI A2",
@@ -57,6 +50,13 @@
               "exdates": [
                 "2025-10-28T09:45:00+00:00"
               ]
+            },
+            {
+              "uid": "F8FC1FF9-104F-4C11-9873-8B2C3DF3A0A9",
+              "summary": "UM4IN500-ALGAV-ExamenR2",
+              "location": "AMPHI 44",
+              "start": "2026-01-09T15:30:00+00:00",
+              "end": "2026-01-09T17:00:00+00:00"
             }
           ]
         },
@@ -220,6 +220,54 @@
       ]
     },
     {
+      "name": "ANNULE-UM4IN500-ALGAV-ExamenR2",
+      "code": "special",
+      "special": true,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "C82BC48C-DECE-4599-A51F-A113542E7554",
+              "summary": "ATRIUM des Métiers",
+              "location": null,
+              "start": "2025-10-16T08:00:00+00:00",
+              "end": "2025-10-16T14:00:00+00:00"
+            },
+            {
+              "uid": "A24E1B03-D836-4C4F-A2DF-D18E09FCCD78",
+              "summary": "RéunionM1STL - Réunion de rentrée",
+              "location": "Salle 24.34.107",
+              "start": "2025-09-08T11:45:00+00:00",
+              "end": "2025-09-08T13:45:00+00:00"
+            },
+            {
+              "uid": "055B6BDE-2FD4-4FDE-A9C4-34F13E42D727",
+              "summary": "Réunion Présentation S2",
+              "location": "Salle 14.24.209",
+              "start": "2025-12-08T11:45:00+00:00",
+              "end": "2025-12-08T12:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "1CB5354A-ECEA-4E2B-9123-6CD46C83F95E",
+              "summary": "ANNULE-UM4IN500-ALGAV-ExamenR2",
+              "location": "AMPHI 15",
+              "start": "2026-01-06T07:30:00+00:00",
+              "end": "2026-01-06T09:30:00+00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "APS",
       "code": "503",
       "special": false,
@@ -286,41 +334,6 @@
                 "2026-03-04T07:30:00+00:00",
                 "2026-03-11T07:30:00+00:00"
               ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "ATRIUM des Métiers",
-      "code": "special",
-      "special": true,
-      "groups": [],
-      "variants": [
-        {
-          "group": null,
-          "type": null,
-          "events": [
-            {
-              "uid": "C82BC48C-DECE-4599-A51F-A113542E7554",
-              "summary": "ATRIUM des Métiers",
-              "location": null,
-              "start": "2025-10-16T08:00:00+00:00",
-              "end": "2025-10-16T14:00:00+00:00"
-            },
-            {
-              "uid": "A24E1B03-D836-4C4F-A2DF-D18E09FCCD78",
-              "summary": "RéunionM1STL - Réunion de rentrée",
-              "location": "Salle 24.34.107",
-              "start": "2025-09-08T11:45:00+00:00",
-              "end": "2025-09-08T13:45:00+00:00"
-            },
-            {
-              "uid": "055B6BDE-2FD4-4FDE-A9C4-34F13E42D727",
-              "summary": "Réunion Présentation S2",
-              "location": "Salle 14.24.209",
-              "start": "2025-12-08T11:45:00+00:00",
-              "end": "2025-12-08T12:45:00+00:00"
             }
           ]
         }
@@ -974,5 +987,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-07T06:58:10.677571119+00:00"
+  "updated_at": "2026-01-09T06:58:07.487971069+00:00"
 }

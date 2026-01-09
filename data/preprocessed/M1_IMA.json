@@ -242,6 +242,19 @@
       "variants": [
         {
           "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "2C94933F-50CE-4807-961C-52D2F3523FAE",
+              "summary": "UM4IN602-IG3D-Soutenance projets",
+              "location": null,
+              "start": "2026-04-14T14:00:00+00:00",
+              "end": "2026-04-14T16:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "CS",
           "events": [
             {
@@ -267,6 +280,13 @@
           "type": "TME",
           "events": [
             {
+              "uid": "2C1935BA-9CA7-41EA-92D6-3383A6E69706",
+              "summary": "UM4IN602-IG3D-TME",
+              "location": null,
+              "start": "2026-01-22T12:45:00+00:00",
+              "end": "2026-01-22T17:00:00+00:00"
+            },
+            {
               "uid": "E3EE9FD3-44F7-4A51-B9E9-C91D26C68E54",
               "summary": "UM4IN602-IG3D-TME",
               "location": null,
@@ -280,7 +300,10 @@
               "location": null,
               "start": "2026-03-19T12:45:00+00:00",
               "end": "2026-03-19T17:00:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260417T215959Z"
+              "rrule": "FREQ=WEEKLY;UNTIL=20260409T114500Z",
+              "exdates": [
+                "2026-03-19T12:45:00+00:00"
+              ]
             }
           ]
         }
@@ -583,5 +606,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-07T06:58:11.634891935+00:00"
+  "updated_at": "2026-01-09T06:58:08.482905434+00:00"
 }

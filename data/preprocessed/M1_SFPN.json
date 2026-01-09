@@ -45,7 +45,7 @@
             {
               "uid": "86FDA468-1808-4C69-9AB3-90483E0F3C82",
               "summary": "UM4IN910-ANum-Cours",
-              "location": "Résa n° 679779",
+              "location": "Salle 56.66.103",
               "start": "2026-01-28T07:30:00+00:00",
               "end": "2026-01-28T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260225T225959Z"
@@ -59,9 +59,17 @@
               "rrule": "FREQ=WEEKLY;UNTIL=20260121T225959Z"
             },
             {
+              "uid": "A104DE2C-10D7-4473-B4F7-4DA679697CFC",
+              "summary": "UM4IN910-ANum-Cours",
+              "location": "Salle 14.24.101",
+              "start": "2026-01-21T07:30:00+00:00",
+              "end": "2026-01-21T09:30:00+00:00",
+              "recurrence_id": "2026-01-21T07:30:00+00:00"
+            },
+            {
               "uid": "D5E49DB2-D7BD-4E21-B8D9-A1A74AC46445",
               "summary": "UM4IN910-ANum-Cours",
-              "location": "Résa n° 679780",
+              "location": "Salle 56.66.101",
               "start": "2026-03-18T07:30:00+00:00",
               "end": "2026-03-18T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260408T215959Z"
@@ -93,19 +101,27 @@
           "type": "TD",
           "events": [
             {
+              "uid": "4BE111A7-DBC3-4C6D-9B9A-49B75EC4DF53",
+              "summary": "UM4IN910-ANUM-TD",
+              "location": "Salle 56.66.101",
+              "start": "2026-03-18T09:45:00+00:00",
+              "end": "2026-03-18T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260408T215959Z"
+            },
+            {
               "uid": "DAE33E4C-BC08-434B-811A-1DEF5C0BDA44",
               "summary": "UM4IN910-ANUM-TD",
-              "location": "Résa n° 679779",
+              "location": "Salle 56.66.103",
               "start": "2026-01-28T09:45:00+00:00",
               "end": "2026-01-28T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260225T225959Z"
             },
             {
-              "uid": "4BE111A7-DBC3-4C6D-9B9A-49B75EC4DF53",
+              "uid": "A1B380AC-ED62-485A-9159-31E89056A3E2",
               "summary": "UM4IN910-ANUM-TD",
-              "location": "Résa n° 679780",
-              "start": "2026-03-18T09:45:00+00:00",
-              "end": "2026-03-18T11:45:00+00:00",
+              "location": "Salle 56.66.103",
+              "start": "2026-04-15T08:45:00+00:00",
+              "end": "2026-04-15T10:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260415T215959Z"
             }
           ]
@@ -535,10 +551,10 @@
             {
               "uid": "BF15FE26-567F-4050-BC81-EC011B6331C9",
               "summary": "UM4IN904-CRYPTO1-Cours",
-              "location": "Résa n° 679788",
+              "location": "Salle 24.34.201",
               "start": "2026-01-22T07:30:00+00:00",
               "end": "2026-01-22T09:30:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260226T225959Z"
+              "rrule": "FREQ=WEEKLY;UNTIL=20260122T225959Z"
             },
             {
               "uid": "70B9F04A-73E4-46FF-BB7F-C5E4E5139B04",
@@ -547,6 +563,14 @@
               "start": "2026-03-19T07:30:00+00:00",
               "end": "2026-03-19T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260409T215959Z"
+            },
+            {
+              "uid": "EB3100CC-B329-4564-97CA-5E9E23CB836A",
+              "summary": "UM4IN904-CRYPTO1-Cours",
+              "location": "Salle 24.34.207",
+              "start": "2026-01-29T07:30:00+00:00",
+              "end": "2026-01-29T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260226T225959Z"
             }
           ]
         },
@@ -705,17 +729,9 @@
           "type": "TD",
           "events": [
             {
-              "uid": "DB543CA0-C80D-4433-8A5E-0FB055AF9541",
-              "summary": "UM4IN902-FLAG-TD",
-              "location": "Résa n° 679784",
-              "start": "2026-01-26T07:30:00+00:00",
-              "end": "2026-01-26T09:30:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260223T225959Z"
-            },
-            {
               "uid": "9CD12AC0-2E01-4074-9DF8-E173774BF0FC",
               "summary": "UM4IN902-FLAG-TD",
-              "location": "Résa n° 679785",
+              "location": "Salle 56.66.107",
               "start": "2026-03-16T07:30:00+00:00",
               "end": "2026-03-16T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260330T215959Z"
@@ -731,7 +747,7 @@
             {
               "uid": "EDA70CB0-61D1-405F-BAA0-C944109F7892",
               "summary": "UM4IN902-FLAG-TD",
-              "location": "Résa n° 679786",
+              "location": "Salle 56.66.104",
               "start": "2026-04-13T06:30:00+00:00",
               "end": "2026-04-13T08:30:00+00:00",
               "recurrence_id": "2026-04-13T06:30:00+00:00"
@@ -739,9 +755,25 @@
             {
               "uid": "1FF8384C-AA67-4C79-9706-EF80B4B74986",
               "summary": "UM4IN902-FLAG-TD",
-              "location": "Résa n° 679787",
+              "location": "Salle 56.66.104",
               "start": "2026-05-04T06:30:00+00:00",
               "end": "2026-05-04T08:30:00+00:00"
+            },
+            {
+              "uid": "DB543CA0-C80D-4433-8A5E-0FB055AF9541",
+              "summary": "UM4IN902-FLAG-TD",
+              "location": "Salle : 56.66.209",
+              "start": "2026-01-26T07:30:00+00:00",
+              "end": "2026-01-26T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260126T225959Z"
+            },
+            {
+              "uid": "926840D0-59BE-4D77-B06A-7C3360A49F0A",
+              "summary": "UM4IN902-FLAG-TD",
+              "location": "Salle 56.66.209",
+              "start": "2026-02-02T07:30:00+00:00",
+              "end": "2026-02-02T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260223T225959Z"
             }
           ]
         },
@@ -1249,5 +1281,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-07T06:58:24.983137811+00:00"
+  "updated_at": "2026-01-09T06:58:21.808194623+00:00"
 }

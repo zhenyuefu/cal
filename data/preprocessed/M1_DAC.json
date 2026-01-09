@@ -515,38 +515,12 @@
           "type": "TD",
           "events": [
             {
-              "uid": "4730EB92-84A8-4A86-8178-679387019973",
-              "summary": "UM4IN806-IAMSI-TD2",
-              "location": "Salle 24.34.202\\n",
-              "start": "2026-01-29T12:45:00+00:00",
-              "end": "2026-01-29T14:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260226T225959Z"
-            },
-            {
               "uid": "027C30E6-7655-4FE8-9398-85FD38C88821",
               "summary": "UM4IN806-IAMSI-TD2",
               "location": "Salle 55.65.105\\n",
               "start": "2026-03-19T12:45:00+00:00",
               "end": "2026-03-19T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260416T215959Z"
-            }
-          ]
-        },
-        {
-          "group": "2",
-          "type": "TME",
-          "events": [
-            {
-              "uid": "836237FB-5570-4A36-9F72-6E2ED4FEBDDD",
-              "summary": "UM4IN806-IAMSI-TME2",
-              "location": null,
-              "start": "2026-01-29T15:00:00+00:00",
-              "end": "2026-01-29T17:00:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260416T215959Z",
-              "exdates": [
-                "2026-03-05T15:00:00+00:00",
-                "2026-03-12T15:00:00+00:00"
-              ]
             }
           ]
         }
@@ -1233,6 +1207,19 @@
       "variants": [
         {
           "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "4FE60232-3C33-4F13-91A0-7464DC269515",
+              "summary": "UM4IN801-MLBDA-Consultation de copies",
+              "location": "en attente 688751",
+              "start": "2026-01-19T11:00:00+00:00",
+              "end": "2026-01-19T12:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "CS",
           "events": [
             {
@@ -1807,5 +1794,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-07T06:58:09.143488004+00:00"
+  "updated_at": "2026-01-09T06:58:05.951445795+00:00"
 }
