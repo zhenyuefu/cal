@@ -235,6 +235,47 @@
       ]
     },
     {
+      "name": "Conférence métiers",
+      "code": "special",
+      "special": true,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "FB01A244-A786-41E4-963B-43EE0D2E03AB",
+              "summary": "Réunion de rentrée M1 IMA",
+              "location": "24.25.103",
+              "start": "2025-09-08T08:45:00+00:00",
+              "end": "2025-09-08T10:45:00+00:00"
+            },
+            {
+              "uid": "6BCBFB7E-D5E2-48EB-B318-D097343119F4",
+              "summary": "Conférence métiers",
+              "location": "Amphi B3",
+              "start": "2026-01-20T12:45:00+00:00",
+              "end": "2026-01-20T14:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260120T225959Z"
+            },
+            {
+              "uid": "CD990087-4DB0-467C-8B8C-C8980D3CDB7E",
+              "summary": "Conférence métiers",
+              "location": "Amphi 44",
+              "start": "2026-01-27T12:45:00+00:00",
+              "end": "2026-01-27T14:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260414T215959Z",
+              "exdates": [
+                "2026-03-03T12:45:00+00:00",
+                "2026-03-10T12:45:00+00:00"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "IG3D",
       "code": "602",
       "special": false,
@@ -247,7 +288,7 @@
             {
               "uid": "2C94933F-50CE-4807-961C-52D2F3523FAE",
               "summary": "UM4IN602-IG3D-Soutenance projets",
-              "location": null,
+              "location": "14.24.206",
               "start": "2026-04-14T14:00:00+00:00",
               "end": "2026-04-14T16:00:00+00:00"
             }
@@ -583,28 +624,7 @@
           ]
         }
       ]
-    },
-    {
-      "name": "Réunion de rentrée M1 IMA",
-      "code": "special",
-      "special": true,
-      "groups": [],
-      "variants": [
-        {
-          "group": null,
-          "type": null,
-          "events": [
-            {
-              "uid": "FB01A244-A786-41E4-963B-43EE0D2E03AB",
-              "summary": "Réunion de rentrée M1 IMA",
-              "location": "24.25.103",
-              "start": "2025-09-08T08:45:00+00:00",
-              "end": "2025-09-08T10:45:00+00:00"
-            }
-          ]
-        }
-      ]
     }
   ],
-  "updated_at": "2026-01-09T06:58:08.482905434+00:00"
+  "updated_at": "2026-01-12T07:01:15.119040536+00:00"
 }

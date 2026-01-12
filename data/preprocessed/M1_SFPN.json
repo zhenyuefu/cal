@@ -557,9 +557,17 @@
               "rrule": "FREQ=WEEKLY;UNTIL=20260122T225959Z"
             },
             {
+              "uid": "BF15FE26-567F-4050-BC81-EC011B6331C9",
+              "summary": "UM4IN904-CRYPTO1-Cours",
+              "location": "Salle 24.34.201",
+              "start": "2026-01-22T07:30:00+00:00",
+              "end": "2026-01-22T09:30:00+00:00",
+              "recurrence_id": "2026-01-22T07:30:00+00:00"
+            },
+            {
               "uid": "70B9F04A-73E4-46FF-BB7F-C5E4E5139B04",
               "summary": "UM4IN904-CRYPTO1-Cours",
-              "location": "Résa n° 679789",
+              "location": "Amphi 45A",
               "start": "2026-03-19T07:30:00+00:00",
               "end": "2026-03-19T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260409T215959Z"
@@ -570,6 +578,38 @@
               "location": "Salle 24.34.207",
               "start": "2026-01-29T07:30:00+00:00",
               "end": "2026-01-29T09:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260212T225959Z"
+            },
+            {
+              "uid": "EB3100CC-B329-4564-97CA-5E9E23CB836A",
+              "summary": "UM4IN904-CRYPTO1-Cours",
+              "location": "Salle 24.34.207",
+              "start": "2026-01-29T07:30:00+00:00",
+              "end": "2026-01-29T09:30:00+00:00",
+              "recurrence_id": "2026-01-29T07:30:00+00:00"
+            },
+            {
+              "uid": "EB3100CC-B329-4564-97CA-5E9E23CB836A",
+              "summary": "UM4IN904-CRYPTO1-Cours",
+              "location": "Salle: 24.34.207",
+              "start": "2026-02-05T07:30:00+00:00",
+              "end": "2026-02-05T09:30:00+00:00",
+              "recurrence_id": "2026-02-05T07:30:00+00:00"
+            },
+            {
+              "uid": "EB3100CC-B329-4564-97CA-5E9E23CB836A",
+              "summary": "UM4IN904-CRYPTO1-Cours",
+              "location": "Salle: 24.34.201",
+              "start": "2026-02-12T07:30:00+00:00",
+              "end": "2026-02-12T09:30:00+00:00",
+              "recurrence_id": "2026-02-12T07:30:00+00:00"
+            },
+            {
+              "uid": "DEEE3E5C-65FA-4DB8-89E6-31179836494C",
+              "summary": "UM4IN904-CRYPTO1-Cours",
+              "location": "Salle: 24.34.201",
+              "start": "2026-02-19T07:30:00+00:00",
+              "end": "2026-02-19T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260226T225959Z"
             }
           ]
@@ -601,18 +641,26 @@
             {
               "uid": "36CFB592-6D73-4D22-8A5F-3CC3C0A25021",
               "summary": "UM4IN904-CRYPTO1-TD",
-              "location": "Résa n° 679790",
+              "location": "Salle: 55.65.105",
               "start": "2026-01-29T12:45:00+00:00",
               "end": "2026-01-29T14:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260226T225959Z"
+              "rrule": "FREQ=WEEKLY;UNTIL=20260129T225959Z"
             },
             {
               "uid": "77538243-B68C-4F6B-AC4E-2F0CDEB01880",
               "summary": "UM4IN904-CRYPTO1-TD",
-              "location": "Résa n° 679792",
+              "location": "Salle: 56.66.209",
               "start": "2026-03-19T12:45:00+00:00",
               "end": "2026-03-19T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260416T215959Z"
+            },
+            {
+              "uid": "B7CB69D2-CD01-4DD0-B7D7-303B0D8699F4",
+              "summary": "UM4IN904-CRYPTO1-TD",
+              "location": "Salle 55.65.105",
+              "start": "2026-02-05T12:45:00+00:00",
+              "end": "2026-02-05T14:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260226T225959Z"
             }
           ]
         },
@@ -681,18 +729,58 @@
             {
               "uid": "DB0CAFB1-62B9-4E71-BE05-013C2BB8CB01",
               "summary": "UM4IN902-FLAG-Cours",
-              "location": "Résa n° 679782",
+              "location": "Salle : 24.34.201",
               "start": "2026-01-23T07:30:00+00:00",
               "end": "2026-01-23T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260123T225959Z"
             },
             {
+              "uid": "DB0CAFB1-62B9-4E71-BE05-013C2BB8CB01",
+              "summary": "UM4IN902-FLAG-Cours",
+              "location": "Salle : 24.34.201",
+              "start": "2026-01-23T07:30:00+00:00",
+              "end": "2026-01-23T09:30:00+00:00",
+              "recurrence_id": "2026-01-23T07:30:00+00:00"
+            },
+            {
               "uid": "65A36286-331E-46CD-9F00-4EB78E0F3AD7",
               "summary": "UM4IN902-FLAG-Cours",
-              "location": "Résa n° 679782",
+              "location": "Salle : 24.34.201",
               "start": "2026-01-30T07:30:00+00:00",
               "end": "2026-01-30T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
+            },
+            {
+              "uid": "65A36286-331E-46CD-9F00-4EB78E0F3AD7",
+              "summary": "UM4IN902-FLAG-Cours",
+              "location": "Salle : 24.34.207",
+              "start": "2026-02-06T07:30:00+00:00",
+              "end": "2026-02-06T09:30:00+00:00",
+              "recurrence_id": "2026-02-06T07:30:00+00:00"
+            },
+            {
+              "uid": "65A36286-331E-46CD-9F00-4EB78E0F3AD7",
+              "summary": "UM4IN902-FLAG-Cours",
+              "location": "Salle : 24.34.201",
+              "start": "2026-02-13T07:30:00+00:00",
+              "end": "2026-02-13T09:30:00+00:00",
+              "recurrence_id": "2026-02-13T07:30:00+00:00"
+            },
+            {
+              "uid": "65A36286-331E-46CD-9F00-4EB78E0F3AD7",
+              "summary": "UM4IN902-FLAG-Cours",
+              "location": "Salle : 24.34.201",
+              "start": "2026-02-20T07:30:00+00:00",
+              "end": "2026-02-20T09:30:00+00:00",
+              "recurrence_id": "2026-02-20T07:30:00+00:00"
+            },
+            {
+              "uid": "65A36286-331E-46CD-9F00-4EB78E0F3AD7",
+              "summary": "UM4IN902-FLAG-Cours",
+              "location": "Salle : 24.34.201",
+              "start": "2026-02-27T07:30:00+00:00",
+              "end": "2026-02-27T09:30:00+00:00",
+              "recurrence_id": "2026-02-27T07:30:00+00:00"
             },
             {
               "uid": "AF99F19A-E2A6-4DD0-AB65-E79682F22638",
@@ -701,6 +789,22 @@
               "start": "2026-03-20T07:30:00+00:00",
               "end": "2026-03-20T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260410T215959Z"
+            },
+            {
+              "uid": "AF99F19A-E2A6-4DD0-AB65-E79682F22638",
+              "summary": "UM4IN902-FLAG-Cours",
+              "location": "Salle : 24.34.201",
+              "start": "2026-03-20T07:30:00+00:00",
+              "end": "2026-03-20T09:30:00+00:00",
+              "recurrence_id": "2026-03-20T07:30:00+00:00"
+            },
+            {
+              "uid": "AF99F19A-E2A6-4DD0-AB65-E79682F22638",
+              "summary": "UM4IN902-FLAG-Cours",
+              "location": "Salle : 24.34.201",
+              "start": "2026-03-27T07:30:00+00:00",
+              "end": "2026-03-27T09:30:00+00:00",
+              "recurrence_id": "2026-03-27T07:30:00+00:00"
             }
           ]
         },
@@ -1281,5 +1385,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-09T06:58:21.808194623+00:00"
+  "updated_at": "2026-01-12T07:01:28.708458415+00:00"
 }

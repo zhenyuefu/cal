@@ -408,17 +408,17 @@
             {
               "uid": "916C51FA-1E2D-4A95-AC40-A514BEE8173C",
               "summary": "UM4IN203-IHM-CS",
-              "location": null,
+              "location": "Salle: 54.55.202",
               "start": "2026-02-23T07:30:00+00:00",
               "end": "2026-02-23T09:30:00+00:00"
             },
             {
               "uid": "9064A886-F94C-4AEA-B272-457CA8248129",
               "summary": "UM4IN203-IHM-CS",
-              "location": null,
+              "location": "Salle: 56.66.201BIS",
               "start": "2026-03-23T07:30:00+00:00",
               "end": "2026-03-23T09:30:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260330T215959Z"
+              "rrule": "FREQ=WEEKLY;UNTIL=20260323T225959Z"
             },
             {
               "uid": "6FA0A0BE-7B4B-4CF1-926A-D173C2B833D2",
@@ -435,6 +435,14 @@
               "start": "2026-02-09T07:30:00+00:00",
               "end": "2026-02-09T09:30:00+00:00",
               "recurrence_id": "2026-02-09T07:30:00+00:00"
+            },
+            {
+              "uid": "F08F97D3-771A-4B02-AC1B-D1D23B09E265",
+              "summary": "UM4IN203-IHM-CS",
+              "location": "Salle: 56.66.201BIS",
+              "start": "2026-03-30T06:30:00+00:00",
+              "end": "2026-03-30T08:30:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260330T215959Z"
             }
           ]
         },
@@ -1109,5 +1117,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-09T06:58:03.107791179+00:00"
+  "updated_at": "2026-01-12T07:01:09.681186439+00:00"
 }
