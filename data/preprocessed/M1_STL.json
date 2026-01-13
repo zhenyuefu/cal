@@ -300,9 +300,17 @@
           "type": "TME",
           "events": [
             {
+              "uid": "C49131A9-D361-47E4-8BB4-956C7E009C2D",
+              "summary": "UM4IN503-APS-TME",
+              "location": "Salle 14.15.509",
+              "start": "2026-02-04T07:30:00+00:00",
+              "end": "2026-02-04T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260204T225959Z"
+            },
+            {
               "uid": "2B34C779-9AF1-459B-8566-3E329AF7226A",
               "summary": "UM4IN503-APS-TME",
-              "location": null,
+              "location": "Salle 14.15.509",
               "start": "2026-01-26T07:30:00+00:00",
               "end": "2026-01-26T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260126T225959Z"
@@ -310,23 +318,15 @@
             {
               "uid": "2B34C779-9AF1-459B-8566-3E329AF7226A",
               "summary": "UM4IN503-APS-TME",
-              "location": null,
+              "location": "Salle 14.15.509",
               "start": "2026-01-28T07:30:00+00:00",
               "end": "2026-01-28T11:45:00+00:00",
               "recurrence_id": "2026-01-26T07:30:00+00:00"
             },
             {
-              "uid": "C49131A9-D361-47E4-8BB4-956C7E009C2D",
-              "summary": "UM4IN503-APS-TME",
-              "location": null,
-              "start": "2026-02-04T07:30:00+00:00",
-              "end": "2026-02-04T11:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260204T225959Z"
-            },
-            {
               "uid": "0EAE8392-ED07-453B-A1E6-69285CB84900",
               "summary": "UM4IN503-APS-TME",
-              "location": null,
+              "location": "Salle 14.15.509",
               "start": "2026-02-11T07:30:00+00:00",
               "end": "2026-02-11T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260417T215959Z",
@@ -454,7 +454,7 @@
             {
               "uid": "07EB7AD2-F21B-45A7-B9E8-D24B55F17DEF",
               "summary": "UM4IN504-CA-TME",
-              "location": null,
+              "location": "Salle 14.15.408",
               "start": "2026-01-26T09:45:00+00:00",
               "end": "2026-01-26T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260504T215959Z",
@@ -505,7 +505,7 @@
             {
               "uid": "07A6D9F6-A627-4B8E-A59F-2BC1F6AB0F08",
               "summary": "UM4IN505-CPA-TME",
-              "location": null,
+              "location": "Salle 14.15.501",
               "start": "2026-01-23T12:45:00+00:00",
               "end": "2026-01-23T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260417T215959Z",
@@ -553,7 +553,7 @@
             {
               "uid": "8F26D67C-0E3E-4560-80C0-0A4CC03D7BC9",
               "summary": "UM4IN506-CPS-TME",
-              "location": null,
+              "location": "Salle 14.15.408",
               "start": "2026-01-26T12:45:00+00:00",
               "end": "2026-01-26T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260504T215959Z",
@@ -873,7 +873,7 @@
             {
               "uid": "9074689D-C5DF-488F-8F50-6AC8B1398581",
               "summary": "UM4IN510-PAF-TME",
-              "location": null,
+              "location": "Salle 14.15.509",
               "start": "2026-01-29T15:00:00+00:00",
               "end": "2026-01-29T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260417T215959Z",
@@ -937,7 +937,7 @@
             {
               "uid": "676A3C8D-4BE3-4F2D-A384-1769254754BA",
               "summary": "UM4IN507-PC3R-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2026-01-29T09:45:00+00:00",
               "end": "2026-01-29T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260129T225959Z"
@@ -945,7 +945,7 @@
             {
               "uid": "676A3C8D-4BE3-4F2D-A384-1769254754BA",
               "summary": "UM4IN507-PC3R-TME",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2026-01-29T09:45:00+00:00",
               "end": "2026-01-29T11:45:00+00:00",
               "recurrence_id": "2026-01-29T09:45:00+00:00"
@@ -973,7 +973,7 @@
             {
               "uid": "EEC472D4-6D0A-48D4-8D10-C00B48C9101F",
               "summary": "UM4IN507-PC3R-TME1",
-              "location": null,
+              "location": "Salle 14.15.407",
               "start": "2026-02-05T09:45:00+00:00",
               "end": "2026-02-05T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260417T215959Z",
@@ -987,5 +987,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-12T07:01:14.064873531+00:00"
+  "updated_at": "2026-01-13T06:58:35.650227248+00:00"
 }

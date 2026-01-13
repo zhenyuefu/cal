@@ -15,7 +15,7 @@
             {
               "uid": "A83B36D2-8BE5-4EC8-A6BE-EB5BA3A10BF9",
               "summary": "UM4IN920-ANUM2-TME parcours HPC",
-              "location": "En attente de salle",
+              "location": "Salle : 14.15.502",
               "start": "2026-01-28T12:45:00+00:00",
               "end": "2026-01-28T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260225T225959Z"
@@ -23,7 +23,7 @@
             {
               "uid": "3553CC8C-B50A-471C-82C2-2B8BE52A1749",
               "summary": "UM4IN920-ANUM2-TME parcours HPC",
-              "location": "En attente de salle",
+              "location": "Salle : 14.15.502",
               "start": "2026-03-18T12:45:00+00:00",
               "end": "2026-03-18T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260415T215959Z"
@@ -671,7 +671,7 @@
             {
               "uid": "87B5434C-C619-4E30-863D-76CDEE3E847B",
               "summary": "UM4IN904-CRYPTO1-TME",
-              "location": "En attente de salle",
+              "location": "Salle : 14.15.501",
               "start": "2026-01-29T15:00:00+00:00",
               "end": "2026-01-29T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260226T225959Z"
@@ -679,7 +679,7 @@
             {
               "uid": "B5BEC26F-0701-484E-8151-BF3AFF845693",
               "summary": "UM4IN904-CRYPTO1-TME",
-              "location": "En attente de salle",
+              "location": "Salle : 14.15.501",
               "start": "2026-03-19T15:00:00+00:00",
               "end": "2026-03-19T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260416T215959Z"
@@ -886,17 +886,9 @@
           "type": "TME",
           "events": [
             {
-              "uid": "613B30C0-97E3-4450-A452-549BFA4C0349",
-              "summary": "UM4IN902-FLAG-TME",
-              "location": "En attente de salle",
-              "start": "2026-01-26T09:45:00+00:00",
-              "end": "2026-01-26T11:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260223T225959Z"
-            },
-            {
               "uid": "8B5ECBAF-25BD-4C52-A5E0-7B017E8A2FEA",
               "summary": "UM4IN902-FLAG-TME",
-              "location": "En attente de salle",
+              "location": "Salle : 14.15.406",
               "start": "2026-03-16T09:45:00+00:00",
               "end": "2026-03-16T11:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260330T215959Z"
@@ -904,14 +896,22 @@
             {
               "uid": "A4A15A0F-3186-4FFB-BB78-D7872F76A38F",
               "summary": "UM4IN902-FLAG-TME",
-              "location": "En attente de salle",
+              "location": "Salle : 14.15.406",
               "start": "2026-04-13T08:45:00+00:00",
               "end": "2026-04-13T10:45:00+00:00"
             },
             {
+              "uid": "613B30C0-97E3-4450-A452-549BFA4C0349",
+              "summary": "UM4IN902-FLAG-TME",
+              "location": "Salle : 14.15.406",
+              "start": "2026-01-26T09:45:00+00:00",
+              "end": "2026-01-26T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260223T225959Z"
+            },
+            {
               "uid": "D6614F07-76F4-4799-B81D-20D626B488B9",
               "summary": "UM4IN902-FLAG-TME",
-              "location": "En attente de salle",
+              "location": "Salle : 14.15.502",
               "start": "2026-05-04T08:45:00+00:00",
               "end": "2026-05-04T10:45:00+00:00"
             }
@@ -1385,5 +1385,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-12T07:01:28.708458415+00:00"
+  "updated_at": "2026-01-13T06:58:50.282821991+00:00"
 }

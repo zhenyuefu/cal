@@ -323,14 +323,14 @@
             {
               "uid": "2C1935BA-9CA7-41EA-92D6-3383A6E69706",
               "summary": "UM4IN602-IG3D-TME",
-              "location": null,
+              "location": "14.15.406",
               "start": "2026-01-22T12:45:00+00:00",
               "end": "2026-01-22T17:00:00+00:00"
             },
             {
               "uid": "E3EE9FD3-44F7-4A51-B9E9-C91D26C68E54",
               "summary": "UM4IN602-IG3D-TME",
-              "location": null,
+              "location": "14.15.406",
               "start": "2026-01-29T12:45:00+00:00",
               "end": "2026-01-29T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260226T225959Z"
@@ -338,7 +338,7 @@
             {
               "uid": "08B83FE4-2B8B-460D-A357-6134C37629F7",
               "summary": "UM4IN602-IG3D-TME",
-              "location": null,
+              "location": "14.15.406",
               "start": "2026-03-19T12:45:00+00:00",
               "end": "2026-03-19T17:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260409T114500Z",
@@ -626,5 +626,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-12T07:01:15.119040536+00:00"
+  "updated_at": "2026-01-13T06:58:36.707002803+00:00"
 }
