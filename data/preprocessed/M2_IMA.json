@@ -665,6 +665,14 @@
           "type": "CS",
           "events": [
             {
+              "uid": "B4C917E2-403A-4938-B0B4-91069121499B",
+              "summary": "UM5IN651-VISION-Cours",
+              "location": "14.15.501",
+              "start": "2026-01-20T12:45:00+00:00",
+              "end": "2026-01-20T16:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260120T225959Z"
+            },
+            {
               "uid": "AB3B2A15-49A1-4BE8-BBFE-A21B72A649B9",
               "summary": "UM5IN651-VISION-Cours",
               "location": "24.34.203",
@@ -677,7 +685,7 @@
               "location": "46.56.102",
               "start": "2025-12-16T12:45:00+00:00",
               "end": "2025-12-16T16:00:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260127T225959Z",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260113T225959Z",
               "exdates": [
                 "2025-12-23T12:00:00+00:00",
                 "2025-12-23T12:45:00+00:00",
@@ -777,25 +785,33 @@
           "type": "TME",
           "events": [
             {
+              "uid": "EF498738-8662-458C-AFE3-C074A6A8B227",
+              "summary": "UM5IN651-VISION-TME",
+              "location": "14.15.501",
+              "start": "2026-01-27T12:45:00+00:00",
+              "end": "2026-01-27T16:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260127T225959Z"
+            },
+            {
+              "uid": "B4C917E2-403A-4938-B0B4-91069121499B",
+              "summary": "UM5IN651-VISION-TME",
+              "location": "14.15.501",
+              "start": "2026-01-20T12:45:00+00:00",
+              "end": "2026-01-20T16:00:00+00:00",
+              "recurrence_id": "2026-01-20T12:45:00+00:00"
+            },
+            {
               "uid": "E7003F26-FE6F-44F5-BECE-F4086AA73BCD",
               "summary": "UM5IN651-VISION-TME",
               "location": "14.15.408",
               "start": "2026-01-06T12:45:00+00:00",
               "end": "2026-01-06T17:00:00+00:00",
               "recurrence_id": "2026-01-06T12:45:00+00:00"
-            },
-            {
-              "uid": "E7003F26-FE6F-44F5-BECE-F4086AA73BCD",
-              "summary": "UM5IN651-VISION-TME",
-              "location": "En attente salle PPTI",
-              "start": "2026-01-20T12:45:00+00:00",
-              "end": "2026-01-20T16:00:00+00:00",
-              "recurrence_id": "2026-01-20T12:45:00+00:00"
             }
           ]
         }
       ]
     }
   ],
-  "updated_at": "2026-01-15T06:58:31.997764001+00:00"
+  "updated_at": "2026-01-16T06:57:55.176528498+00:00"
 }

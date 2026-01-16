@@ -1103,6 +1103,20 @@
               "end": "2025-11-19T09:30:00+00:00"
             },
             {
+              "uid": "67250B29-2C8A-4929-8B38-9507F9EA5802",
+              "summary": "UM4EE101-ESA-Examen session 2-Partie SESI",
+              "location": null,
+              "start": "2026-03-09T13:00:00+00:00",
+              "end": "2026-03-09T14:00:00+00:00"
+            },
+            {
+              "uid": "E7162640-C5D1-4C7A-BF2B-252B836E4EF6",
+              "summary": "UM4EE101-ESA-Examen session 2-Partie commune",
+              "location": null,
+              "start": "2026-03-09T15:00:00+00:00",
+              "end": "2026-03-09T17:00:00+00:00"
+            },
+            {
               "uid": "9C7F1F8C-2FBB-4706-AE64-BD965E015822",
               "summary": "UM4IN101-VLSI-ER2*",
               "location": "Salle SESI : 24.25.305 et 307",
@@ -2753,5 +2767,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-15T06:58:19.254578464+00:00"
+  "updated_at": "2026-01-16T06:57:44.570692149+00:00"
 }

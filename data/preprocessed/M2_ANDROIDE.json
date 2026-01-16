@@ -113,7 +113,7 @@
             {
               "uid": "8DBF7907-1E63-4CEE-8058-51D65A621F1B",
               "summary": "UM5IN257-AOTJ-ER2",
-              "location": null,
+              "location": "Salle: 14.24.209",
               "start": "2026-02-11T12:45:00+00:00",
               "end": "2026-02-11T14:45:00+00:00"
             }
@@ -245,7 +245,7 @@
             {
               "uid": "04260B6E-904F-41BA-9A39-DA91CF9C9FD0",
               "summary": "UM5IN250-COCOMA-ER2",
-              "location": null,
+              "location": "Salle: 14.15.107",
               "start": "2026-02-10T07:30:00+00:00",
               "end": "2026-02-10T09:30:00+00:00"
             }
@@ -672,6 +672,13 @@
           "type": "EXAM",
           "events": [
             {
+              "uid": "99C0E312-8C9E-41A2-B629-F9005C11DF90",
+              "summary": "UM5IN253-MADI-ER2",
+              "location": "Salle: 24.34.207",
+              "start": "2026-02-12T07:30:00+00:00",
+              "end": "2026-02-12T09:30:00+00:00"
+            },
+            {
               "uid": "F4132267-6CDA-4683-9544-3B9FF6975F58",
               "summary": "UM5IN253-MADI-ER1",
               "location": "Salle : 24.34.207",
@@ -758,7 +765,7 @@
             {
               "uid": "1696BB88-8455-4CC6-82D8-3142962C95FA",
               "summary": "UM5IN256-MADMC-ER2",
-              "location": null,
+              "location": "Salle: 13.14.101",
               "start": "2026-02-10T12:45:00+00:00",
               "end": "2026-02-10T14:45:00+00:00"
             },
@@ -819,7 +826,7 @@
             {
               "uid": "EBFAAE3A-5598-45D0-9D02-1836E0E0447F",
               "summary": "UM5IN251-MAOA-ER2",
-              "location": null,
+              "location": "Salle: 23.24.201",
               "start": "2026-02-11T07:30:00+00:00",
               "end": "2026-02-11T09:30:00+00:00"
             },
@@ -1248,5 +1255,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-15T06:58:24.543226342+00:00"
+  "updated_at": "2026-01-16T06:57:48.968594924+00:00"
 }
