@@ -137,6 +137,13 @@
           "type": null,
           "events": [
             {
+              "uid": "0DB9CD40-C3A4-4074-A2CF-A05BCB211EF3",
+              "summary": "Conférence métiers - OBLIGATOIRE",
+              "location": "Amphi 44",
+              "start": "2026-01-27T12:45:00+00:00",
+              "end": "2026-01-27T14:45:00+00:00"
+            },
+            {
               "uid": "CA1433ED-63B2-49CF-935D-24F1FE8F1239",
               "summary": "RéunionM1AI2D-Réunion pédagogique",
               "location": "Salle : 54.55.125",
@@ -1124,5 +1131,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-16T06:57:31.250903210+00:00"
+  "updated_at": "2026-01-19T07:03:56.414188486+00:00"
 }

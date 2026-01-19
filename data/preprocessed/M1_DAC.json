@@ -20,10 +20,39 @@
               "end": "2026-01-19T11:00:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260413T215959Z",
               "exdates": [
+                "2026-01-19T08:00:00+00:00",
                 "2026-03-02T08:00:00+00:00",
                 "2026-03-09T08:00:00+00:00",
                 "2026-04-06T07:00:00+00:00"
               ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Conférence métiers - OBLIGATOIRE",
+      "code": "special",
+      "special": true,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "6C7B98E9-BC75-44E4-B6FC-1D07A1798E0A",
+              "summary": "Conférence métiers - OBLIGATOIRE",
+              "location": "Amphi 44",
+              "start": "2026-01-27T12:45:00+00:00",
+              "end": "2026-01-27T14:45:00+00:00"
+            },
+            {
+              "uid": "88FB9182-4BC4-4290-B1E9-3087F7410E12",
+              "summary": "Réunion M1 MIND",
+              "location": "Salle 14.24.109",
+              "start": "2025-09-08T12:00:00+00:00",
+              "end": "2025-09-08T14:00:00+00:00"
             }
           ]
         }
@@ -1244,9 +1273,9 @@
             {
               "uid": "4FE60232-3C33-4F13-91A0-7464DC269515",
               "summary": "UM4IN801-MLBDA-Consultation de copies",
-              "location": "en attente 688751",
+              "location": "Salle 14.24.205",
               "start": "2026-01-19T11:00:00+00:00",
-              "end": "2026-01-19T12:00:00+00:00"
+              "end": "2026-01-19T11:45:00+00:00"
             }
           ]
         },
@@ -1728,27 +1757,6 @@
       ]
     },
     {
-      "name": "Réunion M1 MIND",
-      "code": "special",
-      "special": true,
-      "groups": [],
-      "variants": [
-        {
-          "group": null,
-          "type": null,
-          "events": [
-            {
-              "uid": "88FB9182-4BC4-4290-B1E9-3087F7410E12",
-              "summary": "Réunion M1 MIND",
-              "location": "Salle 14.24.109",
-              "start": "2025-09-08T12:00:00+00:00",
-              "end": "2025-09-08T14:00:00+00:00"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "SAM",
       "code": "803",
       "special": false,
@@ -1826,5 +1834,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-16T06:57:33.623549644+00:00"
+  "updated_at": "2026-01-19T07:03:59.344044386+00:00"
 }

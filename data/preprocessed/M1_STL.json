@@ -14,6 +14,19 @@
       "variants": [
         {
           "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "048CF494-D480-4BAB-AE84-35227CA8CB2D",
+              "summary": "UM4IN500-ALGAV-ConsultationCopies",
+              "location": "Salle 14.15.507 (STL)",
+              "start": "2026-02-04T11:45:00+00:00",
+              "end": "2026-02-04T12:45:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "CS",
           "events": [
             {
@@ -242,6 +255,13 @@
               "location": "Salle 24.34.107",
               "start": "2025-09-08T11:45:00+00:00",
               "end": "2025-09-08T13:45:00+00:00"
+            },
+            {
+              "uid": "18332411-B741-40D0-9E76-1F28429DC096",
+              "summary": "Conférence métiers - OBLIGATOIRE",
+              "location": "AMPHI 44",
+              "start": "2026-01-27T12:45:00+00:00",
+              "end": "2026-01-27T14:45:00+00:00"
             },
             {
               "uid": "055B6BDE-2FD4-4FDE-A9C4-34F13E42D727",
@@ -987,5 +1007,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-16T06:57:34.877094178+00:00"
+  "updated_at": "2026-01-19T07:04:00.931812156+00:00"
 }

@@ -310,17 +310,6 @@
           "type": null,
           "events": [
             {
-              "uid": "7D9941DC-8526-4C47-8D20-128B1236F7B1",
-              "summary": "UM4LVAN2-Anglais",
-              "location": "Voir Moodle",
-              "start": "2026-01-19T08:00:00+00:00",
-              "end": "2026-01-19T11:00:00+00:00",
-              "exdates": [
-                "2026-03-02T08:00:00+00:00",
-                "2026-03-09T08:00:00+00:00"
-              ]
-            },
-            {
               "uid": "96EBF7B7-1923-4990-A035-55F7E3FD6378",
               "summary": "UM4LVAN2-Anglais",
               "location": "Voir Moodle",
@@ -544,6 +533,13 @@
               "end": "2025-09-04T15:00:00+00:00"
             },
             {
+              "uid": "DF9296C4-7E4E-4BBD-B384-000FBEED4910",
+              "summary": "Conférence métiers - OBLIGATOIRE",
+              "location": "Amphi 44",
+              "start": "2026-01-27T12:45:00+00:00",
+              "end": "2026-01-27T14:45:00+00:00"
+            },
+            {
               "uid": "2502C74E-60FB-4421-B666-C2DF4D4DD05F",
               "summary": "Réunion M1 BIM",
               "location": "Salle 55.65.105\\n",
@@ -721,9 +717,9 @@
             {
               "uid": "F451B14F-F3FD-455A-ACA8-6880FC4146D9",
               "summary": "UM4MIN704 - SDED - Consultation de copies",
-              "location": "n°688750",
-              "start": "2026-01-19T17:00:00+00:00",
-              "end": "2026-01-19T18:00:00+00:00"
+              "location": " Salle 14.24.110",
+              "start": "2026-01-19T17:15:00+00:00",
+              "end": "2026-01-19T18:15:00+00:00"
             }
           ]
         },
@@ -941,5 +937,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-16T06:57:37.067184344+00:00"
+  "updated_at": "2026-01-19T07:04:03.652778664+00:00"
 }
