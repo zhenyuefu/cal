@@ -443,71 +443,71 @@
               "uid": "D6A08F8E-F95C-4C45-BF32-C5FE0CE4A5AB",
               "summary": "UM4LVAN2-ANGLAIS",
               "location": "Salle en fonction du groupe\\, voir Moodle",
-              "start": "2026-02-04T13:00:00+00:00",
-              "end": "2026-02-04T16:00:00+00:00"
+              "start": "2026-02-04T12:45:00+00:00",
+              "end": "2026-02-04T15:45:00+00:00"
             },
             {
               "uid": "B62B9E81-BD1E-4183-BC78-D954739C3DEF",
               "summary": "UM4LVAN2-ANGLAIS",
               "location": "Salle en fonction du groupe\\, voir Moodle",
-              "start": "2026-01-28T13:00:00+00:00",
-              "end": "2026-01-28T16:00:00+00:00"
+              "start": "2026-01-28T12:45:00+00:00",
+              "end": "2026-01-28T15:45:00+00:00"
             },
             {
               "uid": "B68B596D-8BBA-49B8-B5A1-B7C3DCBD5630",
               "summary": "UM4LVAN2-ANGLAIS",
               "location": "Salle en fonction du groupe\\, voir Moodle",
-              "start": "2026-02-11T13:00:00+00:00",
-              "end": "2026-02-11T16:00:00+00:00"
+              "start": "2026-02-11T12:45:00+00:00",
+              "end": "2026-02-11T15:45:00+00:00"
             },
             {
               "uid": "B3AE6C6D-07A5-4C85-BBFD-7DCF5D5495E6",
               "summary": "UM4LVAN2-ANGLAIS",
               "location": "Salle en fonction du groupe\\, voir Moodle",
-              "start": "2026-02-18T13:00:00+00:00",
-              "end": "2026-02-18T16:00:00+00:00"
+              "start": "2026-02-18T12:45:00+00:00",
+              "end": "2026-02-18T15:45:00+00:00"
             },
             {
               "uid": "B590FEAD-FE60-488D-BD69-AF944E26A3D2",
               "summary": "UM4LVAN2-ANGLAIS",
               "location": "Salle en fonction du groupe\\, voir Moodle",
-              "start": "2026-02-25T13:00:00+00:00",
-              "end": "2026-02-25T16:00:00+00:00"
+              "start": "2026-02-25T12:45:00+00:00",
+              "end": "2026-02-25T15:45:00+00:00"
             },
             {
               "uid": "C4788DDC-1ED7-4231-A721-A68ABF9AC346",
               "summary": "UM4LVAN2-ANGLAIS",
               "location": "Salle en fonction du groupe\\, voir Moodle",
-              "start": "2026-03-18T13:00:00+00:00",
-              "end": "2026-03-18T16:00:00+00:00"
+              "start": "2026-03-18T12:45:00+00:00",
+              "end": "2026-03-18T15:45:00+00:00"
             },
             {
               "uid": "74DFA4E6-F03E-4B7C-8C2F-C13B8AEAE3C7",
               "summary": "UM4LVAN2-ANGLAIS",
               "location": "Salle en fonction du groupe\\, voir Moodle",
-              "start": "2026-03-25T13:00:00+00:00",
-              "end": "2026-03-25T16:00:00+00:00"
+              "start": "2026-03-25T12:45:00+00:00",
+              "end": "2026-03-25T15:45:00+00:00"
             },
             {
               "uid": "094E5928-3AD9-464C-8FE0-55EEE73160CC",
               "summary": "UM4LVAN2-ANGLAIS",
               "location": "Salle en fonction du groupe\\, voir Moodle",
-              "start": "2026-04-01T12:00:00+00:00",
-              "end": "2026-04-01T15:00:00+00:00"
+              "start": "2026-04-01T11:45:00+00:00",
+              "end": "2026-04-01T14:45:00+00:00"
             },
             {
               "uid": "06E2DC45-9A09-450F-BDF3-679EEC6E8387",
               "summary": "UM4LVAN2-ANGLAIS",
               "location": "Salle en fonction du groupe\\, voir Moodle",
-              "start": "2026-04-08T12:00:00+00:00",
-              "end": "2026-04-08T15:00:00+00:00"
+              "start": "2026-04-08T11:45:00+00:00",
+              "end": "2026-04-08T14:45:00+00:00"
             },
             {
               "uid": "299737F5-F0F2-442C-BC1C-0E7B75BAF491",
               "summary": "UM4LVAN2-ANGLAIS",
               "location": "Salle en fonction du groupe\\, voir Moodle",
-              "start": "2026-04-15T12:00:00+00:00",
-              "end": "2026-04-15T15:00:00+00:00"
+              "start": "2026-04-15T11:45:00+00:00",
+              "end": "2026-04-15T14:45:00+00:00"
             }
           ]
         },
@@ -654,13 +654,6 @@
               "end": "2025-09-08T10:45:00+00:00"
             },
             {
-              "uid": "6CC83F61-EA37-4F42-9A7C-7036184BC75A",
-              "summary": "ConférencesSESI- OBLIGATOIRE",
-              "location": null,
-              "start": "2026-01-20T12:45:00+00:00",
-              "end": "2026-01-20T14:45:00+00:00"
-            },
-            {
               "uid": "E200FF64-1B05-48FC-9B65-E3F28B28E05E",
               "summary": "ConférencesSESI",
               "location": null,
@@ -722,6 +715,13 @@
               "location": null,
               "start": "2026-04-14T11:45:00+00:00",
               "end": "2026-04-14T13:45:00+00:00"
+            },
+            {
+              "uid": "F8BAA646-FDC7-4DB9-BFDF-9AC6888E73B9",
+              "summary": "ConférencesSESI: Pas de conférences",
+              "location": null,
+              "start": "2026-01-20T12:45:00+00:00",
+              "end": "2026-01-20T12:55:00+00:00"
             },
             {
               "uid": "2B3F4D5E-D630-48A2-B56A-462599404336",
@@ -2383,16 +2383,9 @@
             {
               "uid": "885754C1-BD18-4B5E-AAF3-565E9E45761B",
               "summary": "UM4IN111-PPSE",
-              "location": "Salle SESI: 24.25.305",
-              "start": "2026-01-20T15:00:00+00:00",
-              "end": "2026-01-20T17:00:00+00:00"
-            },
-            {
-              "uid": "097421DF-DA10-4225-996C-6729A1D26EE8",
-              "summary": "UM4IN111-PPSE a supprimer",
-              "location": "Salle SESI: 24.25.305",
-              "start": "2026-01-27T15:00:00+00:00",
-              "end": "2026-01-27T15:15:00+00:00"
+              "location": "Salle 23.24.105",
+              "start": "2026-01-20T12:45:00+00:00",
+              "end": "2026-01-20T14:45:00+00:00"
             },
             {
               "uid": "FF1EC735-780E-43AD-9CE1-C12B265708E5",
@@ -2414,13 +2407,6 @@
               "location": "Salle SESI: 24.25.305",
               "start": "2026-02-17T15:00:00+00:00",
               "end": "2026-02-17T17:00:00+00:00"
-            },
-            {
-              "uid": "8CAE7B28-7D4D-429F-B0E0-DC3C73139324",
-              "summary": "UM4IN111-PPSE",
-              "location": "Salle SESI: 24.25.305",
-              "start": "2026-02-24T15:00:00+00:00",
-              "end": "2026-02-24T17:00:00+00:00"
             },
             {
               "uid": "6BE06906-D85E-4DB2-9489-E46B2165DF9E",
@@ -2463,6 +2449,20 @@
               "location": "Salle SESI: 24.25.305",
               "start": "2026-05-05T14:00:00+00:00",
               "end": "2026-05-05T16:00:00+00:00"
+            },
+            {
+              "uid": "8CAE7B28-7D4D-429F-B0E0-DC3C73139324",
+              "summary": "UM4IN111-PPSE (A deplacer)",
+              "location": "Salle SESI: 24.25.305",
+              "start": "2026-02-24T15:00:00+00:00",
+              "end": "2026-02-24T17:00:00+00:00"
+            },
+            {
+              "uid": "DA205611-AF8C-45E9-998F-8B16F0EFF72D",
+              "summary": "UM4IN111-PPSE",
+              "location": "Salle SESI: 24.25.305 et 307",
+              "start": "2026-01-20T15:00:00+00:00",
+              "end": "2026-01-20T17:00:00+00:00"
             }
           ]
         },
@@ -2476,13 +2476,6 @@
               "location": null,
               "start": "2026-05-12T14:00:00+00:00",
               "end": "2026-05-12T16:00:00+00:00"
-            },
-            {
-              "uid": "20688AC5-4FD0-4D64-A96D-C190AFF94FFC",
-              "summary": "UM4IN111-PPSE-ExamenR1*",
-              "location": null,
-              "start": "2026-03-10T15:00:00+00:00",
-              "end": "2026-03-10T17:00:00+00:00"
             }
           ]
         }
@@ -2767,5 +2760,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-19T07:04:12.813958912+00:00"
+  "updated_at": "2026-01-20T07:02:00.235176482+00:00"
 }

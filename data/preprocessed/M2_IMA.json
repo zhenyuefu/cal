@@ -13,6 +13,34 @@
           "type": "CS",
           "events": [
             {
+              "uid": "074A80DD-1BEB-4B95-A8D6-6BE6AE2A5581",
+              "summary": "UM5IN654-BIOMED-Cours",
+              "location": "24.34.205",
+              "start": "2026-02-05T07:30:00+00:00",
+              "end": "2026-02-05T11:45:00+00:00"
+            },
+            {
+              "uid": "BEDAEC77-96BC-40BE-82FA-050012476D5F",
+              "summary": "UM5IN654-BIOMED-Cours",
+              "location": "24.34.205",
+              "start": "2025-12-04T07:30:00+00:00",
+              "end": "2025-12-04T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260129T225959Z",
+              "exdates": [
+                "2025-12-18T07:30:00+00:00",
+                "2025-12-25T07:30:00+00:00",
+                "2026-01-01T07:30:00+00:00"
+              ]
+            },
+            {
+              "uid": "BEDAEC77-96BC-40BE-82FA-050012476D5F",
+              "summary": "UM5IN654-BIOMED-Cours",
+              "location": "ANNULÉ",
+              "start": "2026-01-29T07:30:00+00:00",
+              "end": "2026-01-29T11:45:00+00:00",
+              "recurrence_id": "2026-01-29T07:30:00+00:00"
+            },
+            {
               "uid": "3263A414-D344-48A1-8ABE-30142623B8FE",
               "summary": "UM5IN654-BIOMED-Cours",
               "location": "24.34.205",
@@ -38,19 +66,6 @@
               "location": "24.34.104",
               "start": "2025-10-20T06:30:00+00:00",
               "end": "2025-10-20T10:45:00+00:00"
-            },
-            {
-              "uid": "BEDAEC77-96BC-40BE-82FA-050012476D5F",
-              "summary": "UM5IN654-BIOMED-Cours",
-              "location": "24.34.205",
-              "start": "2025-12-04T07:30:00+00:00",
-              "end": "2025-12-04T11:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260129T225959Z",
-              "exdates": [
-                "2025-12-18T07:30:00+00:00",
-                "2025-12-25T07:30:00+00:00",
-                "2026-01-01T07:30:00+00:00"
-              ]
             }
           ]
         },
@@ -68,7 +83,7 @@
             {
               "uid": "C5D7CF02-955D-4A89-AD80-3275A43C54C6",
               "summary": "UM5IN654-BIOMED-ExamenR2",
-              "location": null,
+              "location": "14.24.212",
               "start": "2026-02-12T07:30:00+00:00",
               "end": "2026-02-12T11:45:00+00:00"
             }
@@ -232,7 +247,7 @@
             {
               "uid": "72D6E4CE-DCEB-49CB-BB57-BF144F6D0299",
               "summary": "UM5IN655-MAPIMED-ExamenR2",
-              "location": "14.24.209",
+              "location": "24.25.101",
               "start": "2026-02-09T08:00:00+00:00",
               "end": "2026-02-09T11:00:00+00:00"
             }
@@ -276,6 +291,19 @@
       "special": false,
       "groups": [],
       "variants": [
+        {
+          "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "6C42D754-F9F3-4D09-A3B6-C10287618637",
+              "summary": "UM5IN656-PRAT-Soutenances de projets",
+              "location": "24.34.210",
+              "start": "2026-02-10T07:30:00+00:00",
+              "end": "2026-02-10T17:00:00+00:00"
+            }
+          ]
+        },
         {
           "group": null,
           "type": "CS",
@@ -596,7 +624,7 @@
             {
               "uid": "E5EE3D4B-8380-4202-8B9F-F231B3D1E7F6",
               "summary": "UM5IN650-TADI-ExamenR2",
-              "location": null,
+              "location": "Amphi 25",
               "start": "2026-02-11T07:30:00+00:00",
               "end": "2026-02-11T11:45:00+00:00"
             }
@@ -813,5 +841,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-19T07:04:25.676059950+00:00"
+  "updated_at": "2026-01-20T07:02:13.334232069+00:00"
 }

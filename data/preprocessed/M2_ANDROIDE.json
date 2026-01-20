@@ -708,28 +708,6 @@
               "rrule": "FREQ=WEEKLY;UNTIL=20251216T225959Z"
             }
           ]
-        },
-        {
-          "group": null,
-          "type": "TD",
-          "events": [
-            {
-              "uid": "A6BE320F-15B8-41EC-B593-1CA01E976679",
-              "summary": "UM5255-MADMC-CS/TD",
-              "location": "Salle: 24.25.102",
-              "start": "2026-01-20T12:45:00+00:00",
-              "end": "2026-01-20T17:00:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260127T225959Z"
-            },
-            {
-              "uid": "FC74ADAD-E303-45CD-8698-E37D5EAE3B0E",
-              "summary": "UM5255-MADMC-CS/TD",
-              "location": "Salle: 24.25.102",
-              "start": "2026-01-06T12:45:00+00:00",
-              "end": "2026-01-06T17:00:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260113T225959Z"
-            }
-          ]
         }
       ]
     },
@@ -755,6 +733,13 @@
                 "2025-10-28T12:45:00+00:00",
                 "2025-11-11T12:45:00+00:00"
               ]
+            },
+            {
+              "uid": "812F97A0-97DA-4FE8-B7C8-12C29D0A68FF",
+              "summary": "UM5IN256-MADMC-CS (remplacement du cs annulé le 20 janvier)",
+              "location": " Salle: 55.65.105",
+              "start": "2026-02-03T12:00:00+00:00",
+              "end": "2026-02-03T15:00:00+00:00"
             }
           ]
         },
@@ -775,6 +760,44 @@
               "location": "AMPHI 55 A",
               "start": "2025-11-25T15:00:00+00:00",
               "end": "2025-11-25T17:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "A6BE320F-15B8-41EC-B593-1CA01E976679",
+              "summary": "UM5256-MADMC-CS/TD",
+              "location": "Salle: 24.25.102",
+              "start": "2026-01-20T12:45:00+00:00",
+              "end": "2026-01-20T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260127T225959Z"
+            },
+            {
+              "uid": "A6BE320F-15B8-41EC-B593-1CA01E976679",
+              "summary": "UM5256-MADMC-CS/TD",
+              "location": "Cours reporté au 3 février",
+              "start": "2026-01-20T12:45:00+00:00",
+              "end": "2026-01-20T17:00:00+00:00",
+              "recurrence_id": "2026-01-20T12:45:00+00:00"
+            },
+            {
+              "uid": "A6BE320F-15B8-41EC-B593-1CA01E976679",
+              "summary": "UM5256-MADMC-CS/TD",
+              "location": "Salle: 24.25.102",
+              "start": "2026-01-27T12:45:00+00:00",
+              "end": "2026-01-27T17:00:00+00:00",
+              "recurrence_id": "2026-01-27T12:45:00+00:00"
+            },
+            {
+              "uid": "FC74ADAD-E303-45CD-8698-E37D5EAE3B0E",
+              "summary": "UM5256-MADMC-CS/TD",
+              "location": "Salle: 24.25.102",
+              "start": "2026-01-06T12:45:00+00:00",
+              "end": "2026-01-06T17:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260113T225959Z"
             }
           ]
         },
@@ -1255,5 +1278,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-19T07:04:18.141541086+00:00"
+  "updated_at": "2026-01-20T07:02:05.668928508+00:00"
 }
