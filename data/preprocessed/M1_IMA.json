@@ -380,6 +380,19 @@
       "variants": [
         {
           "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "536E1969-C81A-4C1C-AC20-11BE7C39662A",
+              "summary": "UM4IN601-MAPSI-Consultation de copies",
+              "location": "Résa n° 689481",
+              "start": "2026-02-03T10:00:00+00:00",
+              "end": "2026-02-03T11:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "CS",
           "events": [
             {
@@ -642,5 +655,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-20T07:01:49.389666426+00:00"
+  "updated_at": "2026-01-21T07:01:55.194437789+00:00"
 }

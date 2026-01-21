@@ -565,12 +565,50 @@
               "recurrence_id": "2026-01-22T07:30:00+00:00"
             },
             {
+              "uid": "EBB8F737-0705-4D69-8AB9-0EDB8909D973",
+              "summary": "UM4IN904-CRYPTO1-Cours",
+              "location": "Salle en attente",
+              "start": "2026-03-24T07:30:00+00:00",
+              "end": "2026-03-24T09:30:00+00:00"
+            },
+            {
+              "uid": "D3CF8EF3-9613-4D4C-9E45-0BD6C3430ADC",
+              "summary": "UM4IN904-CRYPTO1-Cours",
+              "location": "Salle en attente",
+              "start": "2026-04-07T06:30:00+00:00",
+              "end": "2026-04-07T08:30:00+00:00"
+            },
+            {
               "uid": "70B9F04A-73E4-46FF-BB7F-C5E4E5139B04",
               "summary": "UM4IN904-CRYPTO1-Cours",
               "location": "Amphi 45A",
               "start": "2026-03-19T07:30:00+00:00",
               "end": "2026-03-19T09:30:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260409T215959Z"
+            },
+            {
+              "uid": "70B9F04A-73E4-46FF-BB7F-C5E4E5139B04",
+              "summary": "UM4IN904-CRYPTO1-Cours",
+              "location": "Amphi 45A",
+              "start": "2026-04-09T06:30:00+00:00",
+              "end": "2026-04-09T08:30:00+00:00",
+              "recurrence_id": "2026-04-09T06:30:00+00:00"
+            },
+            {
+              "uid": "70B9F04A-73E4-46FF-BB7F-C5E4E5139B04",
+              "summary": "UM4IN904-CRYPTO1-Cours*",
+              "location": "Amphi 45A",
+              "start": "2026-04-02T06:30:00+00:00",
+              "end": "2026-04-02T08:30:00+00:00",
+              "recurrence_id": "2026-04-02T06:30:00+00:00"
+            },
+            {
+              "uid": "70B9F04A-73E4-46FF-BB7F-C5E4E5139B04",
+              "summary": "UM4IN904-CRYPTO1-Cours*",
+              "location": "Amphi 45A",
+              "start": "2026-03-26T07:30:00+00:00",
+              "end": "2026-03-26T09:30:00+00:00",
+              "recurrence_id": "2026-03-26T07:30:00+00:00"
             },
             {
               "uid": "EB3100CC-B329-4564-97CA-5E9E23CB836A",
@@ -647,12 +685,50 @@
               "rrule": "FREQ=WEEKLY;UNTIL=20260129T225959Z"
             },
             {
+              "uid": "F2403F2A-B7A6-481D-AFA9-01EF28773B0D",
+              "summary": "UM4IN904-CRYPTO1-TD",
+              "location": "Salle en attente",
+              "start": "2026-03-24T09:45:00+00:00",
+              "end": "2026-03-24T11:45:00+00:00"
+            },
+            {
+              "uid": "44BC309C-066C-4C48-8B7D-F19360111A3E",
+              "summary": "UM4IN904-CRYPTO1-TD",
+              "location": "Salle en attente",
+              "start": "2026-04-07T08:45:00+00:00",
+              "end": "2026-04-07T10:45:00+00:00"
+            },
+            {
               "uid": "77538243-B68C-4F6B-AC4E-2F0CDEB01880",
               "summary": "UM4IN904-CRYPTO1-TD",
               "location": "Salle: 56.66.209",
               "start": "2026-03-19T12:45:00+00:00",
               "end": "2026-03-19T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260416T215959Z"
+            },
+            {
+              "uid": "77538243-B68C-4F6B-AC4E-2F0CDEB01880",
+              "summary": "UM4IN904-CRYPTO1-TD*",
+              "location": "Salle: 56.66.209",
+              "start": "2026-03-26T12:45:00+00:00",
+              "end": "2026-03-26T14:45:00+00:00",
+              "recurrence_id": "2026-03-26T12:45:00+00:00"
+            },
+            {
+              "uid": "77538243-B68C-4F6B-AC4E-2F0CDEB01880",
+              "summary": "UM4IN904-CRYPTO1-TD",
+              "location": "Salle: 56.66.209",
+              "start": "2026-04-09T11:45:00+00:00",
+              "end": "2026-04-09T13:45:00+00:00",
+              "recurrence_id": "2026-04-09T11:45:00+00:00"
+            },
+            {
+              "uid": "77538243-B68C-4F6B-AC4E-2F0CDEB01880",
+              "summary": "UM4IN904-CRYPTO1-TD*",
+              "location": "Salle: 56.66.209",
+              "start": "2026-04-02T11:45:00+00:00",
+              "end": "2026-04-02T13:45:00+00:00",
+              "recurrence_id": "2026-04-02T11:45:00+00:00"
             },
             {
               "uid": "B7CB69D2-CD01-4DD0-B7D7-303B0D8699F4",
@@ -1385,5 +1461,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-20T07:02:03.113708448+00:00"
+  "updated_at": "2026-01-21T07:02:09.083405946+00:00"
 }
