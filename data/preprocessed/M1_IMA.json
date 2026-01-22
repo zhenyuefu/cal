@@ -385,7 +385,7 @@
             {
               "uid": "536E1969-C81A-4C1C-AC20-11BE7C39662A",
               "summary": "UM4IN601-MAPSI-Consultation de copies",
-              "location": "Résa n° 689481",
+              "location": "Amphi A1",
               "start": "2026-02-03T10:00:00+00:00",
               "end": "2026-02-03T11:30:00+00:00"
             }
@@ -655,5 +655,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-21T07:01:55.194437789+00:00"
+  "updated_at": "2026-01-22T07:00:20.452995441+00:00"
 }

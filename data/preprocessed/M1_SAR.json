@@ -325,7 +325,33 @@
       ]
     },
     {
-      "name": "ATRIUM DES MÉTIERS",
+      "name": "AnglaisSAR",
+      "code": "Anglais",
+      "special": false,
+      "groups": [],
+      "variants": [
+        {
+          "group": null,
+          "type": "CS",
+          "events": [
+            {
+              "uid": "1AFD27F0-FC1A-4B0A-A504-EB0E5E0A072B",
+              "summary": "AnglaisSAR-Anglais-Cours",
+              "location": null,
+              "start": "2026-01-28T13:00:00+00:00",
+              "end": "2026-01-28T16:00:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260408T215959Z",
+              "exdates": [
+                "2026-03-04T13:00:00+00:00",
+                "2026-03-11T13:00:00+00:00"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Conférences métiers",
       "code": "special",
       "special": true,
       "groups": [],
@@ -356,11 +382,11 @@
               "end": "2025-09-08T14:00:00+00:00"
             },
             {
-              "uid": "4737F76B-365B-4FA1-9DC5-063C3B87E9B1",
+              "uid": "BF1315E9-DF0A-453D-9BDE-5D441C447A0C",
               "summary": "Conférences métiers",
-              "location": null,
-              "start": "2026-01-27T12:45:00+00:00",
-              "end": "2026-01-27T14:45:00+00:00",
+              "location": "AMPHI 44",
+              "start": "2026-02-10T12:45:00+00:00",
+              "end": "2026-02-10T14:45:00+00:00",
               "rrule": "FREQ=WEEKLY;UNTIL=20260407T215959Z",
               "exdates": [
                 "2026-03-03T12:45:00+00:00",
@@ -369,37 +395,27 @@
             },
             {
               "uid": "4737F76B-365B-4FA1-9DC5-063C3B87E9B1",
+              "summary": "Conférences métiers",
+              "location": null,
+              "start": "2026-01-27T12:45:00+00:00",
+              "end": "2026-01-27T14:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260203T225959Z"
+            },
+            {
+              "uid": "4737F76B-365B-4FA1-9DC5-063C3B87E9B1",
               "summary": "Conférences métiers- OBLIGATOIRE",
               "location": "Amphi.44",
               "start": "2026-01-27T12:45:00+00:00",
               "end": "2026-01-27T14:45:00+00:00",
               "recurrence_id": "2026-01-27T12:45:00+00:00"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "AnglaisSAR",
-      "code": "Anglais",
-      "special": false,
-      "groups": [],
-      "variants": [
-        {
-          "group": null,
-          "type": "CS",
-          "events": [
+            },
             {
-              "uid": "1AFD27F0-FC1A-4B0A-A504-EB0E5E0A072B",
-              "summary": "AnglaisSAR-Anglais-Cours",
-              "location": null,
-              "start": "2026-01-28T13:00:00+00:00",
-              "end": "2026-01-28T16:00:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260408T215959Z",
-              "exdates": [
-                "2026-03-04T13:00:00+00:00",
-                "2026-03-11T13:00:00+00:00"
-              ]
+              "uid": "4737F76B-365B-4FA1-9DC5-063C3B87E9B1",
+              "summary": "Conférences métiers",
+              "location": "AMPHI 44",
+              "start": "2026-02-03T12:45:00+00:00",
+              "end": "2026-02-03T14:45:00+00:00",
+              "recurrence_id": "2026-02-03T12:45:00+00:00"
             }
           ]
         }
@@ -1638,5 +1654,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-21T07:01:59.628793794+00:00"
+  "updated_at": "2026-01-22T07:00:24.114967818+00:00"
 }
