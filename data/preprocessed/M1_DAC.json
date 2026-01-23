@@ -1237,12 +1237,28 @@
           "type": "TME",
           "events": [
             {
+              "uid": "398352CD-40C3-4528-91F6-68D09D50E98E",
+              "summary": "UM4IN811-ML-TME3",
+              "location": "Salle 14.15.502",
+              "start": "2026-02-02T09:45:00+00:00",
+              "end": "2026-02-02T11:45:00+00:00",
+              "rrule": "FREQ=WEEKLY;UNTIL=20260223T225959Z"
+            },
+            {
               "uid": "B6CFB90C-15F2-4CEC-B724-776C8A577366",
               "summary": "UM4IN811-ML-TME3",
               "location": null,
               "start": "2026-01-26T09:45:00+00:00",
               "end": "2026-01-26T11:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260223T225959Z"
+              "rrule": "FREQ=WEEKLY;UNTIL=20260126T094500Z"
+            },
+            {
+              "uid": "B6CFB90C-15F2-4CEC-B724-776C8A577366",
+              "summary": "UM4IN811-ML-TME3",
+              "location": "Salle 14.15.502",
+              "start": "2026-01-26T09:45:00+00:00",
+              "end": "2026-01-26T11:45:00+00:00",
+              "recurrence_id": "2026-01-26T09:45:00+00:00"
             },
             {
               "uid": "F53DE17D-2BEA-46CC-93E7-68DAB2F15D46",
@@ -1611,17 +1627,6 @@
           "type": "TD",
           "events": [
             {
-              "uid": "CA889290-69C9-4951-B83E-56168BB98D15",
-              "summary": "UM4IN812-MLL-TD2",
-              "location": "Salle 24.34.203\\n",
-              "start": "2026-01-29T15:00:00+00:00",
-              "end": "2026-01-29T17:00:00+00:00",
-              "exdates": [
-                "2026-03-05T12:45:00+00:00",
-                "2026-03-12T12:45:00+00:00"
-              ]
-            },
-            {
               "uid": "336A39ED-263B-4BCD-B562-2CF6A9D5E052",
               "summary": "UM4IN812-MLL-TD2",
               "location": "Salle 24.34.203\\n",
@@ -1639,6 +1644,17 @@
           "group": "2",
           "type": "TME",
           "events": [
+            {
+              "uid": "CA889290-69C9-4951-B83E-56168BB98D15",
+              "summary": "UM4IN812-MLL-TME2",
+              "location": "Salle 24.34.203\\n",
+              "start": "2026-01-29T15:00:00+00:00",
+              "end": "2026-01-29T17:00:00+00:00",
+              "exdates": [
+                "2026-03-05T12:45:00+00:00",
+                "2026-03-12T12:45:00+00:00"
+              ]
+            },
             {
               "uid": "F9E38B65-A1AE-4847-B1F6-BF5C04CADCED",
               "summary": "UMIN812-MLL-TME2",
@@ -1666,22 +1682,6 @@
           "group": null,
           "type": "CS",
           "events": [
-            {
-              "uid": "C0E435C5-6CFE-438E-9C0A-E14EAB45E647",
-              "summary": "UM4IN813-RITAL-Cours",
-              "location": "n°680162",
-              "start": "2026-01-22T09:45:00+00:00",
-              "end": "2026-01-22T11:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260122T094500Z"
-            },
-            {
-              "uid": "C0E435C5-6CFE-438E-9C0A-E14EAB45E647",
-              "summary": "UM4IN813-RITAL-Cours (reporté au 26/01)",
-              "location": null,
-              "start": "2026-01-22T09:45:00+00:00",
-              "end": "2026-01-22T11:45:00+00:00",
-              "recurrence_id": "2026-01-22T09:45:00+00:00"
-            },
             {
               "uid": "70096CCD-7DF9-4496-AFF5-BDCB8182299F",
               "summary": "UM4IN813-RITAL-Cours",
@@ -1747,7 +1747,7 @@
             {
               "uid": "2C9F36AE-B861-4C09-90C8-B55C90589064",
               "summary": "UM4IN813-RITAL-TME (reporté au 02/02)",
-              "location": null,
+              "location": "Salle 24.25.303",
               "start": "2026-01-26T15:00:00+00:00",
               "end": "2026-01-26T17:00:00+00:00",
               "recurrence_id": "2026-01-26T15:00:00+00:00"
@@ -1834,5 +1834,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-22T07:00:18.206529166+00:00"
+  "updated_at": "2026-01-23T06:59:47.349534589+00:00"
 }
