@@ -656,28 +656,28 @@
             {
               "uid": "E200FF64-1B05-48FC-9B65-E3F28B28E05E",
               "summary": "ConférencesSESI",
-              "location": null,
+              "location": "AMPHI 44",
               "start": "2026-02-03T12:45:00+00:00",
               "end": "2026-02-03T14:45:00+00:00"
             },
             {
               "uid": "BF5E0359-F6AA-4939-97ED-F60DAB6900D0",
               "summary": "ConférencesSESI",
-              "location": null,
+              "location": "AMPHI 44",
               "start": "2026-02-10T12:45:00+00:00",
               "end": "2026-02-10T14:45:00+00:00"
             },
             {
               "uid": "7C578A7D-27F5-4D56-8B11-3A2050CCE471",
               "summary": "ConférencesSESI",
-              "location": null,
+              "location": "AMPHI 44",
               "start": "2026-02-17T12:45:00+00:00",
               "end": "2026-02-17T14:45:00+00:00"
             },
             {
               "uid": "5E69096F-A077-4F09-B37D-083218E7AC74",
               "summary": "ConférencesSESI",
-              "location": null,
+              "location": "AMPHI 44",
               "start": "2026-02-24T12:45:00+00:00",
               "end": "2026-02-24T14:45:00+00:00"
             },
@@ -740,7 +740,7 @@
             {
               "uid": "A5972933-7C26-467C-9549-6E96046F2159",
               "summary": "ConférencesSESI",
-              "location": null,
+              "location": "AMPHI 44",
               "start": "2026-01-27T12:45:00+00:00",
               "end": "2026-01-27T14:45:00+00:00"
             }
@@ -794,14 +794,14 @@
             {
               "uid": "F8654536-7037-4E71-B361-D72F406C38B7",
               "summary": "UM4EE201-EACN-CM",
-              "location": null,
+              "location": "Salle 24.25.107",
               "start": "2026-01-29T09:45:00+00:00",
               "end": "2026-01-29T11:45:00+00:00"
             },
             {
               "uid": "545B51CE-2FDB-4400-8D6F-D56D5F1B9378",
               "summary": "UM4EE201-EACN-CM",
-              "location": null,
+              "location": "Salle 24.34.107",
               "start": "2026-01-29T12:45:00+00:00",
               "end": "2026-01-29T14:45:00+00:00"
             },
@@ -2760,5 +2760,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-23T07:00:01.130405906+00:00"
+  "updated_at": "2026-01-26T07:02:39.470958225+00:00"
 }

@@ -260,14 +260,6 @@
               "end": "2025-09-08T10:45:00+00:00"
             },
             {
-              "uid": "6BCBFB7E-D5E2-48EB-B318-D097343119F4",
-              "summary": "Conférence métiers",
-              "location": "Amphi B3",
-              "start": "2026-01-20T12:45:00+00:00",
-              "end": "2026-01-20T14:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260120T225959Z"
-            },
-            {
               "uid": "CD990087-4DB0-467C-8B8C-C8980D3CDB7E",
               "summary": "Conférence métiers",
               "location": "Amphi 44",
@@ -655,5 +647,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-23T06:59:50.276472651+00:00"
+  "updated_at": "2026-01-26T07:02:28.528277855+00:00"
 }

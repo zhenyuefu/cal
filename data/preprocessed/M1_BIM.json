@@ -452,6 +452,22 @@
               "recurrence_id": "2026-02-27T07:30:00+00:00"
             },
             {
+              "uid": "11F2BE0F-5C5D-40E4-A9BB-AF8567FD2F2A",
+              "summary": "UM4IN702-MMCN-TD",
+              "location": "Salle 435 ATRIUM\\n",
+              "start": "2026-01-30T07:30:00+00:00",
+              "end": "2026-01-30T11:45:00+00:00",
+              "recurrence_id": "2026-01-30T07:30:00+00:00"
+            },
+            {
+              "uid": "11F2BE0F-5C5D-40E4-A9BB-AF8567FD2F2A",
+              "summary": "UM4IN702-MMCN-TD",
+              "location": "Salle 123 ATRIUM",
+              "start": "2026-01-23T07:30:00+00:00",
+              "end": "2026-01-23T11:45:00+00:00",
+              "recurrence_id": "2026-01-23T07:30:00+00:00"
+            },
+            {
               "uid": "F5D15A1B-324C-40AA-8DD8-ADC46B1CF6FC",
               "summary": "UM4IN702-MMCN-TD",
               "location": "Salle 14.24.208\\n",
@@ -471,7 +487,10 @@
               "location": "Salle 14.15.408",
               "start": "2026-01-30T09:45:00+00:00",
               "end": "2026-01-30T11:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
+              "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z",
+              "exdates": [
+                "2026-01-30T09:45:00+00:00"
+              ]
             },
             {
               "uid": "B7998477-89E4-46BD-BF5E-6618ECB5FF54",
@@ -480,14 +499,6 @@
               "start": "2026-02-27T09:45:00+00:00",
               "end": "2026-02-27T11:45:00+00:00",
               "recurrence_id": "2026-02-27T09:45:00+00:00"
-            },
-            {
-              "uid": "B2F66748-E17A-48A5-99CF-15171D979173",
-              "summary": "UM4IN702-MMCN-TME",
-              "location": null,
-              "start": "2026-01-23T09:45:00+00:00",
-              "end": "2026-01-23T11:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260123T225959Z"
             },
             {
               "uid": "25A1A5BD-F41B-48FF-AC94-9DE83636EBED",
@@ -587,7 +598,11 @@
               "location": "Salle 13.14.102\\n",
               "start": "2026-01-20T09:45:00+00:00",
               "end": "2026-01-20T11:45:00+00:00",
-              "rrule": "FREQ=WEEKLY;UNTIL=20260224T225959Z"
+              "rrule": "FREQ=WEEKLY;UNTIL=20260224T225959Z",
+              "exdates": [
+                "2026-02-10T09:45:00+00:00",
+                "2026-02-17T09:45:00+00:00"
+              ]
             },
             {
               "uid": "708A1735-B9C8-49FA-ADBE-F2DE2F6DCA3B",
@@ -953,5 +968,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-23T06:59:51.922327729+00:00"
+  "updated_at": "2026-01-26T07:02:30.202216813+00:00"
 }
