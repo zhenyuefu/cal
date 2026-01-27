@@ -920,6 +920,19 @@
       "variants": [
         {
           "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "74B05FD4-0C18-4626-B6DA-6A77C7578BA1",
+              "summary": "UM4IN101-Consultation de copies VLSI",
+              "location": "Salle SESI : 24.25.305",
+              "start": "2026-01-29T09:30:00+00:00",
+              "end": "2026-01-29T10:15:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "CM",
           "events": [
             {
@@ -2492,6 +2505,19 @@
       "variants": [
         {
           "group": null,
+          "type": null,
+          "events": [
+            {
+              "uid": "C4507E98-9757-407E-929B-BC3C4A57A57A",
+              "summary": "UM4IN104-Consultation de copies-SIGNAL",
+              "location": "Salle 14.24.209",
+              "start": "2026-01-30T14:45:00+00:00",
+              "end": "2026-01-30T15:30:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "CS",
           "events": [
             {
@@ -2760,5 +2786,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-26T07:02:39.470958225+00:00"
+  "updated_at": "2026-01-27T07:01:19.929675075+00:00"
 }
