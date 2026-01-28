@@ -103,6 +103,13 @@
               "end": "2026-01-15T15:00:00+00:00"
             },
             {
+              "uid": "286675DA-D531-40AC-A636-A6F4647F333E",
+              "summary": "UM4IN814-DALAS-Consultation de copies",
+              "location": "689992",
+              "start": "2026-02-03T11:45:00+00:00",
+              "end": "2026-02-03T12:45:00+00:00"
+            },
+            {
               "uid": "4AB30DF3-205D-4A94-ABD8-8DF8402D7A2C",
               "summary": "UM4IN814-DALAS-soutenance",
               "location": "ATRIUM.261\\n",
@@ -252,6 +259,20 @@
           "group": "2",
           "type": "TD",
           "events": [
+            {
+              "uid": "9F98D569-4023-4FA7-A199-8CE25304E7E9",
+              "summary": "UM4IN814-DALAS-TD2",
+              "location": "Salle 23.24.207",
+              "start": "2026-02-03T11:45:00+00:00",
+              "end": "2026-02-03T13:45:00+00:00"
+            },
+            {
+              "uid": "EB16817E-4BA6-4274-A7D2-51C582F66F7B",
+              "summary": "UM4IN814-DALAS-TD2",
+              "location": "Salle 23.24.207",
+              "start": "2026-02-03T10:45:00+00:00",
+              "end": "2026-02-03T12:45:00+00:00"
+            },
             {
               "uid": "697863E7-D481-4E39-A380-6D0F90D31DB5",
               "summary": "UM4IN814-DALAS-TD2",
@@ -1847,5 +1868,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-27T07:01:06.066366315+00:00"
+  "updated_at": "2026-01-28T07:01:04.453736439+00:00"
 }
