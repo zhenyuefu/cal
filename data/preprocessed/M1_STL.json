@@ -284,6 +284,20 @@
               "end": "2026-01-06T09:30:00+00:00"
             }
           ]
+        },
+        {
+          "group": null,
+          "type": "TD",
+          "events": [
+            {
+              "uid": "36A270DA-C174-4BDF-BB96-E370EF567ABC",
+              "summary": "ANNULE-UM4IN510-PAF-TD",
+              "location": null,
+              "start": "2026-02-12T12:45:00+00:00",
+              "end": "2026-02-12T14:45:00+00:00",
+              "recurrence_id": "2026-02-12T12:45:00+00:00"
+            }
+          ]
         }
       ]
     },
@@ -951,6 +965,14 @@
               "rrule": "FREQ=WEEKLY;UNTIL=20260227T225959Z"
             },
             {
+              "uid": "9074689D-C5DF-488F-8F50-6AC8B1398581",
+              "summary": "UM4IN510-PAF-TD",
+              "location": "Salle 14.15.509",
+              "start": "2026-02-12T15:00:00+00:00",
+              "end": "2026-02-12T17:00:00+00:00",
+              "recurrence_id": "2026-02-12T15:00:00+00:00"
+            },
+            {
               "uid": "15DD5A66-06B7-4A9B-96AD-82EAE2964F20",
               "summary": "UM4IN510-PAF-TD",
               "location": "Salle 24.34.104",
@@ -964,6 +986,13 @@
           "group": null,
           "type": "TME",
           "events": [
+            {
+              "uid": "551EC79C-07C8-4BB5-9274-40028785D9E3",
+              "summary": "UM4IN510-PAF-TME",
+              "location": null,
+              "start": "2026-02-13T07:30:00+00:00",
+              "end": "2026-02-13T09:30:00+00:00"
+            },
             {
               "uid": "9074689D-C5DF-488F-8F50-6AC8B1398581",
               "summary": "UM4IN510-PAF-TME",
@@ -1097,5 +1126,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-28T07:01:06.239845339+00:00"
+  "updated_at": "2026-01-29T07:25:41.423672671+00:00"
 }

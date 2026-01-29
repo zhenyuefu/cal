@@ -1334,6 +1334,19 @@
         },
         {
           "group": null,
+          "type": "EXAM",
+          "events": [
+            {
+              "uid": "E99F0A1E-F3F1-45A9-8FD1-33914F68B9E9",
+              "summary": "UM4IN405-SAS-ExamenR1",
+              "location": "salle 24.34.201 (reservation n° 690042)",
+              "start": "2026-03-11T13:00:00+00:00",
+              "end": "2026-03-11T15:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "group": null,
           "type": "TD",
           "events": [
             {
@@ -1660,5 +1673,5 @@
       ]
     }
   ],
-  "updated_at": "2026-01-28T07:01:11.872836013+00:00"
+  "updated_at": "2026-01-29T07:25:47.056079744+00:00"
 }
